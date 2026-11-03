@@ -1,0 +1,4362 @@
+{
+  "constructed": {
+    "adaptive_continuous": {
+      "cells": 48,
+      "requests": 232371,
+      "max_loss": 0.09228011570297114,
+      "coverage_failures": 1,
+      "conflict_freezes": 0
+    },
+    "adaptive_grid": {
+      "cells": 48,
+      "requests": 232495,
+      "max_loss": 0.09106180877164907,
+      "coverage_failures": 1,
+      "conflict_freezes": 0
+    },
+    "fixed_continuous": {
+      "cells": 48,
+      "requests": 232549,
+      "max_loss": 0.0913022535059496,
+      "coverage_failures": 1,
+      "conflict_freezes": 0
+    },
+    "fixed_grid": {
+      "cells": 48,
+      "requests": 232680,
+      "max_loss": 0.09095163844188596,
+      "coverage_failures": 1,
+      "conflict_freezes": 0
+    },
+    "global_separate_greedy": {
+      "cells": 48,
+      "requests": 198807,
+      "saving_vs_adaptive_continuous_percent": 14.444143202034676,
+      "wtl_vs_adaptive_continuous": [
+        48,
+        0,
+        0
+      ],
+      "per_cell_saving_min_median_max": [
+        2.2299509001636686,
+        11.88342518447611,
+        38.03049031726411
+      ]
+    },
+    "joint_greedy": {
+      "cells": 48,
+      "requests": 198142,
+      "saving_vs_adaptive_continuous_percent": 14.730323491313458,
+      "wtl_vs_adaptive_continuous": [
+        48,
+        0,
+        0
+      ],
+      "per_cell_saving_min_median_max": [
+        1.616202945990175,
+        12.008278362228925,
+        38.154099711578084
+      ]
+    },
+    "joint_dp": {
+      "cells": 48,
+      "requests": 197563,
+      "saving_vs_adaptive_continuous_percent": 14.979493998820848,
+      "wtl_vs_adaptive_continuous": [
+        48,
+        0,
+        0
+      ],
+      "per_cell_saving_min_median_max": [
+        2.53682487725041,
+        12.819736360033795,
+        38.154099711578084
+      ]
+    },
+    "historical_fixed_float_grid": {
+      "requests": 232714,
+      "note": "New fixed-grid control uses rational thresholds and a feasible nonzero split for initial zero-gain ties; the 34-request pooled difference from historical floating/default-tie semantics is not treated as a pure split-update effect."
+    },
+    "fixed_continuous_attained_v1": {
+      "requests": 232618,
+      "note": "Superseded comparator froze attained recalls and left rounding slack unused; final fixed control spends the full product budget."
+    }
+  },
+  "native_groups": [
+    {
+      "variant": "subreddit",
+      "budget": 125,
+      "cells": 18,
+      "mean_greedy_requests": 9278.888888888889,
+      "saving_vs_right_percent": -0.7990536886828936,
+      "wtl_vs_right": [
+        12,
+        0,
+        6
+      ],
+      "saving_vs_adaptive_percent": 2.9912295986524895,
+      "mean_delta_batches": -0.3333333333333333,
+      "mean_delta_local_seconds": 1.7243134055493607,
+      "pooled_batch_latency_boundary": {
+        "condition": "tau > threshold",
+        "seconds": 5.172940216648082
+      },
+      "max_observed_loss": 0.04156016283252864
+    },
+    {
+      "variant": "subreddit",
+      "budget": 500,
+      "cells": 18,
+      "mean_greedy_requests": 9319.055555555555,
+      "saving_vs_right_percent": -1.235394940131318,
+      "wtl_vs_right": [
+        12,
+        0,
+        6
+      ],
+      "saving_vs_adaptive_percent": 2.9585148417478058,
+      "mean_delta_batches": 0.2777777777777778,
+      "mean_delta_local_seconds": 1.7113915667157724,
+      "pooled_batch_latency_boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "max_observed_loss": 0.041938843131686075
+    },
+    {
+      "variant": "link_id",
+      "budget": 125,
+      "cells": 18,
+      "mean_greedy_requests": 6360.277777777777,
+      "saving_vs_right_percent": 0.6465330209146969,
+      "wtl_vs_right": [
+        12,
+        0,
+        6
+      ],
+      "saving_vs_adaptive_percent": 0.12126605248464761,
+      "mean_delta_batches": -1.2222222222222223,
+      "mean_delta_local_seconds": 4.155723805519908,
+      "pooled_batch_latency_boundary": {
+        "condition": "tau > threshold",
+        "seconds": 3.4001376590617425
+      },
+      "max_observed_loss": 0.013986013986013986
+    },
+    {
+      "variant": "link_id",
+      "budget": 500,
+      "cells": 18,
+      "mean_greedy_requests": 6407.888888888889,
+      "saving_vs_right_percent": -0.09719691052676449,
+      "wtl_vs_right": [
+        12,
+        0,
+        6
+      ],
+      "saving_vs_adaptive_percent": 0.12123101435721484,
+      "mean_delta_batches": -0.6111111111111112,
+      "mean_delta_local_seconds": 3.79767185002048,
+      "pooled_batch_latency_boundary": {
+        "condition": "tau > threshold",
+        "seconds": 6.214372118215331
+      },
+      "max_observed_loss": 0.013986013986013986
+    }
+  ],
+  "native_cost_rows": [
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9253,
+      "reference_requests": 9867,
+      "saving_percent": 6.222762744501875,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6623116000555456,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.27705193334259093
+      },
+      "greedy_tokens_in": 1119948,
+      "reference_tokens_in": 1194270,
+      "greedy_tokens_out": 37012,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9253,
+      "reference_requests": 9951,
+      "saving_percent": 7.014370415033666,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6613274000119418,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2768879000019903
+      },
+      "greedy_tokens_in": 1119948,
+      "reference_tokens_in": 1204408,
+      "greedy_tokens_out": 37012,
+      "reference_tokens_out": 39804
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9253,
+      "reference_requests": 9909,
+      "saving_percent": 6.620244222424054,
+      "delta_batches": -5,
+      "delta_local_seconds": -0.7168559998972341,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1119948,
+      "reference_tokens_in": 1199318,
+      "greedy_tokens_out": 37012,
+      "reference_tokens_out": 39636
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9255,
+      "reference_requests": 9867,
+      "saving_percent": 6.2024931590148995,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6654079001164064,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2775679833527344
+      },
+      "greedy_tokens_in": 1120072,
+      "reference_tokens_in": 1194270,
+      "greedy_tokens_out": 37020,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9255,
+      "reference_requests": 9951,
+      "saving_percent": 6.994271932469099,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6644237000728026,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.27740395001213375
+      },
+      "greedy_tokens_in": 1120072,
+      "reference_tokens_in": 1204408,
+      "greedy_tokens_out": 37020,
+      "reference_tokens_out": 39804
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9255,
+      "reference_requests": 9910,
+      "saving_percent": 6.609485368314838,
+      "delta_batches": -5,
+      "delta_local_seconds": -0.7130124000832438,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1120072,
+      "reference_tokens_in": 1199393,
+      "greedy_tokens_out": 37020,
+      "reference_tokens_out": 39640
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9250,
+      "reference_requests": 9867,
+      "saving_percent": 6.253167122732339,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.644883000291884,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.274147166715314
+      },
+      "greedy_tokens_in": 1119380,
+      "reference_tokens_in": 1194270,
+      "greedy_tokens_out": 37000,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9250,
+      "reference_requests": 9951,
+      "saving_percent": 7.044518138880518,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6438988002482802,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.27398313337471336
+      },
+      "greedy_tokens_in": 1119380,
+      "reference_tokens_in": 1204408,
+      "greedy_tokens_out": 37000,
+      "reference_tokens_out": 39804
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9250,
+      "reference_requests": 9914,
+      "saving_percent": 6.697599354448258,
+      "delta_batches": -5,
+      "delta_local_seconds": -0.6549828997813165,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1119380,
+      "reference_tokens_in": 1199845,
+      "greedy_tokens_out": 37000,
+      "reference_tokens_out": 39656
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9264,
+      "reference_requests": 9867,
+      "saving_percent": 6.111280024323507,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.7141412000637501,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.285690200010625
+      },
+      "greedy_tokens_in": 1121336,
+      "reference_tokens_in": 1194270,
+      "greedy_tokens_out": 37056,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9264,
+      "reference_requests": 9951,
+      "saving_percent": 6.903828760928555,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.7131570000201464,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2855261666700244
+      },
+      "greedy_tokens_in": 1121336,
+      "reference_tokens_in": 1204408,
+      "greedy_tokens_out": 37056,
+      "reference_tokens_out": 39804
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9264,
+      "reference_requests": 9904,
+      "saving_percent": 6.462035541195476,
+      "delta_batches": -5,
+      "delta_local_seconds": -0.5627151001244783,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1121336,
+      "reference_tokens_in": 1198732,
+      "greedy_tokens_out": 37056,
+      "reference_tokens_out": 39616
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9275,
+      "reference_requests": 9867,
+      "saving_percent": 5.999797304145127,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6352197001688182,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.27253661669480306
+      },
+      "greedy_tokens_in": 1122529,
+      "reference_tokens_in": 1194270,
+      "greedy_tokens_out": 37100,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9275,
+      "reference_requests": 9951,
+      "saving_percent": 6.793287106823431,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6342355001252145,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2723725833542024
+      },
+      "greedy_tokens_in": 1122529,
+      "reference_tokens_in": 1204408,
+      "greedy_tokens_out": 37100,
+      "reference_tokens_out": 39804
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9275,
+      "reference_requests": 9909,
+      "saving_percent": 6.398223836915939,
+      "delta_batches": -5,
+      "delta_local_seconds": -0.5579801999265328,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1122529,
+      "reference_tokens_in": 1199333,
+      "greedy_tokens_out": 37100,
+      "reference_tokens_out": 39636
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9257,
+      "reference_requests": 9867,
+      "saving_percent": 6.1822235735279225,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6738170001190156,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.27896950001983595
+      },
+      "greedy_tokens_in": 1120378,
+      "reference_tokens_in": 1194270,
+      "greedy_tokens_out": 37028,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9257,
+      "reference_requests": 9951,
+      "saving_percent": 6.97417344990453,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6728328000754118,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2788054666792353
+      },
+      "greedy_tokens_in": 1120378,
+      "reference_tokens_in": 1204408,
+      "greedy_tokens_out": 37028,
+      "reference_tokens_out": 39804
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9257,
+      "reference_requests": 9904,
+      "saving_percent": 6.532714054927302,
+      "delta_batches": -5,
+      "delta_local_seconds": -0.5337772000348195,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1120378,
+      "reference_tokens_in": 1198766,
+      "greedy_tokens_out": 37028,
+      "reference_tokens_out": 39616
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6893,
+      "reference_requests": 6849,
+      "saving_percent": -0.6424295517593714,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.411025599692948,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.411025599692948
+      },
+      "greedy_tokens_in": 831998,
+      "reference_tokens_in": 826723,
+      "greedy_tokens_out": 27572,
+      "reference_tokens_out": 27396
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6893,
+      "reference_requests": 7646,
+      "saving_percent": 9.848286685848805,
+      "delta_batches": -7,
+      "delta_local_seconds": 4.388780699810013,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6269686714014304
+      },
+      "greedy_tokens_in": 831998,
+      "reference_tokens_in": 927482,
+      "greedy_tokens_out": 27572,
+      "reference_tokens_out": 30584
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6893,
+      "reference_requests": 6910,
+      "saving_percent": 0.2460202604920414,
+      "delta_batches": -1,
+      "delta_local_seconds": -4.729719400173053,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 831998,
+      "reference_tokens_in": 834111,
+      "greedy_tokens_out": 27572,
+      "reference_tokens_out": 27640
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6898,
+      "reference_requests": 6849,
+      "saving_percent": -0.715432909913849,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.4343237997964025,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.4343237997964025
+      },
+      "greedy_tokens_in": 832723,
+      "reference_tokens_in": 826723,
+      "greedy_tokens_out": 27592,
+      "reference_tokens_out": 27396
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6898,
+      "reference_requests": 7646,
+      "saving_percent": 9.782893015956052,
+      "delta_batches": -7,
+      "delta_local_seconds": 4.4120788999134675,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6302969857019239
+      },
+      "greedy_tokens_in": 832723,
+      "reference_tokens_in": 927482,
+      "greedy_tokens_out": 27592,
+      "reference_tokens_out": 30584
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6898,
+      "reference_requests": 6914,
+      "saving_percent": 0.23141452126120843,
+      "delta_batches": -1,
+      "delta_local_seconds": -5.219339000061154,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 832723,
+      "reference_tokens_in": 834724,
+      "greedy_tokens_out": 27592,
+      "reference_tokens_out": 27656
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6868,
+      "reference_requests": 6849,
+      "saving_percent": -0.27741276098700585,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.436151299858466,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.436151299858466
+      },
+      "greedy_tokens_in": 829159,
+      "reference_tokens_in": 826723,
+      "greedy_tokens_out": 27472,
+      "reference_tokens_out": 27396
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6868,
+      "reference_requests": 7646,
+      "saving_percent": 10.175255035312581,
+      "delta_batches": -7,
+      "delta_local_seconds": 4.413906399975531,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6305580571393615
+      },
+      "greedy_tokens_in": 829159,
+      "reference_tokens_in": 927482,
+      "greedy_tokens_out": 27472,
+      "reference_tokens_out": 30584
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6868,
+      "reference_requests": 6886,
+      "saving_percent": 0.26139994191112237,
+      "delta_batches": 0,
+      "delta_local_seconds": -4.772450200049207,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 829159,
+      "reference_tokens_in": 831405,
+      "greedy_tokens_out": 27472,
+      "reference_tokens_out": 27544
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6949,
+      "reference_requests": 6849,
+      "saving_percent": -1.4600671630895068,
+      "delta_batches": 0,
+      "delta_local_seconds": 4.110020299907774,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 839356,
+      "reference_tokens_in": 826723,
+      "greedy_tokens_out": 27796,
+      "reference_tokens_out": 27396
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6949,
+      "reference_requests": 7646,
+      "saving_percent": 9.115877583049958,
+      "delta_batches": -6,
+      "delta_local_seconds": 4.087775400024839,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6812959000041398
+      },
+      "greedy_tokens_in": 839356,
+      "reference_tokens_in": 927482,
+      "greedy_tokens_out": 27796,
+      "reference_tokens_out": 30584
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6949,
+      "reference_requests": 6968,
+      "saving_percent": 0.2726750861079208,
+      "delta_batches": 0,
+      "delta_local_seconds": -4.263354999944568,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 839356,
+      "reference_tokens_in": 841704,
+      "greedy_tokens_out": 27796,
+      "reference_tokens_out": 27872
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6982,
+      "reference_requests": 6849,
+      "saving_percent": -1.941889326909041,
+      "delta_batches": 0,
+      "delta_local_seconds": 4.078184499987401,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 843210,
+      "reference_tokens_in": 826723,
+      "greedy_tokens_out": 27928,
+      "reference_tokens_out": 27396
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6982,
+      "reference_requests": 7646,
+      "saving_percent": 8.684279361757785,
+      "delta_batches": -6,
+      "delta_local_seconds": 4.055939600104466,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6759899333507443
+      },
+      "greedy_tokens_in": 843210,
+      "reference_tokens_in": 927482,
+      "greedy_tokens_out": 27928,
+      "reference_tokens_out": 30584
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6982,
+      "reference_requests": 6997,
+      "saving_percent": 0.21437759039588666,
+      "delta_batches": 0,
+      "delta_local_seconds": -4.342396099935286,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 843210,
+      "reference_tokens_in": 845096,
+      "greedy_tokens_out": 27928,
+      "reference_tokens_out": 27988
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6937,
+      "reference_requests": 6849,
+      "saving_percent": -1.284859103518765,
+      "delta_batches": 0,
+      "delta_local_seconds": 4.1529997998150066,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 837751,
+      "reference_tokens_in": 826723,
+      "greedy_tokens_out": 27748,
+      "reference_tokens_out": 27396
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6937,
+      "reference_requests": 7646,
+      "saving_percent": 9.272822390792568,
+      "delta_batches": -6,
+      "delta_local_seconds": 4.130754899932072,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6884591499886786
+      },
+      "greedy_tokens_in": 837751,
+      "reference_tokens_in": 927482,
+      "greedy_tokens_out": 27748,
+      "reference_tokens_out": 30584
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6937,
+      "reference_requests": 6955,
+      "saving_percent": 0.2588066139468048,
+      "delta_batches": 0,
+      "delta_local_seconds": -4.247157900128514,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 837751,
+      "reference_tokens_in": 840016,
+      "greedy_tokens_out": 27748,
+      "reference_tokens_out": 27820
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9367,
+      "reference_requests": 9823,
+      "saving_percent": 4.642166344294008,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.688644899870269,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.42216122496756725
+      },
+      "greedy_tokens_in": 1119459,
+      "reference_tokens_in": 1173984,
+      "greedy_tokens_out": 37476,
+      "reference_tokens_out": 39300
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9367,
+      "reference_requests": 9865,
+      "saving_percent": 5.0481500253421245,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.6797887998400256,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.33595775996800514
+      },
+      "greedy_tokens_in": 1119459,
+      "reference_tokens_in": 1179416,
+      "greedy_tokens_out": 37476,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9367,
+      "reference_requests": 9867,
+      "saving_percent": 5.067396371744193,
+      "delta_batches": -4,
+      "delta_local_seconds": -0.6772140001412481,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1119459,
+      "reference_tokens_in": 1179261,
+      "greedy_tokens_out": 37476,
+      "reference_tokens_out": 39476
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9360,
+      "reference_requests": 9823,
+      "saving_percent": 4.713427669754655,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.8242606999119744,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4560651749779936
+      },
+      "greedy_tokens_in": 1118654,
+      "reference_tokens_in": 1173984,
+      "greedy_tokens_out": 37444,
+      "reference_tokens_out": 39300
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9360,
+      "reference_requests": 9865,
+      "saving_percent": 5.119107957425239,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.815404599881731,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.3630809199763462
+      },
+      "greedy_tokens_in": 1118654,
+      "reference_tokens_in": 1179416,
+      "greedy_tokens_out": 37444,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9360,
+      "reference_requests": 9867,
+      "saving_percent": 5.138339920948621,
+      "delta_batches": -4,
+      "delta_local_seconds": -0.4755473000695929,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1118654,
+      "reference_tokens_in": 1179231,
+      "greedy_tokens_out": 37444,
+      "reference_tokens_out": 39476
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9353,
+      "reference_requests": 9823,
+      "saving_percent": 4.784688995215314,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.6826651999726892,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4206662999931723
+      },
+      "greedy_tokens_in": 1117812,
+      "reference_tokens_in": 1173984,
+      "greedy_tokens_out": 37416,
+      "reference_tokens_out": 39300
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9353,
+      "reference_requests": 9865,
+      "saving_percent": 5.190065889508366,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.6738090999424458,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.33476181998848914
+      },
+      "greedy_tokens_in": 1117812,
+      "reference_tokens_in": 1179416,
+      "greedy_tokens_out": 37416,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9353,
+      "reference_requests": 9891,
+      "saving_percent": 5.439288241836016,
+      "delta_batches": -4,
+      "delta_local_seconds": -0.7142391999950632,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1117812,
+      "reference_tokens_in": 1182069,
+      "greedy_tokens_out": 37416,
+      "reference_tokens_out": 39572
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9366,
+      "reference_requests": 9823,
+      "saving_percent": 4.652346533645524,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.7317942002555355,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4329485500638839
+      },
+      "greedy_tokens_in": 1119568,
+      "reference_tokens_in": 1173984,
+      "greedy_tokens_out": 37468,
+      "reference_tokens_out": 39300
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9366,
+      "reference_requests": 9865,
+      "saving_percent": 5.058286872782569,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.7229381002252921,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.34458762004505844
+      },
+      "greedy_tokens_in": 1119568,
+      "reference_tokens_in": 1179416,
+      "greedy_tokens_out": 37468,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9366,
+      "reference_requests": 9897,
+      "saving_percent": 5.365262200666865,
+      "delta_batches": -4,
+      "delta_local_seconds": -0.42056729970499873,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1119568,
+      "reference_tokens_in": 1182857,
+      "greedy_tokens_out": 37468,
+      "reference_tokens_out": 39596
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9343,
+      "reference_requests": 9823,
+      "saving_percent": 4.886490888730533,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.6609467001399025,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.41523667503497563
+      },
+      "greedy_tokens_in": 1116545,
+      "reference_tokens_in": 1173984,
+      "greedy_tokens_out": 37380,
+      "reference_tokens_out": 39300
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9343,
+      "reference_requests": 9865,
+      "saving_percent": 5.291434363912828,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.6520906001096591,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.3304181200219318
+      },
+      "greedy_tokens_in": 1116545,
+      "reference_tokens_in": 1179416,
+      "greedy_tokens_out": 37380,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9343,
+      "reference_requests": 9900,
+      "saving_percent": 5.626262626262624,
+      "delta_batches": -4,
+      "delta_local_seconds": -0.5847512998152524,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1116545,
+      "reference_tokens_in": 1183189,
+      "greedy_tokens_out": 37380,
+      "reference_tokens_out": 39608
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9335,
+      "reference_requests": 9823,
+      "saving_percent": 4.967932403542708,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.67357099999208,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.41839274999802
+      },
+      "greedy_tokens_in": 1115770,
+      "reference_tokens_in": 1173984,
+      "greedy_tokens_out": 37344,
+      "reference_tokens_out": 39300
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9335,
+      "reference_requests": 9865,
+      "saving_percent": 5.372529143436388,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.6647148999618366,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.3329429799923673
+      },
+      "greedy_tokens_in": 1115770,
+      "reference_tokens_in": 1179416,
+      "greedy_tokens_out": 37344,
+      "reference_tokens_out": 39468
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9335,
+      "reference_requests": 9893,
+      "saving_percent": 5.640351763873442,
+      "delta_batches": -4,
+      "delta_local_seconds": -0.4681574000278488,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 1115770,
+      "reference_tokens_in": 1182434,
+      "greedy_tokens_out": 37344,
+      "reference_tokens_out": 39580
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6810,
+      "reference_requests": 6780,
+      "saving_percent": -0.4424778761061843,
+      "delta_batches": 0,
+      "delta_local_seconds": 4.410496100084856,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 810851,
+      "reference_tokens_in": 807240,
+      "greedy_tokens_out": 27244,
+      "reference_tokens_out": 27120
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6810,
+      "reference_requests": 7110,
+      "saving_percent": 4.2194092827004255,
+      "delta_batches": -3,
+      "delta_local_seconds": 4.378299100091681,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.4594330333638936
+      },
+      "greedy_tokens_in": 810851,
+      "reference_tokens_in": 853671,
+      "greedy_tokens_out": 27244,
+      "reference_tokens_out": 28448
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6810,
+      "reference_requests": 6828,
+      "saving_percent": 0.2636203866432374,
+      "delta_batches": 0,
+      "delta_local_seconds": -4.8474245998077095,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 810851,
+      "reference_tokens_in": 813081,
+      "greedy_tokens_out": 27244,
+      "reference_tokens_out": 27316
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6819,
+      "reference_requests": 6780,
+      "saving_percent": -0.5752212389380507,
+      "delta_batches": 0,
+      "delta_local_seconds": 4.462910500122234,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 812018,
+      "reference_tokens_in": 807240,
+      "greedy_tokens_out": 27276,
+      "reference_tokens_out": 27120
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6819,
+      "reference_requests": 7110,
+      "saving_percent": 4.092827004219412,
+      "delta_batches": -3,
+      "delta_local_seconds": 4.430713500129059,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.4769045000430197
+      },
+      "greedy_tokens_in": 812018,
+      "reference_tokens_in": 853671,
+      "greedy_tokens_out": 27276,
+      "reference_tokens_out": 28448
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6819,
+      "reference_requests": 6836,
+      "saving_percent": 0.24868344060854364,
+      "delta_batches": 0,
+      "delta_local_seconds": -1.8841786999255419,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 812018,
+      "reference_tokens_in": 814112,
+      "greedy_tokens_out": 27276,
+      "reference_tokens_out": 27344
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6777,
+      "reference_requests": 6780,
+      "saving_percent": 0.04424778761061843,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.352152999956161,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.352152999956161
+      },
+      "greedy_tokens_in": 807092,
+      "reference_tokens_in": 807240,
+      "greedy_tokens_out": 27108,
+      "reference_tokens_out": 27120
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6777,
+      "reference_requests": 7110,
+      "saving_percent": 4.683544303797471,
+      "delta_batches": -4,
+      "delta_local_seconds": 4.3199559999629855,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.0799889999907464
+      },
+      "greedy_tokens_in": 807092,
+      "reference_tokens_in": 853671,
+      "greedy_tokens_out": 27108,
+      "reference_tokens_out": 28448
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6777,
+      "reference_requests": 6793,
+      "saving_percent": 0.23553658177535297,
+      "delta_batches": -1,
+      "delta_local_seconds": -0.7104450000915676,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 807092,
+      "reference_tokens_in": 809092,
+      "greedy_tokens_out": 27108,
+      "reference_tokens_out": 27172
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6872,
+      "reference_requests": 6780,
+      "saving_percent": -1.3569321533923207,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.887198500102386,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 819044,
+      "reference_tokens_in": 807240,
+      "greedy_tokens_out": 27488,
+      "reference_tokens_out": 27120
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6872,
+      "reference_requests": 7110,
+      "saving_percent": 3.347398030942339,
+      "delta_batches": -3,
+      "delta_local_seconds": 3.8550015001092106,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.2850005000364035
+      },
+      "greedy_tokens_in": 819044,
+      "reference_tokens_in": 853671,
+      "greedy_tokens_out": 27488,
+      "reference_tokens_out": 28448
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6872,
+      "reference_requests": 6890,
+      "saving_percent": 0.2612481857764859,
+      "delta_batches": -1,
+      "delta_local_seconds": -0.8258151998743415,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.0
+      },
+      "greedy_tokens_in": 819044,
+      "reference_tokens_in": 821269,
+      "greedy_tokens_out": 27488,
+      "reference_tokens_out": 27560
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6891,
+      "reference_requests": 6780,
+      "saving_percent": -1.6371681415929151,
+      "delta_batches": 1,
+      "delta_local_seconds": 4.03837810002733,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 821042,
+      "reference_tokens_in": 807240,
+      "greedy_tokens_out": 27568,
+      "reference_tokens_out": 27120
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6891,
+      "reference_requests": 7110,
+      "saving_percent": 3.080168776371306,
+      "delta_batches": -2,
+      "delta_local_seconds": 4.006181100034155,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 2.0030905500170775
+      },
+      "greedy_tokens_in": 821042,
+      "reference_tokens_in": 853671,
+      "greedy_tokens_out": 27568,
+      "reference_tokens_out": 28448
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6891,
+      "reference_requests": 6906,
+      "saving_percent": 0.2172024326672406,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.4125126999570057,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 821042,
+      "reference_tokens_in": 822901,
+      "greedy_tokens_out": 27568,
+      "reference_tokens_out": 27628
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6847,
+      "reference_requests": 6780,
+      "saving_percent": -0.9882005899705115,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.9791498000267893,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 815838,
+      "reference_tokens_in": 807240,
+      "greedy_tokens_out": 27388,
+      "reference_tokens_out": 27120
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6847,
+      "reference_requests": 7110,
+      "saving_percent": 3.699015471167366,
+      "delta_batches": -3,
+      "delta_local_seconds": 3.946952800033614,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.315650933344538
+      },
+      "greedy_tokens_in": 815838,
+      "reference_tokens_in": 853671,
+      "greedy_tokens_out": 27388,
+      "reference_tokens_out": 28448
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6847,
+      "reference_requests": 6864,
+      "saving_percent": 0.24766899766899275,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.31867469986900687,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 815838,
+      "reference_tokens_in": 817957,
+      "greedy_tokens_out": 27388,
+      "reference_tokens_out": 27456
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9607,
+      "reference_requests": 9656,
+      "saving_percent": 0.5074565037282541,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.7847456999588758,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.7847456999588758
+      },
+      "greedy_tokens_in": 1143655,
+      "reference_tokens_in": 1149331,
+      "greedy_tokens_out": 38496,
+      "reference_tokens_out": 38692
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9607,
+      "reference_requests": 8558,
+      "saving_percent": -12.257536807665348,
+      "delta_batches": 8,
+      "delta_local_seconds": 1.8094750000163913,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1143655,
+      "reference_tokens_in": 1018860,
+      "greedy_tokens_out": 38496,
+      "reference_tokens_out": 34300
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9607,
+      "reference_requests": 9775,
+      "saving_percent": 1.7186700767263474,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.451365299988538,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.451365299988538
+      },
+      "greedy_tokens_in": 1143655,
+      "reference_tokens_in": 1163378,
+      "greedy_tokens_out": 38496,
+      "reference_tokens_out": 39172
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9605,
+      "reference_requests": 9656,
+      "saving_percent": 0.5281690140845119,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.853805500199087,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.853805500199087
+      },
+      "greedy_tokens_in": 1143411,
+      "reference_tokens_in": 1149331,
+      "greedy_tokens_out": 38488,
+      "reference_tokens_out": 38692
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9605,
+      "reference_requests": 8558,
+      "saving_percent": -12.234166861416229,
+      "delta_batches": 8,
+      "delta_local_seconds": 1.8785348002566025,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1143411,
+      "reference_tokens_in": 1018860,
+      "greedy_tokens_out": 38488,
+      "reference_tokens_out": 34300
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9605,
+      "reference_requests": 9767,
+      "saving_percent": 1.6586464625780728,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5809888001531363,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5809888001531363
+      },
+      "greedy_tokens_in": 1143411,
+      "reference_tokens_in": 1162464,
+      "greedy_tokens_out": 38488,
+      "reference_tokens_out": 39140
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9602,
+      "reference_requests": 9656,
+      "saving_percent": 0.559237779618893,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.8148765999358147,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.8148765999358147
+      },
+      "greedy_tokens_in": 1143053,
+      "reference_tokens_in": 1149331,
+      "greedy_tokens_out": 38476,
+      "reference_tokens_out": 38692
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9602,
+      "reference_requests": 8558,
+      "saving_percent": -12.199111942042528,
+      "delta_batches": 8,
+      "delta_local_seconds": 1.8396058999933302,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1143053,
+      "reference_tokens_in": 1018860,
+      "greedy_tokens_out": 38476,
+      "reference_tokens_out": 34300
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9602,
+      "reference_requests": 9770,
+      "saving_percent": 1.7195496417604872,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5010606999276206,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5010606999276206
+      },
+      "greedy_tokens_in": 1143053,
+      "reference_tokens_in": 1162823,
+      "greedy_tokens_out": 38476,
+      "reference_tokens_out": 39152
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9589,
+      "reference_requests": 9656,
+      "saving_percent": 0.6938690969345518,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.8037375001003966,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.8037375001003966
+      },
+      "greedy_tokens_in": 1141573,
+      "reference_tokens_in": 1149331,
+      "greedy_tokens_out": 38424,
+      "reference_tokens_out": 38692
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9589,
+      "reference_requests": 8558,
+      "saving_percent": -12.047207291423234,
+      "delta_batches": 8,
+      "delta_local_seconds": 1.828466800157912,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1141573,
+      "reference_tokens_in": 1018860,
+      "greedy_tokens_out": 38424,
+      "reference_tokens_out": 34300
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9589,
+      "reference_requests": 9782,
+      "saving_percent": 1.9730116540584763,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.6040810002014041,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6040810002014041
+      },
+      "greedy_tokens_in": 1141573,
+      "reference_tokens_in": 1164182,
+      "greedy_tokens_out": 38424,
+      "reference_tokens_out": 39200
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9596,
+      "reference_requests": 9656,
+      "saving_percent": 0.6213753106876552,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.7218739000381902,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.7218739000381902
+      },
+      "greedy_tokens_in": 1142395,
+      "reference_tokens_in": 1149331,
+      "greedy_tokens_out": 38456,
+      "reference_tokens_out": 38692
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9596,
+      "reference_requests": 8558,
+      "saving_percent": -12.129002103295171,
+      "delta_batches": 8,
+      "delta_local_seconds": 1.7466032000957057,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1142395,
+      "reference_tokens_in": 1018860,
+      "greedy_tokens_out": 38456,
+      "reference_tokens_out": 34300
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9596,
+      "reference_requests": 9785,
+      "saving_percent": 1.9315278487480825,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.4721979999449104,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4721979999449104
+      },
+      "greedy_tokens_in": 1142395,
+      "reference_tokens_in": 1164520,
+      "greedy_tokens_out": 38456,
+      "reference_tokens_out": 39212
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9585,
+      "reference_requests": 9656,
+      "saving_percent": 0.7352941176470562,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.8888288999442011,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.8888288999442011
+      },
+      "greedy_tokens_in": 1141013,
+      "reference_tokens_in": 1149331,
+      "greedy_tokens_out": 38408,
+      "reference_tokens_out": 38692
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9585,
+      "reference_requests": 8558,
+      "saving_percent": -12.000467398924975,
+      "delta_batches": 8,
+      "delta_local_seconds": 1.9135582000017166,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1141013,
+      "reference_tokens_in": 1018860,
+      "greedy_tokens_out": 38408,
+      "reference_tokens_out": 34300
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9585,
+      "reference_requests": 9779,
+      "saving_percent": 1.9838429287248216,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.6622676999541,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.6622676999541
+      },
+      "greedy_tokens_in": 1141013,
+      "reference_tokens_in": 1163851,
+      "greedy_tokens_out": 38408,
+      "reference_tokens_out": 39188
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6461,
+      "reference_requests": 6443,
+      "saving_percent": -0.27937296290547753,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.18860799993854,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.18860799993854
+      },
+      "greedy_tokens_in": 767466,
+      "reference_tokens_in": 765366,
+      "greedy_tokens_out": 25864,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6461,
+      "reference_requests": 5589,
+      "saving_percent": -15.602075505457158,
+      "delta_batches": 6,
+      "delta_local_seconds": 4.224027199903503,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 767466,
+      "reference_tokens_in": 665564,
+      "greedy_tokens_out": 25864,
+      "reference_tokens_out": 22420
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6461,
+      "reference_requests": 6463,
+      "saving_percent": 0.030945381401825678,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.5988085001008585,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 767466,
+      "reference_tokens_in": 767717,
+      "greedy_tokens_out": 25864,
+      "reference_tokens_out": 25872
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6469,
+      "reference_requests": 6443,
+      "saving_percent": -0.4035387241968058,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.167990699992515,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.167990699992515
+      },
+      "greedy_tokens_in": 768431,
+      "reference_tokens_in": 765366,
+      "greedy_tokens_out": 25896,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6469,
+      "reference_requests": 5589,
+      "saving_percent": -15.745213812846659,
+      "delta_batches": 6,
+      "delta_local_seconds": 4.203409899957478,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 768431,
+      "reference_tokens_in": 665564,
+      "greedy_tokens_out": 25896,
+      "reference_tokens_out": 22420
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6469,
+      "reference_requests": 6471,
+      "saving_percent": 0.030907124092105498,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.5908763001207262,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 768431,
+      "reference_tokens_in": 768682,
+      "greedy_tokens_out": 25896,
+      "reference_tokens_out": 25904
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6451,
+      "reference_requests": 6443,
+      "saving_percent": -0.12416576129132828,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.194029700011015,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.194029700011015
+      },
+      "greedy_tokens_in": 766480,
+      "reference_tokens_in": 765366,
+      "greedy_tokens_out": 25824,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6451,
+      "reference_requests": 5589,
+      "saving_percent": -15.423152621220249,
+      "delta_batches": 6,
+      "delta_local_seconds": 4.229448899975978,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 766480,
+      "reference_tokens_in": 665564,
+      "greedy_tokens_out": 25824,
+      "reference_tokens_out": 22420
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6451,
+      "reference_requests": 6453,
+      "saving_percent": 0.030993336432671992,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.5579857000848278,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 766480,
+      "reference_tokens_in": 766731,
+      "greedy_tokens_out": 25824,
+      "reference_tokens_out": 25832
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6454,
+      "reference_requests": 6443,
+      "saving_percent": -0.17072792177557083,
+      "delta_batches": -1,
+      "delta_local_seconds": 3.74385169998277,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 3.74385169998277
+      },
+      "greedy_tokens_in": 766764,
+      "reference_tokens_in": 765366,
+      "greedy_tokens_out": 25848,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6454,
+      "reference_requests": 5589,
+      "saving_percent": -15.476829486491317,
+      "delta_batches": 6,
+      "delta_local_seconds": 3.7792708999477327,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 766764,
+      "reference_tokens_in": 665564,
+      "greedy_tokens_out": 25848,
+      "reference_tokens_out": 22420
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6454,
+      "reference_requests": 6456,
+      "saving_percent": 0.030978934324654706,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.552216500043869,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 766764,
+      "reference_tokens_in": 767015,
+      "greedy_tokens_out": 25848,
+      "reference_tokens_out": 25856
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6458,
+      "reference_requests": 6443,
+      "saving_percent": -0.23281080242123497,
+      "delta_batches": -1,
+      "delta_local_seconds": 3.7734617000678554,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 3.7734617000678554
+      },
+      "greedy_tokens_in": 767345,
+      "reference_tokens_in": 765366,
+      "greedy_tokens_out": 25856,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6458,
+      "reference_requests": 5589,
+      "saving_percent": -15.54839864018609,
+      "delta_batches": 6,
+      "delta_local_seconds": 3.8088809000328183,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 767345,
+      "reference_tokens_in": 665564,
+      "greedy_tokens_out": 25856,
+      "reference_tokens_out": 22420
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6458,
+      "reference_requests": 6460,
+      "saving_percent": 0.03095975232197956,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.28679849999025464,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 767345,
+      "reference_tokens_in": 767596,
+      "greedy_tokens_out": 25856,
+      "reference_tokens_out": 25864
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6440,
+      "reference_requests": 6443,
+      "saving_percent": 0.046562160484242554,
+      "delta_batches": -1,
+      "delta_local_seconds": 3.7814290000824258,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 3.7814290000824258
+      },
+      "greedy_tokens_in": 765132,
+      "reference_tokens_in": 765366,
+      "greedy_tokens_out": 25784,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6440,
+      "reference_requests": 5589,
+      "saving_percent": -15.22633744855968,
+      "delta_batches": 6,
+      "delta_local_seconds": 3.8168482000473887,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 765132,
+      "reference_tokens_in": 665564,
+      "greedy_tokens_out": 25784,
+      "reference_tokens_out": 22420
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6440,
+      "reference_requests": 6442,
+      "saving_percent": 0.03104625892580426,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.4983623999869451,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 765132,
+      "reference_tokens_in": 765383,
+      "greedy_tokens_out": 25784,
+      "reference_tokens_out": 25792
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9710,
+      "reference_requests": 9739,
+      "saving_percent": 0.2977718451586453,
+      "delta_batches": -2,
+      "delta_local_seconds": 1.8036645001266152,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.9018322500633076
+      },
+      "greedy_tokens_in": 1155967,
+      "reference_tokens_in": 1159220,
+      "greedy_tokens_out": 38864,
+      "reference_tokens_out": 38980
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9710,
+      "reference_requests": 7755,
+      "saving_percent": -25.209542230818816,
+      "delta_batches": 14,
+      "delta_local_seconds": 1.824595000129193,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1155967,
+      "reference_tokens_in": 923562,
+      "greedy_tokens_out": 38864,
+      "reference_tokens_out": 31048
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9710,
+      "reference_requests": 9814,
+      "saving_percent": 1.059710617485221,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5249712001532316,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5249712001532316
+      },
+      "greedy_tokens_in": 1155967,
+      "reference_tokens_in": 1168003,
+      "greedy_tokens_out": 38864,
+      "reference_tokens_out": 39284
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9707,
+      "reference_requests": 9739,
+      "saving_percent": 0.32857582914056493,
+      "delta_batches": -2,
+      "delta_local_seconds": 1.8575581999029964,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.9287790999514982
+      },
+      "greedy_tokens_in": 1155825,
+      "reference_tokens_in": 1159220,
+      "greedy_tokens_out": 38852,
+      "reference_tokens_out": 38980
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9707,
+      "reference_requests": 7755,
+      "saving_percent": -25.170857511283053,
+      "delta_batches": 14,
+      "delta_local_seconds": 1.8784886999055743,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1155825,
+      "reference_tokens_in": 923562,
+      "greedy_tokens_out": 38852,
+      "reference_tokens_out": 31048
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9707,
+      "reference_requests": 9813,
+      "saving_percent": 1.0801997350453507,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.590838999953121,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.590838999953121
+      },
+      "greedy_tokens_in": 1155825,
+      "reference_tokens_in": 1167889,
+      "greedy_tokens_out": 38852,
+      "reference_tokens_out": 39280
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 9714,
+      "reference_requests": 9739,
+      "saving_percent": 0.2566998665160747,
+      "delta_batches": -2,
+      "delta_local_seconds": 1.8051068999338895,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.9025534499669448
+      },
+      "greedy_tokens_in": 1156544,
+      "reference_tokens_in": 1159220,
+      "greedy_tokens_out": 38876,
+      "reference_tokens_out": 38980
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 9714,
+      "reference_requests": 7755,
+      "saving_percent": -25.26112185686653,
+      "delta_batches": 14,
+      "delta_local_seconds": 1.8260373999364674,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1156544,
+      "reference_tokens_in": 923562,
+      "greedy_tokens_out": 38876,
+      "reference_tokens_out": 31048
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9714,
+      "reference_requests": 9813,
+      "saving_percent": 1.0088657902782017,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.48701469984371215,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.48701469984371215
+      },
+      "greedy_tokens_in": 1156544,
+      "reference_tokens_in": 1167852,
+      "greedy_tokens_out": 38876,
+      "reference_tokens_out": 39280
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9720,
+      "reference_requests": 9739,
+      "saving_percent": 0.1950918985522132,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.81080120021943,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.81080120021943
+      },
+      "greedy_tokens_in": 1157215,
+      "reference_tokens_in": 1159220,
+      "greedy_tokens_out": 38908,
+      "reference_tokens_out": 38980
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9720,
+      "reference_requests": 7755,
+      "saving_percent": -25.338491295938105,
+      "delta_batches": 15,
+      "delta_local_seconds": 1.831731700222008,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1157215,
+      "reference_tokens_in": 923562,
+      "greedy_tokens_out": 38908,
+      "reference_tokens_out": 31048
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9720,
+      "reference_requests": 9848,
+      "saving_percent": 1.299756295694554,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5670866002328694,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5670866002328694
+      },
+      "greedy_tokens_in": 1157215,
+      "reference_tokens_in": 1172242,
+      "greedy_tokens_out": 38908,
+      "reference_tokens_out": 39420
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9731,
+      "reference_requests": 9739,
+      "saving_percent": 0.08214395728514123,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.757612399989739,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.757612399989739
+      },
+      "greedy_tokens_in": 1158390,
+      "reference_tokens_in": 1159220,
+      "greedy_tokens_out": 38952,
+      "reference_tokens_out": 38980
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9731,
+      "reference_requests": 7755,
+      "saving_percent": -25.48033526756932,
+      "delta_batches": 15,
+      "delta_local_seconds": 1.778542899992317,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1158390,
+      "reference_tokens_in": 923562,
+      "greedy_tokens_out": 38952,
+      "reference_tokens_out": 31048
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9731,
+      "reference_requests": 9850,
+      "saving_percent": 1.2081218274111682,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5423967000097036,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5423967000097036
+      },
+      "greedy_tokens_in": 1158390,
+      "reference_tokens_in": 1172466,
+      "greedy_tokens_out": 38952,
+      "reference_tokens_out": 39428
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9714,
+      "reference_requests": 9739,
+      "saving_percent": 0.2566998665160747,
+      "delta_batches": -1,
+      "delta_local_seconds": 1.8039132000412792,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.8039132000412792
+      },
+      "greedy_tokens_in": 1156366,
+      "reference_tokens_in": 1159220,
+      "greedy_tokens_out": 38884,
+      "reference_tokens_out": 38980
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9714,
+      "reference_requests": 7755,
+      "saving_percent": -25.26112185686653,
+      "delta_batches": 15,
+      "delta_local_seconds": 1.824843700043857,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1156366,
+      "reference_tokens_in": 923562,
+      "greedy_tokens_out": 38884,
+      "reference_tokens_out": 31048
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9714,
+      "reference_requests": 9846,
+      "saving_percent": 1.3406459475929333,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5550054999766871,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5550054999766871
+      },
+      "greedy_tokens_in": 1156366,
+      "reference_tokens_in": 1172037,
+      "greedy_tokens_out": 38884,
+      "reference_tokens_out": 39412
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6598,
+      "reference_requests": 6582,
+      "saving_percent": -0.24308720753569713,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.375297300051898,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.375297300051898
+      },
+      "greedy_tokens_in": 783743,
+      "reference_tokens_in": 781878,
+      "greedy_tokens_out": 26392,
+      "reference_tokens_out": 26328
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6598,
+      "reference_requests": 5365,
+      "saving_percent": -22.98229263746505,
+      "delta_batches": 9,
+      "delta_local_seconds": 4.396049099974334,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 783743,
+      "reference_tokens_in": 638907,
+      "greedy_tokens_out": 26392,
+      "reference_tokens_out": 21488
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6598,
+      "reference_requests": 6600,
+      "saving_percent": 0.030303030303024947,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.08921329991426319,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 783743,
+      "reference_tokens_in": 783994,
+      "greedy_tokens_out": 26392,
+      "reference_tokens_out": 26400
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6603,
+      "reference_requests": 6582,
+      "saving_percent": -0.31905195989061497,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.400283799972385,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.400283799972385
+      },
+      "greedy_tokens_in": 784361,
+      "reference_tokens_in": 781878,
+      "greedy_tokens_out": 26412,
+      "reference_tokens_out": 26328
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6603,
+      "reference_requests": 5365,
+      "saving_percent": -23.07548928238583,
+      "delta_batches": 9,
+      "delta_local_seconds": 4.421035599894822,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 784361,
+      "reference_tokens_in": 638907,
+      "greedy_tokens_out": 26412,
+      "reference_tokens_out": 21488
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6603,
+      "reference_requests": 6605,
+      "saving_percent": 0.030280090840273388,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.32174689997918904,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 784361,
+      "reference_tokens_in": 784612,
+      "greedy_tokens_out": 26412,
+      "reference_tokens_out": 26420
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 6583,
+      "reference_requests": 6582,
+      "saving_percent": -0.01519295047098801,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.345982300001197,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.345982300001197
+      },
+      "greedy_tokens_in": 782011,
+      "reference_tokens_in": 781878,
+      "greedy_tokens_out": 26332,
+      "reference_tokens_out": 26328
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 6583,
+      "reference_requests": 5365,
+      "saving_percent": -22.702702702702695,
+      "delta_batches": 9,
+      "delta_local_seconds": 4.366734099923633,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 782011,
+      "reference_tokens_in": 638907,
+      "greedy_tokens_out": 26332,
+      "reference_tokens_out": 21488
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6583,
+      "reference_requests": 6585,
+      "saving_percent": 0.030372057706906652,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.2711291000014171,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 782011,
+      "reference_tokens_in": 782262,
+      "greedy_tokens_out": 26332,
+      "reference_tokens_out": 26340
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6560,
+      "reference_requests": 6582,
+      "saving_percent": 0.3342449103615919,
+      "delta_batches": -1,
+      "delta_local_seconds": 3.934263600036502,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 3.934263600036502
+      },
+      "greedy_tokens_in": 779364,
+      "reference_tokens_in": 781878,
+      "greedy_tokens_out": 26244,
+      "reference_tokens_out": 26328
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6560,
+      "reference_requests": 5365,
+      "saving_percent": -22.273998136067096,
+      "delta_batches": 9,
+      "delta_local_seconds": 3.9550153999589384,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 779364,
+      "reference_tokens_in": 638907,
+      "greedy_tokens_out": 26244,
+      "reference_tokens_out": 21488
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6560,
+      "reference_requests": 6562,
+      "saving_percent": 0.030478512648579592,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.33406789996661246,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 779364,
+      "reference_tokens_in": 779615,
+      "greedy_tokens_out": 26244,
+      "reference_tokens_out": 26252
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6579,
+      "reference_requests": 6582,
+      "saving_percent": 0.04557885141294182,
+      "delta_batches": -1,
+      "delta_local_seconds": 3.9069551000138745,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 3.9069551000138745
+      },
+      "greedy_tokens_in": 781682,
+      "reference_tokens_in": 781878,
+      "greedy_tokens_out": 26332,
+      "reference_tokens_out": 26328
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6579,
+      "reference_requests": 5365,
+      "saving_percent": -22.628145386766075,
+      "delta_batches": 9,
+      "delta_local_seconds": 3.927706899936311,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 781682,
+      "reference_tokens_in": 638907,
+      "greedy_tokens_out": 26332,
+      "reference_tokens_out": 21488
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6579,
+      "reference_requests": 6581,
+      "saving_percent": 0.030390518158329716,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.0980076000560075,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 781682,
+      "reference_tokens_in": 781933,
+      "greedy_tokens_out": 26332,
+      "reference_tokens_out": 26340
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 6538,
+      "reference_requests": 6582,
+      "saving_percent": 0.6684898207231837,
+      "delta_batches": -1,
+      "delta_local_seconds": 4.155720200156793,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 4.155720200156793
+      },
+      "greedy_tokens_in": 776826,
+      "reference_tokens_in": 781878,
+      "greedy_tokens_out": 26160,
+      "reference_tokens_out": 26328
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 6538,
+      "reference_requests": 5365,
+      "saving_percent": -21.863932898415662,
+      "delta_batches": 9,
+      "delta_local_seconds": 4.1764720000792295,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 776826,
+      "reference_tokens_in": 638907,
+      "greedy_tokens_out": 26160,
+      "reference_tokens_out": 21488
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 6538,
+      "reference_requests": 6540,
+      "saving_percent": 0.03058103975535076,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.10156029986683279,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 776826,
+      "reference_tokens_in": 777077,
+      "greedy_tokens_out": 26160,
+      "reference_tokens_out": 26168
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 8848,
+      "reference_requests": 8637,
+      "saving_percent": -2.442977885839981,
+      "delta_batches": 1,
+      "delta_local_seconds": 1.6012208997271955,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1053295,
+      "reference_tokens_in": 1028015,
+      "greedy_tokens_out": 35540,
+      "reference_tokens_out": 34688
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 8848,
+      "reference_requests": 9358,
+      "saving_percent": 5.449882453515709,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.5941173998871818,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.3188234799774364
+      },
+      "greedy_tokens_in": 1053295,
+      "reference_tokens_in": 1114385,
+      "greedy_tokens_out": 35540,
+      "reference_tokens_out": 37632
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8848,
+      "reference_requests": 9001,
+      "saving_percent": 1.6998111320964293,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.4363271998008713,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4363271998008713
+      },
+      "greedy_tokens_in": 1053295,
+      "reference_tokens_in": 1071192,
+      "greedy_tokens_out": 35540,
+      "reference_tokens_out": 36156
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 8850,
+      "reference_requests": 8637,
+      "saving_percent": -2.466134074331361,
+      "delta_batches": 1,
+      "delta_local_seconds": 1.610600599902682,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1053423,
+      "reference_tokens_in": 1028015,
+      "greedy_tokens_out": 35544,
+      "reference_tokens_out": 34688
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 8850,
+      "reference_requests": 9358,
+      "saving_percent": 5.428510365462702,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.6034971000626683,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.32069942001253365
+      },
+      "greedy_tokens_in": 1053423,
+      "reference_tokens_in": 1114385,
+      "greedy_tokens_out": 35544,
+      "reference_tokens_out": 37632
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8850,
+      "reference_requests": 8900,
+      "saving_percent": 0.5617977528089901,
+      "delta_batches": 0,
+      "delta_local_seconds": 0.4325738000916317,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1053423,
+      "reference_tokens_in": 1059121,
+      "greedy_tokens_out": 35544,
+      "reference_tokens_out": 35752
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 8840,
+      "reference_requests": 8637,
+      "saving_percent": -2.350353131874483,
+      "delta_batches": 1,
+      "delta_local_seconds": 1.6170006997417659,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1052379,
+      "reference_tokens_in": 1028015,
+      "greedy_tokens_out": 35504,
+      "reference_tokens_out": 34688
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 8840,
+      "reference_requests": 9358,
+      "saving_percent": 5.535370805727724,
+      "delta_batches": -5,
+      "delta_local_seconds": 1.6098971999017522,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.32197943998035045
+      },
+      "greedy_tokens_in": 1052379,
+      "reference_tokens_in": 1114385,
+      "greedy_tokens_out": 35504,
+      "reference_tokens_out": 37632
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8840,
+      "reference_requests": 8901,
+      "saving_percent": 0.6853162566003768,
+      "delta_batches": 0,
+      "delta_local_seconds": 0.4713185998843983,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1052379,
+      "reference_tokens_in": 1059255,
+      "greedy_tokens_out": 35504,
+      "reference_tokens_out": 35752
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 8959,
+      "reference_requests": 8637,
+      "saving_percent": -3.728146347111272,
+      "delta_batches": 2,
+      "delta_local_seconds": 1.6379815997788683,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1066646,
+      "reference_tokens_in": 1028015,
+      "greedy_tokens_out": 35988,
+      "reference_tokens_out": 34688
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 8959,
+      "reference_requests": 9358,
+      "saving_percent": 4.263731566574059,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.6308780999388546,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.40771952498471364
+      },
+      "greedy_tokens_in": 1066646,
+      "reference_tokens_in": 1114385,
+      "greedy_tokens_out": 35988,
+      "reference_tokens_out": 37632
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8959,
+      "reference_requests": 9076,
+      "saving_percent": 1.289114147201409,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5419807999860495,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5419807999860495
+      },
+      "greedy_tokens_in": 1066646,
+      "reference_tokens_in": 1080402,
+      "greedy_tokens_out": 35988,
+      "reference_tokens_out": 36464
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 8967,
+      "reference_requests": 8637,
+      "saving_percent": -3.8207711010767698,
+      "delta_batches": 2,
+      "delta_local_seconds": 1.576969799818471,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1067264,
+      "reference_tokens_in": 1028015,
+      "greedy_tokens_out": 36024,
+      "reference_tokens_out": 34688
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 8967,
+      "reference_requests": 9358,
+      "saving_percent": 4.178243214362043,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.5698662999784574,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.39246657499461435
+      },
+      "greedy_tokens_in": 1067264,
+      "reference_tokens_in": 1114385,
+      "greedy_tokens_out": 36024,
+      "reference_tokens_out": 37632
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8967,
+      "reference_requests": 9065,
+      "saving_percent": 1.0810810810810811,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.44747040001675487,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.44747040001675487
+      },
+      "greedy_tokens_in": 1067264,
+      "reference_tokens_in": 1078845,
+      "greedy_tokens_out": 36024,
+      "reference_tokens_out": 36416
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 8954,
+      "reference_requests": 8637,
+      "saving_percent": -3.670255875882833,
+      "delta_batches": 2,
+      "delta_local_seconds": 1.6714717000722885,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1065976,
+      "reference_tokens_in": 1028015,
+      "greedy_tokens_out": 35960,
+      "reference_tokens_out": 34688
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 8954,
+      "reference_requests": 9358,
+      "saving_percent": 4.317161786706558,
+      "delta_batches": -4,
+      "delta_local_seconds": 1.6643682002322748,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4160920500580687
+      },
+      "greedy_tokens_in": 1065976,
+      "reference_tokens_in": 1114385,
+      "greedy_tokens_out": 35960,
+      "reference_tokens_out": 37632
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8954,
+      "reference_requests": 9001,
+      "saving_percent": 0.5221642039773378,
+      "delta_batches": 0,
+      "delta_local_seconds": 0.5692608002573252,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1065976,
+      "reference_tokens_in": 1071272,
+      "greedy_tokens_out": 35960,
+      "reference_tokens_out": 36156
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 5699,
+      "reference_requests": 5609,
+      "saving_percent": -1.6045640934212901,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.7611256998497993,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 678204,
+      "reference_tokens_in": 667587,
+      "greedy_tokens_out": 22824,
+      "reference_tokens_out": 22452
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 5699,
+      "reference_requests": 6133,
+      "saving_percent": 7.076471547366703,
+      "delta_batches": -4,
+      "delta_local_seconds": 3.748043500003405,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.9370108750008512
+      },
+      "greedy_tokens_in": 678204,
+      "reference_tokens_in": 731842,
+      "greedy_tokens_out": 22824,
+      "reference_tokens_out": 24728
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5699,
+      "reference_requests": 5701,
+      "saving_percent": 0.035081564637784446,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.14418080006726086,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 678204,
+      "reference_tokens_in": 678455,
+      "greedy_tokens_out": 22824,
+      "reference_tokens_out": 22832
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 5691,
+      "reference_requests": 5609,
+      "saving_percent": -1.461936174006051,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.8022309999214485,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 677364,
+      "reference_tokens_in": 667587,
+      "greedy_tokens_out": 22788,
+      "reference_tokens_out": 22452
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 5691,
+      "reference_requests": 6133,
+      "saving_percent": 7.206913419207561,
+      "delta_batches": -4,
+      "delta_local_seconds": 3.789148800075054,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.9472872000187635
+      },
+      "greedy_tokens_in": 677364,
+      "reference_tokens_in": 731842,
+      "greedy_tokens_out": 22788,
+      "reference_tokens_out": 24728
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5691,
+      "reference_requests": 5693,
+      "saving_percent": 0.035130862462673385,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.31432810006663203,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 677364,
+      "reference_tokens_in": 677624,
+      "greedy_tokens_out": 22788,
+      "reference_tokens_out": 22796
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 5680,
+      "reference_requests": 5609,
+      "saving_percent": -1.2658227848101333,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.732551399967633,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 676054,
+      "reference_tokens_in": 667587,
+      "greedy_tokens_out": 22736,
+      "reference_tokens_out": 22452
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 5680,
+      "reference_requests": 6133,
+      "saving_percent": 7.386270992988752,
+      "delta_batches": -4,
+      "delta_local_seconds": 3.719469200121239,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.9298673000303097
+      },
+      "greedy_tokens_in": 676054,
+      "reference_tokens_in": 731842,
+      "greedy_tokens_out": 22736,
+      "reference_tokens_out": 24728
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5680,
+      "reference_requests": 5682,
+      "saving_percent": 0.03519887363604424,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.221968499943614,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 676054,
+      "reference_tokens_in": 676314,
+      "greedy_tokens_out": 22736,
+      "reference_tokens_out": 22744
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 5759,
+      "reference_requests": 5609,
+      "saving_percent": -2.6742734890354836,
+      "delta_batches": 1,
+      "delta_local_seconds": 3.37308530008886,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 685666,
+      "reference_tokens_in": 667587,
+      "greedy_tokens_out": 23072,
+      "reference_tokens_out": 22452
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 5759,
+      "reference_requests": 6133,
+      "saving_percent": 6.098157508560242,
+      "delta_batches": -3,
+      "delta_local_seconds": 3.3600031002424657,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.1200010334141552
+      },
+      "greedy_tokens_in": 685666,
+      "reference_tokens_in": 731842,
+      "greedy_tokens_out": 23072,
+      "reference_tokens_out": 24728
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5759,
+      "reference_requests": 5761,
+      "saving_percent": 0.03471619510501123,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.34262849984224886,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 685666,
+      "reference_tokens_in": 685917,
+      "greedy_tokens_out": 23072,
+      "reference_tokens_out": 23080
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 5798,
+      "reference_requests": 5609,
+      "saving_percent": -3.369584596184705,
+      "delta_batches": 1,
+      "delta_local_seconds": 3.39365289977286,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 690217,
+      "reference_tokens_in": 667587,
+      "greedy_tokens_out": 23232,
+      "reference_tokens_out": 22452
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 5798,
+      "reference_requests": 6133,
+      "saving_percent": 5.462253383336046,
+      "delta_batches": -3,
+      "delta_local_seconds": 3.3805706999264657,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.1268568999754887
+      },
+      "greedy_tokens_in": 690217,
+      "reference_tokens_in": 731842,
+      "greedy_tokens_out": 23232,
+      "reference_tokens_out": 24728
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5798,
+      "reference_requests": 5800,
+      "saving_percent": 0.034482758620690834,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.10905440023634583,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 690217,
+      "reference_tokens_in": 690468,
+      "greedy_tokens_out": 23232,
+      "reference_tokens_out": 23240
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 5770,
+      "reference_requests": 5609,
+      "saving_percent": -2.8703868782314235,
+      "delta_batches": 1,
+      "delta_local_seconds": 3.6047733000013977,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 686873,
+      "reference_tokens_in": 667587,
+      "greedy_tokens_out": 23112,
+      "reference_tokens_out": 22452
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 5770,
+      "reference_requests": 6133,
+      "saving_percent": 5.918799934779062,
+      "delta_batches": -3,
+      "delta_local_seconds": 3.5916911001550034,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 1.1972303667183344
+      },
+      "greedy_tokens_in": 686873,
+      "reference_tokens_in": 731842,
+      "greedy_tokens_out": 23112,
+      "reference_tokens_out": 24728
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5770,
+      "reference_requests": 5772,
+      "saving_percent": 0.034650034650030026,
+      "delta_batches": 0,
+      "delta_local_seconds": 0.024076499976217747,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 686873,
+      "reference_tokens_in": 687124,
+      "greedy_tokens_out": 23112,
+      "reference_tokens_out": 23120
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 8841,
+      "reference_requests": 8797,
+      "saving_percent": -0.5001705126747691,
+      "delta_batches": 0,
+      "delta_local_seconds": 1.7469531999668106,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1053009,
+      "reference_tokens_in": 1047720,
+      "greedy_tokens_out": 35472,
+      "reference_tokens_out": 35304
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 8841,
+      "reference_requests": 9745,
+      "saving_percent": 9.27655207798871,
+      "delta_batches": -8,
+      "delta_local_seconds": 1.739854599814862,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.21748182497685775
+      },
+      "greedy_tokens_in": 1053009,
+      "reference_tokens_in": 1160207,
+      "greedy_tokens_out": 35472,
+      "reference_tokens_out": 39136
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8841,
+      "reference_requests": 9090,
+      "saving_percent": 2.739273927392738,
+      "delta_batches": -2,
+      "delta_local_seconds": 0.49530179984867573,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.24765089992433786
+      },
+      "greedy_tokens_in": 1053009,
+      "reference_tokens_in": 1082391,
+      "greedy_tokens_out": 35472,
+      "reference_tokens_out": 36484
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 8904,
+      "reference_requests": 8797,
+      "saving_percent": -1.21632374673184,
+      "delta_batches": 0,
+      "delta_local_seconds": 1.6160677000880241,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1060539,
+      "reference_tokens_in": 1047720,
+      "greedy_tokens_out": 35724,
+      "reference_tokens_out": 35304
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 8904,
+      "reference_requests": 9745,
+      "saving_percent": 8.630066700872241,
+      "delta_batches": -8,
+      "delta_local_seconds": 1.6089690999360755,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.20112113749200944
+      },
+      "greedy_tokens_in": 1060539,
+      "reference_tokens_in": 1160207,
+      "greedy_tokens_out": 35724,
+      "reference_tokens_out": 39136
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8904,
+      "reference_requests": 9086,
+      "saving_percent": 2.003081664098616,
+      "delta_batches": -2,
+      "delta_local_seconds": 0.370643200003542,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.185321600001771
+      },
+      "greedy_tokens_in": 1060539,
+      "reference_tokens_in": 1082093,
+      "greedy_tokens_out": 35724,
+      "reference_tokens_out": 36468
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 8954,
+      "reference_requests": 8797,
+      "saving_percent": -1.784699329316819,
+      "delta_batches": 0,
+      "delta_local_seconds": 1.6930153002031147,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1066623,
+      "reference_tokens_in": 1047720,
+      "greedy_tokens_out": 35928,
+      "reference_tokens_out": 35304
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 8954,
+      "reference_requests": 9745,
+      "saving_percent": 8.116983068240124,
+      "delta_batches": -8,
+      "delta_local_seconds": 1.6859167000511661,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.21073958750639576
+      },
+      "greedy_tokens_in": 1066623,
+      "reference_tokens_in": 1160207,
+      "greedy_tokens_out": 35928,
+      "reference_tokens_out": 39136
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8954,
+      "reference_requests": 9082,
+      "saving_percent": 1.4093811935697032,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.4750379001488909,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4750379001488909
+      },
+      "greedy_tokens_in": 1066623,
+      "reference_tokens_in": 1081556,
+      "greedy_tokens_out": 35928,
+      "reference_tokens_out": 36452
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9073,
+      "reference_requests": 8797,
+      "saving_percent": -3.1374332158690565,
+      "delta_batches": 2,
+      "delta_local_seconds": 1.653507599956356,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1080784,
+      "reference_tokens_in": 1047720,
+      "greedy_tokens_out": 36408,
+      "reference_tokens_out": 35304
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9073,
+      "reference_requests": 9745,
+      "saving_percent": 6.895844022575681,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6464089998044074,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2744014999674012
+      },
+      "greedy_tokens_in": 1080784,
+      "reference_tokens_in": 1160207,
+      "greedy_tokens_out": 36408,
+      "reference_tokens_out": 39136
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9073,
+      "reference_requests": 9126,
+      "saving_percent": 0.5807582730659622,
+      "delta_batches": 0,
+      "delta_local_seconds": 0.5491362997563556,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1080784,
+      "reference_tokens_in": 1086688,
+      "greedy_tokens_out": 36408,
+      "reference_tokens_out": 36636
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 8950,
+      "reference_requests": 8797,
+      "saving_percent": -1.7392292827100198,
+      "delta_batches": 1,
+      "delta_local_seconds": 1.6571116000413895,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1066019,
+      "reference_tokens_in": 1047720,
+      "greedy_tokens_out": 35912,
+      "reference_tokens_out": 35304
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 8950,
+      "reference_requests": 9745,
+      "saving_percent": 8.158029758850693,
+      "delta_batches": -7,
+      "delta_local_seconds": 1.6500129998894408,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.2357161428413487
+      },
+      "greedy_tokens_in": 1066019,
+      "reference_tokens_in": 1160207,
+      "greedy_tokens_out": 35912,
+      "reference_tokens_out": 39136
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 8950,
+      "reference_requests": 9171,
+      "saving_percent": 2.409769926943628,
+      "delta_batches": -1,
+      "delta_local_seconds": 0.5050078999483958,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5050078999483958
+      },
+      "greedy_tokens_in": 1066019,
+      "reference_tokens_in": 1092049,
+      "greedy_tokens_out": 35912,
+      "reference_tokens_out": 36812
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 9065,
+      "reference_requests": 8797,
+      "saving_percent": -3.046493122655458,
+      "delta_batches": 2,
+      "delta_local_seconds": 1.6668968001613393,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1079824,
+      "reference_tokens_in": 1047720,
+      "greedy_tokens_out": 36364,
+      "reference_tokens_out": 35304
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 9065,
+      "reference_requests": 9745,
+      "saving_percent": 6.977937403796819,
+      "delta_batches": -6,
+      "delta_local_seconds": 1.6597982000093907,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.27663303333489847
+      },
+      "greedy_tokens_in": 1079824,
+      "reference_tokens_in": 1160207,
+      "greedy_tokens_out": 36364,
+      "reference_tokens_out": 39136
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 9065,
+      "reference_requests": 9121,
+      "saving_percent": 0.6139677666922472,
+      "delta_batches": 0,
+      "delta_local_seconds": 0.5375424000667408,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 1079824,
+      "reference_tokens_in": 1086117,
+      "greedy_tokens_out": 36364,
+      "reference_tokens_out": 36604
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 5736,
+      "reference_requests": 5633,
+      "saving_percent": -1.8285105627551923,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.8261219998821616,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 682984,
+      "reference_tokens_in": 670778,
+      "greedy_tokens_out": 22952,
+      "reference_tokens_out": 22536
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 5736,
+      "reference_requests": 6567,
+      "saving_percent": 12.654179990863412,
+      "delta_batches": -8,
+      "delta_local_seconds": 3.815756199765019,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.4769695249706274
+      },
+      "greedy_tokens_in": 682984,
+      "reference_tokens_in": 783627,
+      "greedy_tokens_out": 22952,
+      "reference_tokens_out": 26424
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 101,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5736,
+      "reference_requests": 5742,
+      "saving_percent": 0.10449320794148065,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.09438960021361709,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 682984,
+      "reference_tokens_in": 683731,
+      "greedy_tokens_out": 22952,
+      "reference_tokens_out": 22976
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 5732,
+      "reference_requests": 5633,
+      "saving_percent": -1.7575004438132424,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.7242895000381395,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 682530,
+      "reference_tokens_in": 670778,
+      "greedy_tokens_out": 22940,
+      "reference_tokens_out": 22536
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 5732,
+      "reference_requests": 6567,
+      "saving_percent": 12.715090604537838,
+      "delta_batches": -8,
+      "delta_local_seconds": 3.713923699920997,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.46424046249012463
+      },
+      "greedy_tokens_in": 682530,
+      "reference_tokens_in": 783627,
+      "greedy_tokens_out": 22940,
+      "reference_tokens_out": 26424
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 202,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5732,
+      "reference_requests": 5738,
+      "saving_percent": 0.10456605088881021,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.3021868000505492,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 682530,
+      "reference_tokens_in": 683277,
+      "greedy_tokens_out": 22940,
+      "reference_tokens_out": 22964
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_left",
+      "greedy_requests": 5717,
+      "reference_requests": 5633,
+      "saving_percent": -1.491212497780925,
+      "delta_batches": 0,
+      "delta_local_seconds": 3.8426135000772774,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 680894,
+      "reference_tokens_in": 670778,
+      "greedy_tokens_out": 22880,
+      "reference_tokens_out": 22536
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "batched_right",
+      "greedy_requests": 5717,
+      "reference_requests": 6567,
+      "saving_percent": 12.943505405816968,
+      "delta_batches": -8,
+      "delta_local_seconds": 3.832247699960135,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.47903096249501687
+      },
+      "greedy_tokens_in": 680894,
+      "reference_tokens_in": 783627,
+      "greedy_tokens_out": 22880,
+      "reference_tokens_out": 26424
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 303,
+      "budget": 125,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5717,
+      "reference_requests": 5724,
+      "saving_percent": 0.12229210342418195,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.23281519988086075,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 680894,
+      "reference_tokens_in": 681772,
+      "greedy_tokens_out": 22880,
+      "reference_tokens_out": 22908
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 5830,
+      "reference_requests": 5633,
+      "saving_percent": -3.497248357891003,
+      "delta_batches": 1,
+      "delta_local_seconds": 3.473753200029023,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 694520,
+      "reference_tokens_in": 670778,
+      "greedy_tokens_out": 23352,
+      "reference_tokens_out": 22536
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 5830,
+      "reference_requests": 6567,
+      "saving_percent": 11.222780569514235,
+      "delta_batches": -7,
+      "delta_local_seconds": 3.4633873999118805,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.49476962855884005
+      },
+      "greedy_tokens_in": 694520,
+      "reference_tokens_in": 783627,
+      "greedy_tokens_out": 23352,
+      "reference_tokens_out": 26424
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 101,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5830,
+      "reference_requests": 5837,
+      "saving_percent": 0.11992461881102923,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.1770349001744762,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 694520,
+      "reference_tokens_in": 695397,
+      "greedy_tokens_out": 23352,
+      "reference_tokens_out": 23380
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 5843,
+      "reference_requests": 5633,
+      "saving_percent": -3.7280312444523345,
+      "delta_batches": 1,
+      "delta_local_seconds": 3.497252900036983,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 695866,
+      "reference_tokens_in": 670778,
+      "greedy_tokens_out": 23384,
+      "reference_tokens_out": 22536
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 5843,
+      "reference_requests": 6567,
+      "saving_percent": 11.024821075072333,
+      "delta_batches": -7,
+      "delta_local_seconds": 3.4868870999198407,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.49812672855997725
+      },
+      "greedy_tokens_in": 695866,
+      "reference_tokens_in": 783627,
+      "greedy_tokens_out": 23384,
+      "reference_tokens_out": 26424
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 202,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5843,
+      "reference_requests": 5850,
+      "saving_percent": 0.11965811965811701,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.26204099995084107,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 695866,
+      "reference_tokens_in": 696750,
+      "greedy_tokens_out": 23384,
+      "reference_tokens_out": 23412
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_left",
+      "greedy_requests": 5835,
+      "reference_requests": 5633,
+      "saving_percent": -3.5860110065684347,
+      "delta_batches": 1,
+      "delta_local_seconds": 3.539120100089349,
+      "boundary": {
+        "condition": "never",
+        "seconds": null
+      },
+      "greedy_tokens_in": 695068,
+      "reference_tokens_in": 670778,
+      "greedy_tokens_out": 23360,
+      "reference_tokens_out": 22536
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "batched_right",
+      "greedy_requests": 5835,
+      "reference_requests": 6567,
+      "saving_percent": 11.146642302421196,
+      "delta_batches": -7,
+      "delta_local_seconds": 3.5287542999722064,
+      "boundary": {
+        "condition": "tau > threshold",
+        "seconds": 0.5041077571388867
+      },
+      "greedy_tokens_in": 695068,
+      "reference_tokens_in": 783627,
+      "greedy_tokens_out": 23360,
+      "reference_tokens_out": 26424
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "seed": 303,
+      "budget": 500,
+      "reference": "adaptive_continuous",
+      "greedy_requests": 5835,
+      "reference_requests": 5841,
+      "saving_percent": 0.10272213662043672,
+      "delta_batches": 0,
+      "delta_local_seconds": -0.04764419991988689,
+      "boundary": {
+        "condition": "all tau",
+        "seconds": null
+      },
+      "greedy_tokens_in": 695068,
+      "reference_tokens_in": 695815,
+      "greedy_tokens_out": 23360,
+      "reference_tokens_out": 23384
+    }
+  ],
+  "validation": {
+    "constructed_v1": {
+      "records": 192,
+      "all_raw_hashes_match": true,
+      "all_strict_checks_passed": true,
+      "paired_ordered_audits_identical": true,
+      "unique_audit_events": 48,
+      "observed_loss_violations": 0
+    },
+    "native_v1": {
+      "records": 168,
+      "all_raw_hashes_match": true,
+      "all_strict_checks_passed": true,
+      "paired_ordered_audits_identical": true,
+      "unique_audit_events": 72,
+      "observed_loss_violations": 0
+    },
+    "historical_greedy_comparison": {
+      "raw_hashes_verified": true,
+      "matched_ordered_audits": 48
+    },
+    "full_budget_fixed_split": {
+      "records": 48,
+      "earlier_v1_preserved": true,
+      "final_four_arm_matrix": "144 unchanged v1 records plus 48 corrected fixed-continuous records"
+    },
+    "cached_greedy": {
+      "records": 72,
+      "ledgers_masks_events_identical": true
+    },
+    "constructed_greedy125": {
+      "records": 48,
+      "all_raw_hashes_and_strict_checks_pass": true
+    }
+  },
+  "source_summaries": {
+    "reproduction/study\\constructed_v1\\summary.json": "399cfc0d26af35f78503d3f4b0edf0bbb973c2fdfc63812167c6c8aa27054f49",
+    "reproduction/study\\native_v1\\summary.json": "7b7847a25478c26214fa1abc0da372b4fdebdde8aca12b542e3d9b3d072a6522",
+    "reproduction/study\\before\\plot_data.json": "ef950939537de5c95d5a618ca6496bad98f05433864782999e9973cce77e8fc1",
+    "reproduction/study\\native_cached_v1\\summary.json": "bdd52f7dcee0632622613f424695f34567ba0e8ea06b8bd639c79c8862b46565",
+    "reproduction/study\\fixed_continuous_v2\\summary.json": "6e636b817aa0711384018cfcf7d1574e108835dac0394b1641358d8e95ee00b5",
+    "reproduction/study\\greedy125_v1\\summary.json": "e183b4f4c3eeb7140c0c704ac7a6a42732031a8e0579460d07966be6d0a4225b"
+  },
+  "analysis_source_sha256": "ef8b92f0bcef5103aa9156e48aa33290fa2c14b3d49470d1f2292bb39a47000b",
+  "scope": "Exploratory fixed targets; seeds and reused exact controls are not independent statistical replicates.",
+  "cache_implementation": {
+    "cells": 72,
+    "uncached_median_algorithm_seconds": 8.625389850058127,
+    "cached_median_algorithm_seconds": 2.7382818500045687,
+    "median_paired_algorithm_time_reduction_percent": 58.53817072511316,
+    "scope": "Same numerical policy, query-local pure-kernel memoization; every charged identity and allocation event preserved."
+  },
+  "local_live": {
+    "status": "pass",
+    "methods": {
+      "batched_right": {
+        "rounds": 79,
+        "requests": 9951,
+        "measured_inference_seconds": 247.2780438994523,
+        "prompt_tokens": 546796,
+        "generated_tokens": 19902,
+        "local_overhead_seconds": 0.22254949994385242,
+        "trace_total_with_local_overhead_seconds": 247.50059339939617
+      },
+      "adaptive_continuous": {
+        "rounds": 78,
+        "requests": 9904,
+        "measured_inference_seconds": 245.29795110004488,
+        "prompt_tokens": 544225,
+        "generated_tokens": 19808,
+        "local_overhead_seconds": 2.498421600088477,
+        "trace_total_with_local_overhead_seconds": 247.79637270013336
+      },
+      "joint_greedy": {
+        "rounds": 73,
+        "requests": 9264,
+        "measured_inference_seconds": 227.6577155997511,
+        "prompt_tokens": 509105,
+        "generated_tokens": 18528,
+        "local_overhead_seconds": 1.9357064999639988,
+        "trace_total_with_local_overhead_seconds": 229.5934220997151
+      }
+    },
+    "full_trace_repetitions": 1,
+    "probe_repetitions": 3,
+    "cache_prompt": false,
+    "all_prompts_untruncated": true,
+    "interpretation": "Measured fixed-trace latency on a separate local model; live outputs did not choose the traces."
+  }
+}

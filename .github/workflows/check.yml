@@ -1,0 +1,17 @@
+name: Artifact checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements-recorded.txt
+      - run: python reproduce.py verify
+      - run: python reproduce.py check
+      - run: python reproduce.py smoke

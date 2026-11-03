@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Natural contrast tasks: six predicate pairs, three seeds per row. Saving uses batched exact right-first. $\Delta B$ and $\Delta C$ are mean extra batches and local seconds for greedy CERTIS.}
+\label{tab:cost_boundary}
+\begin{tabularx}{\linewidth}{Xrrrrr}
+\toprule
+\textbf{Keys} & \textbf{Audit} & \textbf{Saving} & $\Delta B$ & $\Delta C$ & $\tau^\ast$ \\
+\midrule
+Subreddit & 125 & -0.80\% & -0.33 & +1.72 & 5.17 \\
+Subreddit & 500 & -1.24\% & +0.28 & +1.71 & --- \\
+Thread & 125 & 0.65\% & -1.22 & +4.16 & 3.40 \\
+Thread & 500 & -0.10\% & -0.61 & +3.80 & 6.21 \\
+\bottomrule
+\end{tabularx}
+\par\smallskip\raggedright Audit is per side. $\tau^\ast$ is the pooled break-even seconds per batch under a common constant batch latency; --- denotes no positive-latency break-even. Local time includes audit, planning, bookkeeping, fact ingest and returned SQL; reference verification is excluded.
+\end{table}

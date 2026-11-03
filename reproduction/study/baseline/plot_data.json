@@ -1,0 +1,2258 @@
+{
+  "matched_cells": [
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "seed": 101,
+      "marginal_requests": 4860,
+      "marginal_conflict": false,
+      "greedy_requests": 3039,
+      "greedy_conflict": false,
+      "exact_requests": 3039,
+      "exact_conflict": false,
+      "separate_requests": 3044
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "seed": 202,
+      "marginal_requests": 4859,
+      "marginal_conflict": false,
+      "greedy_requests": 3031,
+      "greedy_conflict": false,
+      "exact_requests": 3031,
+      "exact_conflict": false,
+      "separate_requests": 3036
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "seed": 303,
+      "marginal_requests": 4858,
+      "marginal_conflict": false,
+      "greedy_requests": 3002,
+      "greedy_conflict": false,
+      "exact_requests": 3002,
+      "exact_conflict": false,
+      "separate_requests": 3008
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "seed": 101,
+      "marginal_requests": 4650,
+      "marginal_conflict": false,
+      "greedy_requests": 3048,
+      "greedy_conflict": false,
+      "exact_requests": 3048,
+      "exact_conflict": false,
+      "separate_requests": 3051
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "seed": 202,
+      "marginal_requests": 4526,
+      "marginal_conflict": false,
+      "greedy_requests": 3031,
+      "greedy_conflict": false,
+      "exact_requests": 3031,
+      "exact_conflict": false,
+      "separate_requests": 3036
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "seed": 303,
+      "marginal_requests": 4524,
+      "marginal_conflict": false,
+      "greedy_requests": 3014,
+      "greedy_conflict": false,
+      "exact_requests": 3014,
+      "exact_conflict": false,
+      "separate_requests": 3024
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "seed": 101,
+      "marginal_requests": 4956,
+      "marginal_conflict": false,
+      "greedy_requests": 4416,
+      "greedy_conflict": false,
+      "exact_requests": 4426,
+      "exact_conflict": false,
+      "separate_requests": 4430
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "seed": 202,
+      "marginal_requests": 4948,
+      "marginal_conflict": false,
+      "greedy_requests": 4405,
+      "greedy_conflict": false,
+      "exact_requests": 4405,
+      "exact_conflict": false,
+      "separate_requests": 4430
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "seed": 303,
+      "marginal_requests": 4959,
+      "marginal_conflict": false,
+      "greedy_requests": 4139,
+      "greedy_conflict": false,
+      "exact_requests": 4139,
+      "exact_conflict": false,
+      "separate_requests": 4148
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "seed": 101,
+      "marginal_requests": 4917,
+      "marginal_conflict": false,
+      "greedy_requests": 4161,
+      "greedy_conflict": false,
+      "exact_requests": 4161,
+      "exact_conflict": false,
+      "separate_requests": 4328
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "seed": 202,
+      "marginal_requests": 4916,
+      "marginal_conflict": false,
+      "greedy_requests": 4130,
+      "greedy_conflict": false,
+      "exact_requests": 4130,
+      "exact_conflict": false,
+      "separate_requests": 4309
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "seed": 303,
+      "marginal_requests": 4920,
+      "marginal_conflict": false,
+      "greedy_requests": 4280,
+      "greedy_conflict": false,
+      "exact_requests": 4280,
+      "exact_conflict": false,
+      "separate_requests": 4318
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "seed": 101,
+      "marginal_requests": 4489,
+      "marginal_conflict": false,
+      "greedy_requests": 4200,
+      "greedy_conflict": false,
+      "exact_requests": 4190,
+      "exact_conflict": false,
+      "separate_requests": 4200
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "seed": 202,
+      "marginal_requests": 4497,
+      "marginal_conflict": false,
+      "greedy_requests": 4344,
+      "greedy_conflict": false,
+      "exact_requests": 4344,
+      "exact_conflict": false,
+      "separate_requests": 4328
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "seed": 303,
+      "marginal_requests": 4371,
+      "marginal_conflict": false,
+      "greedy_requests": 4200,
+      "greedy_conflict": false,
+      "exact_requests": 4200,
+      "exact_conflict": false,
+      "separate_requests": 4200
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "seed": 101,
+      "marginal_requests": 4765,
+      "marginal_conflict": false,
+      "greedy_requests": 4502,
+      "greedy_conflict": false,
+      "exact_requests": 4500,
+      "exact_conflict": false,
+      "separate_requests": 4513
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "seed": 202,
+      "marginal_requests": 4762,
+      "marginal_conflict": false,
+      "greedy_requests": 4513,
+      "greedy_conflict": false,
+      "exact_requests": 4513,
+      "exact_conflict": false,
+      "separate_requests": 4495
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "seed": 303,
+      "marginal_requests": 4766,
+      "marginal_conflict": false,
+      "greedy_requests": 4613,
+      "greedy_conflict": false,
+      "exact_requests": 4467,
+      "exact_conflict": false,
+      "separate_requests": 4506
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "seed": 101,
+      "marginal_requests": 4653,
+      "marginal_conflict": false,
+      "greedy_requests": 3342,
+      "greedy_conflict": false,
+      "exact_requests": 3342,
+      "exact_conflict": false,
+      "separate_requests": 3364
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "seed": 202,
+      "marginal_requests": 4655,
+      "marginal_conflict": false,
+      "greedy_requests": 3304,
+      "greedy_conflict": false,
+      "exact_requests": 3304,
+      "exact_conflict": false,
+      "separate_requests": 3304
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "seed": 303,
+      "marginal_requests": 4653,
+      "marginal_conflict": false,
+      "greedy_requests": 3304,
+      "greedy_conflict": false,
+      "exact_requests": 3304,
+      "exact_conflict": false,
+      "separate_requests": 3325
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "seed": 101,
+      "marginal_requests": 4980,
+      "marginal_conflict": false,
+      "greedy_requests": 4444,
+      "greedy_conflict": false,
+      "exact_requests": 4426,
+      "exact_conflict": false,
+      "separate_requests": 4456
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "seed": 202,
+      "marginal_requests": 4981,
+      "marginal_conflict": false,
+      "greedy_requests": 4436,
+      "greedy_conflict": false,
+      "exact_requests": 4375,
+      "exact_conflict": false,
+      "separate_requests": 4373
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "seed": 303,
+      "marginal_requests": 4981,
+      "marginal_conflict": false,
+      "greedy_requests": 4515,
+      "greedy_conflict": false,
+      "exact_requests": 4754,
+      "exact_conflict": false,
+      "separate_requests": 4712
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "seed": 101,
+      "marginal_requests": 4928,
+      "marginal_conflict": false,
+      "greedy_requests": 4012,
+      "greedy_conflict": false,
+      "exact_requests": 4018,
+      "exact_conflict": false,
+      "separate_requests": 4066
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "seed": 202,
+      "marginal_requests": 4925,
+      "marginal_conflict": false,
+      "greedy_requests": 4336,
+      "greedy_conflict": false,
+      "exact_requests": 4147,
+      "exact_conflict": false,
+      "separate_requests": 4236
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "seed": 303,
+      "marginal_requests": 4929,
+      "marginal_conflict": false,
+      "greedy_requests": 4148,
+      "greedy_conflict": false,
+      "exact_requests": 4130,
+      "exact_conflict": false,
+      "separate_requests": 4209
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "seed": 101,
+      "marginal_requests": 4929,
+      "marginal_conflict": false,
+      "greedy_requests": 4200,
+      "greedy_conflict": false,
+      "exact_requests": 4158,
+      "exact_conflict": false,
+      "separate_requests": 4247
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "seed": 202,
+      "marginal_requests": 4930,
+      "marginal_conflict": false,
+      "greedy_requests": 4200,
+      "greedy_conflict": false,
+      "exact_requests": 4213,
+      "exact_conflict": false,
+      "separate_requests": 4250
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "seed": 303,
+      "marginal_requests": 4931,
+      "marginal_conflict": false,
+      "greedy_requests": 4235,
+      "greedy_conflict": false,
+      "exact_requests": 4220,
+      "exact_conflict": false,
+      "separate_requests": 4339
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "seed": 101,
+      "marginal_requests": 4915,
+      "marginal_conflict": false,
+      "greedy_requests": 4320,
+      "greedy_conflict": false,
+      "exact_requests": 4275,
+      "exact_conflict": false,
+      "separate_requests": 4318
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "seed": 202,
+      "marginal_requests": 4910,
+      "marginal_conflict": false,
+      "greedy_requests": 4225,
+      "greedy_conflict": false,
+      "exact_requests": 4222,
+      "exact_conflict": false,
+      "separate_requests": 4251
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "seed": 303,
+      "marginal_requests": 4917,
+      "marginal_conflict": false,
+      "greedy_requests": 4289,
+      "greedy_conflict": false,
+      "exact_requests": 4223,
+      "exact_conflict": false,
+      "separate_requests": 4327
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "seed": 101,
+      "marginal_requests": 4973,
+      "marginal_conflict": false,
+      "greedy_requests": 4503,
+      "greedy_conflict": false,
+      "exact_requests": 4456,
+      "exact_conflict": false,
+      "separate_requests": 4501
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "seed": 202,
+      "marginal_requests": 4972,
+      "marginal_conflict": false,
+      "greedy_requests": 4369,
+      "greedy_conflict": false,
+      "exact_requests": 4381,
+      "exact_conflict": false,
+      "separate_requests": 4372
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "seed": 303,
+      "marginal_requests": 4972,
+      "marginal_conflict": false,
+      "greedy_requests": 4453,
+      "greedy_conflict": false,
+      "exact_requests": 4418,
+      "exact_conflict": false,
+      "separate_requests": 4456
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "seed": 101,
+      "marginal_requests": 4894,
+      "marginal_conflict": false,
+      "greedy_requests": 4734,
+      "greedy_conflict": false,
+      "exact_requests": 4737,
+      "exact_conflict": false,
+      "separate_requests": 4780
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "seed": 202,
+      "marginal_requests": 4895,
+      "marginal_conflict": false,
+      "greedy_requests": 4780,
+      "greedy_conflict": false,
+      "exact_requests": 4756,
+      "exact_conflict": false,
+      "separate_requests": 4726
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "seed": 303,
+      "marginal_requests": 4891,
+      "marginal_conflict": false,
+      "greedy_requests": 4809,
+      "greedy_conflict": false,
+      "exact_requests": 4764,
+      "exact_conflict": false,
+      "separate_requests": 4779
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "seed": 101,
+      "marginal_requests": 4929,
+      "marginal_conflict": false,
+      "greedy_requests": 4584,
+      "greedy_conflict": false,
+      "exact_requests": 4584,
+      "exact_conflict": false,
+      "separate_requests": 4616
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "seed": 202,
+      "marginal_requests": 4929,
+      "marginal_conflict": false,
+      "greedy_requests": 4700,
+      "greedy_conflict": false,
+      "exact_requests": 4701,
+      "exact_conflict": false,
+      "separate_requests": 4589
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "seed": 303,
+      "marginal_requests": 4931,
+      "marginal_conflict": false,
+      "greedy_requests": 4661,
+      "greedy_conflict": false,
+      "exact_requests": 4657,
+      "exact_conflict": false,
+      "separate_requests": 4614
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "seed": 101,
+      "marginal_requests": 4925,
+      "marginal_conflict": false,
+      "greedy_requests": 3926,
+      "greedy_conflict": false,
+      "exact_requests": 3918,
+      "exact_conflict": false,
+      "separate_requests": 3951
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "seed": 202,
+      "marginal_requests": 4924,
+      "marginal_conflict": false,
+      "greedy_requests": 3909,
+      "greedy_conflict": false,
+      "exact_requests": 3914,
+      "exact_conflict": false,
+      "separate_requests": 3952
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "seed": 303,
+      "marginal_requests": 4924,
+      "marginal_conflict": false,
+      "greedy_requests": 3979,
+      "greedy_conflict": false,
+      "exact_requests": 3980,
+      "exact_conflict": false,
+      "separate_requests": 4025
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "seed": 101,
+      "marginal_requests": 4931,
+      "marginal_conflict": false,
+      "greedy_requests": 4380,
+      "greedy_conflict": false,
+      "exact_requests": 4371,
+      "exact_conflict": false,
+      "separate_requests": 4403
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "seed": 202,
+      "marginal_requests": 4930,
+      "marginal_conflict": false,
+      "greedy_requests": 4523,
+      "greedy_conflict": false,
+      "exact_requests": 4459,
+      "exact_conflict": false,
+      "separate_requests": 4406
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "seed": 303,
+      "marginal_requests": 4934,
+      "marginal_conflict": false,
+      "greedy_requests": 4454,
+      "greedy_conflict": false,
+      "exact_requests": 4436,
+      "exact_conflict": false,
+      "separate_requests": 4456
+    }
+  ],
+  "native_cases": [
+    {
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "full_bag": 6335,
+      "exact_right_requests": 9853,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9435,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9260,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9511,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9436,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9258,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9511,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9430,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9246,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9510,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9448,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9317,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9548,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9448,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9291,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9571,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9448,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9274,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9543,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "full_bag": 6466,
+      "exact_right_requests": 9865,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9370,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9290,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9528,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9370,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9292,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9522,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9369,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9283,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9475,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9448,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9299,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9515,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9448,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9282,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9535,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9448,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9278,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9537,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "full_bag": 4348,
+      "exact_right_requests": 9407,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9722,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9572,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9846,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9722,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9558,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9844,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9722,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9570,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9844,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9704,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9572,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9810,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9704,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9576,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9793,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9704,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9571,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9800,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "full_bag": 2470,
+      "exact_right_requests": 8558,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9850,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9706,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 9837,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9850,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9706,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 9834,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9850,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9708,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 9835,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9745,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9705,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 9826,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9748,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9709,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 9850,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9737,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9706,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 9820,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "full_bag": 178,
+      "exact_right_requests": 7078,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6458,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6452,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6508,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6457,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6453,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6499,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6441,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6433,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6499,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6510,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6509,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6764,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6544,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6538,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6778,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6531,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6525,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6778,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "full_bag": 133,
+      "exact_right_requests": 7110,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6490,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6480,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6520,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6510,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6496,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6522,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6470,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6459,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6512,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6577,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6570,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6790,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6589,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6584,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6791,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6545,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6535,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6798,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "full_bag": 41,
+      "exact_right_requests": 6127,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6872,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6871,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6926,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6882,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6878,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6921,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6849,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6845,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6917,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6838,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6837,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 7162,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6859,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6857,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 7167,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6836,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6833,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 7167,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "full_bag": 68,
+      "exact_right_requests": 5589,
+      "runs": [
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6852,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6853,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 125,
+          "oracle_requests": 6919,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6861,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6857,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 125,
+          "oracle_requests": 6923,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6843,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6838,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 125,
+          "oracle_requests": 6915,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6800,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 6796,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 101,
+          "budget": 500,
+          "oracle_requests": 7162,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6811,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 6806,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 202,
+          "budget": 500,
+          "oracle_requests": 7163,
+          "method": "cut_feedback_audit"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6800,
+          "method": "direct_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 6797,
+          "method": "count_allocation_feedback_audit_degree"
+        },
+        {
+          "seed": 303,
+          "budget": 500,
+          "oracle_requests": 7162,
+          "method": "cut_feedback_audit"
+        }
+      ]
+    }
+  ],
+  "mechanisms": {
+    "keywise_degree": {
+      "original": {
+        "runs": 96,
+        "cases": 32,
+        "oracle_requests": 421246,
+        "helper_requests": 0,
+        "mean_oracle_requests": 4387.979166666667,
+        "mean_helper_requests": 0,
+        "max_loss": 0.0647037584165709,
+        "mean_loss": 0.014802798476708533,
+        "loss_violations": 0,
+        "conflicts": 1,
+        "median_algorithm_seconds": 0.24827404972165823,
+        "max_algorithm_seconds": 1.8672675001434982
+      },
+      "control": {
+        "runs": 96,
+        "cases": 32,
+        "oracle_requests": 474989,
+        "helper_requests": 0,
+        "mean_oracle_requests": 4947.802083333333,
+        "mean_helper_requests": 0,
+        "max_loss": 0.0,
+        "mean_loss": 0.0,
+        "loss_violations": 0,
+        "conflicts": 1,
+        "median_algorithm_seconds": 0.3162513996940106,
+        "max_algorithm_seconds": 1.8114907997660339
+      },
+      "original_vs_control": {
+        "pairs": 96,
+        "new_total": 421246,
+        "reference_total": 474989,
+        "pooled_saving_fraction": 0.11314577811275628,
+        "wins": 96,
+        "ties": 0,
+        "losses": 0,
+        "min_case_saving_fraction": 0.0032102728731941976,
+        "max_case_saving_fraction": 0.399
+      }
+    },
+    "fixed_mask_pruning_degree": {
+      "original": {
+        "runs": 96,
+        "cases": 32,
+        "oracle_requests": 421246,
+        "helper_requests": 0,
+        "mean_oracle_requests": 4387.979166666667,
+        "mean_helper_requests": 0,
+        "max_loss": 0.0647037584165709,
+        "mean_loss": 0.014802798476708533,
+        "loss_violations": 0,
+        "conflicts": 1,
+        "median_algorithm_seconds": 0.24827404972165823,
+        "max_algorithm_seconds": 1.8672675001434982
+      },
+      "control": {
+        "runs": 96,
+        "cases": 32,
+        "oracle_requests": 447704,
+        "helper_requests": 0,
+        "mean_oracle_requests": 4663.583333333333,
+        "mean_helper_requests": 0,
+        "max_loss": 0.025078994681094008,
+        "mean_loss": 0.004074185792932129,
+        "loss_violations": 0,
+        "conflicts": 1,
+        "median_algorithm_seconds": 0.16453609988093376,
+        "max_algorithm_seconds": 0.5199519000016153
+      },
+      "original_vs_control": {
+        "pairs": 96,
+        "new_total": 421246,
+        "reference_total": 447704,
+        "pooled_saving_fraction": 0.05909708200060759,
+        "wins": 95,
+        "ties": 1,
+        "losses": 0,
+        "min_case_saving_fraction": 0.0,
+        "max_case_saving_fraction": 0.25446009389671365
+      }
+    },
+    "separate_extrema_degree": {
+      "original": {
+        "runs": 96,
+        "cases": 32,
+        "oracle_requests": 421246,
+        "helper_requests": 0,
+        "mean_oracle_requests": 4387.979166666667,
+        "mean_helper_requests": 0,
+        "max_loss": 0.0647037584165709,
+        "mean_loss": 0.014802798476708533,
+        "loss_violations": 0,
+        "conflicts": 1,
+        "median_algorithm_seconds": 0.24827404972165823,
+        "max_algorithm_seconds": 1.8672675001434982
+      },
+      "control": {
+        "runs": 96,
+        "cases": 32,
+        "oracle_requests": 424746,
+        "helper_requests": 0,
+        "mean_oracle_requests": 4424.4375,
+        "mean_helper_requests": 0,
+        "max_loss": 0.057915014446788135,
+        "mean_loss": 0.013712104143079742,
+        "loss_violations": 0,
+        "conflicts": 1,
+        "median_algorithm_seconds": 0.2458890499547124,
+        "max_algorithm_seconds": 1.4576564999297261
+      },
+      "original_vs_control": {
+        "pairs": 96,
+        "new_total": 421246,
+        "reference_total": 424746,
+        "pooled_saving_fraction": 0.008240218860212978,
+        "wins": 38,
+        "ties": 58,
+        "losses": 0,
+        "min_case_saving_fraction": 0.0,
+        "max_case_saving_fraction": 0.1257367387033399
+      }
+    }
+  },
+  "price_plot": [
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.0,
+      "complete_token_cost": 23906343.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.3735224011873548
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.01,
+      "complete_token_cost": 23906343.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.3735224011873548
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.05,
+      "complete_token_cost": 23906343.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.3735224011873548
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.1,
+      "complete_token_cost": 23906343.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.3735224011873548
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 1.0,
+      "complete_token_cost": 23906343.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.3735224011873548
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.0,
+      "complete_token_cost": 23957063.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.5885977498589776
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.01,
+      "complete_token_cost": 23957063.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.5885977498589776
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.05,
+      "complete_token_cost": 23957063.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.5885977498589776
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.1,
+      "complete_token_cost": 23957063.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.5885977498589776
+    },
+    {
+      "method": "count_allocation_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 1.0,
+      "complete_token_cost": 23957063.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -1.5885977498589776
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.0,
+      "complete_token_cost": 24123657.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.295030372820306
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.01,
+      "complete_token_cost": 24123657.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.295030372820306
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.05,
+      "complete_token_cost": 24123657.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.295030372820306
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.1,
+      "complete_token_cost": 24123657.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.295030372820306
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 125,
+      "helper_to_oracle_token_price": 1.0,
+      "complete_token_cost": 24123657.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.295030372820306
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.0,
+      "complete_token_cost": 24143635.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.3797459744717697
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.01,
+      "complete_token_cost": 24143635.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.3797459744717697
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.05,
+      "complete_token_cost": 24143635.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.3797459744717697
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.1,
+      "complete_token_cost": 24143635.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.3797459744717697
+    },
+    {
+      "method": "direct_feedback_audit_degree",
+      "budget": 500,
+      "helper_to_oracle_token_price": 1.0,
+      "complete_token_cost": 24143635.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -2.3797459744717697
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.0,
+      "complete_token_cost": 24312305.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -3.0949817603637353
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.01,
+      "complete_token_cost": 24608947.28,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -4.352876906297154
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.05,
+      "complete_token_cost": 25795516.4,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -9.384457490030806
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 125,
+      "helper_to_oracle_token_price": 0.1,
+      "complete_token_cost": 27278727.8,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -15.6739332196979
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 125,
+      "helper_to_oracle_token_price": 1.0,
+      "complete_token_cost": 53976533.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -128.88449635370534
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.0,
+      "complete_token_cost": 24704215.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -4.756854392419996
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.01,
+      "complete_token_cost": 25000857.28,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -6.014749538353414
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.05,
+      "complete_token_cost": 26187426.4,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -11.046330122087067
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 500,
+      "helper_to_oracle_token_price": 0.1,
+      "complete_token_cost": 27670637.8,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -17.335805851754138
+    },
+    {
+      "method": "cut_feedback_audit",
+      "budget": 500,
+      "helper_to_oracle_token_price": 1.0,
+      "complete_token_cost": 54368443.0,
+      "exact_right_token_cost": 23582433,
+      "saving_percent": -130.54636898576155
+    }
+  ],
+  "table_groups": [
+    {
+      "cohort": "constructed",
+      "rows": [
+        {
+          "method": "exact_scan",
+          "label": "Identity scan",
+          "exact_mean_requests": 5000.0,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 240000,
+              "pooled_saving_fraction": 0.13259166666666666,
+              "wins": 48,
+              "ties": 0,
+              "losses": 0,
+              "min_case_saving_fraction": 0.02839999999999998,
+              "max_case_saving_fraction": 0.46340000000000003
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 240000,
+              "pooled_saving_fraction": 0.17682083333333332,
+              "wins": 48,
+              "ties": 0,
+              "losses": 0,
+              "min_case_saving_fraction": 0.04720000000000002,
+              "max_case_saving_fraction": 0.39959999999999996
+            }
+          ]
+        },
+        {
+          "method": "left_first",
+          "label": "Left-first",
+          "exact_mean_requests": 4906.1875,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 235497,
+              "pooled_saving_fraction": 0.11600572406442544,
+              "wins": 42,
+              "ties": 0,
+              "losses": 6,
+              "min_case_saving_fraction": -0.0211250890102066,
+              "max_case_saving_fraction": 0.46210906174819566
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 235497,
+              "pooled_saving_fraction": 0.16108060824554027,
+              "wins": 46,
+              "ties": 0,
+              "losses": 2,
+              "min_case_saving_fraction": -0.031094232138618505,
+              "max_case_saving_fraction": 0.39815557337610263
+            }
+          ]
+        },
+        {
+          "method": "right_first",
+          "label": "Right-first",
+          "exact_mean_requests": 4835.125,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 232086,
+              "pooled_saving_fraction": 0.10301353808502023,
+              "wins": 44,
+              "ties": 1,
+              "losses": 3,
+              "min_case_saving_fraction": -0.06775874906924795,
+              "max_case_saving_fraction": 0.4617853560682046
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 232086,
+              "pooled_saving_fraction": 0.14875089406513098,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.07818317200297842,
+              "max_case_saving_fraction": 0.3977933801404213
+            }
+          ]
+        },
+        {
+          "method": "cover",
+          "label": "Cover + residual",
+          "exact_mean_requests": 4847.3125,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 232671,
+              "pooled_saving_fraction": 0.10526881304502922,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.027220630372492893,
+              "max_case_saving_fraction": 0.4618933012434817
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 232671,
+              "pooled_saving_fraction": 0.150891172513979,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.0372492836676217,
+              "max_case_saving_fraction": 0.3979141596470116
+            }
+          ]
+        },
+        {
+          "method": "helper_greedy",
+          "label": "Helper greedy",
+          "exact_mean_requests": 4871.0,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 233808,
+              "pooled_saving_fraction": 0.10961985902963112,
+              "wins": 44,
+              "ties": 0,
+              "losses": 4,
+              "min_case_saving_fraction": -0.02477370176274407,
+              "max_case_saving_fraction": 0.4607035175879397
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 233808,
+              "pooled_saving_fraction": 0.15502035858482177,
+              "wins": 46,
+              "ties": 0,
+              "losses": 2,
+              "min_case_saving_fraction": -0.034778465936160075,
+              "max_case_saving_fraction": 0.3965829145728643
+            }
+          ]
+        },
+        {
+          "method": "dynamic_max_degree",
+          "label": "Dynamic degree",
+          "exact_mean_requests": 4847.3125,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 232671,
+              "pooled_saving_fraction": 0.10526881304502922,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.027220630372492893,
+              "max_case_saving_fraction": 0.4618933012434817
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 232671,
+              "pooled_saving_fraction": 0.150891172513979,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.0372492836676217,
+              "max_case_saving_fraction": 0.3979141596470116
+            }
+          ]
+        },
+        {
+          "method": "helper_negative_first",
+          "label": "Negative-first helper",
+          "exact_mean_requests": 4881.1875,
+          "comparisons": [
+            {
+              "pairs": 48,
+              "new_total": 208178,
+              "reference_total": 234297,
+              "pooled_saving_fraction": 0.11147816660051135,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.027220630372492893,
+              "max_case_saving_fraction": 0.4618933012434817
+            },
+            {
+              "pairs": 48,
+              "new_total": 197563,
+              "reference_total": 234297,
+              "pooled_saving_fraction": 0.15678391101892042,
+              "wins": 45,
+              "ties": 0,
+              "losses": 3,
+              "min_case_saving_fraction": -0.0372492836676217,
+              "max_case_saving_fraction": 0.3979141596470116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "native",
+      "rows": [
+        {
+          "method": "exact_scan",
+          "label": "Identity scan",
+          "exact_mean_requests": 9996,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 239904,
+              "pooled_saving_fraction": 0.19399426437241563,
+              "wins": 24,
+              "ties": 0,
+              "losses": 0,
+              "min_case_saving_fraction": 0.02881152460984393,
+              "max_case_saving_fraction": 0.3564425770308123
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 239904,
+              "pooled_saving_fraction": 0.1923144257703081,
+              "wins": 24,
+              "ties": 0,
+              "losses": 0,
+              "min_case_saving_fraction": 0.028711484593837544,
+              "max_case_saving_fraction": 0.3488395358143257
+            }
+          ]
+        },
+        {
+          "method": "left_first",
+          "label": "Left-first",
+          "exact_mean_requests": 8204.625,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 196911,
+              "pooled_saving_fraction": 0.01801321409164547,
+              "wins": 14,
+              "ties": 0,
+              "losses": 10,
+              "min_case_saving_fraction": -0.00822598168555011,
+              "max_case_saving_fraction": 0.04513064133016631
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 196911,
+              "pooled_saving_fraction": 0.015966604201898327,
+              "wins": 17,
+              "ties": 0,
+              "losses": 7,
+              "min_case_saving_fraction": -0.021884215427595777,
+              "max_case_saving_fraction": 0.042238975524114375
+            }
+          ]
+        },
+        {
+          "method": "right_first",
+          "label": "Right-first",
+          "exact_mean_requests": 7948.375,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 190761,
+              "pooled_saving_fraction": -0.01364534679520446,
+              "wins": 12,
+              "ties": 0,
+              "losses": 12,
+              "min_case_saving_fraction": -0.22687421721238143,
+              "max_case_saving_fraction": 0.09156118143459913
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 190761,
+              "pooled_saving_fraction": -0.01575793794329039,
+              "wins": 12,
+              "ties": 0,
+              "losses": 12,
+              "min_case_saving_fraction": -0.2177491501162998,
+              "max_case_saving_fraction": 0.08087201125175814
+            }
+          ]
+        },
+        {
+          "method": "cover",
+          "label": "Cover + residual",
+          "exact_mean_requests": 8204.625,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 196911,
+              "pooled_saving_fraction": 0.01801321409164547,
+              "wins": 14,
+              "ties": 0,
+              "losses": 10,
+              "min_case_saving_fraction": -0.00822598168555011,
+              "max_case_saving_fraction": 0.04513064133016631
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 196911,
+              "pooled_saving_fraction": 0.015966604201898327,
+              "wins": 17,
+              "ties": 0,
+              "losses": 7,
+              "min_case_saving_fraction": -0.021884215427595777,
+              "max_case_saving_fraction": 0.042238975524114375
+            }
+          ]
+        },
+        {
+          "method": "helper_greedy",
+          "label": "Helper greedy",
+          "exact_mean_requests": 8163.375,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 195921,
+              "pooled_saving_fraction": 0.013051178791451679,
+              "wins": 12,
+              "ties": 0,
+              "losses": 12,
+              "min_case_saving_fraction": -0.009540584177308187,
+              "max_case_saving_fraction": 0.04358128992375854
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 195921,
+              "pooled_saving_fraction": 0.010994227265071155,
+              "wins": 15,
+              "ties": 0,
+              "losses": 9,
+              "min_case_saving_fraction": -0.022836725182538542,
+              "max_case_saving_fraction": 0.04409643519472495
+            }
+          ]
+        },
+        {
+          "method": "dynamic_max_degree",
+          "label": "Dynamic degree",
+          "exact_mean_requests": 8204.625,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 196911,
+              "pooled_saving_fraction": 0.01801321409164547,
+              "wins": 14,
+              "ties": 0,
+              "losses": 10,
+              "min_case_saving_fraction": -0.00822598168555011,
+              "max_case_saving_fraction": 0.04513064133016631
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 196911,
+              "pooled_saving_fraction": 0.015966604201898327,
+              "wins": 17,
+              "ties": 0,
+              "losses": 7,
+              "min_case_saving_fraction": -0.021884215427595777,
+              "max_case_saving_fraction": 0.042238975524114375
+            }
+          ]
+        },
+        {
+          "method": "helper_negative_first",
+          "label": "Negative-first helper",
+          "exact_mean_requests": 7788.625,
+          "comparisons": [
+            {
+              "pairs": 24,
+              "new_total": 193364,
+              "reference_total": 186927,
+              "pooled_saving_fraction": -0.0344359027855794,
+              "wins": 9,
+              "ties": 0,
+              "losses": 15,
+              "min_case_saving_fraction": -0.13714759535655063,
+              "max_case_saving_fraction": 0.04166666666666663
+            },
+            {
+              "pairs": 24,
+              "new_total": 193767,
+              "reference_total": 186927,
+              "pooled_saving_fraction": -0.036591824616026614,
+              "wins": 9,
+              "ties": 0,
+              "losses": 15,
+              "min_case_saving_fraction": -0.12868988391376446,
+              "max_case_saving_fraction": 0.0387645107794361
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "matched": {
+      "path": "reproduction/runtime/allowance_sweep/matched_triplet_results.json",
+      "sha256": "996665fbfeb0b3a4e7cfb1d94a93df527f7b5885ef265e4dd6e1a4ac254f44ec"
+    },
+    "separate": {
+      "path": "reproduction/runtime/allowance_sweep/sep_extrema_results.json",
+      "sha256": "f25befe05ec6a969f7cf73e55058d34043b5d01b019e85777b75300fe3be0bf8"
+    },
+    "metrics": {
+      "path": "reproduction/runtime/generated_extensions/metrics_final.json",
+      "sha256": "102be4f433805a6a1217e17efa46be434f3a228a98d5e96725b91324fdf115d9"
+    },
+    "native": {
+      "path": "reproduction/runtime/native_discussion/execution/per_cell.csv",
+      "sha256": "c59151c18bed39009f4d69c26e078bb8849f8da28671b8a30b1caff2f67edb5e"
+    }
+  },
+  "statistics": "Fixed-target descriptive summaries; native whiskers span budgets and seeds, not confidence intervals."
+}

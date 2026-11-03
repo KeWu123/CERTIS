@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "palette_id": "certis-icde2027-navy-v1",
+  "paper_id": "certis-icde2027",
+  "status": "frozen",
+  "description": "One shared semantic color system for every figure in a paper.",
+  "semantic": {
+    "canvas": "#FFFFFF",
+    "ink": "#27343F",
+    "muted": "#596168",
+    "stroke": "#CBD2D8",
+    "neutral": "#7C8186",
+    "accent": "#2D485E",
+    "secondary": "#55766F",
+    "success": "#15803D",
+    "warning": "#B45309",
+    "danger": "#B91C1C"
+  },
+  "chart_roles": {
+    "ours": "#2D485E",
+    "strong_baseline": "#55766F",
+    "other_baselines": "#7C8186",
+    "upper_bound": "#27343F",
+    "positive": "#15803D",
+    "negative": "#B91C1C",
+    "uncertainty": "#ABB2B8"
+  },
+  "rules": {
+    "freeze_before_final_figures": true,
+    "same_entity_same_color_across_figures": true,
+    "ours_color_constant": true,
+    "baseline_color_constant": true,
+    "status_color_requires_redundant_encoding": true,
+    "maximum_semantic_hues": 5,
+    "card_tints_derive_from_semantic_hues": true,
+    "background_policy": "white"
+  },
+  "methods": {
+    "joint_exact": "#2D485E",
+    "joint_greedy": "#2D485E",
+    "per_side": "#596168",
+    "separate_extrema": "#ABB2B8",
+    "degree_prefix": "#7C8186",
+    "paid_cut": "#55766F",
+    "exact_right": "#27343F"
+  },
+  "scope": "New quantitative figures inherit the existing manuscript navy/gray/teal roles; the existing method diagram is preserved."
+}

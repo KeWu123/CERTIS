@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+outputs/
+*.log
+*.gguf
+*.safetensors
+*.pem
+*.key
+.env
+.env.*
+**/marginal_checks.json
+**/*checks_result.json

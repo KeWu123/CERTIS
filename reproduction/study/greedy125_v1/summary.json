@@ -1,0 +1,871 @@
+{
+  "source_id": "08e13ace7b533e17a24e2d0a156ab490db8f5e2bd524ad743e9167ce3261228e",
+  "verified": 48,
+  "expected": 48,
+  "rows": [
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 2683,
+      "loss": 0.04147792291132736,
+      "raw_sha256": "490f0fd619fb1400eb37db803e80499cf6ff5be814761bfb7f6b55bf79ba0fa3",
+      "timings": {
+        "preprocessing_seconds": 0.0012214999878779054,
+        "audit_seconds": 0.008780999924056232,
+        "projection_seconds": 0.37115950020961463,
+        "execution_bookkeeping_seconds": 0.056473299860954285,
+        "algorithm_seconds": 0.4408203999046236,
+        "planner_process_cpu_seconds": 0.3125,
+        "planner_wall_seconds": 0.33904490037821233
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 2683,
+      "loss": 0.03018667035509425,
+      "raw_sha256": "32f693f5226504e754b4c048fe3365f53bcdb776527b2c75b552a4915f2e6ea6",
+      "timings": {
+        "preprocessing_seconds": 0.0014035999774932861,
+        "audit_seconds": 0.007491199998185039,
+        "projection_seconds": 0.4176973004359752,
+        "execution_bookkeeping_seconds": 0.059483599732629955,
+        "algorithm_seconds": 0.48930860008113086,
+        "planner_process_cpu_seconds": 0.328125,
+        "planner_wall_seconds": 0.38571889977902174
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 3066,
+      "loss": 0.01890345942877086,
+      "raw_sha256": "7d630a151447a74fc47235132d75a10f3fcfe9a19a69bb003da05fb1ff1ff1d0",
+      "timings": {
+        "preprocessing_seconds": 0.0012169999536126852,
+        "audit_seconds": 0.00862290000077337,
+        "projection_seconds": 0.4355113999918103,
+        "execution_bookkeeping_seconds": 0.06632690026890486,
+        "algorithm_seconds": 0.515425099991262,
+        "planner_process_cpu_seconds": 0.359375,
+        "planner_wall_seconds": 0.4002791999373585
+      }
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 3066,
+      "loss": 0.0015089563862928348,
+      "raw_sha256": "2af9f2b23a998eb834bdcf45d8b922b99cdbdec448f8531d0a89df9b3e2d2934",
+      "timings": {
+        "preprocessing_seconds": 0.0012781999539583921,
+        "audit_seconds": 0.0071992999874055386,
+        "projection_seconds": 0.4879848000127822,
+        "execution_bookkeeping_seconds": 0.06686670007184148,
+        "algorithm_seconds": 0.5671500000171363,
+        "planner_process_cpu_seconds": 0.453125,
+        "planner_wall_seconds": 0.45304809999652207
+      }
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 3033,
+      "loss": 0.0019359777683375815,
+      "raw_sha256": "67fcaac6065d95a663e4b4a15ba3c1d745bdc298b5f578adc4b382be37508fae",
+      "timings": {
+        "preprocessing_seconds": 0.0012413000222295523,
+        "audit_seconds": 0.007395799970254302,
+        "projection_seconds": 0.5098616000032052,
+        "execution_bookkeeping_seconds": 0.06839160027448088,
+        "algorithm_seconds": 0.5906954000238329,
+        "planner_process_cpu_seconds": 0.515625,
+        "planner_wall_seconds": 0.47450060001574457
+      }
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 3669,
+      "loss": 0.003438296516567545,
+      "raw_sha256": "5d693b4ac8dc3d8f925b03870e79b422d16b63a460c478f2d19437b27edc26c9",
+      "timings": {
+        "preprocessing_seconds": 0.001193900010548532,
+        "audit_seconds": 0.00677089998498559,
+        "projection_seconds": 0.567477900069207,
+        "execution_bookkeeping_seconds": 0.09121640003286302,
+        "algorithm_seconds": 0.6711905000265688,
+        "planner_process_cpu_seconds": 0.5,
+        "planner_wall_seconds": 0.5258396997814998
+      }
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4834,
+      "loss": 0.0014518593988792664,
+      "raw_sha256": "1b002a0a5c664d93dbf919826e933ac73e5bbc13a663b3a9cef73d9ff8866f1e",
+      "timings": {
+        "preprocessing_seconds": 0.0012378999963402748,
+        "audit_seconds": 0.004946000059135258,
+        "projection_seconds": 0.7595786999445409,
+        "execution_bookkeeping_seconds": 0.12923389999195933,
+        "algorithm_seconds": 0.9005954000167549,
+        "planner_process_cpu_seconds": 0.765625,
+        "planner_wall_seconds": 0.69230019999668
+      }
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4647,
+      "loss": 0.006265919510952624,
+      "raw_sha256": "725015775fd3a076ac7c742d59f95b3aa104174e77047d0f6008c7700169ed62",
+      "timings": {
+        "preprocessing_seconds": 0.0013517000479623675,
+        "audit_seconds": 0.0051663999911397696,
+        "projection_seconds": 0.7241895996266976,
+        "execution_bookkeeping_seconds": 0.12485300016123801,
+        "algorithm_seconds": 0.860865700058639,
+        "planner_process_cpu_seconds": 0.59375,
+        "planner_wall_seconds": 0.6759858002187684
+      }
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4747,
+      "loss": 0.000967906265919511,
+      "raw_sha256": "42fb1029511dc956e45da7050a8384445b281571081410475bdc5eff82b53621",
+      "timings": {
+        "preprocessing_seconds": 0.0012034999672323465,
+        "audit_seconds": 0.004685800056904554,
+        "projection_seconds": 0.7365726003190503,
+        "execution_bookkeeping_seconds": 0.129304199363105,
+        "algorithm_seconds": 0.8771308999275789,
+        "planner_process_cpu_seconds": 0.734375,
+        "planner_wall_seconds": 0.6889503999846056
+      }
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4828,
+      "loss": 0.08155771984292377,
+      "raw_sha256": "96a0f45caf9e0b945d0016555aad03aedc0f48b4dd71e75e49b3e83d4b4ad5ec",
+      "timings": {
+        "preprocessing_seconds": 0.001231500064022839,
+        "audit_seconds": 0.0061749001033604145,
+        "projection_seconds": 0.7368556996807456,
+        "execution_bookkeeping_seconds": 0.1327662004623562,
+        "algorithm_seconds": 0.8827433999394998,
+        "planner_process_cpu_seconds": 0.578125,
+        "planner_wall_seconds": 0.6872827995102853
+      }
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4645,
+      "loss": 0.009172230964431025,
+      "raw_sha256": "79019118a092d34c0e87df309949409381aac252a51784372988ded869e22d72",
+      "timings": {
+        "preprocessing_seconds": 0.0011931000044569373,
+        "audit_seconds": 0.005537599907256663,
+        "projection_seconds": 0.7295375000685453,
+        "execution_bookkeeping_seconds": 0.13287860015407205,
+        "algorithm_seconds": 0.8745218999683857,
+        "planner_process_cpu_seconds": 0.671875,
+        "planner_wall_seconds": 0.682286300114356
+      }
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4816,
+      "loss": 0.06833099420178908,
+      "raw_sha256": "44da5ea9cea15923399392138bc9233e4a3f672f6a35656da90da352e56a6a50",
+      "timings": {
+        "preprocessing_seconds": 0.0012519999872893095,
+        "audit_seconds": 0.004802400013431907,
+        "projection_seconds": 0.7407385007245466,
+        "execution_bookkeeping_seconds": 0.13420749979559332,
+        "algorithm_seconds": 0.8864827000070363,
+        "planner_process_cpu_seconds": 0.65625,
+        "planner_wall_seconds": 0.6935170007636771
+      }
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4288,
+      "loss": 0.013023255813953489,
+      "raw_sha256": "4fcf2e63c9b80612f9f6da1098211f522f30510633189c359defe21455612207",
+      "timings": {
+        "preprocessing_seconds": 0.0014372000005096197,
+        "audit_seconds": 0.0032380999764427543,
+        "projection_seconds": 0.6990532000781968,
+        "execution_bookkeeping_seconds": 0.10943009983748198,
+        "algorithm_seconds": 0.8182547999313101,
+        "planner_process_cpu_seconds": 0.703125,
+        "planner_wall_seconds": 0.6547561998013407
+      }
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4302,
+      "loss": 0.026046511627906978,
+      "raw_sha256": "db34885c8f91bd20dc385bf6640847559432c69e108ac042d03d784d07e84c74",
+      "timings": {
+        "preprocessing_seconds": 0.0011911999899894,
+        "audit_seconds": 0.0023959000827744603,
+        "projection_seconds": 0.7161283998284489,
+        "execution_bookkeeping_seconds": 0.11089769983664155,
+        "algorithm_seconds": 0.8355652000755072,
+        "planner_process_cpu_seconds": 0.671875,
+        "planner_wall_seconds": 0.672121699899435
+      }
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4258,
+      "loss": 0.0,
+      "raw_sha256": "635751e41d32f9bc01941dd846ca174873e7f55c8be6596064f2f5c9a4637999",
+      "timings": {
+        "preprocessing_seconds": 0.001330800005234778,
+        "audit_seconds": 0.0037091000704094768,
+        "projection_seconds": 0.7059822001028806,
+        "execution_bookkeeping_seconds": 0.11098130012396723,
+        "algorithm_seconds": 0.8269902000902221,
+        "planner_process_cpu_seconds": 0.640625,
+        "planner_wall_seconds": 0.661772099789232
+      }
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4633,
+      "loss": 0.024917065978621453,
+      "raw_sha256": "c5c01da370e572ef3ae57e9be04d122d65b8407743c5718c3d5ff826b1f5af9b",
+      "timings": {
+        "preprocessing_seconds": 0.001243300037458539,
+        "audit_seconds": 0.0033644000068306923,
+        "projection_seconds": 0.7264122001361102,
+        "execution_bookkeeping_seconds": 0.12407160026486963,
+        "algorithm_seconds": 0.8606390000786632,
+        "planner_process_cpu_seconds": 0.734375,
+        "planner_wall_seconds": 0.6789833998773247
+      }
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4660,
+      "loss": 0.023037228160707704,
+      "raw_sha256": "cd3d7e3e459c90d29562c81816835539f40d0bd422f373fb32ec576634b7705b",
+      "timings": {
+        "preprocessing_seconds": 0.0012162000639364123,
+        "audit_seconds": 0.004194999928586185,
+        "projection_seconds": 0.7198248001514003,
+        "execution_bookkeeping_seconds": 0.12387149932328612,
+        "algorithm_seconds": 0.8543239000719041,
+        "planner_process_cpu_seconds": 0.65625,
+        "planner_wall_seconds": 0.674475199659355
+      }
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4656,
+      "loss": 0.03077773682270549,
+      "raw_sha256": "4a9833a655e6dcdfbcb324ca57e4f95af4973a1434e66767e92823f972329e9e",
+      "timings": {
+        "preprocessing_seconds": 0.0012550000101327896,
+        "audit_seconds": 0.004147200030274689,
+        "projection_seconds": 0.7148109001573175,
+        "execution_bookkeeping_seconds": 0.12386699998751283,
+        "algorithm_seconds": 0.8493941000197083,
+        "planner_process_cpu_seconds": 0.609375,
+        "planner_wall_seconds": 0.6690235000569373
+      }
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4470,
+      "loss": 0.024977768478317727,
+      "raw_sha256": "f310608ad52ca7385404419b2e7fcea73ba408eda18e47e5d25b278a5a744d39",
+      "timings": {
+        "preprocessing_seconds": 0.0012105000205338001,
+        "audit_seconds": 0.004111099988222122,
+        "projection_seconds": 0.6973407001933083,
+        "execution_bookkeeping_seconds": 0.11452610022388399,
+        "algorithm_seconds": 0.8225454000057653,
+        "planner_process_cpu_seconds": 0.625,
+        "planner_wall_seconds": 0.6528540997533128
+      }
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4294,
+      "loss": 0.004590155359104462,
+      "raw_sha256": "4a65705de3d00a7072e9140360cf570e06df67b63a319e0b045ae7846a3bd339",
+      "timings": {
+        "preprocessing_seconds": 0.0011822000378742814,
+        "audit_seconds": 0.003981999936513603,
+        "projection_seconds": 0.6929316995665431,
+        "execution_bookkeeping_seconds": 0.10876359976828098,
+        "algorithm_seconds": 0.8119146999670193,
+        "planner_process_cpu_seconds": 0.65625,
+        "planner_wall_seconds": 0.6491574995452538
+      }
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4467,
+      "loss": 0.02704399225819951,
+      "raw_sha256": "a8698958250a9bb4fe07991c2b81bc1759f0c31a0386359eff933cae01799d06",
+      "timings": {
+        "preprocessing_seconds": 0.0011945998994633555,
+        "audit_seconds": 0.003600100055336952,
+        "projection_seconds": 0.7143956002546474,
+        "execution_bookkeeping_seconds": 0.11611999990418553,
+        "algorithm_seconds": 0.8407548000104725,
+        "planner_process_cpu_seconds": 0.671875,
+        "planner_wall_seconds": 0.6682444999460131
+      }
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4858,
+      "loss": 0.004819888381532217,
+      "raw_sha256": "a118b0de6d7728bd1466449a279beaab7c35a1798167e6d3ed0d029d847caade",
+      "timings": {
+        "preprocessing_seconds": 0.001267199986614287,
+        "audit_seconds": 0.00323000003118068,
+        "projection_seconds": 0.7589470996754244,
+        "execution_bookkeeping_seconds": 0.1368664001347497,
+        "algorithm_seconds": 0.9068922000005841,
+        "planner_process_cpu_seconds": 0.546875,
+        "planner_wall_seconds": 0.7094944005366415
+      }
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4858,
+      "loss": 0.009470657872484356,
+      "raw_sha256": "22bb8a684dcde54cee81c0c067500f3223d241209e0ca492f81ec60841c5fff2",
+      "timings": {
+        "preprocessing_seconds": 0.0012055999832227826,
+        "audit_seconds": 0.0033042000140994787,
+        "projection_seconds": 0.7419120001140982,
+        "execution_bookkeeping_seconds": 0.13067600049544126,
+        "algorithm_seconds": 0.8826675000600517,
+        "planner_process_cpu_seconds": 0.734375,
+        "planner_wall_seconds": 0.6946832997491583
+      }
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4858,
+      "loss": 0.018941315744968712,
+      "raw_sha256": "4d3df02798f028de5f2c732cda7baab5a14e824811ff55609d4bf53e27a4cb21",
+      "timings": {
+        "preprocessing_seconds": 0.001236199983395636,
+        "audit_seconds": 0.003811800037510693,
+        "projection_seconds": 0.7548485002480447,
+        "execution_bookkeeping_seconds": 0.13188729947432876,
+        "algorithm_seconds": 0.8974353999365121,
+        "planner_process_cpu_seconds": 0.703125,
+        "planner_wall_seconds": 0.7075259003322572
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4303,
+      "loss": 0.012086019115358969,
+      "raw_sha256": "4f0767263b7502a4eb49e224fc4b97432bb7aeb9c7d70a6940a9818d7ec50f97",
+      "timings": {
+        "preprocessing_seconds": 0.001295899972319603,
+        "audit_seconds": 0.01870100002270192,
+        "projection_seconds": 0.6033532002475113,
+        "execution_bookkeeping_seconds": 0.11508559994399548,
+        "algorithm_seconds": 0.7442833000095561,
+        "planner_process_cpu_seconds": 0.515625,
+        "planner_wall_seconds": 0.5477118000853807
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4409,
+      "loss": 0.01500333407423872,
+      "raw_sha256": "8d46e4d7080f1ce3c81d8dac8c984091c85124d60302d6a2db84ec251f1b7481",
+      "timings": {
+        "preprocessing_seconds": 0.0012919999426230788,
+        "audit_seconds": 0.016391700017265975,
+        "projection_seconds": 0.591478600166738,
+        "execution_bookkeeping_seconds": 0.11716100003104657,
+        "algorithm_seconds": 0.7316986999940127,
+        "planner_process_cpu_seconds": 0.546875,
+        "planner_wall_seconds": 0.5363630005158484
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4356,
+      "loss": 0.017809513225161146,
+      "raw_sha256": "2c75a07fca9d4b5beed90c28539430b3feedda9492bf5ddf32818bf05adb9b7a",
+      "timings": {
+        "preprocessing_seconds": 0.0013134999899193645,
+        "audit_seconds": 0.016761799925006926,
+        "projection_seconds": 0.5951451999135315,
+        "execution_bookkeeping_seconds": 0.11748450039885938,
+        "algorithm_seconds": 0.7360484999371693,
+        "planner_process_cpu_seconds": 0.546875,
+        "planner_wall_seconds": 0.5398663999512792
+      }
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4346,
+      "loss": 0.021046571136131013,
+      "raw_sha256": "b091693c651fbcb8c43a786017954f4240424af390bacafb8acb1f49d7dd26ba",
+      "timings": {
+        "preprocessing_seconds": 0.0013031000271439552,
+        "audit_seconds": 0.013633899972774088,
+        "projection_seconds": 0.5890268997754902,
+        "execution_bookkeeping_seconds": 0.11908649979159236,
+        "algorithm_seconds": 0.7289570999564603,
+        "planner_process_cpu_seconds": 0.515625,
+        "planner_wall_seconds": 0.5309150996617973
+      }
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4548,
+      "loss": 0.041645342886386896,
+      "raw_sha256": "a5623b6a2a63e2fdcc949a8d5efd3a5e1001733ee9c18357c08672a947ccf06d",
+      "timings": {
+        "preprocessing_seconds": 0.0012148000532761216,
+        "audit_seconds": 0.013429499929770827,
+        "projection_seconds": 0.6077417001361027,
+        "execution_bookkeeping_seconds": 0.12172610033303499,
+        "algorithm_seconds": 0.749526200001128,
+        "planner_process_cpu_seconds": 0.578125,
+        "planner_wall_seconds": 0.5529306002426893
+      }
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4346,
+      "loss": 0.020065677243261686,
+      "raw_sha256": "7c7e40ca6cdd74bd5916c8bf6e52b5ea106af996b9e7c4f4c1311e00433eacee",
+      "timings": {
+        "preprocessing_seconds": 0.001285300008021295,
+        "audit_seconds": 0.015619900077581406,
+        "projection_seconds": 0.5672739003784955,
+        "execution_bookkeeping_seconds": 0.11227759998291731,
+        "algorithm_seconds": 0.7017403000500053,
+        "planner_process_cpu_seconds": 0.515625,
+        "planner_wall_seconds": 0.5136291001690552
+      }
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4383,
+      "loss": 0.015580083527688887,
+      "raw_sha256": "ef936e86e52c1d28c29820b289545d1e72f1c2e28f3665d581b217d74d3a5920",
+      "timings": {
+        "preprocessing_seconds": 0.0012713000178337097,
+        "audit_seconds": 0.00999319995753467,
+        "projection_seconds": 0.5870815997477621,
+        "execution_bookkeeping_seconds": 0.11679940018802881,
+        "algorithm_seconds": 0.7208194000413641,
+        "planner_process_cpu_seconds": 0.484375,
+        "planner_wall_seconds": 0.5308085002470762
+      }
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4433,
+      "loss": 0.01228507891739437,
+      "raw_sha256": "60b803f6b9af7f4a56580cc213076302ad810ee76d456a52ef027b7dd79ab6be",
+      "timings": {
+        "preprocessing_seconds": 0.0012425000313669443,
+        "audit_seconds": 0.008650799980387092,
+        "projection_seconds": 0.5848962992895395,
+        "execution_bookkeeping_seconds": 0.11719070049002767,
+        "algorithm_seconds": 0.7174118000548333,
+        "planner_process_cpu_seconds": 0.53125,
+        "planner_wall_seconds": 0.5296236997237429
+      }
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4393,
+      "loss": 0.012529153332971742,
+      "raw_sha256": "4e79dd6fad773c538dcca998a20e8257eab7327e138f5a8c26ec8099d4b18a36",
+      "timings": {
+        "preprocessing_seconds": 0.0013047000393271446,
+        "audit_seconds": 0.007771599921397865,
+        "projection_seconds": 0.5824470999650657,
+        "execution_bookkeeping_seconds": 0.12101220001932234,
+        "algorithm_seconds": 0.7180582999717444,
+        "planner_process_cpu_seconds": 0.46875,
+        "planner_wall_seconds": 0.5214433998335153
+      }
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4508,
+      "loss": 0.018488234759698373,
+      "raw_sha256": "e36d70767b487cf06f989a1168be01c659d96e5775766416f33db88b0d91b798",
+      "timings": {
+        "preprocessing_seconds": 0.0013485000235959888,
+        "audit_seconds": 0.0057882999535650015,
+        "projection_seconds": 0.6464017004473135,
+        "execution_bookkeeping_seconds": 0.1259623997611925,
+        "algorithm_seconds": 0.7856325000757352,
+        "planner_process_cpu_seconds": 0.53125,
+        "planner_wall_seconds": 0.5880795003613457
+      }
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4544,
+      "loss": 0.016126101571727083,
+      "raw_sha256": "222cebdd1619ba5e3fd257f64a021b37918848d3c5d50f759d22e27f29f11dd1",
+      "timings": {
+        "preprocessing_seconds": 0.0013192000333219767,
+        "audit_seconds": 0.006786599988117814,
+        "projection_seconds": 0.6206241002073511,
+        "execution_bookkeeping_seconds": 0.12397619965486228,
+        "algorithm_seconds": 0.7584190000779927,
+        "planner_process_cpu_seconds": 0.546875,
+        "planner_wall_seconds": 0.565236599650234
+      }
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4444,
+      "loss": 0.0145816298718997,
+      "raw_sha256": "ce19355fa97fba65aed88998b206638245ccfaf1ac0c8c8b67242506a27fb97f",
+      "timings": {
+        "preprocessing_seconds": 0.001801899983547628,
+        "audit_seconds": 0.006381499930284917,
+        "projection_seconds": 0.6276780006010085,
+        "execution_bookkeeping_seconds": 0.1142079004785046,
+        "algorithm_seconds": 0.7553704999154434,
+        "planner_process_cpu_seconds": 0.53125,
+        "planner_wall_seconds": 0.5743396002799273
+      }
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4778,
+      "loss": 0.0335750315258512,
+      "raw_sha256": "76acde00598c426c3e0bd318b3f3179d22ec6ed0751f096e52b9d9b07eb177d3",
+      "timings": {
+        "preprocessing_seconds": 0.0013482999056577682,
+        "audit_seconds": 0.005881000077351928,
+        "projection_seconds": 0.6623098999261856,
+        "execution_bookkeeping_seconds": 0.13287749991286546,
+        "algorithm_seconds": 0.8086861999472603,
+        "planner_process_cpu_seconds": 0.59375,
+        "planner_wall_seconds": 0.6035970002412796
+      }
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4801,
+      "loss": 0.03530895334174023,
+      "raw_sha256": "21474b6aa7fae7a7234874150c0800485486c0a7ceec08741c3ad607214c8af1",
+      "timings": {
+        "preprocessing_seconds": 0.0012685999972745776,
+        "audit_seconds": 0.006225000019185245,
+        "projection_seconds": 0.672009100089781,
+        "execution_bookkeeping_seconds": 0.1396762999938801,
+        "algorithm_seconds": 0.8255345999496058,
+        "planner_process_cpu_seconds": 0.546875,
+        "planner_wall_seconds": 0.6116084998939186
+      }
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4809,
+      "loss": 0.03010718789407314,
+      "raw_sha256": "9f4641fee304c35e29b7cff688880b53769239680f2e817bf189184d5af305da",
+      "timings": {
+        "preprocessing_seconds": 0.0012749000452458858,
+        "audit_seconds": 0.004406500025652349,
+        "projection_seconds": 0.6694225998362526,
+        "execution_bookkeeping_seconds": 0.13877140020485967,
+        "algorithm_seconds": 0.8200361999915913,
+        "planner_process_cpu_seconds": 0.71875,
+        "planner_wall_seconds": 0.608817900181748
+      }
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4636,
+      "loss": 0.031164069660861594,
+      "raw_sha256": "22bdb5fe6a0b88979f7191895863e8158a5d201c0b9f9102683a819a0f38e85b",
+      "timings": {
+        "preprocessing_seconds": 0.0012793999630957842,
+        "audit_seconds": 0.003056999994441867,
+        "projection_seconds": 0.64580419997219,
+        "execution_bookkeeping_seconds": 0.13179380004294217,
+        "algorithm_seconds": 0.7884043999947608,
+        "planner_process_cpu_seconds": 0.53125,
+        "planner_wall_seconds": 0.5850127001758665
+      }
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4691,
+      "loss": 0.04757399248987316,
+      "raw_sha256": "d4f02336bb5597b1d5121e476c306a75f50ad3599d8b51d30968dee1f7ad1b62",
+      "timings": {
+        "preprocessing_seconds": 0.001275799935683608,
+        "audit_seconds": 0.003587000072002411,
+        "projection_seconds": 0.6391946000512689,
+        "execution_bookkeeping_seconds": 0.1316990996710956,
+        "algorithm_seconds": 0.7814861999358982,
+        "planner_process_cpu_seconds": 0.578125,
+        "planner_wall_seconds": 0.5811882000416517
+      }
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4636,
+      "loss": 0.036693178794240264,
+      "raw_sha256": "0e3379cadfe99b07bd949efaf8f40e3b8200e3b2470459a98a69512b00bf95c5",
+      "timings": {
+        "preprocessing_seconds": 0.0012389000039547682,
+        "audit_seconds": 0.0034673999762162566,
+        "projection_seconds": 0.6358147000428289,
+        "execution_bookkeeping_seconds": 0.13772460003383458,
+        "algorithm_seconds": 0.7839860999956727,
+        "planner_process_cpu_seconds": 0.5625,
+        "planner_wall_seconds": 0.5776285000611097
+      }
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4067,
+      "loss": 0.02898913373334256,
+      "raw_sha256": "c8cdb5ddb0115aa4d59b51d49f7eb61d32b8197a0c15068867e2c7fb2f5859f6",
+      "timings": {
+        "preprocessing_seconds": 0.0013361000455915928,
+        "audit_seconds": 0.007307399995625019,
+        "projection_seconds": 0.5066575002856553,
+        "execution_bookkeeping_seconds": 0.10373319976497442,
+        "algorithm_seconds": 0.6244944999925792,
+        "planner_process_cpu_seconds": 0.53125,
+        "planner_wall_seconds": 0.45229719998314977
+      }
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4031,
+      "loss": 0.026737085327611817,
+      "raw_sha256": "63b34e2b6019771204860db258b5c13c433c036277dd514df3bb983dbad91d66",
+      "timings": {
+        "preprocessing_seconds": 0.0012517999857664108,
+        "audit_seconds": 0.006868500029668212,
+        "projection_seconds": 0.5398427001200616,
+        "execution_bookkeeping_seconds": 0.10790939966682345,
+        "algorithm_seconds": 0.6610103999264538,
+        "planner_process_cpu_seconds": 0.484375,
+        "planner_wall_seconds": 0.4846703999210149
+      }
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4039,
+      "loss": 0.02693407301321947,
+      "raw_sha256": "f640219e3161f336cb30a2f320e8b4a89f0172f881a47194faca66a96195abe3",
+      "timings": {
+        "preprocessing_seconds": 0.001292700064368546,
+        "audit_seconds": 0.006063599954359233,
+        "projection_seconds": 0.5121957996161655,
+        "execution_bookkeeping_seconds": 0.1033986002439633,
+        "algorithm_seconds": 0.6281803000019863,
+        "planner_process_cpu_seconds": 0.484375,
+        "planner_wall_seconds": 0.4589147000806406
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "seed": 101,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4637,
+      "loss": 0.027184651666772898,
+      "raw_sha256": "74fd69fd23ace7d68281c217e7f07c99216acb2e90c38d63857ba2c505a664d8",
+      "timings": {
+        "preprocessing_seconds": 0.0012741000391542912,
+        "audit_seconds": 0.00320159993134439,
+        "projection_seconds": 0.6312784993788227,
+        "execution_bookkeeping_seconds": 0.12687410006765276,
+        "algorithm_seconds": 0.768641100032255,
+        "planner_process_cpu_seconds": 0.546875,
+        "planner_wall_seconds": 0.5731586002511904
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "seed": 202,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4502,
+      "loss": 0.016125948116514757,
+      "raw_sha256": "d2522ca016b8dbfba509867233856b7cde1a966c434be9fbe1cd41a58f5db27d",
+      "timings": {
+        "preprocessing_seconds": 0.0012378999963402748,
+        "audit_seconds": 0.0025557000190019608,
+        "projection_seconds": 0.6301965998718515,
+        "execution_bookkeeping_seconds": 0.12567590025719255,
+        "algorithm_seconds": 0.7652668999508023,
+        "planner_process_cpu_seconds": 0.609375,
+        "planner_wall_seconds": 0.5734423998510465
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "seed": 303,
+      "budget": 125,
+      "method": "joint_greedy",
+      "requests": 4496,
+      "loss": 0.022882274204856907,
+      "raw_sha256": "42604bcdb5cdd62a74e03ff00be78c39cdbca579c40d3697ba0a7845ffeed3db",
+      "timings": {
+        "preprocessing_seconds": 0.0012561000185087323,
+        "audit_seconds": 0.0027000000700354576,
+        "projection_seconds": 0.6229702996788546,
+        "execution_bookkeeping_seconds": 0.11995750025380403,
+        "algorithm_seconds": 0.7522362000308931,
+        "planner_process_cpu_seconds": 0.59375,
+        "planner_wall_seconds": 0.5668437998974696
+      }
+    }
+  ]
+}

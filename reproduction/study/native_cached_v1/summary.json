@@ -1,0 +1,4472 @@
+{
+  "source_id": "569a78676279d247e0e40b09a54858d9b25564cb67cd4a3d6ce76b034b63c81a",
+  "expected": 72,
+  "verified": 72,
+  "all_ledgers_masks_events_identical": true,
+  "rows": [
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 9253,
+      "tokens_in": 1119948,
+      "tokens_out": 37012,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9003
+      },
+      "batches": 73,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 1.9873044999549165,
+      "timings": {
+        "preprocessing_seconds": 0.002621999941766262,
+        "audit_seconds": 0.03388300002552569,
+        "projection_seconds": 1.009151500533335,
+        "execution_bookkeeping_seconds": 0.8048263998934999,
+        "algorithm_seconds": 1.878060800023377,
+        "planner_wall_seconds": 0.3153669001767412,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.0008675000863149762,
+        "cache_cleanup_seconds": 0.004291999968700111
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0325343000004068,
+        "fact_ingest_seconds": 0.003057900001294911,
+        "returned_materialization_seconds": 0.0027581999311223626,
+        "reference_materialization_seconds": 0.0029872000450268388,
+        "reference_label_loading_seconds": 0.008194499998353422,
+        "sql_validation_seconds": 0.02334710001014173
+      },
+      "loss": 0.0411814825333712,
+      "full_count": 10563,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "937764419f5ba0d3a444e21feee8cd33787014afa29bc5af6980090daef611b8",
+      "uncached_wall_seconds": 8.803835000027902,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 32932,
+          "misses": 1772,
+          "maxsize": 65536,
+          "currsize": 1772
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 33479,
+          "misses": 1707,
+          "maxsize": 65536,
+          "currsize": 1707
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 9255,
+      "tokens_in": 1120072,
+      "tokens_out": 37020,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9005
+      },
+      "batches": 73,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 1.9464714999776334,
+      "timings": {
+        "preprocessing_seconds": 0.004392500035464764,
+        "audit_seconds": 0.020949700032360852,
+        "projection_seconds": 1.0265921001555398,
+        "execution_bookkeeping_seconds": 0.7987629999406636,
+        "algorithm_seconds": 1.8793401999864727,
+        "planner_wall_seconds": 0.34138290025293827,
+        "planner_process_cpu_seconds": 0.359375,
+        "cache_setup_seconds": 0.0017558999825268984,
+        "cache_cleanup_seconds": 0.004584399983286858
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004122300073504448,
+        "returned_materialization_seconds": 0.003510699956677854,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.022071999963372946
+      },
+      "loss": 0.04156016283252864,
+      "full_count": 10563,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "73b82c327da815390b8a4d5097096e30d0dd301896581e47e81e1c4c4919cb4c",
+      "uncached_wall_seconds": 8.831124000018463,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 32937,
+          "misses": 1767,
+          "maxsize": 65536,
+          "currsize": 1767
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 33490,
+          "misses": 1696,
+          "maxsize": 65536,
+          "currsize": 1696
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 9250,
+      "tokens_in": 1119380,
+      "tokens_out": 37000,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9000
+      },
+      "batches": 73,
+      "cpu_seconds": 1.796875,
+      "wall_seconds": 1.925802200101316,
+      "timings": {
+        "preprocessing_seconds": 0.004127599997445941,
+        "audit_seconds": 0.01738779991865158,
+        "projection_seconds": 0.9981423005228862,
+        "execution_bookkeeping_seconds": 0.8104988002451137,
+        "algorithm_seconds": 1.8584854000946507,
+        "planner_wall_seconds": 0.3101186996791512,
+        "planner_process_cpu_seconds": 0.265625,
+        "cache_setup_seconds": 0.001610300038009882,
+        "cache_cleanup_seconds": 0.00463600002694875
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004401000100187957,
+        "returned_materialization_seconds": 0.003561899997293949,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.021544600022025406
+      },
+      "loss": 0.04014011171068825,
+      "full_count": 10563,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "ef4e2f638f35580ab5f286a22de63d57a39730614305e47a4be52d9d483d90a1",
+      "uncached_wall_seconds": 8.82245969993528,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 32943,
+          "misses": 1761,
+          "maxsize": 65536,
+          "currsize": 1761
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 33489,
+          "misses": 1697,
+          "maxsize": 65536,
+          "currsize": 1697
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 9264,
+      "tokens_in": 1121336,
+      "tokens_out": 37056,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8264
+      },
+      "batches": 73,
+      "cpu_seconds": 1.96875,
+      "wall_seconds": 1.9956195999402553,
+      "timings": {
+        "preprocessing_seconds": 0.00408330000936985,
+        "audit_seconds": 0.06724190001841635,
+        "projection_seconds": 1.0604036001022905,
+        "execution_bookkeeping_seconds": 0.7690789996413514,
+        "algorithm_seconds": 1.9282259999308735,
+        "planner_wall_seconds": 0.41304210014641285,
+        "planner_process_cpu_seconds": 0.421875,
+        "cache_setup_seconds": 0.0015977999428287148,
+        "cache_cleanup_seconds": 0.0045399999944493175
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004002699977718294,
+        "returned_materialization_seconds": 0.0034778000554069877,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.022663399926386774
+      },
+      "loss": 0.040518792009845685,
+      "full_count": 10563,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "f15ad49b29b9af2e389f57f8f35622d666e2c4d2493027797fb546712949b774",
+      "uncached_wall_seconds": 7.873704400029965,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29768,
+          "misses": 2044,
+          "maxsize": 65536,
+          "currsize": 2044
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30333,
+          "misses": 1961,
+          "maxsize": 65536,
+          "currsize": 1961
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 9275,
+      "tokens_in": 1122529,
+      "tokens_out": 37100,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8275
+      },
+      "batches": 73,
+      "cpu_seconds": 1.90625,
+      "wall_seconds": 1.9174943999387324,
+      "timings": {
+        "preprocessing_seconds": 0.004167300066910684,
+        "audit_seconds": 0.03814379998948425,
+        "projection_seconds": 1.0142131004249677,
+        "execution_bookkeeping_seconds": 0.7660664994036779,
+        "algorithm_seconds": 1.849897800013423,
+        "planner_wall_seconds": 0.3648721002973616,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0016052999999374151,
+        "cache_cleanup_seconds": 0.004457000060938299
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003731600008904934,
+        "returned_materialization_seconds": 0.003155600046738982,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.02345069998409599
+      },
+      "loss": 0.041938843131686075,
+      "full_count": 10563,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "bbcbe374c517f0de5f500489156bad4d508c8cd0cd31d57c577351e35bb07eda",
+      "uncached_wall_seconds": 7.90636780008208,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29787,
+          "misses": 2025,
+          "maxsize": 65536,
+          "currsize": 2025
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30362,
+          "misses": 1932,
+          "maxsize": 65536,
+          "currsize": 1932
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 9257,
+      "tokens_in": 1120378,
+      "tokens_out": 37028,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8257
+      },
+      "batches": 73,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 1.9530793000012636,
+      "timings": {
+        "preprocessing_seconds": 0.004312400007620454,
+        "audit_seconds": 0.03094620001502335,
+        "projection_seconds": 1.0624687001109123,
+        "execution_bookkeeping_seconds": 0.7637481999117881,
+        "algorithm_seconds": 1.8884587999200448,
+        "planner_wall_seconds": 0.3674399999435991,
+        "planner_process_cpu_seconds": 0.453125,
+        "cache_setup_seconds": 0.001591100008226931,
+        "cache_cleanup_seconds": 0.004532999941147864
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037049000384286046,
+        "returned_materialization_seconds": 0.003218600060790777,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.021970200003124774
+      },
+      "loss": 0.040708132159424405,
+      "full_count": 10563,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "2e1a219fcd8c6b08611d52811d24fc3aeca111b06b53aac8cca36fca1dfcf3fe",
+      "uncached_wall_seconds": 7.963727500056848,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29779,
+          "misses": 2033,
+          "maxsize": 65536,
+          "currsize": 2033
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30334,
+          "misses": 1960,
+          "maxsize": 65536,
+          "currsize": 1960
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 6893,
+      "tokens_in": 831998,
+      "tokens_out": 27572,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6643
+      },
+      "batches": 54,
+      "cpu_seconds": 4.609375,
+      "wall_seconds": 4.672645500046201,
+      "timings": {
+        "preprocessing_seconds": 0.007049000007100403,
+        "audit_seconds": 0.05935749993659556,
+        "projection_seconds": 3.720337000093423,
+        "execution_bookkeeping_seconds": 0.6756481999764219,
+        "algorithm_seconds": 4.55660879984498,
+        "planner_wall_seconds": 0.4193386002443731,
+        "planner_process_cpu_seconds": 0.25,
+        "cache_setup_seconds": 0.0016814999980852008,
+        "cache_cleanup_seconds": 0.01802919991314411
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03346840001177043,
+        "fact_ingest_seconds": 0.002830699901096523,
+        "returned_materialization_seconds": 0.002098600030876696,
+        "reference_materialization_seconds": 0.00289939995855093,
+        "reference_label_loading_seconds": 0.0077538000186905265,
+        "sql_validation_seconds": 0.009551299968734384
+      },
+      "loss": 0.013986013986013986,
+      "full_count": 143,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "7bcc21629ddf60eef862c00a4d2de01a349d42feaf97d9d3960072f2532af540",
+      "uncached_wall_seconds": 15.521384099964052,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 255178,
+          "misses": 70,
+          "maxsize": 65536,
+          "currsize": 70
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 260002,
+          "misses": 62,
+          "maxsize": 65536,
+          "currsize": 62
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 6898,
+      "tokens_in": 832723,
+      "tokens_out": 27592,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6648
+      },
+      "batches": 54,
+      "cpu_seconds": 4.59375,
+      "wall_seconds": 4.651945500052534,
+      "timings": {
+        "preprocessing_seconds": 0.00827780005056411,
+        "audit_seconds": 0.17829920002259314,
+        "projection_seconds": 3.629492400214076,
+        "execution_bookkeeping_seconds": 0.6746518000727519,
+        "algorithm_seconds": 4.578586799907498,
+        "planner_wall_seconds": 0.4476087996736169,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.001906299963593483,
+        "cache_cleanup_seconds": 0.018049499951303005
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0036689999978989363,
+        "returned_materialization_seconds": 0.0025804999750107527,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009755900013260543
+      },
+      "loss": 0.013986013986013986,
+      "full_count": 143,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "655b2b76398ac3e633bda8c65f3a7cf1250c8b6951c4b3fc20c91ef5eff377f8",
+      "uncached_wall_seconds": 13.873482800088823,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 255165,
+          "misses": 83,
+          "maxsize": 65536,
+          "currsize": 83
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 259990,
+          "misses": 74,
+          "maxsize": 65536,
+          "currsize": 74
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 6868,
+      "tokens_in": 829159,
+      "tokens_out": 27472,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6618
+      },
+      "batches": 54,
+      "cpu_seconds": 4.625,
+      "wall_seconds": 4.650321899913251,
+      "timings": {
+        "preprocessing_seconds": 0.0072848000563681126,
+        "audit_seconds": 0.16068430000450462,
+        "projection_seconds": 3.6499159999657422,
+        "execution_bookkeeping_seconds": 0.6757989000761881,
+        "algorithm_seconds": 4.579460899927653,
+        "planner_wall_seconds": 0.4501033998094499,
+        "planner_process_cpu_seconds": 0.390625,
+        "cache_setup_seconds": 0.0019415999995544553,
+        "cache_cleanup_seconds": 0.018073600018396974
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004033700097352266,
+        "returned_materialization_seconds": 0.0031691999174654484,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009242100059054792
+      },
+      "loss": 0.013986013986013986,
+      "full_count": 143,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "6745868c8542e3ef9725f7b5f90c10306e6c2d505924f4309979b3417aea20a5",
+      "uncached_wall_seconds": 26.766868200036697,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 255173,
+          "misses": 75,
+          "maxsize": 65536,
+          "currsize": 75
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 259998,
+          "misses": 66,
+          "maxsize": 65536,
+          "currsize": 66
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 6949,
+      "tokens_in": 839356,
+      "tokens_out": 27796,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5949
+      },
+      "batches": 55,
+      "cpu_seconds": 4.234375,
+      "wall_seconds": 4.32762819994241,
+      "timings": {
+        "preprocessing_seconds": 0.007228699978441,
+        "audit_seconds": 0.18602899997495115,
+        "projection_seconds": 3.3530312997754663,
+        "execution_bookkeeping_seconds": 0.6217288000043482,
+        "algorithm_seconds": 4.253827600041404,
+        "planner_wall_seconds": 0.31122389959637076,
+        "planner_process_cpu_seconds": 0.4375,
+        "cache_setup_seconds": 0.0016407000366598368,
+        "cache_cleanup_seconds": 0.016412599943578243
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003687000018544495,
+        "returned_materialization_seconds": 0.0030181999318301678,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009154700092040002
+      },
+      "loss": 0.006993006993006993,
+      "full_count": 143,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d29827f34ee536acc786ff8f5493040a9051892c47ce8385f43423adc92e96fb",
+      "uncached_wall_seconds": 23.641675399965607,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 231062,
+          "misses": 106,
+          "maxsize": 65536,
+          "currsize": 106
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 235887,
+          "misses": 97,
+          "maxsize": 65536,
+          "currsize": 97
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 6982,
+      "tokens_in": 843210,
+      "tokens_out": 27928,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5982
+      },
+      "batches": 55,
+      "cpu_seconds": 4.171875,
+      "wall_seconds": 4.2929869999643415,
+      "timings": {
+        "preprocessing_seconds": 0.007242599967867136,
+        "audit_seconds": 0.07101800001692027,
+        "projection_seconds": 3.437800199724734,
+        "execution_bookkeeping_seconds": 0.6220657003577799,
+        "algorithm_seconds": 4.221682799980044,
+        "planner_wall_seconds": 0.31435580004472286,
+        "planner_process_cpu_seconds": 0.375,
+        "cache_setup_seconds": 0.001981099951080978,
+        "cache_cleanup_seconds": 0.016884200042113662
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003907000063918531,
+        "returned_materialization_seconds": 0.0031072000274434686,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009722399991005659
+      },
+      "loss": 0.013986013986013986,
+      "full_count": 143,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d5354e4aa982a1dd7ca172daf7537241da3fa45b9c335ea393a1c37973cc15f2",
+      "uncached_wall_seconds": 23.329859099932946,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 231051,
+          "misses": 117,
+          "maxsize": 65536,
+          "currsize": 117
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 235877,
+          "misses": 107,
+          "maxsize": 65536,
+          "currsize": 107
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__sent_positive__sent_negative__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 6937,
+      "tokens_in": 837751,
+      "tokens_out": 27748,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5937
+      },
+      "batches": 55,
+      "cpu_seconds": 4.296875,
+      "wall_seconds": 4.369139699963853,
+      "timings": {
+        "preprocessing_seconds": 0.007654600078240037,
+        "audit_seconds": 0.06419890001416206,
+        "projection_seconds": 3.4891361001646146,
+        "execution_bookkeeping_seconds": 0.6411515997024253,
+        "algorithm_seconds": 4.296833099913783,
+        "planner_wall_seconds": 0.3141951001016423,
+        "planner_process_cpu_seconds": 0.265625,
+        "cache_setup_seconds": 0.0018111999379470944,
+        "cache_cleanup_seconds": 0.028980899951420724
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003693500068038702,
+        "returned_materialization_seconds": 0.002985699917189777,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.010721400030888617
+      },
+      "loss": 0.013986013986013986,
+      "full_count": 143,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "7091a68f6c1f09630ecd6114c3e0c85f7b3f8fbf1f673112ab7b9c7fe1ee6309",
+      "uncached_wall_seconds": 23.4481386000989,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 231070,
+          "misses": 98,
+          "maxsize": 65536,
+          "currsize": 98
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 235894,
+          "misses": 90,
+          "maxsize": 65536,
+          "currsize": 90
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 9367,
+      "tokens_in": 1119459,
+      "tokens_out": 37476,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9117
+      },
+      "batches": 74,
+      "cpu_seconds": 2.015625,
+      "wall_seconds": 2.0169723000144586,
+      "timings": {
+        "preprocessing_seconds": 0.004597899969667196,
+        "audit_seconds": 0.007219300023280084,
+        "projection_seconds": 1.0331794996745884,
+        "execution_bookkeeping_seconds": 0.8254068000242114,
+        "algorithm_seconds": 1.9004746999125928,
+        "planner_wall_seconds": 0.32220870011951774,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.0017266999930143356,
+        "cache_cleanup_seconds": 0.004823499941267073
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.037745999987237155,
+        "fact_ingest_seconds": 0.0036207999801263213,
+        "returned_materialization_seconds": 0.002858299994841218,
+        "reference_materialization_seconds": 0.003427799907512963,
+        "reference_label_loading_seconds": 0.01132980000693351,
+        "sql_validation_seconds": 0.019384599989280105
+      },
+      "loss": 0.032924386579869805,
+      "full_count": 7988,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "9f194bf4ffaec1b858ce66e007315c3822fe951b511e6e180ac6c30daa68befa",
+      "uncached_wall_seconds": 8.887767600012012,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 33392,
+          "misses": 1794,
+          "maxsize": 65536,
+          "currsize": 1794
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 33940,
+          "misses": 1728,
+          "maxsize": 65536,
+          "currsize": 1728
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 9360,
+      "tokens_in": 1118654,
+      "tokens_out": 37444,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9110
+      },
+      "batches": 74,
+      "cpu_seconds": 2.0625,
+      "wall_seconds": 2.1041983999311924,
+      "timings": {
+        "preprocessing_seconds": 0.004165900056250393,
+        "audit_seconds": 0.005266199936158955,
+        "projection_seconds": 1.119278799276799,
+        "execution_bookkeeping_seconds": 0.875973200192675,
+        "algorithm_seconds": 2.034346199943684,
+        "planner_wall_seconds": 0.3562601002631709,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.0016591999446973205,
+        "cache_cleanup_seconds": 0.005046200007200241
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004077699966728687,
+        "returned_materialization_seconds": 0.004145700018852949,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.019692800007760525
+      },
+      "loss": 0.03342513770655984,
+      "full_count": 7988,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "9fdaa2610367d2b9541c0bd1d22407402f8312115a4808bab53bfdb07fbcd17b",
+      "uncached_wall_seconds": 9.009067200007848,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 33395,
+          "misses": 1791,
+          "maxsize": 65536,
+          "currsize": 1791
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 33943,
+          "misses": 1725,
+          "maxsize": 65536,
+          "currsize": 1725
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 9353,
+      "tokens_in": 1117812,
+      "tokens_out": 37416,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9103
+      },
+      "batches": 74,
+      "cpu_seconds": 1.875,
+      "wall_seconds": 1.9581893000286072,
+      "timings": {
+        "preprocessing_seconds": 0.0040960999904200435,
+        "audit_seconds": 0.007311899913474917,
+        "projection_seconds": 1.018616399844177,
+        "execution_bookkeeping_seconds": 0.8341772997519001,
+        "algorithm_seconds": 1.8932908000424504,
+        "planner_wall_seconds": 0.31139000004623085,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0016424000496044755,
+        "cache_cleanup_seconds": 0.004734200076200068
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004164800047874451,
+        "returned_materialization_seconds": 0.0035184998996555805,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.018153400043956935
+      },
+      "loss": 0.031171757636454682,
+      "full_count": 7988,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "acb6b498a3d8049d30195c93ecc10dd5adbf9af98e78be53e0b80fa9c6c64bc2",
+      "uncached_wall_seconds": 8.980011299951002,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 33381,
+          "misses": 1805,
+          "maxsize": 65536,
+          "currsize": 1805
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 33933,
+          "misses": 1735,
+          "maxsize": 65536,
+          "currsize": 1735
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 9366,
+      "tokens_in": 1119568,
+      "tokens_out": 37468,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8366
+      },
+      "batches": 74,
+      "cpu_seconds": 1.96875,
+      "wall_seconds": 2.01457749994006,
+      "timings": {
+        "preprocessing_seconds": 0.004178800038062036,
+        "audit_seconds": 0.015926899970509112,
+        "projection_seconds": 1.1044749998254701,
+        "execution_bookkeeping_seconds": 0.7882396000204608,
+        "algorithm_seconds": 1.9412907002260908,
+        "planner_wall_seconds": 0.4311704991851002,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.00154260010458529,
+        "cache_cleanup_seconds": 0.004910500021651387
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003779000020585954,
+        "returned_materialization_seconds": 0.005033400026150048,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.01888449990656227
+      },
+      "loss": 0.026915373059589385,
+      "full_count": 7988,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "2b11aec87d4aabfc98b7a50db6ad1a1558fbfcf8c6aea1a0a38f6c56c35ac503",
+      "uncached_wall_seconds": 7.9554625999880955,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 30253,
+          "misses": 2041,
+          "maxsize": 65536,
+          "currsize": 2041
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30795,
+          "misses": 1981,
+          "maxsize": 65536,
+          "currsize": 1981
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 9343,
+      "tokens_in": 1116545,
+      "tokens_out": 37380,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8343
+      },
+      "batches": 74,
+      "cpu_seconds": 1.921875,
+      "wall_seconds": 1.9380348999984562,
+      "timings": {
+        "preprocessing_seconds": 0.0042978000128641725,
+        "audit_seconds": 0.014345899922773242,
+        "projection_seconds": 1.0337605000240728,
+        "execution_bookkeeping_seconds": 0.7903100994881243,
+        "algorithm_seconds": 1.8716102000325918,
+        "planner_wall_seconds": 0.3706416003406048,
+        "planner_process_cpu_seconds": 0.375,
+        "cache_setup_seconds": 0.0019123000092804432,
+        "cache_cleanup_seconds": 0.004649600014090538
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0038092000177130103,
+        "returned_materialization_seconds": 0.0038362001068890095,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.018759200000204146
+      },
+      "loss": 0.030796194291437155,
+      "full_count": 7988,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "af6907e9d37302a6385bfe6ef0f4115de340a485c499473d28305459bc18d78c",
+      "uncached_wall_seconds": 8.015608699992299,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 30284,
+          "misses": 2010,
+          "maxsize": 65536,
+          "currsize": 2010
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30828,
+          "misses": 1948,
+          "maxsize": 65536,
+          "currsize": 1948
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 9335,
+      "tokens_in": 1115770,
+      "tokens_out": 37344,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8335
+      },
+      "batches": 74,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 1.95106659992598,
+      "timings": {
+        "preprocessing_seconds": 0.0043533999705687165,
+        "audit_seconds": 0.011532099917531013,
+        "projection_seconds": 1.0642561994027346,
+        "execution_bookkeeping_seconds": 0.7757120006717741,
+        "algorithm_seconds": 1.8845474000554532,
+        "planner_wall_seconds": 0.4073776997392997,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.0017220000736415386,
+        "cache_cleanup_seconds": 0.005081100040115416
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003894899971783161,
+        "returned_materialization_seconds": 0.003437599982134998,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.019788900041021407
+      },
+      "loss": 0.02841762643965949,
+      "full_count": 7988,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "32a2b847dd56c7d99887d7f3d52db0f55ec2ba9611bb32cb16310e8b4f33fcb3",
+      "uncached_wall_seconds": 8.115114800049923,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 30334,
+          "misses": 1960,
+          "maxsize": 65536,
+          "currsize": 1960
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30875,
+          "misses": 1901,
+          "maxsize": 65536,
+          "currsize": 1901
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 6810,
+      "tokens_in": 810851,
+      "tokens_out": 27244,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6560
+      },
+      "batches": 54,
+      "cpu_seconds": 4.625,
+      "wall_seconds": 4.70013170002494,
+      "timings": {
+        "preprocessing_seconds": 0.007434299914166331,
+        "audit_seconds": 0.06556830008048564,
+        "projection_seconds": 3.7513927998952568,
+        "execution_bookkeeping_seconds": 0.6612867000512779,
+        "algorithm_seconds": 4.573477600002661,
+        "planner_wall_seconds": 0.42916779953520745,
+        "planner_process_cpu_seconds": 0.546875,
+        "cache_setup_seconds": 0.00177800003439188,
+        "cache_cleanup_seconds": 0.01840870000887662
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.035886700032278895,
+        "fact_ingest_seconds": 0.003474300028756261,
+        "returned_materialization_seconds": 0.00254550005774945,
+        "reference_materialization_seconds": 0.00261929992120713,
+        "reference_label_loading_seconds": 0.011409600032493472,
+        "sql_validation_seconds": 0.009188700001686811
+      },
+      "loss": 0.0,
+      "full_count": 133,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d0eb6b21767766fc66e2672c9d3608dbf8529ead42260e686524f97e1fde3ffb",
+      "uncached_wall_seconds": 11.677484099986032,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 255176,
+          "misses": 72,
+          "maxsize": 65536,
+          "currsize": 72
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 260000,
+          "misses": 64,
+          "maxsize": 65536,
+          "currsize": 64
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 6819,
+      "tokens_in": 812018,
+      "tokens_out": 27276,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6569
+      },
+      "batches": 54,
+      "cpu_seconds": 4.578125,
+      "wall_seconds": 4.694102999987081,
+      "timings": {
+        "preprocessing_seconds": 0.007296499912627041,
+        "audit_seconds": 0.07052339997608215,
+        "projection_seconds": 3.798276400193572,
+        "execution_bookkeeping_seconds": 0.6583073999499902,
+        "algorithm_seconds": 4.625385300139897,
+        "planner_wall_seconds": 0.4669170998968184,
+        "planner_process_cpu_seconds": 0.515625,
+        "cache_setup_seconds": 0.0017031000461429358,
+        "cache_cleanup_seconds": 0.018125500064343214
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0038778999587520957,
+        "returned_materialization_seconds": 0.002648600027896464,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008429600042290986
+      },
+      "loss": 0.0,
+      "full_count": 133,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "25f3949bd484ad0e4074d5d6a0c1bf8708d9bf30a22c8bb6af92a5a519ef05f3",
+      "uncached_wall_seconds": 11.243150299997069,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 255168,
+          "misses": 80,
+          "maxsize": 65536,
+          "currsize": 80
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 259993,
+          "misses": 71,
+          "maxsize": 65536,
+          "currsize": 71
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 6777,
+      "tokens_in": 807092,
+      "tokens_out": 27108,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6527
+      },
+      "batches": 53,
+      "cpu_seconds": 4.53125,
+      "wall_seconds": 4.5871032000286505,
+      "timings": {
+        "preprocessing_seconds": 0.007140200003050268,
+        "audit_seconds": 0.16791329998522997,
+        "projection_seconds": 3.6145895997760817,
+        "execution_bookkeeping_seconds": 0.6400646006222814,
+        "algorithm_seconds": 4.514767799992114,
+        "planner_wall_seconds": 0.45834560005459934,
+        "planner_process_cpu_seconds": 0.46875,
+        "cache_setup_seconds": 0.0016449999529868364,
+        "cache_cleanup_seconds": 0.018222999991849065
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003581400029361248,
+        "returned_materialization_seconds": 0.002805099938996136,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008839800022542477
+      },
+      "loss": 0.0,
+      "full_count": 133,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "69cb234f40fdf4a6fac3ce65ba3696b97dc9ca1dde41e3153950401a29637c88",
+      "uncached_wall_seconds": 11.548351200064644,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 250358,
+          "misses": 74,
+          "maxsize": 65536,
+          "currsize": 74
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 255182,
+          "misses": 66,
+          "maxsize": 65536,
+          "currsize": 66
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 6872,
+      "tokens_in": 819044,
+      "tokens_out": 27488,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5872
+      },
+      "batches": 54,
+      "cpu_seconds": 4.078125,
+      "wall_seconds": 4.123828100040555,
+      "timings": {
+        "preprocessing_seconds": 0.007143899914808571,
+        "audit_seconds": 0.0639278000453487,
+        "projection_seconds": 3.2963284000288695,
+        "execution_bookkeeping_seconds": 0.598484399728477,
+        "algorithm_seconds": 4.049551400006749,
+        "planner_wall_seconds": 0.30592329998034984,
+        "planner_process_cpu_seconds": 0.171875,
+        "cache_setup_seconds": 0.0019238999811932445,
+        "cache_cleanup_seconds": 0.015902400016784668
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0036008000606670976,
+        "returned_materialization_seconds": 0.003047600039280951,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00878589996136725
+      },
+      "loss": 0.0,
+      "full_count": 133,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "a550a7a5e782ee2aba5654059e9a70296e2654859dfad5c4200e8c865d70d9c3",
+      "uncached_wall_seconds": 10.169380699982867,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 226244,
+          "misses": 108,
+          "maxsize": 65536,
+          "currsize": 108
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 231070,
+          "misses": 98,
+          "maxsize": 65536,
+          "currsize": 98
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 6891,
+      "tokens_in": 821042,
+      "tokens_out": 27568,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5891
+      },
+      "batches": 55,
+      "cpu_seconds": 4.234375,
+      "wall_seconds": 4.271042700042017,
+      "timings": {
+        "preprocessing_seconds": 0.008070899988524616,
+        "audit_seconds": 0.19020990002900362,
+        "projection_seconds": 3.304388600285165,
+        "execution_bookkeeping_seconds": 0.6090142995817587,
+        "algorithm_seconds": 4.200898100039922,
+        "planner_wall_seconds": 0.3263683997793123,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.001810799934901297,
+        "cache_cleanup_seconds": 0.01666650001425296
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003568299929611385,
+        "returned_materialization_seconds": 0.00291300006210804,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009162699920125306
+      },
+      "loss": 0.0,
+      "full_count": 133,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "0231c35069e3298bb1e9b58f5bec1d1ae5ac4ef0dc2bf9d41be7bd24f16ac804",
+      "uncached_wall_seconds": 10.331081899930723,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 231053,
+          "misses": 115,
+          "maxsize": 65536,
+          "currsize": 115
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 235880,
+          "misses": 104,
+          "maxsize": 65536,
+          "currsize": 104
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__approval__disapproval__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 6847,
+      "tokens_in": 815838,
+      "tokens_out": 27388,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5847
+      },
+      "batches": 54,
+      "cpu_seconds": 4.109375,
+      "wall_seconds": 4.210425900062546,
+      "timings": {
+        "preprocessing_seconds": 0.00783030001912266,
+        "audit_seconds": 0.18856020004022866,
+        "projection_seconds": 3.263587499735877,
+        "execution_bookkeeping_seconds": 0.5967151004588231,
+        "algorithm_seconds": 4.141293699969538,
+        "planner_wall_seconds": 0.4248007000423968,
+        "planner_process_cpu_seconds": 0.421875,
+        "cache_setup_seconds": 0.0016513000009581447,
+        "cache_cleanup_seconds": 0.016586099984124303
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004011100041680038,
+        "returned_materialization_seconds": 0.0028463000198826194,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008860399946570396
+      },
+      "loss": 0.0,
+      "full_count": 133,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "9d0421bad82dfb6101585e33b44dadc9470c443482ceb00c4994cee8218c31f1",
+      "uncached_wall_seconds": 10.415479799965397,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 226253,
+          "misses": 99,
+          "maxsize": 65536,
+          "currsize": 99
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 231078,
+          "misses": 90,
+          "maxsize": 65536,
+          "currsize": 90
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 9607,
+      "tokens_in": 1143655,
+      "tokens_out": 38496,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9357
+      },
+      "batches": 76,
+      "cpu_seconds": 1.96875,
+      "wall_seconds": 2.032377799972892,
+      "timings": {
+        "preprocessing_seconds": 0.004230899969115853,
+        "audit_seconds": 0.005542299943044782,
+        "projection_seconds": 1.0351946995360777,
+        "execution_bookkeeping_seconds": 0.8546887002885342,
+        "algorithm_seconds": 1.9287959999637678,
+        "planner_wall_seconds": 0.3089612004114315,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.0016549000283703208,
+        "cache_cleanup_seconds": 0.004403800005093217
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03550630004610866,
+        "fact_ingest_seconds": 0.003446199931204319,
+        "returned_materialization_seconds": 0.00216480006929487,
+        "reference_materialization_seconds": 0.0032429000129923224,
+        "reference_label_loading_seconds": 0.010244400007650256,
+        "sql_validation_seconds": 0.011184899951331317
+      },
+      "loss": 0.01031487513572204,
+      "full_count": 1842,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "7d7026779190547c4d359a7b137f81dc672771e768f1887a030aa0fba41f35d4",
+      "uncached_wall_seconds": 4.262373400037177,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 34438,
+          "misses": 1712,
+          "maxsize": 65536,
+          "currsize": 1712
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 34961,
+          "misses": 1671,
+          "maxsize": 65536,
+          "currsize": 1671
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 9605,
+      "tokens_in": 1143411,
+      "tokens_out": 38488,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9355
+      },
+      "batches": 76,
+      "cpu_seconds": 2.046875,
+      "wall_seconds": 2.0556135999504477,
+      "timings": {
+        "preprocessing_seconds": 0.0042120999423787,
+        "audit_seconds": 0.005406000069342554,
+        "projection_seconds": 1.0982822999358177,
+        "execution_bookkeeping_seconds": 0.8572762004332617,
+        "algorithm_seconds": 1.995765200117603,
+        "planner_wall_seconds": 0.30575310008134693,
+        "planner_process_cpu_seconds": 0.359375,
+        "cache_setup_seconds": 0.0017349000554531813,
+        "cache_cleanup_seconds": 0.004716200055554509
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004214000073261559,
+        "returned_materialization_seconds": 0.003487600013613701,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.012200400000438094
+      },
+      "loss": 0.01031487513572204,
+      "full_count": 1842,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d98dfa471cce9ecf4ea9783bd415b6261f15268e2682a263d9c046136d74ec06",
+      "uncached_wall_seconds": 4.282823199988343,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 34436,
+          "misses": 1714,
+          "maxsize": 65536,
+          "currsize": 1714
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 34963,
+          "misses": 1669,
+          "maxsize": 65536,
+          "currsize": 1669
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 9602,
+      "tokens_in": 1143053,
+      "tokens_out": 38476,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9352
+      },
+      "batches": 76,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 2.015962400007993,
+      "timings": {
+        "preprocessing_seconds": 0.004107899963855743,
+        "audit_seconds": 0.0064332999754697084,
+        "projection_seconds": 1.0552832995308563,
+        "execution_bookkeeping_seconds": 0.8613972997991368,
+        "algorithm_seconds": 1.957316100015305,
+        "planner_wall_seconds": 0.3118926997995004,
+        "planner_process_cpu_seconds": 0.28125,
+        "cache_setup_seconds": 0.0015926000196486712,
+        "cache_cleanup_seconds": 0.004990500048734248
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004052500007674098,
+        "returned_materialization_seconds": 0.0031692999182268977,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011617899988777936
+      },
+      "loss": 0.009771986970684038,
+      "full_count": 1842,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "950845a511f5183d294fa4764845c212f4ddc178c6cc64ba6e504e171ff5cf70",
+      "uncached_wall_seconds": 4.371311399969272,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 34449,
+          "misses": 1701,
+          "maxsize": 65536,
+          "currsize": 1701
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 34977,
+          "misses": 1655,
+          "maxsize": 65536,
+          "currsize": 1655
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 9589,
+      "tokens_in": 1141573,
+      "tokens_out": 38424,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8589
+      },
+      "batches": 76,
+      "cpu_seconds": 1.984375,
+      "wall_seconds": 2.006596100050956,
+      "timings": {
+        "preprocessing_seconds": 0.004180800053291023,
+        "audit_seconds": 0.014039899921044707,
+        "projection_seconds": 1.0858140990603715,
+        "execution_bookkeeping_seconds": 0.8113714000210166,
+        "algorithm_seconds": 1.9438117000972852,
+        "planner_wall_seconds": 0.3450317997485399,
+        "planner_process_cpu_seconds": 0.328125,
+        "cache_setup_seconds": 0.001768199959769845,
+        "cache_cleanup_seconds": 0.004887800081633031
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004174000001512468,
+        "returned_materialization_seconds": 0.005413100006990135,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.0121642000740394
+      },
+      "loss": 0.008686210640608035,
+      "full_count": 1842,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "329788f7c6a9576c63bd5ed0d5482c4c3226c64be179924e5f2e0d4d9a42d723",
+      "uncached_wall_seconds": 4.53346629999578,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31361,
+          "misses": 1897,
+          "maxsize": 65536,
+          "currsize": 1897
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 31889,
+          "misses": 1851,
+          "maxsize": 65536,
+          "currsize": 1851
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 9596,
+      "tokens_in": 1142395,
+      "tokens_out": 38456,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8596
+      },
+      "batches": 76,
+      "cpu_seconds": 1.890625,
+      "wall_seconds": 1.9207443000050262,
+      "timings": {
+        "preprocessing_seconds": 0.004442300065420568,
+        "audit_seconds": 0.012549599981866777,
+        "projection_seconds": 1.0154122001258656,
+        "execution_bookkeeping_seconds": 0.8030520003521815,
+        "algorithm_seconds": 1.863845800049603,
+        "planner_wall_seconds": 0.3361041999887675,
+        "planner_process_cpu_seconds": 0.390625,
+        "cache_setup_seconds": 0.0016055000014603138,
+        "cache_cleanup_seconds": 0.005110000027343631
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004262699978426099,
+        "returned_materialization_seconds": 0.003426700015552342,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.01197130000218749
+      },
+      "loss": 0.010857763300760043,
+      "full_count": 1842,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "9564b662ad5a7a8055af5704920a9c04201476d891aebbfe288a5dba1e54bf03",
+      "uncached_wall_seconds": 5.727015399956144,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31336,
+          "misses": 1922,
+          "maxsize": 65536,
+          "currsize": 1922
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 31874,
+          "misses": 1866,
+          "maxsize": 65536,
+          "currsize": 1866
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 9585,
+      "tokens_in": 1141013,
+      "tokens_out": 38408,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8585
+      },
+      "batches": 76,
+      "cpu_seconds": 2.015625,
+      "wall_seconds": 2.0903169000521302,
+      "timings": {
+        "preprocessing_seconds": 0.004136900068260729,
+        "audit_seconds": 0.01649479998741299,
+        "projection_seconds": 1.1521412002621219,
+        "execution_bookkeeping_seconds": 0.829814899363555,
+        "algorithm_seconds": 2.0318302999949083,
+        "planner_wall_seconds": 0.4388239993713796,
+        "planner_process_cpu_seconds": 0.4375,
+        "cache_setup_seconds": 0.0016943999798968434,
+        "cache_cleanup_seconds": 0.004613899975083768
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003784000058658421,
+        "returned_materialization_seconds": 0.0028758998960256577,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011071900022216141
+      },
+      "loss": 0.009229098805646038,
+      "full_count": 1842,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "4c7d0a484314813f7c4827c1aa7de302e40b851beca98a3e81580b84b84fab07",
+      "uncached_wall_seconds": 4.0702166999690235,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31346,
+          "misses": 1912,
+          "maxsize": 65536,
+          "currsize": 1912
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 31887,
+          "misses": 1853,
+          "maxsize": 65536,
+          "currsize": 1853
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 6461,
+      "tokens_in": 767466,
+      "tokens_out": 25864,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6211
+      },
+      "batches": 51,
+      "cpu_seconds": 4.28125,
+      "wall_seconds": 4.4176839999854565,
+      "timings": {
+        "preprocessing_seconds": 0.008252899977378547,
+        "audit_seconds": 0.061121499980799854,
+        "projection_seconds": 3.550955400336534,
+        "execution_bookkeeping_seconds": 0.6017516000429168,
+        "algorithm_seconds": 4.304955999949016,
+        "planner_wall_seconds": 0.4999902999261394,
+        "planner_process_cpu_seconds": 0.5,
+        "cache_setup_seconds": 0.0017287000082433224,
+        "cache_cleanup_seconds": 0.017480799928307533
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03500849998090416,
+        "fact_ingest_seconds": 0.0028147998964414,
+        "returned_materialization_seconds": 0.002131400047801435,
+        "reference_materialization_seconds": 0.0021901000291109085,
+        "reference_label_loading_seconds": 0.009628099971450865,
+        "sql_validation_seconds": 0.0074764000019058585
+      },
+      "loss": 0.0,
+      "full_count": 22,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "469eea88adf7e15b605cc6ed33099571d7d126deb6d6a3af9d2bab70c7fa15eb",
+      "uncached_wall_seconds": 11.758620499982499,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 240738,
+          "misses": 62,
+          "maxsize": 65536,
+          "currsize": 62
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 245562,
+          "misses": 54,
+          "maxsize": 65536,
+          "currsize": 54
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 6469,
+      "tokens_in": 768431,
+      "tokens_out": 25896,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6219
+      },
+      "batches": 51,
+      "cpu_seconds": 4.265625,
+      "wall_seconds": 4.352705399971455,
+      "timings": {
+        "preprocessing_seconds": 0.0069407999981194735,
+        "audit_seconds": 0.16943919996265322,
+        "projection_seconds": 3.4175950997741893,
+        "execution_bookkeeping_seconds": 0.604349699919112,
+        "algorithm_seconds": 4.283200999954715,
+        "planner_wall_seconds": 0.31702489976305515,
+        "planner_process_cpu_seconds": 0.375,
+        "cache_setup_seconds": 0.0016340999864041805,
+        "cache_cleanup_seconds": 0.017419000039808452
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0034022999461740255,
+        "returned_materialization_seconds": 0.0026816000463441014,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00658719998318702
+      },
+      "loss": 0.0,
+      "full_count": 22,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "088ef02a9efb2b619b7f74e828c99b4be4289fd8fcd31141da75c2aafb4d50a8",
+      "uncached_wall_seconds": 11.061214299988933,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 240735,
+          "misses": 65,
+          "maxsize": 65536,
+          "currsize": 65
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 245557,
+          "misses": 59,
+          "maxsize": 65536,
+          "currsize": 59
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 6451,
+      "tokens_in": 766480,
+      "tokens_out": 25824,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6201
+      },
+      "batches": 51,
+      "cpu_seconds": 4.234375,
+      "wall_seconds": 4.376702500041574,
+      "timings": {
+        "preprocessing_seconds": 0.007027699961327016,
+        "audit_seconds": 0.20048630004748702,
+        "projection_seconds": 3.4204204998677596,
+        "execution_bookkeeping_seconds": 0.5960487000411376,
+        "algorithm_seconds": 4.308681200025603,
+        "planner_wall_seconds": 0.3269846000475809,
+        "planner_process_cpu_seconds": 0.25,
+        "cache_setup_seconds": 0.001711699995212257,
+        "cache_cleanup_seconds": 0.017950400011613965
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003707399941049516,
+        "returned_materialization_seconds": 0.0029352999990805984,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.007149500073865056
+      },
+      "loss": 0.0,
+      "full_count": 22,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "ab1983537b71664d202673d03ea8c52e87cf096df5b238474f19e73bff7504eb",
+      "uncached_wall_seconds": 11.259853900060989,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 240735,
+          "misses": 65,
+          "maxsize": 65536,
+          "currsize": 65
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 245559,
+          "misses": 57,
+          "maxsize": 65536,
+          "currsize": 57
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 6454,
+      "tokens_in": 766764,
+      "tokens_out": 25848,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5454
+      },
+      "batches": 51,
+      "cpu_seconds": 3.828125,
+      "wall_seconds": 3.923768199980259,
+      "timings": {
+        "preprocessing_seconds": 0.007492900011129677,
+        "audit_seconds": 0.17196100007276982,
+        "projection_seconds": 3.0595562000526115,
+        "execution_bookkeeping_seconds": 0.534923700033687,
+        "algorithm_seconds": 3.858309399918653,
+        "planner_wall_seconds": 0.28665089968126267,
+        "planner_process_cpu_seconds": 0.15625,
+        "cache_setup_seconds": 0.0016824000049382448,
+        "cache_cleanup_seconds": 0.015452599967829883
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0038611000636592507,
+        "returned_materialization_seconds": 0.002975399955175817,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00703019998036325
+      },
+      "loss": 0.0,
+      "full_count": 22,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "33e8477a8e21d1c0b03015b7f62e6d5652b5ea24ed8172207123a0800a321a9a",
+      "uncached_wall_seconds": 10.045198100036941,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211814,
+          "misses": 90,
+          "maxsize": 65536,
+          "currsize": 90
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216640,
+          "misses": 80,
+          "maxsize": 65536,
+          "currsize": 80
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 6458,
+      "tokens_in": 767345,
+      "tokens_out": 25856,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5458
+      },
+      "batches": 51,
+      "cpu_seconds": 3.84375,
+      "wall_seconds": 3.9565837000263855,
+      "timings": {
+        "preprocessing_seconds": 0.00695159996394068,
+        "audit_seconds": 0.17930540000088513,
+        "projection_seconds": 3.066602699807845,
+        "execution_bookkeeping_seconds": 0.5543923997320235,
+        "algorithm_seconds": 3.888173200073652,
+        "planner_wall_seconds": 0.40222540008835495,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.0016485999803990126,
+        "cache_cleanup_seconds": 0.01589640008751303
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003651399980299175,
+        "returned_materialization_seconds": 0.002931299968622625,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.007055400055833161
+      },
+      "loss": 0.0,
+      "full_count": 22,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "4310854bab70dfb710d4272bf1dacb420b80f1d2551ce843453fca92c502e93d",
+      "uncached_wall_seconds": 9.654426000081003,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211810,
+          "misses": 94,
+          "maxsize": 65536,
+          "currsize": 94
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216636,
+          "misses": 84,
+          "maxsize": 65536,
+          "currsize": 84
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__joy__sadness__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 6440,
+      "tokens_in": 765132,
+      "tokens_out": 25784,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5440
+      },
+      "batches": 51,
+      "cpu_seconds": 3.859375,
+      "wall_seconds": 3.9656412000767887,
+      "timings": {
+        "preprocessing_seconds": 0.007492900011129677,
+        "audit_seconds": 0.20923879998736084,
+        "projection_seconds": 3.0611429997952655,
+        "execution_bookkeeping_seconds": 0.5348479001550004,
+        "algorithm_seconds": 3.8955036000115797,
+        "planner_wall_seconds": 0.40697239933069795,
+        "planner_process_cpu_seconds": 0.453125,
+        "cache_setup_seconds": 0.001879699993878603,
+        "cache_cleanup_seconds": 0.016260100062936544
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004265800002031028,
+        "returned_materialization_seconds": 0.002953800023533404,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008141899947077036
+      },
+      "loss": 0.0,
+      "full_count": 22,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "f55a2594e8e7f3ce2c8270ed45e483e8a1fa1c54a46abc678f1b765abf24477c",
+      "uncached_wall_seconds": 9.244866099907085,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211813,
+          "misses": 91,
+          "maxsize": 65536,
+          "currsize": 91
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216641,
+          "misses": 79,
+          "maxsize": 65536,
+          "currsize": 79
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 9710,
+      "tokens_in": 1155967,
+      "tokens_out": 38864,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9460
+      },
+      "batches": 76,
+      "cpu_seconds": 2.03125,
+      "wall_seconds": 2.0367115999106318,
+      "timings": {
+        "preprocessing_seconds": 0.0042818000074476,
+        "audit_seconds": 0.005388199933804572,
+        "projection_seconds": 1.0320774995489046,
+        "execution_bookkeeping_seconds": 0.8586526999715716,
+        "algorithm_seconds": 1.9307946000481024,
+        "planner_wall_seconds": 0.2981127998791635,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0017448000144213438,
+        "cache_cleanup_seconds": 0.004856199957430363
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03473910002503544,
+        "fact_ingest_seconds": 0.003683999995701015,
+        "returned_materialization_seconds": 0.0023004000540822744,
+        "reference_materialization_seconds": 0.0025268999161198735,
+        "reference_label_loading_seconds": 0.01050920004490763,
+        "sql_validation_seconds": 0.011222800007089972
+      },
+      "loss": 0.005813953488372093,
+      "full_count": 1204,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "80f8534c0466e102e7a797c634f2089b9a7b8b61a6f28e9b55dc3cdfc8f01ce2",
+      "uncached_wall_seconds": 4.099045300041325,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 34468,
+          "misses": 1682,
+          "maxsize": 65536,
+          "currsize": 1682
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 34976,
+          "misses": 1656,
+          "maxsize": 65536,
+          "currsize": 1656
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 9707,
+      "tokens_in": 1155825,
+      "tokens_out": 38852,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9457
+      },
+      "batches": 76,
+      "cpu_seconds": 2.03125,
+      "wall_seconds": 2.040817999979481,
+      "timings": {
+        "preprocessing_seconds": 0.004192300024442375,
+        "audit_seconds": 0.00916209991555661,
+        "projection_seconds": 1.0870653997408226,
+        "execution_bookkeeping_seconds": 0.8536054003052413,
+        "algorithm_seconds": 1.9843568998621777,
+        "planner_wall_seconds": 0.3574790997663513,
+        "planner_process_cpu_seconds": 0.328125,
+        "cache_setup_seconds": 0.00169189996086061,
+        "cache_cleanup_seconds": 0.004928199923597276
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004055700032040477,
+        "returned_materialization_seconds": 0.0022600999800488353,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011568999965675175
+      },
+      "loss": 0.007475083056478406,
+      "full_count": 1204,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "228685d58b73904ff7f697e5a2bd9366318bd64d21ccf520cefd3c039545f929",
+      "uncached_wall_seconds": 4.112688300083391,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 34450,
+          "misses": 1700,
+          "maxsize": 65536,
+          "currsize": 1700
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 34957,
+          "misses": 1675,
+          "maxsize": 65536,
+          "currsize": 1675
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 9714,
+      "tokens_in": 1156544,
+      "tokens_out": 38876,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 9464
+      },
+      "batches": 76,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 1.9877854000078514,
+      "timings": {
+        "preprocessing_seconds": 0.004647900001145899,
+        "audit_seconds": 0.00592210004106164,
+        "projection_seconds": 1.0333958998089656,
+        "execution_bookkeeping_seconds": 0.8579901994671673,
+        "algorithm_seconds": 1.9319414999336004,
+        "planner_wall_seconds": 0.2979053008602932,
+        "planner_process_cpu_seconds": 0.265625,
+        "cache_setup_seconds": 0.0016880999319255352,
+        "cache_cleanup_seconds": 0.004813099978491664
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004082100000232458,
+        "returned_materialization_seconds": 0.0021977999713271856,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011085100006312132
+      },
+      "loss": 0.006644518272425249,
+      "full_count": 1204,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "ad9386be39de7fd4e69348c50fb544fc992102458c548aae353d4f2f1dce606d",
+      "uncached_wall_seconds": 4.124168699956499,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 34482,
+          "misses": 1668,
+          "maxsize": 65536,
+          "currsize": 1668
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 34990,
+          "misses": 1642,
+          "maxsize": 65536,
+          "currsize": 1642
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 9720,
+      "tokens_in": 1157215,
+      "tokens_out": 38908,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8720
+      },
+      "batches": 77,
+      "cpu_seconds": 2.0,
+      "wall_seconds": 1.9926328000146896,
+      "timings": {
+        "preprocessing_seconds": 0.00446099997498095,
+        "audit_seconds": 0.01037290005479008,
+        "projection_seconds": 1.0759353003231809,
+        "execution_bookkeeping_seconds": 0.8175502001540735,
+        "algorithm_seconds": 1.9368045000592247,
+        "planner_wall_seconds": 0.3808519997401163,
+        "planner_process_cpu_seconds": 0.40625,
+        "cache_setup_seconds": 0.0016212000045925379,
+        "cache_cleanup_seconds": 0.0049467000644654036
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004047500086016953,
+        "returned_materialization_seconds": 0.0030637000454589725,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.01059029996395111
+      },
+      "loss": 0.006644518272425249,
+      "full_count": 1204,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "798b160ade42a4bbdb21b1ad45b1a2fdac637a2d8f871beed86d1cc0219a4c17",
+      "uncached_wall_seconds": 3.7200630001025274,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31795,
+          "misses": 1945,
+          "maxsize": 65536,
+          "currsize": 1945
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32307,
+          "misses": 1915,
+          "maxsize": 65536,
+          "currsize": 1915
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 9731,
+      "tokens_in": 1158390,
+      "tokens_out": 38952,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8731
+      },
+      "batches": 77,
+      "cpu_seconds": 1.9375,
+      "wall_seconds": 1.9417877000523731,
+      "timings": {
+        "preprocessing_seconds": 0.004237300017848611,
+        "audit_seconds": 0.011160199996083975,
+        "projection_seconds": 1.023201800067909,
+        "execution_bookkeeping_seconds": 0.8165843000169843,
+        "algorithm_seconds": 1.8844175999984145,
+        "planner_wall_seconds": 0.33898579981178045,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.002004200010560453,
+        "cache_cleanup_seconds": 0.005612700013443828
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004233899991959333,
+        "returned_materialization_seconds": 0.0020753999706357718,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.010438499972224236
+      },
+      "loss": 0.009136212624584718,
+      "full_count": 1204,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "83e58de39fcf3dc51f9ef6ab700ced02f0e684d004b3796d4ba0ebfebff704fd",
+      "uncached_wall_seconds": 3.735506600001827,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31815,
+          "misses": 1925,
+          "maxsize": 65536,
+          "currsize": 1925
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32338,
+          "misses": 1884,
+          "maxsize": 65536,
+          "currsize": 1884
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 9714,
+      "tokens_in": 1156366,
+      "tokens_out": 38884,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8714
+      },
+      "batches": 77,
+      "cpu_seconds": 1.921875,
+      "wall_seconds": 1.9840041999705136,
+      "timings": {
+        "preprocessing_seconds": 0.00434560002759099,
+        "audit_seconds": 0.008594000013545156,
+        "projection_seconds": 1.0649202996864915,
+        "execution_bookkeeping_seconds": 0.8248501995112747,
+        "algorithm_seconds": 1.9312111999606714,
+        "planner_wall_seconds": 0.38219600019510835,
+        "planner_process_cpu_seconds": 0.328125,
+        "cache_setup_seconds": 0.0019045999506488442,
+        "cache_cleanup_seconds": 0.005108900018967688
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037758999969810247,
+        "returned_materialization_seconds": 0.002040600054897368,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009796099970117211
+      },
+      "loss": 0.006644518272425249,
+      "full_count": 1204,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "0992a658ef2242d331aa0b22c2164de122e1f35d1233bfeb542cf1dccd7ddf52",
+      "uncached_wall_seconds": 3.8019253000384197,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31821,
+          "misses": 1919,
+          "maxsize": 65536,
+          "currsize": 1919
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32338,
+          "misses": 1884,
+          "maxsize": 65536,
+          "currsize": 1884
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 6598,
+      "tokens_in": 783743,
+      "tokens_out": 26392,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6348
+      },
+      "batches": 52,
+      "cpu_seconds": 4.40625,
+      "wall_seconds": 4.57752110005822,
+      "timings": {
+        "preprocessing_seconds": 0.007263100007548928,
+        "audit_seconds": 0.06893629999831319,
+        "projection_seconds": 3.6715815999777988,
+        "execution_bookkeeping_seconds": 0.6272628003498539,
+        "algorithm_seconds": 4.463061699992977,
+        "planner_wall_seconds": 0.42604639986529946,
+        "planner_process_cpu_seconds": 0.46875,
+        "cache_setup_seconds": 0.0018696000333875418,
+        "cache_cleanup_seconds": 0.019497300032526255
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03475430002436042,
+        "fact_ingest_seconds": 0.003152600023895502,
+        "returned_materialization_seconds": 0.0016980000073090196,
+        "reference_materialization_seconds": 0.0023099000100046396,
+        "reference_label_loading_seconds": 0.009938200004398823,
+        "sql_validation_seconds": 0.006736499955877662
+      },
+      "loss": 0.0,
+      "full_count": 24,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "1449d8c68e14ae3fe781918eda88bab2b57c5f1c74ff77d7e76499ea0024d2d3",
+      "uncached_wall_seconds": 11.136431699967943,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 245558,
+          "misses": 58,
+          "maxsize": 65536,
+          "currsize": 58
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 250381,
+          "misses": 51,
+          "maxsize": 65536,
+          "currsize": 51
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 6603,
+      "tokens_in": 784361,
+      "tokens_out": 26412,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6353
+      },
+      "batches": 52,
+      "cpu_seconds": 4.484375,
+      "wall_seconds": 4.561514500062913,
+      "timings": {
+        "preprocessing_seconds": 0.0075020999647676945,
+        "audit_seconds": 0.17266489996109158,
+        "projection_seconds": 3.5856427004327998,
+        "execution_bookkeeping_seconds": 0.6320588999660686,
+        "algorithm_seconds": 4.4864562000148,
+        "planner_wall_seconds": 0.33397940057329834,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0018031999934464693,
+        "cache_cleanup_seconds": 0.01860010006930679
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004197699949145317,
+        "returned_materialization_seconds": 0.002244899980723858,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00744650000706315
+      },
+      "loss": 0.0,
+      "full_count": 24,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "be2d4afaf0c61442e9da101d06ddc2461c151bec4dd939d865e17d80fd8f5319",
+      "uncached_wall_seconds": 10.765818700077944,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 245550,
+          "misses": 66,
+          "maxsize": 65536,
+          "currsize": 66
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 250373,
+          "misses": 59,
+          "maxsize": 65536,
+          "currsize": 59
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 6583,
+      "tokens_in": 782011,
+      "tokens_out": 26332,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 6333
+      },
+      "batches": 52,
+      "cpu_seconds": 4.46875,
+      "wall_seconds": 4.500161199946888,
+      "timings": {
+        "preprocessing_seconds": 0.007736400002613664,
+        "audit_seconds": 0.06389300001319498,
+        "projection_seconds": 3.6590660002548248,
+        "execution_bookkeeping_seconds": 0.6170189999975264,
+        "algorithm_seconds": 4.4332039000000805,
+        "planner_wall_seconds": 0.4680151006905362,
+        "planner_process_cpu_seconds": 0.46875,
+        "cache_setup_seconds": 0.0017324999207630754,
+        "cache_cleanup_seconds": 0.017819900065660477
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0034965999657288194,
+        "returned_materialization_seconds": 0.0018968000076711178,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.006787099991925061
+      },
+      "loss": 0.0,
+      "full_count": 24,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "90abe72a29117af653410490f3b3bace8680bd4ee8677c2242b048662d3e7355",
+      "uncached_wall_seconds": 10.684497399954125,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 245556,
+          "misses": 60,
+          "maxsize": 65536,
+          "currsize": 60
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 250379,
+          "misses": 53,
+          "maxsize": 65536,
+          "currsize": 53
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 6560,
+      "tokens_in": 779364,
+      "tokens_out": 26244,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5560
+      },
+      "batches": 52,
+      "cpu_seconds": 4.0,
+      "wall_seconds": 4.08873489999678,
+      "timings": {
+        "preprocessing_seconds": 0.007085700053721666,
+        "audit_seconds": 0.18163849995471537,
+        "projection_seconds": 3.1825962997972965,
+        "execution_bookkeeping_seconds": 0.5654394001467153,
+        "algorithm_seconds": 4.02153179992456,
+        "planner_wall_seconds": 0.29379609995521605,
+        "planner_process_cpu_seconds": 0.28125,
+        "cache_setup_seconds": 0.001713800011202693,
+        "cache_cleanup_seconds": 0.015433599939569831
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003465800080448389,
+        "returned_materialization_seconds": 0.0018810000037774444,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.0065302998991683125
+      },
+      "loss": 0.0,
+      "full_count": 24,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "0ad0026b6e86f1dda786aef1d343f3410ffa5ac52a18e2a461818744f70c1005",
+      "uncached_wall_seconds": 9.310875899973325,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 216626,
+          "misses": 94,
+          "maxsize": 65536,
+          "currsize": 94
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 221453,
+          "misses": 83,
+          "maxsize": 65536,
+          "currsize": 83
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 6579,
+      "tokens_in": 781682,
+      "tokens_out": 26332,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5579
+      },
+      "batches": 52,
+      "cpu_seconds": 4.0,
+      "wall_seconds": 4.059853999991901,
+      "timings": {
+        "preprocessing_seconds": 0.0069945999421179295,
+        "audit_seconds": 0.061417800025083125,
+        "projection_seconds": 3.2797469998477027,
+        "execution_bookkeeping_seconds": 0.5637565003708005,
+        "algorithm_seconds": 3.9938375998754054,
+        "planner_wall_seconds": 0.4208193001104519,
+        "planner_process_cpu_seconds": 0.390625,
+        "cache_setup_seconds": 0.0016583999386057258,
+        "cache_cleanup_seconds": 0.01543379994109273
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003834300092421472,
+        "returned_materialization_seconds": 0.0018982000183314085,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00739490007981658
+      },
+      "loss": 0.0,
+      "full_count": 24,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "696d595473bad4721e0270919e76ae720818fab55169acb38d85eb2de449ae85",
+      "uncached_wall_seconds": 9.387438599951565,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 216630,
+          "misses": 90,
+          "maxsize": 65536,
+          "currsize": 90
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 221456,
+          "misses": 80,
+          "maxsize": 65536,
+          "currsize": 80
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__optimism__fear__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 6538,
+      "tokens_in": 776826,
+      "tokens_out": 26160,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 5538
+      },
+      "batches": 52,
+      "cpu_seconds": 4.21875,
+      "wall_seconds": 4.310478600091301,
+      "timings": {
+        "preprocessing_seconds": 0.007176000042818487,
+        "audit_seconds": 0.06426060001831502,
+        "projection_seconds": 3.4767296003410593,
+        "execution_bookkeeping_seconds": 0.6104601997649297,
+        "algorithm_seconds": 4.242938900133595,
+        "planner_wall_seconds": 0.2986797003541142,
+        "planner_process_cpu_seconds": 0.1875,
+        "cache_setup_seconds": 0.0032195000676438212,
+        "cache_cleanup_seconds": 0.01648280001245439
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0034797999542206526,
+        "returned_materialization_seconds": 0.0019165000412613153,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00741089996881783
+      },
+      "loss": 0.0,
+      "full_count": 24,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d9328dd479b3ee4535c721cd82a6f238daba32aaaa553bf4ffb0043a7b5729a1",
+      "uncached_wall_seconds": 9.382672300096601,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 216634,
+          "misses": 86,
+          "maxsize": 65536,
+          "currsize": 86
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 221459,
+          "misses": 77,
+          "maxsize": 65536,
+          "currsize": 77
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 8848,
+      "tokens_in": 1053295,
+      "tokens_out": 35540,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 8598
+      },
+      "batches": 70,
+      "cpu_seconds": 1.84375,
+      "wall_seconds": 1.8368441999191418,
+      "timings": {
+        "preprocessing_seconds": 0.004392600036226213,
+        "audit_seconds": 0.0055989999091252685,
+        "projection_seconds": 0.9389092002529651,
+        "execution_bookkeeping_seconds": 0.7460783006390557,
+        "algorithm_seconds": 1.7228734999662265,
+        "planner_wall_seconds": 0.2709380997112021,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.0017790000420063734,
+        "cache_cleanup_seconds": 0.004139399970881641
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.047889099922031164,
+        "fact_ingest_seconds": 0.0035303999902680516,
+        "returned_materialization_seconds": 0.0026667999336495996,
+        "reference_materialization_seconds": 0.0022069000406190753,
+        "reference_label_loading_seconds": 0.01021880004554987,
+        "sql_validation_seconds": 0.010046300012618303
+      },
+      "loss": 0.017686072218128224,
+      "full_count": 1357,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d259c7f09f9f046225f5d96205bdd3b282e27b324934aa41bcbc252affccd2b0",
+      "uncached_wall_seconds": 3.8453698999946937,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31794,
+          "misses": 1464,
+          "maxsize": 65536,
+          "currsize": 1464
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32388,
+          "misses": 1352,
+          "maxsize": 65536,
+          "currsize": 1352
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 8850,
+      "tokens_in": 1053423,
+      "tokens_out": 35544,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 8600
+      },
+      "batches": 70,
+      "cpu_seconds": 1.765625,
+      "wall_seconds": 1.78907459997572,
+      "timings": {
+        "preprocessing_seconds": 0.004254700033925474,
+        "audit_seconds": 0.0054818999487906694,
+        "projection_seconds": 0.9528592001879588,
+        "execution_bookkeeping_seconds": 0.7424732998479158,
+        "algorithm_seconds": 1.7325792000629008,
+        "planner_wall_seconds": 0.2771910998271778,
+        "planner_process_cpu_seconds": 0.328125,
+        "cache_setup_seconds": 0.0017142000142484903,
+        "cache_cleanup_seconds": 0.0040698000229895115
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037210999289527535,
+        "returned_materialization_seconds": 0.002150100073777139,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011184699949808419
+      },
+      "loss": 0.018422991893883568,
+      "full_count": 1357,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "b09979b2fcf3947fcaf056b62a0f9c050fa691fbcf5f7ece73b87931c9210c1a",
+      "uncached_wall_seconds": 3.79446179990191,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31783,
+          "misses": 1475,
+          "maxsize": 65536,
+          "currsize": 1475
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32375,
+          "misses": 1365,
+          "maxsize": 65536,
+          "currsize": 1365
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 8840,
+      "tokens_in": 1052379,
+      "tokens_out": 35504,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 8590
+      },
+      "batches": 70,
+      "cpu_seconds": 1.75,
+      "wall_seconds": 1.7895284000551328,
+      "timings": {
+        "preprocessing_seconds": 0.004075700067915022,
+        "audit_seconds": 0.005342099932022393,
+        "projection_seconds": 0.949375199736096,
+        "execution_bookkeeping_seconds": 0.7523106004809961,
+        "algorithm_seconds": 1.738898599985987,
+        "planner_wall_seconds": 0.26535230048466474,
+        "planner_process_cpu_seconds": 0.203125,
+        "cache_setup_seconds": 0.0015858999686315656,
+        "cache_cleanup_seconds": 0.004104299936443567
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037406999617815018,
+        "returned_materialization_seconds": 0.002211199956946075,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.010056200088001788
+      },
+      "loss": 0.01400147383935151,
+      "full_count": 1357,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "b6d47668082d7fe9c432c8f01150fce964a07d372192fd225d84d01c7ac6212d",
+      "uncached_wall_seconds": 3.7886724000563845,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31836,
+          "misses": 1422,
+          "maxsize": 65536,
+          "currsize": 1422
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32424,
+          "misses": 1316,
+          "maxsize": 65536,
+          "currsize": 1316
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 8959,
+      "tokens_in": 1066646,
+      "tokens_out": 35988,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 7959
+      },
+      "batches": 71,
+      "cpu_seconds": 1.78125,
+      "wall_seconds": 1.8152207001112401,
+      "timings": {
+        "preprocessing_seconds": 0.004146699910052121,
+        "audit_seconds": 0.013895800104364753,
+        "projection_seconds": 0.9963933003600687,
+        "execution_bookkeeping_seconds": 0.7171044005081058,
+        "algorithm_seconds": 1.759468000032939,
+        "planner_wall_seconds": 0.3550658996682614,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.0015514000551775098,
+        "cache_cleanup_seconds": 0.004543600021861494
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004015399958007038,
+        "returned_materialization_seconds": 0.0023479999508708715,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011376600014045835
+      },
+      "loss": 0.016212232866617538,
+      "full_count": 1357,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "76a7e3c43bf99785265be8084cde5c170f87d3079d1d1abcab2c163e4fbcdb2c",
+      "uncached_wall_seconds": 3.4096056000562385,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29131,
+          "misses": 1717,
+          "maxsize": 65536,
+          "currsize": 1717
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 29746,
+          "misses": 1584,
+          "maxsize": 65536,
+          "currsize": 1584
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 8967,
+      "tokens_in": 1067264,
+      "tokens_out": 36024,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 7967
+      },
+      "batches": 71,
+      "cpu_seconds": 1.703125,
+      "wall_seconds": 1.7527097000274807,
+      "timings": {
+        "preprocessing_seconds": 0.004108100081793964,
+        "audit_seconds": 0.00975490000564605,
+        "projection_seconds": 0.9423511000350118,
+        "execution_bookkeeping_seconds": 0.715628599980846,
+        "algorithm_seconds": 1.698524900013581,
+        "planner_wall_seconds": 0.3143449006602168,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.0016220000106841326,
+        "cache_cleanup_seconds": 0.004623500048182905
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0040213000029325485,
+        "returned_materialization_seconds": 0.0022733999649062753,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.010551500017754734
+      },
+      "loss": 0.014738393515106854,
+      "full_count": 1357,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "f9588560251dd9dba86eca47e6408c2c08ce2b15925db4587c5a1b278732a4a1",
+      "uncached_wall_seconds": 3.4683815999887884,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29117,
+          "misses": 1731,
+          "maxsize": 65536,
+          "currsize": 1731
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 29730,
+          "misses": 1600,
+          "maxsize": 65536,
+          "currsize": 1600
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 8954,
+      "tokens_in": 1065976,
+      "tokens_out": 35960,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 7954
+      },
+      "batches": 71,
+      "cpu_seconds": 1.75,
+      "wall_seconds": 1.8464839999796823,
+      "timings": {
+        "preprocessing_seconds": 0.004547700053080916,
+        "audit_seconds": 0.012243699980899692,
+        "projection_seconds": 1.0157818000297993,
+        "execution_bookkeeping_seconds": 0.7320422000484541,
+        "algorithm_seconds": 1.7933088002027944,
+        "planner_wall_seconds": 0.37323750008363277,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0018946001073345542,
+        "cache_cleanup_seconds": 0.004813700099475682
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037897999864071608,
+        "returned_materialization_seconds": 0.0022229000460356474,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.010573899955488741
+      },
+      "loss": 0.016212232866617538,
+      "full_count": 1357,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "82efd3a6d84c8585caf6853172502ecef2184e3f48463edfecea6d46abc21022",
+      "uncached_wall_seconds": 3.470120699959807,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29128,
+          "misses": 1720,
+          "maxsize": 65536,
+          "currsize": 1720
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 29737,
+          "misses": 1593,
+          "maxsize": 65536,
+          "currsize": 1593
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 5699,
+      "tokens_in": 678204,
+      "tokens_out": 22824,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 5449
+      },
+      "batches": 45,
+      "cpu_seconds": 3.875,
+      "wall_seconds": 3.9474338999716565,
+      "timings": {
+        "preprocessing_seconds": 0.007557200035080314,
+        "audit_seconds": 0.06491890002507716,
+        "projection_seconds": 3.1682300000684336,
+        "execution_bookkeeping_seconds": 0.5035840998170897,
+        "algorithm_seconds": 3.8304314999841154,
+        "planner_wall_seconds": 0.2841674998635426,
+        "planner_process_cpu_seconds": 0.375,
+        "cache_setup_seconds": 0.0035274000838398933,
+        "cache_cleanup_seconds": 0.016224099905230105
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.037224599975161254,
+        "fact_ingest_seconds": 0.0034413000103086233,
+        "returned_materialization_seconds": 0.0020675999112427235,
+        "reference_materialization_seconds": 0.002770800027064979,
+        "reference_label_loading_seconds": 0.010684299981221557,
+        "sql_validation_seconds": 0.007182400091551244
+      },
+      "loss": 0.0,
+      "full_count": 23,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "c2fdad8539b5fa7d9bf1b3d9511088ba411ad91ed11428107792fb22f2003e0d",
+      "uncached_wall_seconds": 9.51808519999031,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211848,
+          "misses": 56,
+          "maxsize": 65536,
+          "currsize": 56
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216671,
+          "misses": 49,
+          "maxsize": 65536,
+          "currsize": 49
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 5691,
+      "tokens_in": 677364,
+      "tokens_out": 22788,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 5441
+      },
+      "batches": 45,
+      "cpu_seconds": 3.796875,
+      "wall_seconds": 3.93312269996386,
+      "timings": {
+        "preprocessing_seconds": 0.007116599939763546,
+        "audit_seconds": 0.05763300007674843,
+        "projection_seconds": 3.214075099909678,
+        "execution_bookkeeping_seconds": 0.5100806999253109,
+        "algorithm_seconds": 3.871689499937929,
+        "planner_wall_seconds": 0.28152819990646094,
+        "planner_process_cpu_seconds": 0.265625,
+        "cache_setup_seconds": 0.0016462999628856778,
+        "cache_cleanup_seconds": 0.015506300027482212
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0034841999877244234,
+        "returned_materialization_seconds": 0.0018720000516623259,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.006956400000490248
+      },
+      "loss": 0.0,
+      "full_count": 23,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "1bcc3e7ac0cc7b31dc2f761526973067f07c9928bda1c33020d607c6197af343",
+      "uncached_wall_seconds": 9.463616600027308,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211853,
+          "misses": 51,
+          "maxsize": 65536,
+          "currsize": 51
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216676,
+          "misses": 44,
+          "maxsize": 65536,
+          "currsize": 44
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 5680,
+      "tokens_in": 676054,
+      "tokens_out": 22736,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 5430
+      },
+      "batches": 45,
+      "cpu_seconds": 3.796875,
+      "wall_seconds": 3.8629474999615923,
+      "timings": {
+        "preprocessing_seconds": 0.006954799988307059,
+        "audit_seconds": 0.1704612000612542,
+        "projection_seconds": 3.048698700265959,
+        "execution_bookkeeping_seconds": 0.49710379948373884,
+        "algorithm_seconds": 3.80182410008274,
+        "planner_wall_seconds": 0.2836397005012259,
+        "planner_process_cpu_seconds": 0.25,
+        "cache_setup_seconds": 0.0016542000230401754,
+        "cache_cleanup_seconds": 0.015060900012031198
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003590899985283613,
+        "returned_materialization_seconds": 0.0019510999554768205,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.006560700014233589
+      },
+      "loss": 0.0,
+      "full_count": 23,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "b5a973300ae7ecd5e5b03769f5d38cadaa77448e341ee8df61e62e3c567bcd1e",
+      "uncached_wall_seconds": 9.267220300040208,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211849,
+          "misses": 55,
+          "maxsize": 65536,
+          "currsize": 55
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216672,
+          "misses": 48,
+          "maxsize": 65536,
+          "currsize": 48
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 5759,
+      "tokens_in": 685666,
+      "tokens_out": 23072,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 4759
+      },
+      "batches": 46,
+      "cpu_seconds": 3.484375,
+      "wall_seconds": 3.505199500010349,
+      "timings": {
+        "preprocessing_seconds": 0.0071591000305488706,
+        "audit_seconds": 0.038108799955807626,
+        "projection_seconds": 2.859255899908021,
+        "execution_bookkeeping_seconds": 0.4604879997204989,
+        "algorithm_seconds": 3.4422175000654534,
+        "planner_wall_seconds": 0.2579520996659994,
+        "planner_process_cpu_seconds": 0.265625,
+        "cache_setup_seconds": 0.0016731000505387783,
+        "cache_cleanup_seconds": 0.01333600003272295
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037788000190630555,
+        "returned_materialization_seconds": 0.001903700060211122,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008009299985133111
+      },
+      "loss": 0.0,
+      "full_count": 23,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "6e1da9d9284e3d141294d1bc754cf9ac52356cb7711914cc1f3995d93bf769c7",
+      "uncached_wall_seconds": 8.37082240008749,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 187744,
+          "misses": 80,
+          "maxsize": 65536,
+          "currsize": 80
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 192570,
+          "misses": 70,
+          "maxsize": 65536,
+          "currsize": 70
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 5798,
+      "tokens_in": 690217,
+      "tokens_out": 23232,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 4798
+      },
+      "batches": 46,
+      "cpu_seconds": 3.46875,
+      "wall_seconds": 3.527144799940288,
+      "timings": {
+        "preprocessing_seconds": 0.007185900001786649,
+        "audit_seconds": 0.03936419996898621,
+        "projection_seconds": 2.878845300292596,
+        "execution_bookkeeping_seconds": 0.4571348000317812,
+        "algorithm_seconds": 3.461935499915853,
+        "planner_wall_seconds": 0.25655699986964464,
+        "planner_process_cpu_seconds": 0.203125,
+        "cache_setup_seconds": 0.0016393999103456736,
+        "cache_cleanup_seconds": 0.01350040000397712
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.004266900010406971,
+        "returned_materialization_seconds": 0.0022651999024674296,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.006470500025898218
+      },
+      "loss": 0.0,
+      "full_count": 23,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "3b692e37939539e5099bb305c7b1f865c38f5cbc10a0aa21ac65e8fddfe29698",
+      "uncached_wall_seconds": 8.313383999979123,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 187728,
+          "misses": 96,
+          "maxsize": 65536,
+          "currsize": 96
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 192557,
+          "misses": 83,
+          "maxsize": 65536,
+          "currsize": 83
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__love__disgust__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 5770,
+      "tokens_in": 686873,
+      "tokens_out": 23112,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 4770
+      },
+      "batches": 46,
+      "cpu_seconds": 3.625,
+      "wall_seconds": 3.7358321000356227,
+      "timings": {
+        "preprocessing_seconds": 0.0071156000485643744,
+        "audit_seconds": 0.2001315999077633,
+        "projection_seconds": 2.91128340002615,
+        "execution_bookkeeping_seconds": 0.4724246996920556,
+        "algorithm_seconds": 3.673288600053638,
+        "planner_wall_seconds": 0.2629045997746289,
+        "planner_process_cpu_seconds": 0.359375,
+        "cache_setup_seconds": 0.001649599988013506,
+        "cache_cleanup_seconds": 0.01387230004183948
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003447399940341711,
+        "returned_materialization_seconds": 0.0028520000632852316,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.007380899973213673
+      },
+      "loss": 0.0,
+      "full_count": 23,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "1feee8d7adeae829f88942a9f95fd4bf54030cb61c8b23677b71f6ba3f760718",
+      "uncached_wall_seconds": 8.260171399917454,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 187740,
+          "misses": 84,
+          "maxsize": 65536,
+          "currsize": 84
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 192568,
+          "misses": 72,
+          "maxsize": 65536,
+          "currsize": 72
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 8841,
+      "tokens_in": 1053009,
+      "tokens_out": 35472,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 8591
+      },
+      "batches": 70,
+      "cpu_seconds": 1.90625,
+      "wall_seconds": 1.9654422000749037,
+      "timings": {
+        "preprocessing_seconds": 0.004134599934332073,
+        "audit_seconds": 0.0052244000835344195,
+        "projection_seconds": 1.065043500275351,
+        "execution_bookkeeping_seconds": 0.7619844995206222,
+        "algorithm_seconds": 1.8648773998720571,
+        "planner_wall_seconds": 0.3804304002551362,
+        "planner_process_cpu_seconds": 0.359375,
+        "cache_setup_seconds": 0.0016243000281974673,
+        "cache_cleanup_seconds": 0.004497499903663993
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03406159998849034,
+        "fact_ingest_seconds": 0.003075700020417571,
+        "returned_materialization_seconds": 0.0025056999875232577,
+        "reference_materialization_seconds": 0.0021347999572753906,
+        "reference_label_loading_seconds": 0.009531600051559508,
+        "sql_validation_seconds": 0.011524599976837635
+      },
+      "loss": 0.022126022126022125,
+      "full_count": 2079,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "f474f2aee746e133471b6e5b1b21609d7f8391246b99283d12cd97bd37a5968a",
+      "uncached_wall_seconds": 3.8627257000189275,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31730,
+          "misses": 1528,
+          "maxsize": 65536,
+          "currsize": 1528
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32308,
+          "misses": 1432,
+          "maxsize": 65536,
+          "currsize": 1432
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 8904,
+      "tokens_in": 1060539,
+      "tokens_out": 35724,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 8654
+      },
+      "batches": 70,
+      "cpu_seconds": 1.703125,
+      "wall_seconds": 1.7879469000035897,
+      "timings": {
+        "preprocessing_seconds": 0.004458600073121488,
+        "audit_seconds": 0.005062400014139712,
+        "projection_seconds": 0.949187699239701,
+        "execution_bookkeeping_seconds": 0.7481446005403996,
+        "algorithm_seconds": 1.7338835000991821,
+        "planner_wall_seconds": 0.28184920083731413,
+        "planner_process_cpu_seconds": 0.203125,
+        "cache_setup_seconds": 0.0015853999648243189,
+        "cache_cleanup_seconds": 0.003926600096747279
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0036231999984011054,
+        "returned_materialization_seconds": 0.00206659990362823,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.012980600004084408
+      },
+      "loss": 0.01875901875901876,
+      "full_count": 2079,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "6c3b5ff7f4f2005cc78453a19c4a3be5e94a2fec39a998f6b5cb6acda1b88f47",
+      "uncached_wall_seconds": 3.7983939999248832,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31789,
+          "misses": 1469,
+          "maxsize": 65536,
+          "currsize": 1469
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32359,
+          "misses": 1381,
+          "maxsize": 65536,
+          "currsize": 1381
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 8954,
+      "tokens_in": 1066623,
+      "tokens_out": 35928,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 8704
+      },
+      "batches": 70,
+      "cpu_seconds": 1.84375,
+      "wall_seconds": 1.8654034999199212,
+      "timings": {
+        "preprocessing_seconds": 0.004622100037522614,
+        "audit_seconds": 0.005331300082616508,
+        "projection_seconds": 1.0134419003734365,
+        "execution_bookkeeping_seconds": 0.7583899000892416,
+        "algorithm_seconds": 1.810564300045371,
+        "planner_wall_seconds": 0.32697700057178736,
+        "planner_process_cpu_seconds": 0.34375,
+        "cache_setup_seconds": 0.0017194000538438559,
+        "cache_cleanup_seconds": 0.00455589999910444
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0038098000222817063,
+        "returned_materialization_seconds": 0.002146800048649311,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.01169269997626543
+      },
+      "loss": 0.01875901875901876,
+      "full_count": 2079,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d4864b5aef22a02152f5c47e4c6e2e1c35e7c0b8ef1d78844906ec45b8d0581b",
+      "uncached_wall_seconds": 3.869315700023435,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 31787,
+          "misses": 1471,
+          "maxsize": 65536,
+          "currsize": 1471
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 32358,
+          "misses": 1382,
+          "maxsize": 65536,
+          "currsize": 1382
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 9073,
+      "tokens_in": 1080784,
+      "tokens_out": 36408,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8073
+      },
+      "batches": 72,
+      "cpu_seconds": 1.828125,
+      "wall_seconds": 1.8244306999258697,
+      "timings": {
+        "preprocessing_seconds": 0.004116100026294589,
+        "audit_seconds": 0.011537899961695075,
+        "projection_seconds": 0.9734359995927662,
+        "execution_bookkeeping_seconds": 0.7545916999224573,
+        "algorithm_seconds": 1.770983999944292,
+        "planner_wall_seconds": 0.3250740000512451,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0015961999306455255,
+        "cache_cleanup_seconds": 0.004291999968700111
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.003716000006534159,
+        "returned_materialization_seconds": 0.002313199918717146,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.011751600075513124
+      },
+      "loss": 0.02356902356902357,
+      "full_count": 2079,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "c2eb5af51492825e78eb674f7302ee81061164a0e200cbc96049499153577007",
+      "uncached_wall_seconds": 3.467955100000836,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29506,
+          "misses": 1824,
+          "maxsize": 65536,
+          "currsize": 1824
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30129,
+          "misses": 1683,
+          "maxsize": 65536,
+          "currsize": 1683
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 8950,
+      "tokens_in": 1066019,
+      "tokens_out": 35912,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 7950
+      },
+      "batches": 71,
+      "cpu_seconds": 1.828125,
+      "wall_seconds": 1.8294415000127628,
+      "timings": {
+        "preprocessing_seconds": 0.004139399970881641,
+        "audit_seconds": 0.01109859999269247,
+        "projection_seconds": 1.002198699512519,
+        "execution_bookkeeping_seconds": 0.7278772002318874,
+        "algorithm_seconds": 1.7736325999721885,
+        "planner_wall_seconds": 0.36984439997468144,
+        "planner_process_cpu_seconds": 0.421875,
+        "cache_setup_seconds": 0.0015711999731138349,
+        "cache_cleanup_seconds": 0.004830199992284179
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0042888999450951815,
+        "returned_materialization_seconds": 0.002695700037293136,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.01369149994570762
+      },
+      "loss": 0.025012025012025013,
+      "full_count": 2079,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "47d2b62304a4aa1bd0a60b3e507640fe343b0a53665b6c42668642a7e37272db",
+      "uncached_wall_seconds": 3.474986099987291,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29127,
+          "misses": 1721,
+          "maxsize": 65536,
+          "currsize": 1721
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 29745,
+          "misses": 1585,
+          "maxsize": 65536,
+          "currsize": 1585
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__subreddit",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 9065,
+      "tokens_in": 1079824,
+      "tokens_out": 36364,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 8065
+      },
+      "batches": 72,
+      "cpu_seconds": 1.78125,
+      "wall_seconds": 1.8386168000288308,
+      "timings": {
+        "preprocessing_seconds": 0.004330100025981665,
+        "audit_seconds": 0.007756900042295456,
+        "projection_seconds": 0.9885591000784189,
+        "execution_bookkeeping_seconds": 0.7562821001047269,
+        "algorithm_seconds": 1.7843114000279456,
+        "planner_wall_seconds": 0.32757789944298565,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0015941000310704112,
+        "cache_cleanup_seconds": 0.004323799978010356
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0036980999866500497,
+        "returned_materialization_seconds": 0.00239290005993098,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.010927999974228442
+      },
+      "loss": 0.025012025012025013,
+      "full_count": 2079,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "319249a5d3e401beb4dfc7cc25a0f633a02c3f2d111244d30b3a9dabaed1dfbe",
+      "uncached_wall_seconds": 3.5381896999897435,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 29521,
+          "misses": 1809,
+          "maxsize": 65536,
+          "currsize": 1809
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 30144,
+          "misses": 1668,
+          "maxsize": 65536,
+          "currsize": 1668
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 125,
+      "requests": 5736,
+      "tokens_in": 682984,
+      "tokens_out": 22952,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 5486
+      },
+      "batches": 45,
+      "cpu_seconds": 3.953125,
+      "wall_seconds": 4.00722519995179,
+      "timings": {
+        "preprocessing_seconds": 0.007562899962067604,
+        "audit_seconds": 0.05860079999547452,
+        "projection_seconds": 3.23008190037217,
+        "execution_bookkeeping_seconds": 0.518164400011301,
+        "algorithm_seconds": 3.8953510998981073,
+        "planner_wall_seconds": 0.3834403003565967,
+        "planner_process_cpu_seconds": 0.40625,
+        "cache_setup_seconds": 0.001663199975155294,
+        "cache_cleanup_seconds": 0.015059900004416704
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.03425030002836138,
+        "fact_ingest_seconds": 0.003281199955381453,
+        "returned_materialization_seconds": 0.0017698999727144837,
+        "reference_materialization_seconds": 0.0022565999533981085,
+        "reference_label_loading_seconds": 0.010272499988786876,
+        "sql_validation_seconds": 0.009936799993738532
+      },
+      "loss": 0.013157894736842105,
+      "full_count": 76,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "6017c17265a1fe159bbeaf0c66d2c2e8cd3e1133c53a75f9a3ee9cc2b5065d19",
+      "uncached_wall_seconds": 9.71583930007182,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211844,
+          "misses": 60,
+          "maxsize": 65536,
+          "currsize": 60
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216666,
+          "misses": 54,
+          "maxsize": 65536,
+          "currsize": 54
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 125,
+      "requests": 5732,
+      "tokens_in": 682530,
+      "tokens_out": 22940,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 5482
+      },
+      "batches": 45,
+      "cpu_seconds": 3.796875,
+      "wall_seconds": 3.858691900037229,
+      "timings": {
+        "preprocessing_seconds": 0.007651199935935438,
+        "audit_seconds": 0.05868630006443709,
+        "projection_seconds": 3.1433631002437323,
+        "execution_bookkeeping_seconds": 0.49857779988087714,
+        "algorithm_seconds": 3.7923206000123173,
+        "planner_wall_seconds": 0.2907298996578902,
+        "planner_process_cpu_seconds": 0.3125,
+        "cache_setup_seconds": 0.0017822999507188797,
+        "cache_cleanup_seconds": 0.01526070002000779
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0036622999468818307,
+        "returned_materialization_seconds": 0.002586800022982061,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008446500054560602
+      },
+      "loss": 0.013157894736842105,
+      "full_count": 76,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "d33a435098fe2de852e78c67c72ca8aaf11780948033c2754b1023e801e7343b",
+      "uncached_wall_seconds": 9.464921699953265,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211841,
+          "misses": 63,
+          "maxsize": 65536,
+          "currsize": 63
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216664,
+          "misses": 56,
+          "maxsize": 65536,
+          "currsize": 56
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 125,
+      "requests": 5717,
+      "tokens_in": 680894,
+      "tokens_out": 22880,
+      "phase_counts": {
+        "audit": 250,
+        "cut": 0,
+        "execution": 5467
+      },
+      "batches": 45,
+      "cpu_seconds": 3.890625,
+      "wall_seconds": 3.978998300037347,
+      "timings": {
+        "preprocessing_seconds": 0.00799620000179857,
+        "audit_seconds": 0.0767386999214068,
+        "projection_seconds": 3.2387513000285253,
+        "execution_bookkeeping_seconds": 0.5032117998925969,
+        "algorithm_seconds": 3.910849599982612,
+        "planner_wall_seconds": 0.2871971996501088,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.002037400030530989,
+        "cache_cleanup_seconds": 0.01631079998333007
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0038796999724581838,
+        "returned_materialization_seconds": 0.0021644000662490726,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009434000006876886
+      },
+      "loss": 0.013157894736842105,
+      "full_count": 76,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "9d2e1ccb15bc84461b038957f9d1718e41ce47cd8a2397d9acc0cbdf6a816021",
+      "uncached_wall_seconds": 9.471346599981189,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 211841,
+          "misses": 63,
+          "maxsize": 65536,
+          "currsize": 63
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 216665,
+          "misses": 55,
+          "maxsize": 65536,
+          "currsize": 55
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "method": "joint_greedy",
+      "seed": 101,
+      "budget": 500,
+      "requests": 5830,
+      "tokens_in": 694520,
+      "tokens_out": 23352,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 4830
+      },
+      "batches": 46,
+      "cpu_seconds": 3.453125,
+      "wall_seconds": 3.6116886000381783,
+      "timings": {
+        "preprocessing_seconds": 0.00746890006121248,
+        "audit_seconds": 0.05352560000028461,
+        "projection_seconds": 2.915736699476838,
+        "execution_bookkeeping_seconds": 0.4866878999164328,
+        "algorithm_seconds": 3.542557300068438,
+        "planner_wall_seconds": 0.2695059000980109,
+        "planner_process_cpu_seconds": 0.234375,
+        "cache_setup_seconds": 0.0016765999607741833,
+        "cache_cleanup_seconds": 0.013832300086505711
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0035423999652266502,
+        "returned_materialization_seconds": 0.0019336999393999577,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.009529900038614869
+      },
+      "loss": 0.013157894736842105,
+      "full_count": 76,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "de8e7ea6fa802835598b555b5b096e7dd15cfed4bb5f7a58cf69e3d5d0fda5f6",
+      "uncached_wall_seconds": 8.31411969999317,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 187734,
+          "misses": 90,
+          "maxsize": 65536,
+          "currsize": 90
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 192559,
+          "misses": 81,
+          "maxsize": 65536,
+          "currsize": 81
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "method": "joint_greedy",
+      "seed": 202,
+      "budget": 500,
+      "requests": 5843,
+      "tokens_in": 695866,
+      "tokens_out": 23384,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 4843
+      },
+      "batches": 46,
+      "cpu_seconds": 3.609375,
+      "wall_seconds": 3.6400727999862283,
+      "timings": {
+        "preprocessing_seconds": 0.007928699953481555,
+        "audit_seconds": 0.08890760003123432,
+        "projection_seconds": 2.9186769002117217,
+        "execution_bookkeeping_seconds": 0.47243670001626015,
+        "algorithm_seconds": 3.5657727000070736,
+        "planner_wall_seconds": 0.25772510026581585,
+        "planner_process_cpu_seconds": 0.21875,
+        "cache_setup_seconds": 0.001971099991351366,
+        "cache_cleanup_seconds": 0.013395600020885468
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.0037263999693095684,
+        "returned_materialization_seconds": 0.0020340000046417117,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.008507899940013885
+      },
+      "loss": 0.013157894736842105,
+      "full_count": 76,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "5333aadbb4901b70b211b968be572b99b7fdace0aa7e53e15cbb454dabc4b884",
+      "uncached_wall_seconds": 8.377499700058252,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 187727,
+          "misses": 97,
+          "maxsize": 65536,
+          "currsize": 97
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 192556,
+          "misses": 84,
+          "maxsize": 65536,
+          "currsize": 84
+        }
+      }
+    },
+    {
+      "case_id": "goemotions_native__gratitude__disappointment__link_id",
+      "method": "joint_greedy",
+      "seed": 303,
+      "budget": 500,
+      "requests": 5835,
+      "tokens_in": 695068,
+      "tokens_out": 23360,
+      "phase_counts": {
+        "audit": 1000,
+        "cut": 0,
+        "execution": 4835
+      },
+      "batches": 46,
+      "cpu_seconds": 3.625,
+      "wall_seconds": 3.6939640000928193,
+      "timings": {
+        "preprocessing_seconds": 0.007661000010557473,
+        "audit_seconds": 0.05684129998553544,
+        "projection_seconds": 2.990740499808453,
+        "execution_bookkeeping_seconds": 0.4689837000332773,
+        "algorithm_seconds": 3.604777100030333,
+        "planner_wall_seconds": 0.2601250996813178,
+        "planner_process_cpu_seconds": 0.296875,
+        "cache_setup_seconds": 0.0017210000660270452,
+        "cache_cleanup_seconds": 0.015432800049893558
+      },
+      "sql_timings": {
+        "sql_preprocessing_seconds": 0.0,
+        "fact_ingest_seconds": 0.005697200074791908,
+        "returned_materialization_seconds": 0.00292599992826581,
+        "reference_materialization_seconds": 0.0,
+        "reference_label_loading_seconds": 0.0,
+        "sql_validation_seconds": 0.00808070006314665
+      },
+      "loss": 0.013157894736842105,
+      "full_count": 76,
+      "coverage": true,
+      "conflict": false,
+      "raw_sha256": "16e3b61615b97ed1d778fd04a144b97f85474e98f93069948b401564c38dbb5c",
+      "uncached_wall_seconds": 8.601026100106537,
+      "cache_info": {
+        "numpy_profiles": {
+          "hits": 187736,
+          "misses": 88,
+          "maxsize": 65536,
+          "currsize": 88
+        },
+        "python_profiles": {
+          "hits": 0,
+          "misses": 0,
+          "maxsize": 65536,
+          "currsize": 0
+        },
+        "support": {
+          "hits": 192564,
+          "misses": 76,
+          "maxsize": 65536,
+          "currsize": 76
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+paper_id: certis-icde2027
+palette: paper-palette.yaml
+palette_id: certis-icde2027-navy-v1
+palette_status: frozen
+academic_style_policy: academic-style.yaml
+venue: IEEE ICDE 2027 research, unmodified IEEEtran conference
+publication_width: 43 TeX picas (181.35 mm); this is the official class text width
+main_figure_canvas_inches: [7.139892, 2.55]
+font: Arial, 8 pt ticks/legend, 8.5 pt axes, 9 pt panel titles
+encoding:
+  joint_exact: navy circle, solid
+  joint_greedy: navy triangle, dashed
+  per_side: dark gray square, dashed
+  separate_extrema: light gray diamond, dash-dot
+  degree_prefix: gray square
+  paid_cut: teal triangle
+  exact_reference: dark horizontal zero line
+raw_data: plot_data.json, with original paths and SHA-256 hashes
+uncertainty: Native whiskers are min-max across 3 fixed seeds and 2 audit budgets; not confidence intervals
+reading_order: left-to-right within each figure; mechanism evidence before native boundary evidence
+figures:
+  - number: 3
+    claim: Global bag budgeting accounts for most request reduction; feedback and coupling have separately matched controls
+    five_second_takeaway: Large per-side/global gap, small greedy/exact gap
+    archetype: distribution comparison plus matched component ablation
+    panels:
+      - id: a
+        purpose: ECDFs for all 48 matched constructed budget-500 cells; preserve all four policies
+        anchor: Per-side reference distribution
+      - id: b
+        purpose: Three matched ablations on 96 cells from the primary 32-target matrix
+        anchor: Zero saving against each named control
+    guardrail: The 48-cell and 96-cell populations are labeled separately and never pooled
+  - number: 4
+    claim: Native request savings vary across queries and can reverse relative to exact execution
+    five_second_takeaway: Both wins and regressions remain visible, including sparse thread queries
+    archetype: aligned paired small multiples
+    panels:
+      - id: a
+        purpose: Four subreddit queries, three policies, same baseline-relative request metric
+      - id: b
+        purpose: Four thread queries with identical geometry, axes, and encoding
+    anchor: Zero saving means the exact right-first cost
+    guardrail: Full-bag T is a descriptive annotation, not a causal predictor or online selection rule
+  - number: diagnostic-price
+    claim: Helper-token charges can reverse the apparent benefit of reduced oracle calls
+    five_second_takeaway: Paid-cut modeled token costs can exceed the exact reference
+    disposition: Standalone reproducible diagnostic, not an appendix and not included as a main figure
+    anchor: Zero saving against exact right-first tokens
+    transformation: Oracle tokens plus price ratio times helper tokens, using all five stored price ratios
+accessibility:
+  grayscale: Series retain markers, line styles, positions, and explicit method labels
+  color_vision: Color is redundant with marker and line style; no red-green comparison
+exports: Editable Python and input JSON, vector PDF/SVG, 300 dpi PNG

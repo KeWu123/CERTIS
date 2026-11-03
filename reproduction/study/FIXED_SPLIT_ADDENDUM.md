@@ -1,0 +1,5 @@
+# Fixed continuous split: spend the full allowable product budget
+
+The first implementation froze each side's attained recall at the initially chosen count pair. Integer steps can leave unused allowance. The corrected fixed-continuous control freezes the same optimal initial left recall r_L, and assigns the right budget exactly 0.9/r_L. This preserves the initial maximum-count choice and uses the full feasible product budget in later rounds. This change affects only this fixed-split control, not adaptive continuous optimization or any joint method.
+
+Rerun all 48 fixed-continuous cells in a separate version; preserve every v1 result. Keep the same audits, ordering, batch size, containing masks and verification. Use the corrected version in the final four-arm table, explicitly binding the mixed-version matrix. The historical floating-grid implementation additionally differs from the new rational grid in threshold arithmetic and initial zero-gain tie/default handling; its 34-request pooled difference is not counted as a pure feedback effect.

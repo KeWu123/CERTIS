@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "methods": {
+    "batched_right": {
+      "rounds": 79,
+      "requests": 9951,
+      "measured_inference_seconds": 247.2780438994523,
+      "prompt_tokens": 546796,
+      "generated_tokens": 19902
+    },
+    "adaptive_continuous": {
+      "rounds": 78,
+      "requests": 9904,
+      "measured_inference_seconds": 245.29795110004488,
+      "prompt_tokens": 544225,
+      "generated_tokens": 19808
+    },
+    "joint_greedy": {
+      "rounds": 73,
+      "requests": 9264,
+      "measured_inference_seconds": 227.6577155997511,
+      "prompt_tokens": 509105,
+      "generated_tokens": 18528
+    }
+  },
+  "full_trace_repetitions": 1,
+  "probe_repetitions": 3,
+  "cache_prompt": false,
+  "all_prompts_untruncated": true,
+  "interpretation": "Measured fixed-trace latency on a separate local model; live outputs did not choose the traces."
+}

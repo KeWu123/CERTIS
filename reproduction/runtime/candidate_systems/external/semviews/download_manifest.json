@@ -1,0 +1,71 @@
+{
+  "repo": "semviews/lotus-semviews",
+  "commit": "b102ced758428a47191a2a83f1890e44bb715e41",
+  "retrieved_utc": "2026-10-16",
+  "code_license": "Apache-2.0",
+  "dbpedia_upstream_license": "CC0-1.0 per upstream dataset card and artifact docs",
+  "goemotions_upstream_license": "Apache-2.0 per upstream dataset card and artifact docs",
+  "files": [
+    {
+      "path": "LICENSE",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "docs/DATA.md",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/docs/DATA.md",
+      "bytes": 28476,
+      "sha256": "e5f266d3130333d962f1c1836702779ae3b6407df6136baadf57e18ddf2dff99"
+    },
+    {
+      "path": "configs/predicates/dbpedia.yaml",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/configs/predicates/dbpedia.yaml",
+      "bytes": 5109,
+      "sha256": "9f3312663b27c5e4e5815f5a1c82e2fa8afa0b42ffae76cec2b2aa9b9eeb8e2f"
+    },
+    {
+      "path": "configs/predicates/goemotions.yaml",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/configs/predicates/goemotions.yaml",
+      "bytes": 5266,
+      "sha256": "a35aeae0558538c1f29eed4027bf8b34ead4c493977798a08358899ac1b3c1fa"
+    },
+    {
+      "path": "data/datasets/dbpedia.parquet",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/data/datasets/dbpedia.parquet",
+      "bytes": 1589058,
+      "sha256": "dff8470a8480d89da0b6069171745baaddec8a98e08b0dd5ff43e26b4ea1eb8d"
+    },
+    {
+      "path": "data/tapes/dbpedia__oracle-llama.parquet",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/data/tapes/dbpedia__oracle-llama.parquet",
+      "bytes": 616760,
+      "sha256": "1a20b030753d77765dae9922563b612fcac1428a0bd4dcc01f1c835583fe410c"
+    },
+    {
+      "path": "data/tapes/dbpedia__helper.parquet",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/data/tapes/dbpedia__helper.parquet",
+      "bytes": 2911857,
+      "sha256": "44f52efb14f410da81ece2782216eee558f8ab87082517c4bbe8b0e5d399c21d"
+    },
+    {
+      "path": "data/datasets/goemotions.parquet",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/data/datasets/goemotions.parquet",
+      "bytes": 376812,
+      "sha256": "8e0ac9324787376a427828609dcc75ca5aab5815a4c2132d9a98bef505a84caa"
+    },
+    {
+      "path": "data/tapes/goemotions__oracle-llama.parquet",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/data/tapes/goemotions__oracle-llama.parquet",
+      "bytes": 601950,
+      "sha256": "4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "path": "data/tapes/goemotions__helper.parquet",
+      "primary_url": "https://raw.githubusercontent.com/semviews/lotus-semviews/b102ced758428a47191a2a83f1890e44bb715e41/data/tapes/goemotions__helper.parquet",
+      "bytes": 2420190,
+      "sha256": "fda032e837818017bfb5bfd917bb4736bbd8762d9fe7a02c251dde0624f005bf"
+    }
+  ],
+  "no_live_model_calls": true
+}

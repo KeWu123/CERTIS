@@ -1,0 +1,109 @@
+{
+  "validated_utc": "2026-10-16T12:44:47.662304+00:00",
+  "upstream_commit": "b102ced758428a47191a2a83f1890e44bb715e41",
+  "download_manifest_sha256": "94a3fa000ac97292d3c40afa3ad683a6da8635eba950643e34f496f91e20eb5a",
+  "all_file_hashes_match": true,
+  "datasets": [
+    {
+      "dataset": "dbpedia",
+      "identities": 5000,
+      "predicates": 40,
+      "records": {
+        "oracle": {
+          "rows": 200000,
+          "parse_failures": 0,
+          "model_ids": [
+            [
+              "oracle-llama"
+            ]
+          ],
+          "prompt_versions": [
+            [
+              "lotus-1.2.4-sem_filter-default"
+            ]
+          ],
+          "recorded_input_tokens": 42580520,
+          "recorded_output_tokens": 800008
+        },
+        "helper": {
+          "rows": 200000,
+          "parse_failures": 0,
+          "model_ids": [
+            [
+              "helper-local"
+            ],
+            [
+              "helper"
+            ]
+          ],
+          "prompt_versions": [
+            [
+              "lotus-1.2.4-sem_filter-default"
+            ]
+          ],
+          "recorded_input_tokens": 42580520,
+          "recorded_output_tokens": 800000
+        }
+      },
+      "array_file": "external_inputs/dbpedia_arrays.npz",
+      "array_sha256": "b866012afd0558a41812679e6509d3e963f2550903ddf2e577608a2051e2636d",
+      "oracle_contract_version": "sha256:1a20b030753d77765dae9922563b612fcac1428a0bd4dcc01f1c835583fe410c",
+      "truth_scope": "immutable public recorded oracle labels, not human ground truth",
+      "no_result_selected": true,
+      "no_live_inference_measured": true,
+      "helper_cost_scope": "Existing-helper and purchased-helper costs must be reported separately; no training-label charge invented.",
+      "latency_scope": "Recorded batch latency not summed or called live wall time."
+    },
+    {
+      "dataset": "goemotions",
+      "identities": 5000,
+      "predicates": 40,
+      "records": {
+        "oracle": {
+          "rows": 200000,
+          "parse_failures": 0,
+          "model_ids": [
+            [
+              "oracle-llama"
+            ]
+          ],
+          "prompt_versions": [
+            [
+              "lotus-1.2.4-sem_filter-default"
+            ]
+          ],
+          "recorded_input_tokens": 24269040,
+          "recorded_output_tokens": 801288
+        },
+        "helper": {
+          "rows": 200000,
+          "parse_failures": 1112,
+          "model_ids": [
+            [
+              "helper-local"
+            ],
+            [
+              "helper"
+            ]
+          ],
+          "prompt_versions": [
+            [
+              "lotus-1.2.4-sem_filter-default"
+            ]
+          ],
+          "recorded_input_tokens": 24269040,
+          "recorded_output_tokens": 800000
+        }
+      },
+      "array_file": "external_inputs/goemotions_arrays.npz",
+      "array_sha256": "2e16a9aea7000933d5d7a1faab2b139ba11b57493a2ccfb060f5d4837f05a2a6",
+      "oracle_contract_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d",
+      "truth_scope": "immutable public recorded oracle labels, not human ground truth",
+      "no_result_selected": true,
+      "no_live_inference_measured": true,
+      "helper_cost_scope": "Existing-helper and purchased-helper costs must be reported separately; no training-label charge invented.",
+      "latency_scope": "Recorded batch latency not summed or called live wall time."
+    }
+  ],
+  "protocol": "Full key/shape/value validation of both supplied datasets and every predicate; no performance query selection or empirical claim."
+}

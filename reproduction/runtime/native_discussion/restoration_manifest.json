@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-16T15:37:47.576619+00:00",
+  "target_rows": 5000,
+  "matched_unique": 4998,
+  "missing": [],
+  "ambiguous": [
+    {
+      "row_id": "b3bcd998ce3e576c",
+      "identities": 2
+    },
+    {
+      "row_id": "c123b9b67036947d",
+      "identities": 2
+    }
+  ],
+  "source_files": [
+    {
+      "url": "https://raw.githubusercontent.com/google-research/google-research/master/goemotions/README.md",
+      "file": "native_discussion\\sources\\README.md",
+      "sha256": "c882c69be9f400129bce8535319606434481a085be9c20263930670890e171a7",
+      "bytes": 7968
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google-research/google-research/master/LICENSE",
+      "file": "native_discussion\\sources\\LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "url": "https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_1.csv",
+      "file": "native_discussion\\sources\\goemotions_1.csv",
+      "sha256": "cac049036bad5d68d1081f72b65f2cc51e4df82af05e3e22cfa747051cac1af3",
+      "bytes": 14174600
+    },
+    {
+      "url": "https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_2.csv",
+      "file": "native_discussion\\sources\\goemotions_2.csv",
+      "sha256": "f699ecc5aa425c1720c1d02475f1e41815244b680bd75b282eb770d2c76cd84d",
+      "bytes": 14173154
+    },
+    {
+      "url": "https://storage.googleapis.com/gresearch/goemotions/data/full_dataset/goemotions_3.csv",
+      "file": "native_discussion\\sources\\goemotions_3.csv",
+      "sha256": "467f1e7191af00f2e76cc7f425885c2dc304bea8aff284b10e8c460d22f2e1af",
+      "bytes": 14395164
+    }
+  ],
+  "target_sha256": "8e0ac9324787376a427828609dcc75ca5aab5815a4c2132d9a98bef505a84caa",
+  "mapping_sha256": "069a608145682fa463919bd6196ff81f03144699a3906b6f6680c6415cbc20b3",
+  "subreddit_count": 482,
+  "thread_count": 4816,
+  "predicate_labels_inspected": false,
+  "scope": "Metadata feasibility only; not an execution or model-accuracy experiment"
+}

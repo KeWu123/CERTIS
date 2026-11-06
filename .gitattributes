@@ -1,13 +1,3 @@
-* text=auto eol=lf
-*.py text eol=lf
-*.md text eol=lf
-*.txt text eol=lf
-*.json text eol=lf
-*.yaml text eol=lf
-*.yml text eol=lf
-*.tex text eol=lf
-*.gz binary
-*.npz binary
-*.parquet binary
-*.pdf binary
-*.png binary
+# Preserve the bytes bound by artifact and historical source manifests.
+# Disabling newline conversion keeps verification identical across platforms.
+* -text

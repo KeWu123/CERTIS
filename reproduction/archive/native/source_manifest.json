@@ -1,0 +1,2005 @@
+{
+  "sources": {
+    "reproduction/runtime/external_study/common.py": "020e94f34b4ed2ce3601f58f3ce900ef912305948f054c3f014207defd44d287",
+    "reproduction/runtime/external_study/exact_baselines.py": "e6a10b83bf6cbe99bd91e3503d10042e2476a9756f6f3318dacf91803e833626",
+    "reproduction/runtime/external_study/extra_exact_controls.py": "12d067812d50703d41d078ac13c97f809f0d969b416fcba58f8d4cb4428dd364",
+    "reproduction/runtime/external_study/direct_arms.py": "b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203",
+    "reproduction/runtime/external_study/cut_arms.py": "0d6e38376d882221f2f04005faff04f3d9c0773d07d85804bfd51e0492e852f9",
+    "reproduction/runtime/external_study/count_allocation_arms.py": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+    "reproduction/runtime/external_study/native_discussion_cases.py": "de9cdce5fe4e75b9bcfcc7a8970bc039409b3edfaf46c58858758122c8689c26",
+    "reproduction/runtime/external_study/restore_discussion_metadata.py": "9d60d30d2e8aed3da448a04d6a307f8b60783b45f00bece4a914e8b662f5d5eb",
+    "reproduction/runtime/external_study/native_discussion_checks.py": "331c7786c5dd4512fae3336d24dc303fc9b80d942beab1e036d8dd8ec94a56ac",
+    "reproduction/runtime/external_study/native_discussion_checks.json": "5202f4e97abf86113c490b9d715fd62b5424214ee34ef5049917cdb006183435",
+    "reproduction/runtime/external_study/run_native_discussion.py": "2903ec2cddbc8547773e187e0987d7173f52cd2f1e523f0d066787a0ba5e3ede",
+    "reproduction/runtime/external_study/NATIVE_DISCUSSION_PROTOCOL.md": "e52269f6e19f06fa7df3159624140016bf6ceb40d7db146777362e0b9e96ed4c",
+    "reproduction/runtime/external_study/validate_results.py": "5028a3e8bcb0e539ea1d97e3ff768d60806e43f24f3385939b6fc1fba74ea6a6",
+    "reproduction/runtime/external_study/strict_result_validation.py": "fac73ce8adaefd820d5cf6120c8f5a1ead29287950bab98605e90f6e8a540a04",
+    "reproduction/runtime/external_study/strict_result_validation_checks.py": "b2863e0a4bcaef858a71486e58437765accf0760dca2b943d1096f8719379508",
+    "reproduction/runtime/external_study/strict_result_validation_checks.json": "0d9f790c3841b9bbbc78d0b04fe76afe6f6a218ce7ec7154c72b8f82da455dae",
+    "code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "code/relational_cut.py": "2814ea3beae72dfbe6bbb94965936f5614c99c9f3df7115fc0a32a84b883a417",
+    "code/exact_hypergeom.py": "bb44c24a6bd63a39be4a15549e048eb692edd7a46a15ddb70e2aa2a20c855cec",
+    "code/count_mask_planner.py": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+    "reproduction/runtime/EXTERNAL_PROTOCOL.md": "2e29c7cd3fdf9c08d154f6839b404cc2c42d5d59e36a0e3b8ce9055aa6c6c455",
+    "reproduction/runtime/external_inputs/validation.json": "6edc7212d177439d346392b0a33eca8fdc796af1c025ed466debd4b366df3eec",
+    "reproduction/runtime/candidate_systems/external/semviews/download_manifest.json": "94a3fa000ac97292d3c40afa3ad683a6da8635eba950643e34f496f91e20eb5a",
+    "reproduction/runtime/candidate_systems/external/semviews/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "reproduction/runtime/candidate_systems/external/semviews/docs/DATA.md": "e5f266d3130333d962f1c1836702779ae3b6407df6136baadf57e18ddf2dff99",
+    "reproduction/runtime/native_discussion/restoration_manifest.json": "a2f1ec65142b714e82b16a9b9b7ffdb5be7e260e2c150492ae031b06126fdd81",
+    "reproduction/runtime/native_discussion/relation_metadata.parquet": "069a608145682fa463919bd6196ff81f03144699a3906b6f6680c6415cbc20b3",
+    "reproduction/runtime/native_discussion/sources/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "reproduction/runtime/native_discussion/sources/README.md": "c882c69be9f400129bce8535319606434481a085be9c20263930670890e171a7"
+  },
+  "inputs": {
+    "reproduction/runtime/candidate_systems/external/semviews/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "reproduction/runtime/candidate_systems/external/semviews/docs/DATA.md": "e5f266d3130333d962f1c1836702779ae3b6407df6136baadf57e18ddf2dff99",
+    "reproduction/runtime/candidate_systems/external/semviews/configs/predicates/dbpedia.yaml": "9f3312663b27c5e4e5815f5a1c82e2fa8afa0b42ffae76cec2b2aa9b9eeb8e2f",
+    "reproduction/runtime/candidate_systems/external/semviews/configs/predicates/goemotions.yaml": "a35aeae0558538c1f29eed4027bf8b34ead4c493977798a08358899ac1b3c1fa",
+    "reproduction/runtime/candidate_systems/external/semviews/data/datasets/dbpedia.parquet": "dff8470a8480d89da0b6069171745baaddec8a98e08b0dd5ff43e26b4ea1eb8d",
+    "reproduction/runtime/candidate_systems/external/semviews/data/tapes/dbpedia__oracle-llama.parquet": "1a20b030753d77765dae9922563b612fcac1428a0bd4dcc01f1c835583fe410c",
+    "reproduction/runtime/candidate_systems/external/semviews/data/tapes/dbpedia__helper.parquet": "44f52efb14f410da81ece2782216eee558f8ab87082517c4bbe8b0e5d399c21d",
+    "reproduction/runtime/candidate_systems/external/semviews/data/datasets/goemotions.parquet": "8e0ac9324787376a427828609dcc75ca5aab5815a4c2132d9a98bef505a84caa",
+    "reproduction/runtime/candidate_systems/external/semviews/data/tapes/goemotions__oracle-llama.parquet": "4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d",
+    "reproduction/runtime/candidate_systems/external/semviews/data/tapes/goemotions__helper.parquet": "fda032e837818017bfb5bfd917bb4736bbd8762d9fe7a02c251dde0624f005bf",
+    "reproduction/runtime/external_inputs/dbpedia_arrays.npz": "b866012afd0558a41812679e6509d3e963f2550903ddf2e577608a2051e2636d",
+    "reproduction/runtime/external_inputs/goemotions_arrays.npz": "2e16a9aea7000933d5d7a1faab2b139ba11b57493a2ccfb060f5d4837f05a2a6",
+    "reproduction/runtime/native_discussion/sources/README.md": "c882c69be9f400129bce8535319606434481a085be9c20263930670890e171a7",
+    "reproduction/runtime/native_discussion/sources/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "reproduction/runtime/native_discussion/sources/goemotions_1.csv": "cac049036bad5d68d1081f72b65f2cc51e4df82af05e3e22cfa747051cac1af3",
+    "reproduction/runtime/native_discussion/sources/goemotions_2.csv": "f699ecc5aa425c1720c1d02475f1e41815244b680bd75b282eb770d2c76cd84d",
+    "reproduction/runtime/native_discussion/sources/goemotions_3.csv": "467f1e7191af00f2e76cc7f425885c2dc304bea8aff284b10e8c460d22f2e1af"
+  },
+  "expected_cells": [
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__exact_scan__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__left_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__right_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cover__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__subreddit__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__subreddit",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:78208a8114b7aa167de45531f5beccdbc77713b518a69849f7acf668e7f898fd",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__exact_scan__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__left_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__right_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cover__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__anger__link_id__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__anger__link_id",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:43872b7be9aa02102da19afcc275f6174037605bc97f251c8438aff52948f4ae",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__exact_scan__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__left_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__right_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cover__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__subreddit__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__subreddit",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:8f707036bb4bcbb8bb10636a13d45831569f4addfdddf074349c498d85b91f8b",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__exact_scan__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__left_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__right_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cover__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__sent_positive__sadness__link_id__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__sent_positive__sadness__link_id",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:231c851795e0394521cf649c9ccdf7b3abcb4d086dafeff39732d1a897448e89",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__exact_scan__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__left_first__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__right_first__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cover__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__subreddit__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__subreddit",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:ac5d097fb3447612ea1a33dd4b723b4b0b2502e6d40571be63f5a45450277d92",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__exact_scan__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__left_first__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__right_first__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cover__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__joy__disapproval__link_id__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__joy__disapproval__link_id",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:b8cd170c250fd68e639aec8dc43de446b98200318d73838c99e10a28f564ff85",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__exact_scan__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__left_first__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__right_first__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cover__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__subreddit__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__subreddit",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:aacc83a387e99d924b7e5d5ad9cfb9bb70b90215d5d414295709179c78568c0c",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__exact_scan__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "exact_scan",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__left_first__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "left_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__right_first__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "right_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cover__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cover",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__helper_greedy__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "helper_greedy",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__dynamic_max_degree__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "dynamic_max_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__helper_negative_first__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "helper_negative_first",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_audit_degree__s101__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cut_feedback_audit__s101__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_audit_degree__s202__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cut_feedback_audit__s202__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_audit_degree__s303__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cut_feedback_audit__s303__b125",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 125,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_audit_degree__s101__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cut_feedback_audit__s101__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 101,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_audit_degree__s202__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cut_feedback_audit__s202__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 202,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_audit_degree__s303__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_audit_degree",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__cut_feedback_audit__s303__b500",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "cut_feedback_audit",
+      "seed": 303,
+      "budget": 500,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__direct_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "direct_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    },
+    {
+      "key": "goemotions_native__admiration__annoyance__link_id__count_allocation_feedback_point_degree__s0__b0",
+      "case_id": "goemotions_native__admiration__annoyance__link_id",
+      "method": "count_allocation_feedback_point_degree",
+      "seed": 0,
+      "budget": 0,
+      "target_version": "sha256:639403f8a5dbda337fc45a7b56c263fb0365d318ccf742e62354803e8f785a40",
+      "oracle_version": "sha256:4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d"
+    }
+  ],
+  "loader_check_sha256": "5202f4e97abf86113c490b9d715fd62b5424214ee34ef5049917cdb006183435",
+  "strict_check_sha256": "0d9f790c3841b9bbbc78d0b04fe76afe6f6a218ce7ec7154c72b8f82da455dae",
+  "mapping_sha256": "069a608145682fa463919bd6196ff81f03144699a3906b6f6680c6415cbc20b3",
+  "post_matrix_exploratory": true,
+  "preregistered": false,
+  "scope": "Exploratory post-matrix native discussion follow-up; not held-out confirmation or original preregistration.",
+  "source_id": "2af176562f736429e7b326d2bde7472c42ce318328996c4207286ded0ed275c4"
+}

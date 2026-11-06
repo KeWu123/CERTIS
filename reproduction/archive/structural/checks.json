@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "finished_utc": "2026-10-16T15:56:31.589273+00:00",
+  "generation_targets": 156,
+  "complete_sql_policy_cells": 33,
+  "audit_design_checks": 15,
+  "independent_explicit_bags": 33,
+  "eligibility_rejections": 3,
+  "helper_cost_checks": 12,
+  "independent_hypergeom_coverage_checks": 284
+}

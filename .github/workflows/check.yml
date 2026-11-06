@@ -15,3 +15,6 @@ jobs:
       - run: python reproduce.py verify
       - run: python reproduce.py check
       - run: python reproduce.py smoke
+      - run: python reproduce.py verify-paper
+      - run: python reproduce.py analyze-completion
+      - run: python reproduce.py analyze-native-dbpedia

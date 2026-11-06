@@ -1,0 +1,62 @@
+{
+  "source_id": "5b0964f1225bc6965ed27de977041dd937d16f766d26855143b4797acacfff0b",
+  "sources": {
+    "reproduction/completion/native_dbpedia.py": "cc454ae19f027945f560b071b3a09bf6bfedbd8c578cdea6241c05ff91da501e",
+    "reproduction/completion/NATIVE_DBPEDIA_PROTOCOL.md": "f88bb66784858b42d1a29fdff073522b9ac8d0d7ad5ae86a55c58d3313637e33",
+    "reproduction/study/run_study.py": "5d1aed3b5b2f091dbf45122b14934be32a70a7efdfc986f25458074ba36a0b39",
+    "reproduction/study/adaptive_marginal.py": "d7ad76358747e65a4c555d0ca75d5821c8e07a316962ba435714a8a9b0016a01",
+    "reproduction/study/PROTOCOL.md": "d6b36a73ebae1d42d5af72a9180b315edf48f6f63b40ca54c5aff1e579909b0c",
+    "reproduction/study/check_marginal.py": "b1e19285b2744f8ff46ae90419757c768f413d7b12b880bce9927cbe53c7d9d9",
+    "reproduction/runtime/external_study/common.py": "4bfaaef8a6781c6bf4515132a44eb01e77035525f6db0dc1e398084240b6b361",
+    "reproduction/runtime/external_study/direct_arms.py": "b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203",
+    "reproduction/runtime/external_study/count_allocation_arms.py": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+    "reproduction/runtime/external_study/native_discussion_cases.py": "de9cdce5fe4e75b9bcfcc7a8970bc039409b3edfaf46c58858758122c8689c26",
+    "reproduction/runtime/external_study/exact_baselines.py": "e6a10b83bf6cbe99bd91e3503d10042e2476a9756f6f3318dacf91803e833626",
+    "reproduction/runtime/external_study/strict_result_validation.py": "26a4ab905af08cf85cf368efc80a49bd9a1b952cf59838af71612c42453659cd",
+    "reproduction/runtime/external_study/strict_result_validation_v2.py": "20ab6c627a423ad622aa4c1e59503f9dc5da9f41786c61cb2e7729725e3b41e8",
+    "reproduction/runtime/external_study/validate_results.py": "5028a3e8bcb0e539ea1d97e3ff768d60806e43f24f3385939b6fc1fba74ea6a6",
+    "reproduction/runtime/greedy_count_profile/greedy_planner.py": "9347aa7f88a47115818d567d7c27558f0e713e4d286a56adca1f44fb54692eb3",
+    "reproduction/runtime/greedy_count_profile/policy_adapter.py": "88d8d5a1e24c97a492c7323fbe091f381e571c5c31f4799da554c1b21e2c6da0",
+    "reproduction/runtime/greedy_count_profile/policy_adapter_v2.py": "e333b6a536554374f734d16e74c1ee8497422635ca25da33217df7bb414a9940",
+    "reproduction/runtime/greedy_count_profile/policy_adapter_v3.py": "e83c1a8e77240fe017c6430f02f8b5e5bbc6dcc3f3767224e8264242dace110d",
+    "code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "code/count_mask_planner.py": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+    "code/exact_hypergeom.py": "9deb00c0fdeb265651c044c94ed937c14c76ed1a59ec50bd10fdad11a377f297",
+    "reproduction/study/cached_greedy.py": "42088ff10eed2eceb2d58d3d3983b048fa7970c1fc29d229fec14dd41bab7a81"
+  },
+  "dataset_sha256": "dff8470a8480d89da0b6069171745baaddec8a98e08b0dd5ff43e26b4ea1eb8d",
+  "arrays_sha256": "b866012afd0558a41812679e6509d3e963f2550903ddf2e577608a2051e2636d",
+  "targets": {
+    "dbpedia_native__agent__person__l1": "sha256:3999d1a1fe953fbe9ca162df52adad3be133ef25bcf17ed6891794e364ab9fc1",
+    "dbpedia_native__agent__person__l2": "sha256:46d960f799e9387f15cfb0b8dc8a5a23fe121cc62b13900c65d7ef2de0d8921a",
+    "dbpedia_native__person__athlete__l1": "sha256:c1212a6754e194005ea9ecd45b0678c0df7e504583a659a96454910b90a5ca03",
+    "dbpedia_native__person__athlete__l2": "sha256:4163195b73d454f3457c5c2be2537a3c45ba6d5cd914194897008e145f524cd4",
+    "dbpedia_native__organization__company__l1": "sha256:56b2784722cb2d34b7f99dd49d1ea6d55c1e565bac3ebcd8297bd72f4f84206e",
+    "dbpedia_native__organization__company__l2": "sha256:f95175b3a6145b8018b1242cc5b8faf96340e2355a08573c40b313d605edfc5a",
+    "dbpedia_native__place__natural_place__l1": "sha256:e99ecef964cf45c3bd7200c76f3839bb03dfd9b44bbf944057ade316a39d8440",
+    "dbpedia_native__place__natural_place__l2": "sha256:c0793fb14b827fcaaa2f93bdd8d2f6d91b9d60206186fa2e6722852ac7c8f733",
+    "dbpedia_native__work__musical_work__l1": "sha256:20d2572292d98c005eacf9612b00b90b39b342caabce518483a6b8167477bfc5",
+    "dbpedia_native__work__musical_work__l2": "sha256:c85745995e425185103d014a7af6a4f9fac0271c72ac3506468decafe289472c",
+    "dbpedia_native__event__societal_event__l1": "sha256:b76085124bb4f34d2f0848f9d6ce1bacb4f95ad56d117c30c8f464ae7480ad71",
+    "dbpedia_native__event__societal_event__l2": "sha256:d7be30ba2ee1868bcf1ea7ec4393417a8fe760e9a4a52872c93e2f77dc06ded2",
+    "dbpedia_native__athlete__sports_team__l1": "sha256:5734f474f0f5529e89de2075455528b75acf9ca70456a11549c64d09abcc4ed8",
+    "dbpedia_native__athlete__sports_team__l2": "sha256:9bccd02b23f8c0d021966836e0d675172ff810feb0b7577964534edb30608060",
+    "dbpedia_native__company__educational_institution__l1": "sha256:ebeff9ab242d9919408c0cb019d1f15a54addf2adaad26c27e174b89040b39dc",
+    "dbpedia_native__company__educational_institution__l2": "sha256:e617df4c0fa51c17f7355619fd5558badd5229114f9d7d7b11eb37050c7cac63"
+  },
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "budgets": [
+    125,
+    500
+  ],
+  "methods": [
+    "batched_left",
+    "batched_right",
+    "adaptive_continuous",
+    "joint_greedy_cached"
+  ]
+}

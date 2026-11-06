@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "source_id": "9afcac94123a1cc1a1e802822b15903b70d1cc91a9e3feadee7d6edb4d5a44d9",
+  "source_manifest_sha256": "e157bf2c5a307301c01b281401feb16b60e8abce405789c484a61677715f3cbf",
+  "expected_unique_runs": 64,
+  "executed_pass": 63,
+  "executed_fail": 0,
+  "reused_verified_runs": 1,
+  "verify_only": false,
+  "utc": "2026-10-16T15:26:37.105905+00:00",
+  "source_binding_verified": true,
+  "failure_attempts_preserved": 0,
+  "post_matrix_control": true,
+  "preregistered": false,
+  "registration_note": "Post-matrix stronger controls added after the original matrix; not retroactively preregistered and not part of the locked original arms."
+}

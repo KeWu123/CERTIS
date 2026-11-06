@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "expected_runs": 216,
+  "executed_pass": 0,
+  "executed_fail": 0,
+  "reused_verified_runs": 216,
+  "verify_only": false,
+  "source_id": "2af176562f736429e7b326d2bde7472c42ce318328996c4207286ded0ed275c4",
+  "source_manifest_sha256": "ab0bcd4d69b482d2c62c9331c4c6df62993f34390df194c04ecf6bf7d8a0d17d",
+  "source_and_result_hashes_verified": true,
+  "utc": "2026-10-16T16:34:57.163358+00:00",
+  "scope": "Exploratory post-matrix native discussion follow-up; not held-out confirmation or original preregistration."
+}

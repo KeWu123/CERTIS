@@ -1,0 +1,9 @@
+target,n,k,law,reuse,seed,method,region_index,region_population,actual_total,lower,upper,actual_loss,conflict_freeze
+structural_n2048_k8_uniform_r0p0_s303,2048,8,uniform,0.0,303,Ddegree,8,128,69,2,65,0.06710526315789474,False
+structural_n2048_k8_uniform_r0p0_s303,2048,8,uniform,0.0,303,Eall_mask,8,128,69,2,65,0.04484425349087003,False
+structural_n2048_k8_uniform_r0p25_s303,2048,8,uniform,0.25,303,Ddegree,8,159,84,2,74,0.03873159682899207,True
+structural_n2048_k8_zipf1.5_r0p0_s303,2048,8,zipf1.5,0.0,303,C,6,256,85,87,200,0.024475074069303104,False
+structural_n2048_k8_zipf1.5_r0p25_s303,2048,8,zipf1.5,0.25,303,C,6,256,85,87,200,0.029743127534925643,False
+structural_n512_k2_uniform_r0p0_s303,512,2,uniform,0.0,303,Ddegree,2,128,64,65,121,0.0,True
+structural_n512_k2_uniform_r0p0_s303,512,2,uniform,0.0,303,Eall_mask,2,128,64,65,121,0.009868421052631578,True
+structural_n512_k2_uniform_r0p25_s303,512,2,uniform,0.25,303,Ddegree,2,165,71,81,153,0.011595111250391726,True

@@ -4,6 +4,13 @@ Research code for recall certification of two-sided semantic equality joins unde
 The artifact includes the integer certificate, count-space planners, charged execution harness,
 fixed oracle tapes, SQL validators, and the recorded comparisons used in the experiments.
 
+The complete paper evidence map is in [PAPER_RESULTS.md](PAPER_RESULTS.md).
+The extended artifact includes all 1,376 primary executions, all 594 structural
+executions, 3,168 Boolean geometry cases, full matched-comparison entry points,
+planner scaling, independent audit calibration and local closed-loop inference.
+The native extension includes all 16 released-category DBpedia queries (224
+complete executions), alongside the 12 natural discussion queries.
+
 ## Quick start
 
 Use Python 3.13 and run commands from the repository root:
@@ -37,6 +44,8 @@ paid ledgers and masks with the frozen records, and independently validates the 
 | `reproduction/runtime/external_inputs/` | Prepared immutable oracle/helper arrays |
 | `reproduction/runtime/candidate_systems/external/semviews/` | Pinned upstream Parquet files, predicates, and license |
 | `reproduction/figures/` | Frozen plot inputs and style specifications |
+| `reproduction/archive/` | Complete primary, structural, original native and mechanism archives |
+| `reproduction/completion/` | Full-matrix entry points, scale/geometry/calibration and live inference |
 | `outputs/` | Newly generated execution records and check reports; ignored by Git |
 
 ## Reproduce the comparisons
@@ -66,6 +75,26 @@ The main 48-cell, audit-500 comparison records 232,371 requests for adaptive per
 certification, 198,142 for joint greedy, and 197,563 for joint DP. Greedy saves 14.73% against
 the adaptive per-side control at the same 90% bag-recall target. DP supplies the fixed-cache
 discard optimum. Natural results include tasks where batched exact execution is cheaper.
+On the full 16-query native DBpedia roster, greedy reduces requests by 12.65%
+against adaptive per-side certification in all 96 matched cells. Against exact
+right-first, coarse category keys save requests while finer keys regress;
+all groups are retained. The separate local closed-loop study is 1.29% slower
+than exact in pooled time across two passes, despite improving 1.18% over
+per-side execution. These local measurements do not establish universal gains.
+
+To verify all historical matrices and the seven matched comparison totals, run
+`python reproduce.py verify-paper`. Full fresh execution commands and their exact
+source-record directories are listed in [PAPER_RESULTS.md](PAPER_RESULTS.md).
+For example:
+
+```bash
+python reproduce.py run-matched --pilot --output outputs/matched_pilot
+python reproduce.py run-primary --output outputs/primary
+python reproduce.py run-structural --output outputs/structural
+python reproduce.py run-scaling --output outputs/scaling
+python reproduce.py run-certificate-grid --output outputs/certificate_grid
+python reproduce.py run-calibration --output outputs/calibration
+```
 
 Recorded timings describe their original measurement environment. The local Qwen batch
 scenario measures fixed acquisition traces; recall validation uses the Llama-3.3-70B tapes.
@@ -73,6 +102,17 @@ To repeat local inference with your own runtime and model files:
 
 ```bash
 python reproduction/study/local_batch_benchmark.py --server PATH_TO_LLAMA_SERVER --model PATH_TO_GGUF --output ../../outputs/local_timing
+```
+
+The separate closed-loop experiment calls the model for every paid acquisition,
+uses returned labels to update execution, and checks them against its own fixed
+Qwen reference. Its hash-selected 2,048-comment target and one-slot inference
+configuration are declared in `reproduction/completion/RUNTIME_ADDENDUM.md`.
+One-slot cost results must not be pooled with the earlier concurrent fixed-trace
+scenario or the archived 70B oracle-quality results.
+
+```bash
+python reproduce.py run-closed-loop --server PATH_TO_LLAMA_SERVER --model PATH_TO_GGUF --output outputs/closed_loop
 ```
 
 ## Data and integrity

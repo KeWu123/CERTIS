@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "n": 16384,
+  "k": 128,
+  "law": "zipf1.5",
+  "repetition": 1,
+  "trace_memory": false,
+  "profile_seconds": 0.19056909997016191,
+  "heap_seconds": 0.0013422999763861299,
+  "total_seconds": 0.19191139994654804,
+  "cpu_seconds": 0.1875,
+  "traced_peak_bytes": null,
+  "resident_peak_bytes": 159223808,
+  "cache": {
+    "hits": 80,
+    "misses": 48,
+    "maxsize": 65536,
+    "currsize": 48
+  },
+  "discarded": 5440,
+  "support": -987,
+  "max_block": 3363
+}

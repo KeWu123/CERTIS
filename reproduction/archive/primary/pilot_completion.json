@@ -1,0 +1,20 @@
+{
+  "phase": "pilot",
+  "source_id": "db17c4543b8832d2acf2fc3db26099461a7055dc1ed64ad0867c0e5a47c8c22f",
+  "executed_pass": 416,
+  "executed_fail": 0,
+  "reused_verified_runs": 0,
+  "expected_unique_runs": 416,
+  "source_manifest": {
+    "reproduction/runtime/external_study/common.py": "020e94f34b4ed2ce3601f58f3ce900ef912305948f054c3f014207defd44d287",
+    "reproduction/runtime/external_study/exact_baselines.py": "e6a10b83bf6cbe99bd91e3503d10042e2476a9756f6f3318dacf91803e833626",
+    "reproduction/runtime/external_study/direct_arms.py": "b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203",
+    "reproduction/runtime/external_study/cut_arms.py": "0d6e38376d882221f2f04005faff04f3d9c0773d07d85804bfd51e0492e852f9",
+    "reproduction/runtime/external_study/run_study.py": "c699ac8776965a6874eed92379eb9624a2d810cf788692357c8b93abfd514a09",
+    "code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "code/relational_cut.py": "2814ea3beae72dfbe6bbb94965936f5614c99c9f3df7115fc0a32a84b883a417",
+    "code/exact_hypergeom.py": "bb44c24a6bd63a39be4a15549e048eb692edd7a46a15ddb70e2aa2a20c855cec",
+    "reproduction/runtime/EXTERNAL_PROTOCOL.md": "2e29c7cd3fdf9c08d154f6839b404cc2c42d5d59e36a0e3b8ce9055aa6c6c455",
+    "reproduction/runtime/external_inputs/validation.json": "6edc7212d177439d346392b0a33eca8fdc796af1c025ed466debd4b366df3eec"
+  }
+}

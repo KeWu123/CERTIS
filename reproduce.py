@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent
 STUDY = ROOT / 'reproduction/study'
 EXTERNAL = ROOT / 'reproduction/runtime/external_study'
 GREEDY = ROOT / 'reproduction/runtime/greedy_count_profile'
+COMPLETION = ROOT / 'reproduction/completion'
 sys.path[:0] = [str(STUDY), str(EXTERNAL), str(GREEDY), str(ROOT / 'code')]
 
 
@@ -109,14 +110,36 @@ def smoke(output=None):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command',choices=['check','verify','smoke','analyze','plot','run','run-fixed','run-cached','run-greedy125'])
+    parser.add_argument('command',choices=['check','verify','verify-paper','smoke','analyze','analyze-completion',
+        'plot','plot-completion','run',
+        'run-fixed','run-cached','run-greedy125','run-primary','run-matched','run-structural',
+        'run-count','run-mechanisms','run-extra','run-native-original','run-geometry',
+        'run-scaling','run-certificate-grid','run-calibration','run-closed-loop',
+        'run-native-dbpedia','analyze-native-dbpedia'])
     parser.add_argument('--kind',choices=['constructed','native'],default='constructed')
     parser.add_argument('--output',type=Path)
     parser.add_argument('--pilot',action='store_true')
+    parser.add_argument('--methods',help='Comma-separated matched-study methods')
+    parser.add_argument('--server',type=Path)
+    parser.add_argument('--model',type=Path)
+    parser.add_argument('--port',type=int,default=18086)
     args=parser.parse_args()
     os.chdir(ROOT)
     if args.command=='check': check()
     elif args.command=='verify': verify()
+    elif args.command=='verify-paper':
+        subprocess.run([sys.executable,str(COMPLETION/'verify_paper.py')],check=True)
+    elif args.command=='analyze-completion':
+        subprocess.run([sys.executable,str(COMPLETION/'analyze_completion.py')],check=True)
+    elif args.command=='plot-completion':
+        subprocess.run([sys.executable,str(COMPLETION/'plot_completion.py')],check=True)
+    elif args.command=='run-native-dbpedia':
+        destination=(args.output or ROOT/'outputs/native_dbpedia').resolve()
+        extra=['--output',str(destination)]
+        if args.pilot:extra+=['--pilot']
+        subprocess.run([sys.executable,str(COMPLETION/'native_dbpedia.py'),*extra],check=True)
+    elif args.command=='analyze-native-dbpedia':
+        subprocess.run([sys.executable,str(COMPLETION/'analyze_native_dbpedia.py')],check=True)
     elif args.command=='smoke': smoke(args.output)
     elif args.command=='analyze': runpy.run_path(str(STUDY/'analyze.py'),run_name='__main__')
     elif args.command=='plot': runpy.run_path(str(ROOT/'code/plot_results.py'),run_name='__main__')
@@ -124,6 +147,34 @@ def main():
         import run_study
         destination=(args.output or ROOT/'outputs'/args.kind).resolve()
         run_study.run(argparse.Namespace(kind=args.kind,output=str(destination),pilot=args.pilot))
+    elif args.command=='run-primary':
+        destination=(args.output or ROOT/'outputs/primary').resolve()
+        extra=['--phase','pilot' if args.pilot else 'full','--output',str(destination)]
+        if args.pilot:extra+=['--limit','1']
+        subprocess.run([sys.executable,str(EXTERNAL/'run_primary.py'),*extra],check=True)
+    elif args.command in ('run-matched','run-structural','run-count','run-mechanisms',
+                          'run-extra','run-native-original','run-geometry'):
+        kind={'run-matched':'matched','run-structural':'structural','run-count':'primary_count',
+              'run-mechanisms':'mechanisms','run-extra':'extra',
+              'run-native-original':'native_original','run-geometry':'geometry'}[args.command]
+        destination=(args.output or ROOT/'outputs'/kind).resolve()
+        extra=[kind,'--output',str(destination)]
+        if args.pilot:extra+=['--pilot']
+        if args.methods:extra+=['--methods',args.methods]
+        subprocess.run([sys.executable,str(COMPLETION/'matrix_runner.py'),*extra],check=True)
+    elif args.command in ('run-scaling','run-certificate-grid','run-calibration'):
+        kind={'run-scaling':'scaling','run-certificate-grid':'mechanism','run-calibration':'calibration'}[args.command]
+        destination=(args.output or ROOT/'outputs/count_completion').resolve()
+        subprocess.run([sys.executable,str(COMPLETION/'count_experiments.py'),kind,'--output',str(destination)],check=True)
+        if kind=='scaling':
+            subprocess.run([sys.executable,str(COMPLETION/'practical_scaling.py'),'--output',str(destination)],check=True)
+        if kind=='mechanism':
+            subprocess.run([sys.executable,str(COMPLETION/'mechanism_optima.py'),'--output',str(destination)],check=True)
+    elif args.command=='run-closed-loop':
+        if not args.server or not args.model:parser.error('run-closed-loop requires --server and --model')
+        destination=(args.output or ROOT/'outputs/closed_loop').resolve()
+        subprocess.run([sys.executable,str(COMPLETION/'live_closed_loop.py'),'--server',str(args.server.resolve()),
+            '--model',str(args.model.resolve()),'--port',str(args.port),'--output',str(destination)],check=True)
     else:
         name={'run-fixed':'run_fixed_split_v2.py','run-cached':'run_cached.py','run-greedy125':'run_greedy125.py'}[args.command]
         destination=(args.output or ROOT/'outputs'/args.command).resolve()

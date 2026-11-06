@@ -1,0 +1,242 @@
+[
+  {
+    "case": "dbpedia__agent__person__single",
+    "seed": 101,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__agent__person__single",
+    "seed": 202,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__agent__person__single",
+    "seed": 303,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__person__athlete__single",
+    "seed": 101,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__person__athlete__single",
+    "seed": 202,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__person__athlete__single",
+    "seed": 303,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__organization__company__single",
+    "seed": 101,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__organization__company__single",
+    "seed": 202,
+    "n_pos_keys": 5
+  },
+  {
+    "case": "dbpedia__organization__company__single",
+    "seed": 303,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__place__natural_place__single",
+    "seed": 101,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__place__natural_place__single",
+    "seed": 202,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__place__natural_place__single",
+    "seed": 303,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__work__musical_work__single",
+    "seed": 101,
+    "n_pos_keys": 4
+  },
+  {
+    "case": "dbpedia__work__musical_work__single",
+    "seed": 202,
+    "n_pos_keys": 3
+  },
+  {
+    "case": "dbpedia__work__musical_work__single",
+    "seed": 303,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__event__societal_event__single",
+    "seed": 101,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "dbpedia__event__societal_event__single",
+    "seed": 202,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "dbpedia__event__societal_event__single",
+    "seed": 303,
+    "n_pos_keys": 2
+  },
+  {
+    "case": "dbpedia__athlete__sports_team__single",
+    "seed": 101,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__athlete__sports_team__single",
+    "seed": 202,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__athlete__sports_team__single",
+    "seed": 303,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__company__educational_institution__single",
+    "seed": 101,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__company__educational_institution__single",
+    "seed": 202,
+    "n_pos_keys": 5
+  },
+  {
+    "case": "dbpedia__company__educational_institution__single",
+    "seed": 303,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "goemotions__sent_positive__joy__single",
+    "seed": 101,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__sent_positive__joy__single",
+    "seed": 202,
+    "n_pos_keys": 14
+  },
+  {
+    "case": "goemotions__sent_positive__joy__single",
+    "seed": 303,
+    "n_pos_keys": 13
+  },
+  {
+    "case": "goemotions__sent_negative__anger__single",
+    "seed": 101,
+    "n_pos_keys": 13
+  },
+  {
+    "case": "goemotions__sent_negative__anger__single",
+    "seed": 202,
+    "n_pos_keys": 19
+  },
+  {
+    "case": "goemotions__sent_negative__anger__single",
+    "seed": 303,
+    "n_pos_keys": 15
+  },
+  {
+    "case": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 101,
+    "n_pos_keys": 13
+  },
+  {
+    "case": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 202,
+    "n_pos_keys": 14
+  },
+  {
+    "case": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 303,
+    "n_pos_keys": 11
+  },
+  {
+    "case": "goemotions__is_question__curiosity__single",
+    "seed": 101,
+    "n_pos_keys": 5
+  },
+  {
+    "case": "goemotions__is_question__curiosity__single",
+    "seed": 202,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__is_question__curiosity__single",
+    "seed": 303,
+    "n_pos_keys": 9
+  },
+  {
+    "case": "goemotions__mentions_person__admiration__single",
+    "seed": 101,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "goemotions__mentions_person__admiration__single",
+    "seed": 202,
+    "n_pos_keys": 1
+  },
+  {
+    "case": "goemotions__mentions_person__admiration__single",
+    "seed": 303,
+    "n_pos_keys": 3
+  },
+  {
+    "case": "goemotions__sent_negative__sadness__single",
+    "seed": 101,
+    "n_pos_keys": 12
+  },
+  {
+    "case": "goemotions__sent_negative__sadness__single",
+    "seed": 202,
+    "n_pos_keys": 11
+  },
+  {
+    "case": "goemotions__sent_negative__sadness__single",
+    "seed": 303,
+    "n_pos_keys": 10
+  },
+  {
+    "case": "goemotions__sarcastic__annoyance__single",
+    "seed": 101,
+    "n_pos_keys": 19
+  },
+  {
+    "case": "goemotions__sarcastic__annoyance__single",
+    "seed": 202,
+    "n_pos_keys": 18
+  },
+  {
+    "case": "goemotions__sarcastic__annoyance__single",
+    "seed": 303,
+    "n_pos_keys": 23
+  },
+  {
+    "case": "goemotions__sent_positive__love__single",
+    "seed": 101,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__sent_positive__love__single",
+    "seed": 202,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__sent_positive__love__single",
+    "seed": 303,
+    "n_pos_keys": 11
+  }
+]

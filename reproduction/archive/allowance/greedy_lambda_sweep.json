@@ -1,0 +1,1298 @@
+[
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4401,
+    "greedy_conflict": false,
+    "greedy_discard": 599
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4089,
+    "greedy_conflict": false,
+    "greedy_discard": 911
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4406,
+    "greedy_conflict": false,
+    "greedy_discard": 594
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4045,
+    "greedy_conflict": false,
+    "greedy_discard": 955
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4403,
+    "greedy_conflict": false,
+    "greedy_discard": 597
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 3646,
+    "greedy_conflict": false,
+    "greedy_discard": 1354
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4316,
+    "greedy_conflict": false,
+    "greedy_discard": 684
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4072,
+    "greedy_conflict": false,
+    "greedy_discard": 928
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4355,
+    "greedy_conflict": false,
+    "greedy_discard": 645
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4101,
+    "greedy_conflict": false,
+    "greedy_discard": 899
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4356,
+    "greedy_conflict": false,
+    "greedy_discard": 644
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4063,
+    "greedy_conflict": false,
+    "greedy_discard": 937
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4935,
+    "greedy_conflict": false,
+    "greedy_discard": 65
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4913,
+    "greedy_conflict": false,
+    "greedy_discard": 87
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4751,
+    "greedy_conflict": false,
+    "greedy_discard": 249
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4738,
+    "greedy_conflict": false,
+    "greedy_discard": 262
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4930,
+    "greedy_conflict": false,
+    "greedy_discard": 70
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4909,
+    "greedy_conflict": false,
+    "greedy_discard": 91
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4928,
+    "greedy_conflict": false,
+    "greedy_discard": 72
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4675,
+    "greedy_conflict": false,
+    "greedy_discard": 325
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4922,
+    "greedy_conflict": false,
+    "greedy_discard": 78
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4820,
+    "greedy_conflict": false,
+    "greedy_discard": 180
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4922,
+    "greedy_conflict": false,
+    "greedy_discard": 78
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4822,
+    "greedy_conflict": false,
+    "greedy_discard": 178
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4456,
+    "greedy_conflict": false,
+    "greedy_discard": 544
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4456,
+    "greedy_conflict": false,
+    "greedy_discard": 544
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4475,
+    "greedy_conflict": false,
+    "greedy_discard": 525
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4456,
+    "greedy_conflict": false,
+    "greedy_discard": 544
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4349,
+    "greedy_conflict": false,
+    "greedy_discard": 651
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4328,
+    "greedy_conflict": false,
+    "greedy_discard": 672
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4765,
+    "greedy_conflict": false,
+    "greedy_discard": 235
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4755,
+    "greedy_conflict": false,
+    "greedy_discard": 245
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4758,
+    "greedy_conflict": false,
+    "greedy_discard": 242
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4748,
+    "greedy_conflict": false,
+    "greedy_discard": 252
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4760,
+    "greedy_conflict": false,
+    "greedy_discard": 240
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4744,
+    "greedy_conflict": false,
+    "greedy_discard": 256
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4487,
+    "greedy_conflict": false,
+    "greedy_discard": 513
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 3972,
+    "greedy_conflict": false,
+    "greedy_discard": 1028
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4601,
+    "greedy_conflict": false,
+    "greedy_discard": 399
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4220,
+    "greedy_conflict": false,
+    "greedy_discard": 780
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4595,
+    "greedy_conflict": false,
+    "greedy_discard": 405
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4475,
+    "greedy_conflict": false,
+    "greedy_discard": 525
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4933,
+    "greedy_conflict": false,
+    "greedy_discard": 67
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4925,
+    "greedy_conflict": false,
+    "greedy_discard": 75
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4952,
+    "greedy_conflict": false,
+    "greedy_discard": 48
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4933,
+    "greedy_conflict": false,
+    "greedy_discard": 67
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4945,
+    "greedy_conflict": false,
+    "greedy_discard": 55
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4929,
+    "greedy_conflict": false,
+    "greedy_discard": 71
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4830,
+    "greedy_conflict": false,
+    "greedy_discard": 170
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4733,
+    "greedy_conflict": false,
+    "greedy_discard": 267
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4837,
+    "greedy_conflict": false,
+    "greedy_discard": 163
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4742,
+    "greedy_conflict": false,
+    "greedy_discard": 258
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4824,
+    "greedy_conflict": false,
+    "greedy_discard": 176
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4775,
+    "greedy_conflict": false,
+    "greedy_discard": 225
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4868,
+    "greedy_conflict": false,
+    "greedy_discard": 132
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4802,
+    "greedy_conflict": false,
+    "greedy_discard": 198
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4843,
+    "greedy_conflict": false,
+    "greedy_discard": 157
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4786,
+    "greedy_conflict": false,
+    "greedy_discard": 214
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4869,
+    "greedy_conflict": false,
+    "greedy_discard": 131
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4810,
+    "greedy_conflict": false,
+    "greedy_discard": 190
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4850,
+    "greedy_conflict": false,
+    "greedy_discard": 150
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4775,
+    "greedy_conflict": false,
+    "greedy_discard": 225
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4867,
+    "greedy_conflict": false,
+    "greedy_discard": 133
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4769,
+    "greedy_conflict": false,
+    "greedy_discard": 231
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4840,
+    "greedy_conflict": false,
+    "greedy_discard": 160
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4756,
+    "greedy_conflict": false,
+    "greedy_discard": 244
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4919,
+    "greedy_conflict": false,
+    "greedy_discard": 81
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4805,
+    "greedy_conflict": false,
+    "greedy_discard": 195
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4915,
+    "greedy_conflict": false,
+    "greedy_discard": 85
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4832,
+    "greedy_conflict": false,
+    "greedy_discard": 168
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4913,
+    "greedy_conflict": false,
+    "greedy_discard": 87
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4840,
+    "greedy_conflict": false,
+    "greedy_discard": 160
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4915,
+    "greedy_conflict": false,
+    "greedy_discard": 85
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4904,
+    "greedy_conflict": false,
+    "greedy_discard": 96
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4901,
+    "greedy_conflict": false,
+    "greedy_discard": 99
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4884,
+    "greedy_conflict": false,
+    "greedy_discard": 116
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4900,
+    "greedy_conflict": false,
+    "greedy_discard": 100
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4878,
+    "greedy_conflict": false,
+    "greedy_discard": 122
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4926,
+    "greedy_conflict": false,
+    "greedy_discard": 74
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4895,
+    "greedy_conflict": false,
+    "greedy_discard": 105
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4927,
+    "greedy_conflict": false,
+    "greedy_discard": 73
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4891,
+    "greedy_conflict": false,
+    "greedy_discard": 109
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4927,
+    "greedy_conflict": false,
+    "greedy_discard": 73
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4896,
+    "greedy_conflict": false,
+    "greedy_discard": 104
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4783,
+    "greedy_conflict": false,
+    "greedy_discard": 217
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4640,
+    "greedy_conflict": false,
+    "greedy_discard": 360
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4826,
+    "greedy_conflict": false,
+    "greedy_discard": 174
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4710,
+    "greedy_conflict": false,
+    "greedy_discard": 290
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4818,
+    "greedy_conflict": false,
+    "greedy_discard": 182
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4692,
+    "greedy_conflict": false,
+    "greedy_discard": 308
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4885,
+    "greedy_conflict": false,
+    "greedy_discard": 115
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4806,
+    "greedy_conflict": false,
+    "greedy_discard": 194
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4855,
+    "greedy_conflict": false,
+    "greedy_discard": 145
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4811,
+    "greedy_conflict": false,
+    "greedy_discard": 189
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/100",
+    "greedy_requests": 4883,
+    "greedy_conflict": false,
+    "greedy_discard": 117
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/50",
+    "greedy_requests": 4832,
+    "greedy_conflict": false,
+    "greedy_discard": 168
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3039,
+    "greedy_conflict": false,
+    "greedy_discard": 1961
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3031,
+    "greedy_conflict": false,
+    "greedy_discard": 1969
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3002,
+    "greedy_conflict": false,
+    "greedy_discard": 1998
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3048,
+    "greedy_conflict": false,
+    "greedy_discard": 1952
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3031,
+    "greedy_conflict": false,
+    "greedy_discard": 1969
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3014,
+    "greedy_conflict": false,
+    "greedy_discard": 1986
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4416,
+    "greedy_conflict": false,
+    "greedy_discard": 584
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4405,
+    "greedy_conflict": false,
+    "greedy_discard": 595
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4139,
+    "greedy_conflict": false,
+    "greedy_discard": 861
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4161,
+    "greedy_conflict": false,
+    "greedy_discard": 839
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4130,
+    "greedy_conflict": false,
+    "greedy_discard": 870
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4280,
+    "greedy_conflict": false,
+    "greedy_discard": 720
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4200,
+    "greedy_conflict": false,
+    "greedy_discard": 800
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4344,
+    "greedy_conflict": false,
+    "greedy_discard": 656
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4200,
+    "greedy_conflict": false,
+    "greedy_discard": 800
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4502,
+    "greedy_conflict": false,
+    "greedy_discard": 498
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4513,
+    "greedy_conflict": false,
+    "greedy_discard": 487
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4613,
+    "greedy_conflict": false,
+    "greedy_discard": 387
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3342,
+    "greedy_conflict": false,
+    "greedy_discard": 1658
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3304,
+    "greedy_conflict": false,
+    "greedy_discard": 1696
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3304,
+    "greedy_conflict": false,
+    "greedy_discard": 1696
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4444,
+    "greedy_conflict": false,
+    "greedy_discard": 556
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4436,
+    "greedy_conflict": false,
+    "greedy_discard": 564
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4515,
+    "greedy_conflict": false,
+    "greedy_discard": 485
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4012,
+    "greedy_conflict": false,
+    "greedy_discard": 988
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4336,
+    "greedy_conflict": false,
+    "greedy_discard": 664
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4148,
+    "greedy_conflict": false,
+    "greedy_discard": 852
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4200,
+    "greedy_conflict": false,
+    "greedy_discard": 800
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4200,
+    "greedy_conflict": false,
+    "greedy_discard": 800
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4235,
+    "greedy_conflict": false,
+    "greedy_discard": 765
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4320,
+    "greedy_conflict": false,
+    "greedy_discard": 680
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4225,
+    "greedy_conflict": false,
+    "greedy_discard": 775
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4289,
+    "greedy_conflict": false,
+    "greedy_discard": 711
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4503,
+    "greedy_conflict": false,
+    "greedy_discard": 497
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4369,
+    "greedy_conflict": false,
+    "greedy_discard": 631
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4453,
+    "greedy_conflict": false,
+    "greedy_discard": 547
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4734,
+    "greedy_conflict": false,
+    "greedy_discard": 266
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4780,
+    "greedy_conflict": false,
+    "greedy_discard": 220
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4809,
+    "greedy_conflict": false,
+    "greedy_discard": 191
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4584,
+    "greedy_conflict": false,
+    "greedy_discard": 416
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4700,
+    "greedy_conflict": false,
+    "greedy_discard": 300
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4661,
+    "greedy_conflict": false,
+    "greedy_discard": 339
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3926,
+    "greedy_conflict": false,
+    "greedy_discard": 1074
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3909,
+    "greedy_conflict": false,
+    "greedy_discard": 1091
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 3979,
+    "greedy_conflict": false,
+    "greedy_discard": 1021
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 101,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4380,
+    "greedy_conflict": false,
+    "greedy_discard": 620
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 202,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4523,
+    "greedy_conflict": false,
+    "greedy_discard": 477
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 303,
+    "budget": 500,
+    "lam": "1/10",
+    "greedy_requests": 4454,
+    "greedy_conflict": false,
+    "greedy_discard": 546
+  }
+]

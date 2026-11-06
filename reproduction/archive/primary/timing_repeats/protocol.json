@@ -1,0 +1,12 @@
+{
+  "selection": "indices 0,1,16,17 in fixed protocol order: first predicate pair, both key modes, both datasets",
+  "warmups_per_case_method": 1,
+  "measured_repeats": 3,
+  "seed": 101,
+  "methods": {
+    "direct_degree": 500,
+    "direct_helper": 125,
+    "cut_helper": 125
+  },
+  "scope": "warm local algorithm and actual returned SQL materialization; no live inference"
+}

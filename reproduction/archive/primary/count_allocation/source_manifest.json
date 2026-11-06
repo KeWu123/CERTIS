@@ -1,0 +1,16 @@
+{
+  "source_id": "401ea89aa2deb06a51c5a6fbde69d73c9e67d07e7faa2c84d5d12abbddfc45fc",
+  "created_utc": "2026-10-16T15:32:31.757092+00:00",
+  "source_hashes": {
+    "code/count_mask_planner.py": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+    "code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "code/exact_hypergeom.py": "bb44c24a6bd63a39be4a15549e048eb692edd7a46a15ddb70e2aa2a20c855cec",
+    "reproduction/runtime/external_study/count_allocation_arms.py": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+    "reproduction/runtime/external_study/direct_arms.py": "b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203",
+    "reproduction/runtime/external_study/common.py": "020e94f34b4ed2ce3601f58f3ce900ef912305948f054c3f014207defd44d287",
+    "reproduction/runtime/external_study/run_study.py": "c699ac8776965a6874eed92379eb9624a2d810cf788692357c8b93abfd514a09",
+    "reproduction/runtime/external_study/validate_results.py": "5028a3e8bcb0e539ea1d97e3ff768d60806e43f24f3385939b6fc1fba74ea6a6",
+    "reproduction/runtime/external_study/run_count_allocation.py": "01111c0050097714664fa36ed6c47cd276dd00ebc0d9cf051554daae931f60d2",
+    "reproduction/runtime/external_study/COUNT_ALLOCATION_PROTOCOL.md": "63952b689fae860750ebd40aaeb7e6a757c96a96a2bfcfa49bcb9b97dd41f459"
+  }
+}

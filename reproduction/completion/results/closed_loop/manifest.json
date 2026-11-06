@@ -1,0 +1,44 @@
+{
+  "binding": "b34670be3fff648e28a8aaa1cf1fbfe46f46208e78be061a2207468d9dfc3fd0",
+  "driver_sha256": "642bc38c835b9bd6d2f64807237c3bfe02d0d070da5fe603f81335eab66c6b40",
+  "protocol_sha256": "ba44fa1f6a651439141210a16d49fb79ce1bcb29e822bc53491dc7c562dfbda0",
+  "runtime_addendum_sha256": "6b3322a23995d83a0e20bcd07236682e779efdbcf215cc2a151f95035e61c4f7",
+  "server_sha256": "b664bb749dcfe17e39301ee55ac0f6b95544c3bade77f880f02c1ca0df3022f3",
+  "model_shards": {
+    "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+    "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a"
+  },
+  "cases": [
+    "goemotions_native__sent_positive__sent_negative__subreddit",
+    "goemotions_native__sent_positive__sent_negative__link_id",
+    "goemotions_native__approval__disapproval__subreddit",
+    "goemotions_native__approval__disapproval__link_id"
+  ],
+  "seeds": [
+    101,
+    202
+  ],
+  "methods": [
+    "batched_right",
+    "adaptive_continuous",
+    "joint_greedy_cached"
+  ],
+  "target_versions": {
+    "goemotions_native__sent_positive__sent_negative__subreddit": "sha256:69afd219d2f59416245c81753b1762bee2e7ea9c62287905b244c332803ce709",
+    "goemotions_native__sent_positive__sent_negative__link_id": "sha256:1369898596dc75c311dcab3c0fdc918b1d3f175aa87bac725c8c5666170df736",
+    "goemotions_native__approval__disapproval__subreddit": "sha256:4521e60c0d239801541b6e01d21001a9bbc69d856ec2770b8f2f3e047c2ea8c9",
+    "goemotions_native__approval__disapproval__link_id": "sha256:10473799d4af471db058536fb1fb7df547c7b9be237dbd8665e8226340c9a40c"
+  },
+  "prompt_questions": {
+    "sent_positive": "positive sentiment",
+    "sent_negative": "negative sentiment",
+    "approval": "approval",
+    "disapproval": "disapproval"
+  },
+  "original_70b_labels_used_for_policy": false,
+  "live_outputs_used_for_policy": true,
+  "live_comments": 2048,
+  "server_slots": 1,
+  "continuous_batching": false,
+  "logical_acquisition_batch": 128
+}

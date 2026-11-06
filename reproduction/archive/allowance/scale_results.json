@@ -1,0 +1,110 @@
+[
+  {
+    "n": 10000,
+    "heavy_tail": false,
+    "keys": 2520,
+    "backend_requested": "auto",
+    "backend_used": "numpy-int64",
+    "seconds": 0.3777120001614094,
+    "discarded": 1429
+  },
+  {
+    "n": 10000,
+    "heavy_tail": false,
+    "keys": 2520,
+    "backend_requested": "python",
+    "backend_used": "python-integer",
+    "seconds": 3.5569674000144005,
+    "discarded": 1429
+  },
+  {
+    "n": 10000,
+    "heavy_tail": true,
+    "keys": 1554,
+    "backend_requested": "auto",
+    "backend_used": "numpy-int64",
+    "seconds": 0.26768860034644604,
+    "discarded": 5539
+  },
+  {
+    "n": 10000,
+    "heavy_tail": true,
+    "keys": 1554,
+    "backend_requested": "python",
+    "backend_used": "python-integer",
+    "seconds": 3.537236599717289,
+    "discarded": 5539
+  },
+  {
+    "n": 30000,
+    "heavy_tail": false,
+    "keys": 7523,
+    "backend_requested": "auto",
+    "backend_used": "numpy-int64",
+    "seconds": 4.092297199647874,
+    "discarded": 4383
+  },
+  {
+    "n": 30000,
+    "heavy_tail": false,
+    "keys": 7523,
+    "backend_requested": "python",
+    "backend_used": "python-integer",
+    "seconds": 32.2679596003145,
+    "discarded": 4383
+  },
+  {
+    "n": 30000,
+    "heavy_tail": true,
+    "keys": 4508,
+    "backend_requested": "auto",
+    "backend_used": "numpy-int64",
+    "seconds": 2.3109206003136933,
+    "discarded": 16765
+  },
+  {
+    "n": 30000,
+    "heavy_tail": true,
+    "keys": 4508,
+    "backend_requested": "python",
+    "backend_used": "python-integer",
+    "seconds": 30.368020199704915,
+    "discarded": 16765
+  },
+  {
+    "n": 100000,
+    "heavy_tail": false,
+    "keys": 25050,
+    "backend_requested": "auto",
+    "backend_used": "numpy-int64",
+    "seconds": 70.65401339996606,
+    "discarded": 14612
+  },
+  {
+    "n": 100000,
+    "heavy_tail": false,
+    "keys": 25050,
+    "backend_requested": "python",
+    "backend_used": "python-integer",
+    "seconds": 375.00542689999565,
+    "discarded": 14612
+  },
+  {
+    "n": 100000,
+    "heavy_tail": true,
+    "keys": 15302,
+    "backend_requested": "auto",
+    "backend_used": "numpy-int64",
+    "seconds": 47.289082599803805,
+    "discarded": 54831
+  },
+  {
+    "n": 100000,
+    "heavy_tail": true,
+    "keys": 15302,
+    "backend_requested": "python",
+    "backend_used": "python-integer",
+    "seconds": 344.742136400193,
+    "discarded": 54831
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "eligible": [
+    "dbpedia__agent__person__single",
+    "dbpedia__person__athlete__single",
+    "dbpedia__organization__company__single",
+    "dbpedia__place__natural_place__single",
+    "dbpedia__work__musical_work__single",
+    "dbpedia__event__societal_event__single",
+    "dbpedia__athlete__sports_team__single",
+    "dbpedia__company__educational_institution__single",
+    "goemotions__sent_positive__joy__single",
+    "goemotions__sent_negative__anger__single",
+    "goemotions__sent_ambiguous__confusion__single",
+    "goemotions__is_question__curiosity__single",
+    "goemotions__mentions_person__admiration__single",
+    "goemotions__sent_negative__sadness__single",
+    "goemotions__sarcastic__annoyance__single",
+    "goemotions__sent_positive__love__single"
+  ],
+  "excluded": [
+    "dbpedia__agent__person__multi",
+    "dbpedia__person__athlete__multi",
+    "dbpedia__organization__company__multi",
+    "dbpedia__place__natural_place__multi",
+    "dbpedia__work__musical_work__multi",
+    "dbpedia__event__societal_event__multi",
+    "dbpedia__athlete__sports_team__multi",
+    "dbpedia__company__educational_institution__multi",
+    "goemotions__sent_positive__joy__multi",
+    "goemotions__sent_negative__anger__multi",
+    "goemotions__sent_ambiguous__confusion__multi",
+    "goemotions__is_question__curiosity__multi",
+    "goemotions__mentions_person__admiration__multi",
+    "goemotions__sent_negative__sadness__multi",
+    "goemotions__sarcastic__annoyance__multi",
+    "goemotions__sent_positive__love__multi"
+  ],
+  "reason": "Metadata-only at-most-one-key incidence; no outcome selection"
+}

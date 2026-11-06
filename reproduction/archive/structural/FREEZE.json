@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-16T15:56:29.165420+00:00",
+  "classification": "dated exploratory protocol; new evidence after existing studies, not original preregistration",
+  "source_sha256": {
+    "reproduction/runtime/structural_study/PROTOCOL.md": "79f2738bb70766266195c5106e86fdf7611709c2ac157412962be604017da980",
+    "reproduction/runtime/structural_study/structural_cases.py": "c1334ccd591964e6d77ab7aee5e943d55a1e03f6f7886e2a3c65fc34760df313",
+    "reproduction/runtime/structural_study/run_structural.py": "f01e92d0e928d1ca040973d0fd1c39ee5c7b0b65f2dd9d77574c590c601a07ab",
+    "reproduction/runtime/structural_study/inputs.json": "06be6e7bf4280bdd5f727945d0c45fdb718218da537322162ff94bd7a841b4b3",
+    "reproduction/runtime/structural_study/geometry_inputs.json": "2f25188ab0a2f8e3ef28619ffd62f59a914d176d52f16320e8a3d88e15f81982",
+    "reproduction/runtime/external_study/common.py": "020e94f34b4ed2ce3601f58f3ce900ef912305948f054c3f014207defd44d287",
+    "reproduction/runtime/external_study/exact_baselines.py": "e6a10b83bf6cbe99bd91e3503d10042e2476a9756f6f3318dacf91803e833626",
+    "reproduction/runtime/external_study/extra_exact_controls.py": "12d067812d50703d41d078ac13c97f809f0d969b416fcba58f8d4cb4428dd364",
+    "reproduction/runtime/external_study/direct_arms.py": "b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203",
+    "reproduction/runtime/external_study/cut_arms.py": "0d6e38376d882221f2f04005faff04f3d9c0773d07d85804bfd51e0492e852f9",
+    "reproduction/runtime/external_study/count_allocation_arms.py": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+    "code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "code/count_mask_planner.py": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+    "code/exact_hypergeom.py": "bb44c24a6bd63a39be4a15549e048eb692edd7a46a15ddb70e2aa2a20c855cec",
+    "code/relational_cut.py": "2814ea3beae72dfbe6bbb94965936f5614c99c9f3df7115fc0a32a84b883a417"
+  },
+  "sources_digest": "5b365683e5da3c99823cd4627526d76ea8695550d1e2e104eb93bf34c932f44f",
+  "targets": 108,
+  "geometry_targets": 48,
+  "expected_policy_cells": 594,
+  "environment": {
+    "python": "3.13.14 (main, Jun 11 2026, 04:04:46) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "python.exe",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "packages": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "duckdb": "1.5.6"
+    }
+  }
+}

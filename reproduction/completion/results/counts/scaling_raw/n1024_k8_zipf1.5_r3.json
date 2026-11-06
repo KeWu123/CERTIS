@@ -1,0 +1,154 @@
+{
+  "status": "pass",
+  "n": 1024,
+  "k": 8,
+  "law": "zipf1.5",
+  "repetition": 3,
+  "trace_memory": true,
+  "profile_seconds": 0.06232560006901622,
+  "heap_seconds": 0.0003328999737277627,
+  "total_seconds": 0.06265850004274398,
+  "cpu_seconds": 0.0625,
+  "cold_profile_pair_evaluations": 85554,
+  "max_block": 266,
+  "discarded": 204,
+  "support": -200,
+  "traced_peak_bytes": 120863,
+  "resident_peak_bytes": 157446144,
+  "warm_exact_state_cache_seconds": [
+    5.7399971410632133e-05,
+    4.630000330507755e-05,
+    4.449998959898949e-05
+  ],
+  "dp": null,
+  "count_states": [
+    [
+      {
+        "lower": 6,
+        "upper": 12,
+        "positive": 0,
+        "unknown": 18,
+        "forced_discard": 0
+      },
+      {
+        "lower": 6,
+        "upper": 12,
+        "positive": 0,
+        "unknown": 18,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 32,
+        "upper": 62,
+        "positive": 0,
+        "unknown": 94,
+        "forced_discard": 0
+      },
+      {
+        "lower": 32,
+        "upper": 62,
+        "positive": 0,
+        "unknown": 94,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 93,
+        "upper": 173,
+        "positive": 0,
+        "unknown": 266,
+        "forced_discard": 0
+      },
+      {
+        "lower": 93,
+        "upper": 173,
+        "positive": 0,
+        "unknown": 266,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 8,
+        "upper": 16,
+        "positive": 0,
+        "unknown": 24,
+        "forced_discard": 0
+      },
+      {
+        "lower": 8,
+        "upper": 16,
+        "positive": 0,
+        "unknown": 24,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 4,
+        "upper": 8,
+        "positive": 0,
+        "unknown": 12,
+        "forced_discard": 0
+      },
+      {
+        "lower": 4,
+        "upper": 8,
+        "positive": 0,
+        "unknown": 12,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 11,
+        "upper": 22,
+        "positive": 0,
+        "unknown": 33,
+        "forced_discard": 0
+      },
+      {
+        "lower": 11,
+        "upper": 22,
+        "positive": 0,
+        "unknown": 33,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 4,
+        "upper": 10,
+        "positive": 0,
+        "unknown": 14,
+        "forced_discard": 0
+      },
+      {
+        "lower": 4,
+        "upper": 10,
+        "positive": 0,
+        "unknown": 14,
+        "forced_discard": 0
+      }
+    ],
+    [
+      {
+        "lower": 17,
+        "upper": 34,
+        "positive": 0,
+        "unknown": 51,
+        "forced_discard": 0
+      },
+      {
+        "lower": 17,
+        "upper": 34,
+        "positive": 0,
+        "unknown": 51,
+        "forced_discard": 0
+      }
+    ]
+  ]
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "case": "dbpedia__agent__person__single",
+    "seed": 101,
+    "joint": 1956,
+    "perkey": 127,
+    "marg_p": 117,
+    "marg_1": 232,
+    "marg_opt": 126,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__agent__person__single",
+    "seed": 202,
+    "joint": 1958,
+    "perkey": 133,
+    "marg_p": 114,
+    "marg_1": 229,
+    "marg_opt": 130,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__agent__person__single",
+    "seed": 303,
+    "joint": 1991,
+    "perkey": 132,
+    "marg_p": 117,
+    "marg_1": 233,
+    "marg_opt": 129,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__person__athlete__single",
+    "seed": 101,
+    "joint": 1931,
+    "perkey": 111,
+    "marg_p": 72,
+    "marg_1": 142,
+    "marg_opt": 105,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__person__athlete__single",
+    "seed": 202,
+    "joint": 1949,
+    "perkey": 115,
+    "marg_p": 73,
+    "marg_1": 144,
+    "marg_opt": 109,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__person__athlete__single",
+    "seed": 303,
+    "joint": 1956,
+    "perkey": 105,
+    "marg_p": 68,
+    "marg_1": 135,
+    "marg_opt": 101,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__organization__company__single",
+    "seed": 101,
+    "joint": 534,
+    "perkey": 36,
+    "marg_p": 22,
+    "marg_1": 45,
+    "marg_opt": 35,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__organization__company__single",
+    "seed": 202,
+    "joint": 457,
+    "perkey": 31,
+    "marg_p": 18,
+    "marg_1": 40,
+    "marg_opt": 28,
+    "n_pos_keys": 5
+  },
+  {
+    "case": "dbpedia__organization__company__single",
+    "seed": 303,
+    "joint": 436,
+    "perkey": 36,
+    "marg_p": 20,
+    "marg_1": 40,
+    "marg_opt": 34,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__place__natural_place__single",
+    "seed": 101,
+    "joint": 585,
+    "perkey": 75,
+    "marg_p": 43,
+    "marg_1": 86,
+    "marg_opt": 70,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__place__natural_place__single",
+    "seed": 202,
+    "joint": 578,
+    "perkey": 77,
+    "marg_p": 44,
+    "marg_1": 86,
+    "marg_opt": 74,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__place__natural_place__single",
+    "seed": 303,
+    "joint": 554,
+    "perkey": 72,
+    "marg_p": 40,
+    "marg_1": 79,
+    "marg_opt": 68,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__work__musical_work__single",
+    "seed": 101,
+    "joint": 378,
+    "perkey": 12,
+    "marg_p": 8,
+    "marg_1": 16,
+    "marg_opt": 11,
+    "n_pos_keys": 4
+  },
+  {
+    "case": "dbpedia__work__musical_work__single",
+    "seed": 202,
+    "joint": 109,
+    "perkey": 9,
+    "marg_p": 5,
+    "marg_1": 12,
+    "marg_opt": 8,
+    "n_pos_keys": 3
+  },
+  {
+    "case": "dbpedia__work__musical_work__single",
+    "seed": 303,
+    "joint": 57,
+    "perkey": 8,
+    "marg_p": 6,
+    "marg_1": 12,
+    "marg_opt": 7,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__event__societal_event__single",
+    "seed": 101,
+    "joint": 75,
+    "perkey": 34,
+    "marg_p": 16,
+    "marg_1": 38,
+    "marg_opt": 32,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "dbpedia__event__societal_event__single",
+    "seed": 202,
+    "joint": 74,
+    "perkey": 32,
+    "marg_p": 16,
+    "marg_1": 35,
+    "marg_opt": 30,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "dbpedia__event__societal_event__single",
+    "seed": 303,
+    "joint": 222,
+    "perkey": 30,
+    "marg_p": 17,
+    "marg_1": 38,
+    "marg_opt": 29,
+    "n_pos_keys": 2
+  },
+  {
+    "case": "dbpedia__athlete__sports_team__single",
+    "seed": 101,
+    "joint": 1498,
+    "perkey": 44,
+    "marg_p": 24,
+    "marg_1": 51,
+    "marg_opt": 41,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__athlete__sports_team__single",
+    "seed": 202,
+    "joint": 1519,
+    "perkey": 42,
+    "marg_p": 25,
+    "marg_1": 51,
+    "marg_opt": 40,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__athlete__sports_team__single",
+    "seed": 303,
+    "joint": 1557,
+    "perkey": 40,
+    "marg_p": 24,
+    "marg_1": 51,
+    "marg_opt": 38,
+    "n_pos_keys": 8
+  },
+  {
+    "case": "dbpedia__company__educational_institution__single",
+    "seed": 101,
+    "joint": 60,
+    "perkey": 10,
+    "marg_p": 7,
+    "marg_1": 16,
+    "marg_opt": 9,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "dbpedia__company__educational_institution__single",
+    "seed": 202,
+    "joint": 62,
+    "perkey": 11,
+    "marg_p": 7,
+    "marg_1": 15,
+    "marg_opt": 10,
+    "n_pos_keys": 5
+  },
+  {
+    "case": "dbpedia__company__educational_institution__single",
+    "seed": 303,
+    "joint": 82,
+    "perkey": 15,
+    "marg_p": 10,
+    "marg_1": 21,
+    "marg_opt": 14,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "goemotions__sent_positive__joy__single",
+    "seed": 101,
+    "joint": 484,
+    "perkey": 45,
+    "marg_p": 31,
+    "marg_1": 68,
+    "marg_opt": 44,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__sent_positive__joy__single",
+    "seed": 202,
+    "joint": 361,
+    "perkey": 40,
+    "marg_p": 29,
+    "marg_1": 61,
+    "marg_opt": 38,
+    "n_pos_keys": 14
+  },
+  {
+    "case": "goemotions__sent_positive__joy__single",
+    "seed": 303,
+    "joint": 468,
+    "perkey": 45,
+    "marg_p": 29,
+    "marg_1": 68,
+    "marg_opt": 43,
+    "n_pos_keys": 13
+  },
+  {
+    "case": "goemotions__sent_negative__anger__single",
+    "seed": 101,
+    "joint": 442,
+    "perkey": 67,
+    "marg_p": 36,
+    "marg_1": 84,
+    "marg_opt": 63,
+    "n_pos_keys": 13
+  },
+  {
+    "case": "goemotions__sent_negative__anger__single",
+    "seed": 202,
+    "joint": 513,
+    "perkey": 62,
+    "marg_p": 37,
+    "marg_1": 82,
+    "marg_opt": 59,
+    "n_pos_keys": 19
+  },
+  {
+    "case": "goemotions__sent_negative__anger__single",
+    "seed": 303,
+    "joint": 345,
+    "perkey": 65,
+    "marg_p": 33,
+    "marg_1": 77,
+    "marg_opt": 60,
+    "n_pos_keys": 15
+  },
+  {
+    "case": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 101,
+    "joint": 354,
+    "perkey": 42,
+    "marg_p": 25,
+    "marg_1": 57,
+    "marg_opt": 41,
+    "n_pos_keys": 13
+  },
+  {
+    "case": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 202,
+    "joint": 335,
+    "perkey": 49,
+    "marg_p": 27,
+    "marg_1": 59,
+    "marg_opt": 45,
+    "n_pos_keys": 14
+  },
+  {
+    "case": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 303,
+    "joint": 378,
+    "perkey": 42,
+    "marg_p": 24,
+    "marg_1": 55,
+    "marg_opt": 38,
+    "n_pos_keys": 11
+  },
+  {
+    "case": "goemotions__is_question__curiosity__single",
+    "seed": 101,
+    "joint": 118,
+    "perkey": 14,
+    "marg_p": 8,
+    "marg_1": 20,
+    "marg_opt": 13,
+    "n_pos_keys": 5
+  },
+  {
+    "case": "goemotions__is_question__curiosity__single",
+    "seed": 202,
+    "joint": 125,
+    "perkey": 15,
+    "marg_p": 8,
+    "marg_1": 21,
+    "marg_opt": 13,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__is_question__curiosity__single",
+    "seed": 303,
+    "joint": 101,
+    "perkey": 13,
+    "marg_p": 10,
+    "marg_1": 22,
+    "marg_opt": 12,
+    "n_pos_keys": 9
+  },
+  {
+    "case": "goemotions__mentions_person__admiration__single",
+    "seed": 101,
+    "joint": 57,
+    "perkey": 28,
+    "marg_p": 13,
+    "marg_1": 29,
+    "marg_opt": 26,
+    "n_pos_keys": 6
+  },
+  {
+    "case": "goemotions__mentions_person__admiration__single",
+    "seed": 202,
+    "joint": 27,
+    "perkey": 24,
+    "marg_p": 11,
+    "marg_1": 24,
+    "marg_opt": 23,
+    "n_pos_keys": 1
+  },
+  {
+    "case": "goemotions__mentions_person__admiration__single",
+    "seed": 303,
+    "joint": 44,
+    "perkey": 31,
+    "marg_p": 15,
+    "marg_1": 31,
+    "marg_opt": 30,
+    "n_pos_keys": 3
+  },
+  {
+    "case": "goemotions__sent_negative__sadness__single",
+    "seed": 101,
+    "joint": 201,
+    "perkey": 67,
+    "marg_p": 30,
+    "marg_1": 70,
+    "marg_opt": 63,
+    "n_pos_keys": 12
+  },
+  {
+    "case": "goemotions__sent_negative__sadness__single",
+    "seed": 202,
+    "joint": 105,
+    "perkey": 62,
+    "marg_p": 27,
+    "marg_1": 64,
+    "marg_opt": 59,
+    "n_pos_keys": 11
+  },
+  {
+    "case": "goemotions__sent_negative__sadness__single",
+    "seed": 303,
+    "joint": 129,
+    "perkey": 65,
+    "marg_p": 29,
+    "marg_1": 66,
+    "marg_opt": 60,
+    "n_pos_keys": 10
+  },
+  {
+    "case": "goemotions__sarcastic__annoyance__single",
+    "seed": 101,
+    "joint": 739,
+    "perkey": 66,
+    "marg_p": 45,
+    "marg_1": 100,
+    "marg_opt": 62,
+    "n_pos_keys": 19
+  },
+  {
+    "case": "goemotions__sarcastic__annoyance__single",
+    "seed": 202,
+    "joint": 803,
+    "perkey": 67,
+    "marg_p": 52,
+    "marg_1": 110,
+    "marg_opt": 63,
+    "n_pos_keys": 18
+  },
+  {
+    "case": "goemotions__sarcastic__annoyance__single",
+    "seed": 303,
+    "joint": 710,
+    "perkey": 72,
+    "marg_p": 50,
+    "marg_1": 110,
+    "marg_opt": 68,
+    "n_pos_keys": 23
+  },
+  {
+    "case": "goemotions__sent_positive__love__single",
+    "seed": 101,
+    "joint": 293,
+    "perkey": 38,
+    "marg_p": 21,
+    "marg_1": 46,
+    "marg_opt": 37,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__sent_positive__love__single",
+    "seed": 202,
+    "joint": 170,
+    "perkey": 34,
+    "marg_p": 18,
+    "marg_1": 41,
+    "marg_opt": 32,
+    "n_pos_keys": 7
+  },
+  {
+    "case": "goemotions__sent_positive__love__single",
+    "seed": 303,
+    "joint": 150,
+    "perkey": 41,
+    "marg_p": 20,
+    "marg_1": 47,
+    "marg_opt": 39,
+    "n_pos_keys": 11
+  }
+]

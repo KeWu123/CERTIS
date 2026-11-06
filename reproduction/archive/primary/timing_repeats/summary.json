@@ -1,0 +1,258 @@
+{
+  "protocol": {
+    "selection": "indices 0,1,16,17 in fixed protocol order: first predicate pair, both key modes, both datasets",
+    "warmups_per_case_method": 1,
+    "measured_repeats": 3,
+    "seed": 101,
+    "methods": {
+      "direct_degree": 500,
+      "direct_helper": 125,
+      "cut_helper": 125
+    },
+    "scope": "warm local algorithm and actual returned SQL materialization; no live inference"
+  },
+  "rows": [
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "method": "direct_degree",
+      "requests": 3048,
+      "algorithm_seconds": {
+        "median": 0.08380299992859364,
+        "minimum": 0.08301219996064901,
+        "maximum": 0.08602780010551214
+      },
+      "projection_seconds": {
+        "median": 0.026357600465416908,
+        "minimum": 0.02596150105819106,
+        "maximum": 0.026427399832755327
+      },
+      "materialization_seconds": {
+        "median": 0.032962100114673376,
+        "minimum": 0.03219230007380247,
+        "maximum": 0.03410879988223314
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "method": "direct_helper",
+      "requests": 4218,
+      "algorithm_seconds": {
+        "median": 0.18069540010765195,
+        "minimum": 0.1795030003413558,
+        "maximum": 0.18091460037976503
+      },
+      "projection_seconds": {
+        "median": 0.055720999371260405,
+        "minimum": 0.054864099714905024,
+        "maximum": 0.05708980094641447
+      },
+      "materialization_seconds": {
+        "median": 0.03152390010654926,
+        "minimum": 0.031070499680936337,
+        "maximum": 0.034589400049299
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "method": "cut_helper",
+      "requests": 3840,
+      "algorithm_seconds": {
+        "median": 0.13818519981577992,
+        "minimum": 0.1380133000202477,
+        "maximum": 0.13885279977694154
+      },
+      "projection_seconds": {
+        "median": 0.03555889939889312,
+        "minimum": 0.03466949891299009,
+        "maximum": 0.035811700858175755
+      },
+      "materialization_seconds": {
+        "median": 0.03192789992317557,
+        "minimum": 0.031654899939894676,
+        "maximum": 0.031950400210916996
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__multi",
+      "method": "direct_degree",
+      "requests": 3099,
+      "algorithm_seconds": {
+        "median": 0.6522351000458002,
+        "minimum": 0.6393403997644782,
+        "maximum": 0.6846296996809542
+      },
+      "projection_seconds": {
+        "median": 0.5568617004901171,
+        "minimum": 0.5457571996375918,
+        "maximum": 0.5844524004496634
+      },
+      "materialization_seconds": {
+        "median": 0.038740700110793114,
+        "minimum": 0.03517920011654496,
+        "maximum": 0.04073400003835559
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__multi",
+      "method": "direct_helper",
+      "requests": 4474,
+      "algorithm_seconds": {
+        "median": 1.3310741996392608,
+        "minimum": 1.2999672000296414,
+        "maximum": 1.3770701000466943
+      },
+      "projection_seconds": {
+        "median": 1.1234409003518522,
+        "minimum": 1.0920730982907116,
+        "maximum": 1.1646147989667952
+      },
+      "materialization_seconds": {
+        "median": 0.03441930003464222,
+        "minimum": 0.03264879994094372,
+        "maximum": 0.03769530029967427
+      }
+    },
+    {
+      "case_id": "dbpedia__agent__person__multi",
+      "method": "cut_helper",
+      "requests": 3840,
+      "algorithm_seconds": {
+        "median": 0.23277790006250143,
+        "minimum": 0.2093732003122568,
+        "maximum": 0.23723250022158027
+      },
+      "projection_seconds": {
+        "median": 0.038973398972302675,
+        "minimum": 0.0388866001740098,
+        "maximum": 0.03902740031480789
+      },
+      "materialization_seconds": {
+        "median": 0.02985539985820651,
+        "minimum": 0.02949870005249977,
+        "maximum": 0.03320339974015951
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "method": "direct_degree",
+      "requests": 4328,
+      "algorithm_seconds": {
+        "median": 0.2103319000452757,
+        "minimum": 0.20524229994043708,
+        "maximum": 0.2121234000660479
+      },
+      "projection_seconds": {
+        "median": 0.1033264989964664,
+        "minimum": 0.0995877985842526,
+        "maximum": 0.10586650110781193
+      },
+      "materialization_seconds": {
+        "median": 0.002520299982279539,
+        "minimum": 0.002342499792575836,
+        "maximum": 0.002844899892807007
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "method": "direct_helper",
+      "requests": 4908,
+      "algorithm_seconds": {
+        "median": 0.31306679965928197,
+        "minimum": 0.3104413999244571,
+        "maximum": 0.31717489985749125
+      },
+      "projection_seconds": {
+        "median": 0.15968719962984324,
+        "minimum": 0.15668939845636487,
+        "maximum": 0.16033789748325944
+      },
+      "materialization_seconds": {
+        "median": 0.0023739999160170555,
+        "minimum": 0.002289299853146076,
+        "maximum": 0.0023799999617040157
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "method": "cut_helper",
+      "requests": 4849,
+      "algorithm_seconds": {
+        "median": 0.17478569969534874,
+        "minimum": 0.16672120010480285,
+        "maximum": 0.1881695999763906
+      },
+      "projection_seconds": {
+        "median": 0.059244601521641016,
+        "minimum": 0.05768159870058298,
+        "maximum": 0.0657731001265347
+      },
+      "materialization_seconds": {
+        "median": 0.0023912996985018253,
+        "minimum": 0.002369699999690056,
+        "maximum": 0.0026592998765408993
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__multi",
+      "method": "direct_degree",
+      "requests": 4456,
+      "algorithm_seconds": {
+        "median": 0.22426410019397736,
+        "minimum": 0.21948379976674914,
+        "maximum": 0.22458950011059642
+      },
+      "projection_seconds": {
+        "median": 0.10673280106857419,
+        "minimum": 0.10473409853875637,
+        "maximum": 0.10820450074970722
+      },
+      "materialization_seconds": {
+        "median": 0.0027772998437285423,
+        "minimum": 0.0026676002889871597,
+        "maximum": 0.002971900161355734
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__multi",
+      "method": "direct_helper",
+      "requests": 4908,
+      "algorithm_seconds": {
+        "median": 0.33776209969073534,
+        "minimum": 0.32413139985874295,
+        "maximum": 0.35257279966026545
+      },
+      "projection_seconds": {
+        "median": 0.165928500238806,
+        "minimum": 0.16314280033111572,
+        "maximum": 0.17021060129627585
+      },
+      "materialization_seconds": {
+        "median": 0.002767600119113922,
+        "minimum": 0.0026051998138427734,
+        "maximum": 0.0027741999365389347
+      }
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__multi",
+      "method": "cut_helper",
+      "requests": 4892,
+      "algorithm_seconds": {
+        "median": 0.1918256003409624,
+        "minimum": 0.1843266999348998,
+        "maximum": 0.20469400007277727
+      },
+      "projection_seconds": {
+        "median": 0.06354029849171638,
+        "minimum": 0.0613032984547317,
+        "maximum": 0.06407720036804676
+      },
+      "materialization_seconds": {
+        "median": 0.002746999729424715,
+        "minimum": 0.002596300095319748,
+        "maximum": 0.0029637999832630157
+      }
+    }
+  ],
+  "runs": 48,
+  "measured_runs": 36
+}

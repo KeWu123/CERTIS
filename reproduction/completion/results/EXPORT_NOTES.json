@@ -1,0 +1,10 @@
+{
+  "metadata_only_corrections": [
+    "Portable local paths",
+    "Local summary latency scope",
+    "Explicit local oracle reference hash",
+    "Native category construction description"
+  ],
+  "labels_tokens_masks_and_numeric_results_preserved": true,
+  "original_record_digest_field": "source_record_sha256"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "target_count": 48,
+  "mask_evidence_cases": 3168,
+  "statistical_audit": false,
+  "classification": "explicitly covered constructed intervals; geometry only",
+  "summary": [
+    {
+      "reuse": 0.0,
+      "cases": 792,
+      "strict_gap_cases": 0,
+      "mean_gap": 0.0,
+      "max_gap": 0,
+      "missed_certifications": 0
+    },
+    {
+      "reuse": 0.25,
+      "cases": 792,
+      "strict_gap_cases": 68,
+      "mean_gap": 0.6287878787878788,
+      "max_gap": 20,
+      "missed_certifications": 4
+    },
+    {
+      "reuse": 0.5,
+      "cases": 792,
+      "strict_gap_cases": 151,
+      "mean_gap": 1.5164141414141414,
+      "max_gap": 40,
+      "missed_certifications": 4
+    },
+    {
+      "reuse": 1.0,
+      "cases": 792,
+      "strict_gap_cases": 156,
+      "mean_gap": 2.2196969696969697,
+      "max_gap": 49,
+      "missed_certifications": 13
+    }
+  ]
+}

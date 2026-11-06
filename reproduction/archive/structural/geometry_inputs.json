@@ -1,0 +1,5342 @@
+[
+  {
+    "target": "geometry_n8_k2_uniform_r0p0_s101",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "8a9dc88c54e42e98ae05b186c67c14ba0e2d7e9911f8d6e3d7eefc15703b8de3"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p0_s202",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "e1179c73862f111677f752e783c0597c869cee9ffe6945c00d4203ed393a83f6"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p0_s303",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "ca5a6da5343f17652c80ebc6f731a3145f896ddc9251d5f99ef9507922613b3f"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p25_s101",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "key_left": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "37ba5872e994f6d09cc67951e7d01d3eda3e9fbdcf3d21d1d00a7311cb5dc1b8"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p25_s202",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "9668a75b1ea61fd7986f0cd34143e96992c47792c8fc000422a63cead9a5a231"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p25_s303",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      0,
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "a7fbcd86da9b267b3e4999664a2f92b0ba906b98f1bfccbce32a3db80eb137bc"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p5_s101",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      0,
+      -1,
+      1,
+      -1,
+      0,
+      -1,
+      0
+    ],
+    "key_left": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "822c5c0ca91be4ffc9d0545e7335db0040e7fd6f7890a8a01f569c394c24cddb"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p5_s202",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      0,
+      -1,
+      -1,
+      0,
+      0,
+      -1,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "5bfd00b3b7985bfe28f495dbd60f2af2c5ab1616e984cbec93ceb78f8fcbb1c7"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r0p5_s303",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      1,
+      0,
+      -1,
+      0,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "f912bae04ac0b63570cbc9103d5d8b532d6b96f60e8fcac923b4da50e4e2c81c"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r1p0_s101",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "e349adeb0f7c84251d6e6dc7e86db571b58e8e5895ac5f12dc9d448a01984f24"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r1p0_s202",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "c301126f482c9239c3cf8ca25ef2154ae54d29a6de5be6200cb575aad3d972e3"
+  },
+  {
+    "target": "geometry_n8_k2_uniform_r1p0_s303",
+    "n": 8,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "b5a8144ae177065fe73f80dca5dfd3f3bb46fb39424c2ad6d3282a5dcce7cb62"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p0_s101",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4
+      ],
+      [
+        7
+      ],
+      [
+        6
+      ],
+      [
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "0ddae719da97657c7399665db529cce88054816de870238b821158b4db37e47f"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p0_s202",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      3
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        3
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0
+      ]
+    ],
+    "key_right": [
+      [
+        6
+      ],
+      [
+        5
+      ],
+      [
+        4
+      ],
+      [
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "b45633fdf8db59cad8b4b65c84aceec00db9bf0a32f4eda0df5ab34c187d86a8"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p0_s303",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      2,
+      3,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "84934eb35afd8da033fd5b901b85844177d463f8c8fbfd46267605977437c2f0"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p25_s101",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      3,
+      -1,
+      -1,
+      -1,
+      1,
+      -1
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6
+      ],
+      [
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "235e35f36c18967a35bebc0243930b17bc255642108790528687780c54ec6f37"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p25_s202",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      3
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      3,
+      -1,
+      -1,
+      3,
+      -1
+    ],
+    "key_left": [
+      [
+        3
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        6
+      ],
+      [
+        5
+      ],
+      [
+        4
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "705ba1c9f7656d84e3dc836171fe24ecb0927d13a9b3ea6f191dbdce577b5e5c"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p25_s303",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      2,
+      3,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      2,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0
+      ],
+      [
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "25bf0472cbdf8f7383d5e06f6c897b786d5561e37087257f81735c1e2a78e79b"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p5_s101",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      3,
+      1,
+      3,
+      -1,
+      1,
+      -1
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "584844e8179086e11de9fb16b34b46e4edd72bdfecbeaad78485258cce6310cf"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p5_s202",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      3
+    ],
+    "secondary": [
+      -1,
+      2,
+      -1,
+      3,
+      0,
+      -1,
+      3,
+      -1
+    ],
+    "key_left": [
+      [
+        3
+      ],
+      [
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        6
+      ],
+      [
+        5
+      ],
+      [
+        4
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "c2bf18b6e60e91c7fb096b222b77cd13999d312b89f682798bd179552bad2d5b"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r0p5_s303",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      2,
+      3,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      3,
+      1,
+      -1,
+      -1,
+      2,
+      -1,
+      3
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "253e5f316648aaf6b690b1bb89b6ce7aaf573e6bf753d38875dcdaa86e0b5acf"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r1p0_s101",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2,
+      1
+    ],
+    "secondary": [
+      0,
+      3,
+      3,
+      1,
+      3,
+      2,
+      1,
+      3
+    ],
+    "key_left": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "d5ea4ad5faec9f73c4863be36ceb973ab8d4eba678105f9aca8d9d210b606ecf"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r1p0_s202",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      3
+    ],
+    "secondary": [
+      2,
+      2,
+      0,
+      3,
+      0,
+      3,
+      3,
+      1
+    ],
+    "key_left": [
+      [
+        2,
+        3
+      ],
+      [
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        4
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "47da0b15d152db79d224689842db5b68b35205fc872bf6b2f9d0c4817982f30f"
+  },
+  {
+    "target": "geometry_n8_k4_uniform_r1p0_s303",
+    "n": 8,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      2,
+      1,
+      0,
+      3,
+      2,
+      3,
+      0,
+      1
+    ],
+    "secondary": [
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      1,
+      3
+    ],
+    "key_left": [
+      [
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    "truth": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "932b7228fd5b6a5bc115fef7552a6e150e565a088dcee349c65ae124d5008780"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p0_s101",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        8,
+        10
+      ],
+      [
+        7,
+        9,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "d15f051dcd78f685c91d47a48bb3c2a46036163285460a2b6a661338fce18304"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p0_s202",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        10,
+        11
+      ],
+      [
+        7,
+        8,
+        9
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "481960bdc9ac2536ed50808d6df4d58a088c81b0f2f30a5541b22deebdca20b9"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p0_s303",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        8,
+        9,
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "8837b9108009b9bef1f22016d3bd012ae71823fd737060d720224655b23e0ffd"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p25_s101",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        1,
+        2,
+        3,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        8,
+        10
+      ],
+      [
+        6,
+        7,
+        9,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "430f7086ed8700fe44d94422ac892d3fff2f2e085328166591b2e631e492964e"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p25_s202",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        9
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "b90132063df182d073752330ae4b06c43931b90105f847cdedb4172025ce4f50"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p25_s303",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        9,
+        11
+      ],
+      [
+        8,
+        9,
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "b15287a53547a19c5f333b1f53c285ae88239b84627591755b3e3954e25a22f7"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p5_s101",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      -1,
+      1,
+      0,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        9,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "a8ceb39ff591af42bb2c5b7474f92a0ba156f46689e5242e01219dfa4854a167"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p5_s202",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      1,
+      -1,
+      -1,
+      0,
+      0,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "d4dd3b7cd82a966ba1ae66aef3a89e629a62a9680c99e118db356c5ad403c1e7"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r0p5_s303",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      -1,
+      1,
+      -1,
+      0,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        9,
+        11
+      ],
+      [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "b49d42ee5ed1af328fd82981383a7cfb4eb0372864d654a242bb8391f009efb6"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r1p0_s101",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "secondary": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "b45cd63c07debda9a53e2e3d310245157369cad35130aedbfba8690c92b5ab26"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r1p0_s202",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "secondary": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "bdc5adcd094e25386d5a5bf1679fb37cf99e39f99055fe589b8d2c5776cf9f83"
+  },
+  {
+    "target": "geometry_n12_k2_uniform_r1p0_s303",
+    "n": 12,
+    "k": 2,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "secondary": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      3,
+      3
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "00611ea54a7aafa9f425d0ad7498322fe09d7b6d7c71e84bb71e5dde226c01f3"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p0_s101",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      3
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3
+      ],
+      [
+        2
+      ]
+    ],
+    "key_right": [
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        10
+      ],
+      [
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "58edb11b5d5bad64fc3e6cffe0782a11be260214a07861e38b7419ae74b9adac"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p0_s202",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        4
+      ],
+      [
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        10,
+        11
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "a1a72e61e4705d464a2c7d12febc756726a8b64b32d094e0f83e3e6c24e17923"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p0_s303",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      3,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        0
+      ]
+    ],
+    "key_right": [
+      [
+        8,
+        11
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "6bd41c9c230474301e836c30a572a4ee08a03249f3ca4444745951fc1b1e484e"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p25_s101",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      3
+    ],
+    "secondary": [
+      -1,
+      3,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      3,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "key_right": [
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        10
+      ],
+      [
+        7,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "81d227dc8d6918f00c440686b0511f930844d0e5a779748e11bf7b98a8022c68"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p25_s202",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      -1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        4
+      ],
+      [
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "16c564b41f2894608e87d8c806bf97c853c57652e2a8c17846ac8eb22a28718e"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p25_s303",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.25,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      3,
+      0
+    ],
+    "secondary": [
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        0
+      ]
+    ],
+    "key_right": [
+      [
+        8,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "169973c0d14d6233428165d2388a93528faa6505d2b9501c0021d5f0583483fa"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p5_s101",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      3
+    ],
+    "secondary": [
+      3,
+      3,
+      -1,
+      -1,
+      2,
+      -1,
+      -1,
+      3,
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "key_left": [
+      [
+        0,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "key_right": [
+      [
+        7,
+        8
+      ],
+      [
+        6,
+        8,
+        9,
+        10
+      ],
+      [
+        10
+      ],
+      [
+        7,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "964f2a003fe49bc2dc6a06a26c27f8ed742b5409e2d6d7d5646c57aa4c63f81c"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p5_s202",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      0,
+      0
+    ],
+    "secondary": [
+      -1,
+      -1,
+      2,
+      0,
+      -1,
+      0,
+      3,
+      -1,
+      -1,
+      -1,
+      3,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        11
+      ],
+      [
+        8
+      ],
+      [
+        6,
+        9,
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "5217d63b6bd08320940d027e7d4ab4f6a597d7a26b601839409f3b528ac0d2ff"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r0p5_s303",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 0.5,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      3,
+      0
+    ],
+    "secondary": [
+      1,
+      -1,
+      0,
+      -1,
+      -1,
+      3,
+      -1,
+      -1,
+      3,
+      1,
+      -1,
+      1
+    ],
+    "key_left": [
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        8,
+        11
+      ],
+      [
+        6,
+        7,
+        9,
+        11
+      ],
+      [
+        9
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "871d6b0510f129d5dbb7847c03beca16d719b3695653dfb1c4a5b14d52bcd9ad"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r1p0_s101",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 101,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      3
+    ],
+    "secondary": [
+      3,
+      3,
+      2,
+      0,
+      2,
+      2,
+      0,
+      3,
+      1,
+      2,
+      1,
+      0
+    ],
+    "key_left": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "key_right": [
+      [
+        6,
+        7,
+        8,
+        11
+      ],
+      [
+        6,
+        8,
+        9,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        7,
+        11
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "6b6489c2adf789ef8c15feb20df6028928c350824ec5a2daa49ff08d32f2ca0c"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r1p0_s202",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 202,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      0,
+      1,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      2,
+      3,
+      0,
+      0
+    ],
+    "secondary": [
+      2,
+      3,
+      2,
+      0,
+      1,
+      0,
+      3,
+      3,
+      1,
+      2,
+      3,
+      1
+    ],
+    "key_left": [
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "key_right": [
+      [
+        10,
+        11
+      ],
+      [
+        6,
+        7,
+        8,
+        11
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        6,
+        7,
+        9,
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "bd75f3befc17390765474d67568024eba4fdafa1e033a84c5c745d95b2688544"
+  },
+  {
+    "target": "geometry_n12_k4_uniform_r1p0_s303",
+    "n": 12,
+    "k": 4,
+    "law": "uniform",
+    "reuse": 1.0,
+    "seed": 303,
+    "side": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "primary": [
+      3,
+      0,
+      1,
+      1,
+      2,
+      0,
+      1,
+      1,
+      0,
+      2,
+      3,
+      0
+    ],
+    "secondary": [
+      1,
+      1,
+      0,
+      0,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1,
+      1,
+      1
+    ],
+    "key_left": [
+      [
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ],
+      [
+        0,
+        4,
+        5
+      ]
+    ],
+    "key_right": [
+      [
+        8,
+        11
+      ],
+      [
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      [
+        9
+      ],
+      [
+        6,
+        7,
+        8,
+        10
+      ]
+    ],
+    "truth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "scores": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "token_contract": "oracle input=1 output=1; helper input=1 output=1",
+    "primary_counts_per_side": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "positive_rates": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "rng": "numpy.default_rng SeedSequence; primary tag11, secondary tag17, labels tag29",
+    "input_sha256": "53fd54d8f263632e1fb6915fb2d3d52a03a98eb6eead55d021b33f0f381883d0"
+  }
+]

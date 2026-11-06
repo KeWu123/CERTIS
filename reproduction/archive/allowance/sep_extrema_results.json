@@ -1,0 +1,290 @@
+[
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 101,
+    "requests": 3044,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 202,
+    "requests": 3036,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__agent__person__single",
+    "seed": 303,
+    "requests": 3008,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 101,
+    "requests": 3051,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 202,
+    "requests": 3036,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__person__athlete__single",
+    "seed": 303,
+    "requests": 3024,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 101,
+    "requests": 4430,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 202,
+    "requests": 4430,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__organization__company__single",
+    "seed": 303,
+    "requests": 4148,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 101,
+    "requests": 4328,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 202,
+    "requests": 4309,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__place__natural_place__single",
+    "seed": 303,
+    "requests": 4318,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 101,
+    "requests": 4200,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 202,
+    "requests": 4328,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__work__musical_work__single",
+    "seed": 303,
+    "requests": 4200,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 101,
+    "requests": 4513,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 202,
+    "requests": 4495,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__event__societal_event__single",
+    "seed": 303,
+    "requests": 4506,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 101,
+    "requests": 3364,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 202,
+    "requests": 3304,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__athlete__sports_team__single",
+    "seed": 303,
+    "requests": 3325,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 101,
+    "requests": 4456,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 202,
+    "requests": 4373,
+    "conflict": false
+  },
+  {
+    "case_id": "dbpedia__company__educational_institution__single",
+    "seed": 303,
+    "requests": 4712,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 101,
+    "requests": 4066,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 202,
+    "requests": 4236,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_positive__joy__single",
+    "seed": 303,
+    "requests": 4209,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 101,
+    "requests": 4247,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 202,
+    "requests": 4250,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_negative__anger__single",
+    "seed": 303,
+    "requests": 4339,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 101,
+    "requests": 4318,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 202,
+    "requests": 4251,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_ambiguous__confusion__single",
+    "seed": 303,
+    "requests": 4327,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 101,
+    "requests": 4501,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 202,
+    "requests": 4372,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__is_question__curiosity__single",
+    "seed": 303,
+    "requests": 4456,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 101,
+    "requests": 4780,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 202,
+    "requests": 4726,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__mentions_person__admiration__single",
+    "seed": 303,
+    "requests": 4779,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 101,
+    "requests": 4616,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 202,
+    "requests": 4589,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_negative__sadness__single",
+    "seed": 303,
+    "requests": 4614,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 101,
+    "requests": 3951,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 202,
+    "requests": 3952,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sarcastic__annoyance__single",
+    "seed": 303,
+    "requests": 4025,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 101,
+    "requests": 4403,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 202,
+    "requests": 4406,
+    "conflict": false
+  },
+  {
+    "case_id": "goemotions__sent_positive__love__single",
+    "seed": 303,
+    "requests": 4456,
+    "conflict": false
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "dbpedia:configs/predicates/dbpedia.yaml": "9f3312663b27c5e4e5815f5a1c82e2fa8afa0b42ffae76cec2b2aa9b9eeb8e2f",
+  "dbpedia:data/datasets/dbpedia.parquet": "dff8470a8480d89da0b6069171745baaddec8a98e08b0dd5ff43e26b4ea1eb8d",
+  "dbpedia:data/tapes/dbpedia__oracle-llama.parquet": "1a20b030753d77765dae9922563b612fcac1428a0bd4dcc01f1c835583fe410c",
+  "dbpedia:data/tapes/dbpedia__helper.parquet": "44f52efb14f410da81ece2782216eee558f8ab87082517c4bbe8b0e5d399c21d",
+  "goemotions:configs/predicates/goemotions.yaml": "a35aeae0558538c1f29eed4027bf8b34ead4c493977798a08358899ac1b3c1fa",
+  "goemotions:data/datasets/goemotions.parquet": "8e0ac9324787376a427828609dcc75ca5aab5815a4c2132d9a98bef505a84caa",
+  "goemotions:data/tapes/goemotions__oracle-llama.parquet": "4c5f10b7941dafa0c5e87581d83f624b00494b9f0d8a5b4d7fb1f9819d03993d",
+  "goemotions:data/tapes/goemotions__helper.parquet": "fda032e837818017bfb5bfd917bb4736bbd8762d9fe7a02c251dde0624f005bf",
+  "dbpedia:validated_array": "b866012afd0558a41812679e6509d3e963f2550903ddf2e577608a2051e2636d",
+  "goemotions:validated_array": "2e16a9aea7000933d5d7a1faab2b139ba11b57493a2ccfb060f5d4837f05a2a6"
+}

@@ -1,0 +1,11 @@
+{
+  "primary_source_id": "db17c4543b8832d2acf2fc3db26099461a7055dc1ed64ad0867c0e5a47c8c22f",
+  "summary_sha256": "b96d3235692a736555cf2e22fc88742e0689a11205c83ae11876d2a4abad7f8f",
+  "validation_sha256": "5d8e79314b8797a1950b99ad837b849338e696ec001f051b23be7f417629f281",
+  "supplement_sha256": "b8c17193e4d1f83d2a41b17bcad058ce7d91bab0cd63fc0c65d7b0585657e267",
+  "main_tex_sha256": "8e349c2bdc452cbcfcf840fa70c68db0e09fce3bbb926fbcd36a2b6843d89f19",
+  "primary_prose_updated": false,
+  "primary_fragment_sha256": "2aa55f338d98a56fd25ff51cc0e44e31816d39087f518076e85285d11812a04e",
+  "plot_pdf_sha256": "cb6bab16e674512711ac8dd64773cb27916577874c5a60fb41cfa17bbe754b5a",
+  "script_sha256": "5df2f7512779f317dfb0c4bdcfb8e15e6ef752d69674cdfc38ab6dc34b811a91"
+}

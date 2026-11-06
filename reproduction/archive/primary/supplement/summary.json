@@ -1,0 +1,230 @@
+{
+  "runs": 32,
+  "pooled_requests": 145645,
+  "rows": [
+    {
+      "case_id": "dbpedia__agent__person__multi",
+      "requests": 3712,
+      "loss": 0.019289511527064415,
+      "cpu": 1.1212845002301037,
+      "tokens": 801697
+    },
+    {
+      "case_id": "dbpedia__agent__person__single",
+      "requests": 3584,
+      "loss": 0.01503221879023328,
+      "cpu": 0.14328760001808405,
+      "tokens": 776140
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__multi",
+      "requests": 4736,
+      "loss": 0.012476239180987485,
+      "cpu": 1.472421399783343,
+      "tokens": 1015777
+    },
+    {
+      "case_id": "dbpedia__athlete__sports_team__single",
+      "requests": 4310,
+      "loss": 0.012358110582204321,
+      "cpu": 0.18340860027819872,
+      "tokens": 925055
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__multi",
+      "requests": 4922,
+      "loss": 0.0004847897224578839,
+      "cpu": 1.670219199731946,
+      "tokens": 1064653
+    },
+    {
+      "case_id": "dbpedia__company__educational_institution__single",
+      "requests": 4864,
+      "loss": 0.00016911889058007779,
+      "cpu": 0.21714319987222552,
+      "tokens": 1051793
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__multi",
+      "requests": 4864,
+      "loss": 0.0,
+      "cpu": 1.6091629997827113,
+      "tokens": 1065496
+    },
+    {
+      "case_id": "dbpedia__event__societal_event__single",
+      "requests": 4680,
+      "loss": 0.0,
+      "cpu": 0.21694330032914877,
+      "tokens": 1028300
+    },
+    {
+      "case_id": "dbpedia__organization__company__multi",
+      "requests": 4922,
+      "loss": 0.0,
+      "cpu": 1.5982335000298917,
+      "tokens": 1052433
+    },
+    {
+      "case_id": "dbpedia__organization__company__single",
+      "requests": 4922,
+      "loss": 0.0,
+      "cpu": 0.22693050000816584,
+      "tokens": 1051701
+    },
+    {
+      "case_id": "dbpedia__person__athlete__multi",
+      "requests": 4352,
+      "loss": 0.005127675192599614,
+      "cpu": 1.2842727997340262,
+      "tokens": 932625
+    },
+    {
+      "case_id": "dbpedia__person__athlete__single",
+      "requests": 3968,
+      "loss": 0.00461094590767488,
+      "cpu": 0.16201049974188209,
+      "tokens": 851837
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__multi",
+      "requests": 4864,
+      "loss": 0.0,
+      "cpu": 1.6155902999453247,
+      "tokens": 1063832
+    },
+    {
+      "case_id": "dbpedia__place__natural_place__single",
+      "requests": 4812,
+      "loss": 0.0,
+      "cpu": 0.21850560000166297,
+      "tokens": 1052216
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__multi",
+      "requests": 4965,
+      "loss": 0.0,
+      "cpu": 1.6337065999396145,
+      "tokens": 1113564
+    },
+    {
+      "case_id": "dbpedia__work__musical_work__single",
+      "requests": 4224,
+      "loss": 0.0,
+      "cpu": 0.1861939001828432,
+      "tokens": 949602
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__multi",
+      "requests": 4736,
+      "loss": 0.002818713808633843,
+      "cpu": 0.2976549998857081,
+      "tokens": 584969
+    },
+    {
+      "case_id": "goemotions__is_question__curiosity__single",
+      "requests": 4736,
+      "loss": 0.0014536204233669484,
+      "cpu": 0.2840570998378098,
+      "tokens": 584834
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__multi",
+      "requests": 4864,
+      "loss": 0.0013313806417254693,
+      "cpu": 0.31150340009480715,
+      "tokens": 610722
+    },
+    {
+      "case_id": "goemotions__mentions_person__admiration__single",
+      "requests": 4836,
+      "loss": 0.00015762925598991173,
+      "cpu": 0.3109311000443995,
+      "tokens": 607358
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__multi",
+      "requests": 4152,
+      "loss": 0.040804544026625686,
+      "cpu": 0.2522514001466334,
+      "tokens": 512450
+    },
+    {
+      "case_id": "goemotions__sarcastic__annoyance__single",
+      "requests": 4030,
+      "loss": 0.02050269127770472,
+      "cpu": 0.23901999974623322,
+      "tokens": 497182
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__multi",
+      "requests": 4480,
+      "loss": 0.022351880337346842,
+      "cpu": 0.2682807999663055,
+      "tokens": 584595
+    },
+    {
+      "case_id": "goemotions__sent_ambiguous__confusion__single",
+      "requests": 4473,
+      "loss": 0.006305255735748766,
+      "cpu": 0.25968379992991686,
+      "tokens": 583836
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__multi",
+      "requests": 4454,
+      "loss": 0.019635591721209978,
+      "cpu": 0.2770377001725137,
+      "tokens": 552198
+    },
+    {
+      "case_id": "goemotions__sent_negative__anger__single",
+      "requests": 4352,
+      "loss": 0.013167434322756738,
+      "cpu": 0.255018999800086,
+      "tokens": 539506
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__multi",
+      "requests": 4736,
+      "loss": 0.02171119677433648,
+      "cpu": 0.29218599991872907,
+      "tokens": 587407
+    },
+    {
+      "case_id": "goemotions__sent_negative__sadness__single",
+      "requests": 4736,
+      "loss": 0.0194258005381272,
+      "cpu": 0.2875498002395034,
+      "tokens": 587261
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__multi",
+      "requests": 4480,
+      "loss": 0.020003606164419884,
+      "cpu": 0.2714797998778522,
+      "tokens": 555377
+    },
+    {
+      "case_id": "goemotions__sent_positive__joy__single",
+      "requests": 4480,
+      "loss": 0.015781284729939987,
+      "cpu": 0.26962099969387054,
+      "tokens": 555351
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__multi",
+      "requests": 4736,
+      "loss": 0.012500598687676613,
+      "cpu": 0.2871125000528991,
+      "tokens": 587383
+    },
+    {
+      "case_id": "goemotions__sent_positive__love__single",
+      "requests": 4663,
+      "loss": 0.009497099878896041,
+      "cpu": 0.2809216002933681,
+      "tokens": 578169
+    }
+  ]
+}

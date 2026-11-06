@@ -1,0 +1,10 @@
+{
+  "status": "process_interruption",
+  "command": "python.exe -B reproduction/runtime/external_study/run_extra_exact.py",
+  "failure": "UnicodeEncodeError: cp1252 stdout could not encode the Chinese workspace path printed by event()",
+  "location": "run_extra_exact.py event(), print(line, flush=True)",
+  "scope": "Occurred after the first raw record was atomically saved and independently validated; the UTF-8 execution.log already retained its event.",
+  "resolution": "Resume the identical frozen runner with python.exe -X utf8 -B. No source or algorithm change, no removed record.",
+  "post_matrix_control": true,
+  "preregistered": false
+}

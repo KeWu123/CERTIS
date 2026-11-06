@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "expected_unique_runs": 288,
+  "executed_pass": 0,
+  "executed_fail": 0,
+  "reused_verified_runs": 0,
+  "verify_only": true,
+  "source_id": "921c90e8f5e5041ae0d9d03cb7155b8952aa4322fa1de31c84d57d23aba5b257",
+  "source_manifest_sha256": "3f22467f05fe0554d6d8a69475c941de3a95e315ad4fa086668e11c76533fbd4",
+  "source_and_result_hashes_verified": true,
+  "utc": "2026-10-16T15:43:36.910825+00:00",
+  "preserved_failure_attempts": 0,
+  "post_matrix_control": true,
+  "exploratory": true,
+  "preregistered": false,
+  "registration_note": "Post-matrix exploratory mechanism controls; not original preregistered arms and not retroactively preregistered."
+}

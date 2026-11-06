@@ -1,0 +1,39 @@
+\begin{table}[t]
+\centering
+\caption{No-audit controls, 32 executions each. Oracle requests include all phases; helper calls are separate. Exact methods return full recall. Dynamic degree, negative-first and the degree point control are post-matrix follow-ups.}
+\label{tab:exact}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\linewidth}{Xrr}
+\toprule
+\textbf{Method} & \textbf{Mean requests} & \textbf{Mean loss} \\
+\midrule
+Exact identity scan & 5,000.0 & 0.00\% \\
+Exact left-first & 4,912.1 & 0.00\% \\
+Exact right-first & 4,837.2 & 0.00\% \\
+Exact cover + residual & 4,852.3 & 0.00\% \\
+Exact helper greedy & 4,874.5 & 0.00\% \\
+Exact dynamic degree & 4,857.7 & 0.00\% \\
+Exact negative-first & 4,890.5 & 0.00\% \\
+Direct point, helper & 4,906.3 & 4.24\% \\
+Cut point, helper & 4,571.5 & 4.46\% \\
+Direct point, degree & 4,551.4 & 0.93\% \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Complete audited execution, 96 cases per row (32 workloads, three seeds). Budget is per full side for direct methods and per remaining side after the paid cut. Savings use the executable exact right-first control.}
+\label{tab:audited}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabularx}{\linewidth}{Xrrrr}
+\toprule
+\textbf{Method} & \textbf{Audit} & \textbf{Requests} & \textbf{Saving} & \textbf{Max loss} \\
+\midrule
+Degree prefix & 125 & 4,514.7 & 6.7\% & 4.3\% \\
+Degree prefix & 500 & 4,388.0 & 9.3\% & 6.5\% \\
+Cut, helper & 125 & 4,528.0 & 6.4\% & 9.8\% \\
+Cut, helper & 500 & 4,606.7 & 4.8\% & 9.9\% \\
+\bottomrule
+\end{tabularx}
+\end{table}

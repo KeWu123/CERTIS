@@ -18,3 +18,5 @@ jobs:
       - run: python reproduce.py verify-paper
       - run: python reproduce.py analyze-completion
       - run: python reproduce.py analyze-native-dbpedia
+      - run: python reproduce.py validate-fast-profile
+      - run: python reproduce.py verify-fast-profile

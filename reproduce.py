@@ -111,6 +111,7 @@ def smoke(output=None):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['check','verify','verify-paper','smoke','analyze','analyze-completion',
+        'validate-fast-profile','verify-fast-profile','benchmark-fast-profile','replay-fast-profile',
         'plot','plot-completion','run',
         'run-fixed','run-cached','run-greedy125','run-primary','run-matched','run-structural',
         'run-count','run-mechanisms','run-extra','run-native-original','run-geometry',
@@ -125,7 +126,15 @@ def main():
     parser.add_argument('--port',type=int,default=18086)
     args=parser.parse_args()
     os.chdir(ROOT)
-    if args.command=='check': check()
+    if args.command in ('validate-fast-profile','verify-fast-profile','benchmark-fast-profile','replay-fast-profile'):
+        folder=ROOT/'reproduction/fast_profile'
+        name={'validate-fast-profile':'validate_profile.py','verify-fast-profile':'verify_results.py',
+              'benchmark-fast-profile':'benchmark_profile.py','replay-fast-profile':'replay_equivalence.py'}[args.command]
+        extra=['--vectorized'] if args.command=='benchmark-fast-profile' else []
+        if args.output and args.command in ('benchmark-fast-profile','replay-fast-profile'):
+            extra+=['--output',str(args.output.resolve())]
+        subprocess.run([sys.executable,str(folder/name),*extra],check=True)
+    elif args.command=='check': check()
     elif args.command=='verify': verify()
     elif args.command=='verify-paper':
         subprocess.run([sys.executable,str(COMPLETION/'verify_paper.py')],check=True)

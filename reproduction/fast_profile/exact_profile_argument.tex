@@ -1,0 +1,64 @@
+% Standalone argument for review; not yet inserted into the submission.
+\paragraph{Exact piecewise profile construction.}
+For one side let $h$ be the cached-positive count, $n$ the unknown count,
+$l=\max(\ell,h)$, and $u=\min(v,h+n)$, where $v$ is the supplied upper
+count endpoint. For a discard count $d$, the two frontier witnesses are
+$(a,b_0)$ and $(a,b_1)$, where
+\[
+ a=\min(d,u-h),\qquad b_0=\max(h,l-d),\qquad b_1=\max(h,u-d).
+\]
+These expressions equal the original clipped-total frontier: its first
+total is $\min(u,\max(l,h+d))$ and its second total is $u$.
+
+Fix total discards $g$ and write $x=d_L$, $d_R=g-x$. With required old
+discards $o_L,o_R$, the feasible integer interval is
+$[\max(o_L,g-n_R),\min(n_L,g-o_R)]$. The frontier expressions change
+affine branch only at $l_L-h_L$, $u_L-h_L$,
+$g-(l_R-h_R)$, and $g-(u_R-h_R)$. These four integer breakpoints
+partition the interval into at most five pieces. On each closed piece
+the four deficit values are integer-coefficient quadratics
+\[
+ Q_j(x)=(q-p)(a_L+b_L)(a_R+b_R)-q b_Lb_R,
+ \qquad H_k(x,g-x)=\max_{j\leq4}Q_j(x).
+\]
+Branch formulas agree at shared endpoints.
+
+\begin{theorem}[Linear-size exact profile search]
+For feasible uncoupled side/key count evidence, the complete local profile,
+including the lexicographically first attaining count pair at every feasible
+$g$, can be constructed with $O(n_L+n_R+1)$ constant-size candidate searches.
+The result includes forced old-discard lower bounds.
+\end{theorem}
+\begin{proof}
+On one piece, include its endpoints and both neighbouring integers of every
+real root of $Q_i-Q_j$ and every stationary point of each $Q_j$.
+There are at most twelve pair-intersection roots and four stationary points,
+so at most 34 integer candidates before duplicate removal. Between successive
+real boundaries, the maximizing polynomial is fixed up to identical ties,
+and its derivative has constant sign or is identically zero. The upper
+envelope is therefore monotone or constant there. Its minimum over the
+integers in that interval is attained at an integer nearest an endpoint;
+the earliest attaining integer is included as well. Taking the smallest
+pair $(H_k(x,g-x),x)$ over all candidates on all pieces gives the exact
+profile value and the original left-first witness. There are
+$n_L+n_R-o_L-o_R+1$ values of $g$.
+\end{proof}
+
+Root neighbours are computed exactly. For $Ax^2+Bx+C=0$, normalize $A>0$
+and let $D=B^2-4AC$. When $D\geq0$, set $s=\lfloor\sqrt D\rfloor$
+using integer square root and $t=s+\mathbf1\{s^2\ne D\}$. The floors of
+the two roots are $\lfloor(-B-t)/(2A)\rfloor$ and
+$\lfloor(-B+s)/(2A)\rfloor$. A positive integer denominator makes these
+replacements preserve the quotient floors. Linear degeneracies use rational
+integer division; constant differences have no isolated roots.
+
+Let $b=O(\log(q+1)+\log(N+1))$ bound the operand bit length after capacity
+clipping. The linear search count retains integer multiplication, division
+and square-root costs: a bit-cost expression is
+$O((n_L+n_R+1)(M(b)+D(b)+I(b)))$, with constant-factor operand expansions.
+Stored profile values and witnesses use linear space. Across key-disjoint
+blocks, the number of candidate searches is $O(K+N)$ per cache snapshot.
+Greedy allocation then takes $O(N\log(K+1))$ heap operations; exact global
+DP retains its quadratic convolution cost. Replanning costs accumulate over
+snapshots. These operation bounds do not imply a speedup over vectorized
+enumeration at every finite input size.

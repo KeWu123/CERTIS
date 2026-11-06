@@ -115,6 +115,36 @@ scenario or the archived 70B oracle-quality results.
 python reproduce.py run-closed-loop --server PATH_TO_LLAMA_SERVER --model PATH_TO_GGUF --output outputs/closed_loop
 ```
 
+## Exact piecewise profile extension
+
+The optional profile builder preserves every profile value, left-first witness,
+and greedy allocation decision. It partitions each fixed-count split into at
+most five quadratic-envelope pieces and tests exact integer root neighbours.
+A guarded NumPy implementation uses integer `isqrt`; unsafe ranges use the
+arbitrary-precision reference. The 1,024-left-unknown short-loop cutoff is fixed.
+
+On 14 paired cold-cache configurations, the largest heterogeneous/skewed states
+reduce profile-plus-heap time from 4.68/10.49 s to 0.589/0.637 s at N=131,072
+and K=8. The imbalanced case increases from 0.518 to 0.592 s. Initial pure
+Python measurements, including regressions, are retained. These are planner
+measurements, separate from the original live-inference cost tables.
+
+All 32 native DBpedia query/budget cells (seed 101; 64 fresh executions) have
+identical old/new ordered ledgers, masks, facts and SQL bag counts. Their 4,147
+distinct profile states were compared entry by entry. The original certificate
+and default archived execution paths remain available.
+
+```bash
+python reproduce.py validate-fast-profile
+python reproduce.py verify-fast-profile
+python reproduce.py benchmark-fast-profile --output outputs/profile_timing
+python reproduce.py replay-fast-profile --output outputs/profile_equivalence
+```
+
+`reproduction/fast_profile/` contains the argument, protocols, validation,
+source versions and both timing series. Fresh timing depends on the local
+machine. Replays include equality-check overhead and are not latency benchmarks.
+
 ## Data and integrity
 
 Upstream inputs are pinned to [SemViews](https://github.com/semviews/lotus-semviews/tree/b102ced758428a47191a2a83f1890e44bb715e41)

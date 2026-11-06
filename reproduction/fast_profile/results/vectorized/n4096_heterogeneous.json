@@ -1,0 +1,227 @@
+{
+  "status": "pass",
+  "n": 4096,
+  "kind": "heterogeneous",
+  "variant": "vectorized",
+  "rows": [
+    {
+      "backend": "old",
+      "repetition": 0,
+      "profile_seconds": 0.02968100004363805,
+      "heap_seconds": 4.0899962186813354e-05,
+      "total_seconds": 0.029721900005824864,
+      "cache": {
+        "hits": 0,
+        "misses": 8,
+        "maxsize": 65536,
+        "currsize": 8
+      }
+    },
+    {
+      "backend": "piecewise",
+      "repetition": 0,
+      "profile_seconds": 0.03494650009088218,
+      "heap_seconds": 2.5399960577487946e-05,
+      "total_seconds": 0.03497190005145967,
+      "cache": {
+        "hits": 0,
+        "misses": 8,
+        "maxsize": 65536,
+        "currsize": 8
+      }
+    },
+    {
+      "backend": "piecewise",
+      "repetition": 1,
+      "profile_seconds": 0.02834159997291863,
+      "heap_seconds": 2.050003968179226e-05,
+      "total_seconds": 0.028362100012600422,
+      "cache": {
+        "hits": 0,
+        "misses": 8,
+        "maxsize": 65536,
+        "currsize": 8
+      }
+    },
+    {
+      "backend": "old",
+      "repetition": 1,
+      "profile_seconds": 0.027531900093890727,
+      "heap_seconds": 2.3099943064153194e-05,
+      "total_seconds": 0.02755500003695488,
+      "cache": {
+        "hits": 0,
+        "misses": 8,
+        "maxsize": 65536,
+        "currsize": 8
+      }
+    },
+    {
+      "backend": "old",
+      "repetition": 2,
+      "profile_seconds": 0.027211700100451708,
+      "heap_seconds": 2.1499930880963802e-05,
+      "total_seconds": 0.02723320003133267,
+      "cache": {
+        "hits": 0,
+        "misses": 8,
+        "maxsize": 65536,
+        "currsize": 8
+      }
+    },
+    {
+      "backend": "piecewise",
+      "repetition": 2,
+      "profile_seconds": 0.029173400020226836,
+      "heap_seconds": 2.0600040443241596e-05,
+      "total_seconds": 0.029194000060670078,
+      "cache": {
+        "hits": 0,
+        "misses": 8,
+        "maxsize": 65536,
+        "currsize": 8
+      }
+    }
+  ],
+  "medians": {
+    "old": 0.02755500003695488,
+    "piecewise": 0.029194000060670078
+  },
+  "speedup": 0.9438583263578448,
+  "snapshots": 1,
+  "unique_states": 8,
+  "max_side_unknown": 319,
+  "states": [
+    [
+      [
+        {
+          "lower": 35,
+          "upper": 139,
+          "positive": 4,
+          "unknown": 207,
+          "forced_discard": 2
+        },
+        {
+          "lower": 43,
+          "upper": 149,
+          "positive": 6,
+          "unknown": 207,
+          "forced_discard": 2
+        }
+      ],
+      [
+        {
+          "lower": 46,
+          "upper": 157,
+          "positive": 6,
+          "unknown": 225,
+          "forced_discard": 2
+        },
+        {
+          "lower": 56,
+          "upper": 170,
+          "positive": 9,
+          "unknown": 226,
+          "forced_discard": 2
+        }
+      ],
+      [
+        {
+          "lower": 60,
+          "upper": 178,
+          "positive": 9,
+          "unknown": 244,
+          "forced_discard": 2
+        },
+        {
+          "lower": 62,
+          "upper": 183,
+          "positive": 4,
+          "unknown": 245,
+          "forced_discard": 2
+        }
+      ],
+      [
+        {
+          "lower": 68,
+          "upper": 192,
+          "positive": 5,
+          "unknown": 263,
+          "forced_discard": 2
+        },
+        {
+          "lower": 78,
+          "upper": 179,
+          "positive": 7,
+          "unknown": 264,
+          "forced_discard": 2
+        }
+      ],
+      [
+        {
+          "lower": 83,
+          "upper": 214,
+          "positive": 8,
+          "unknown": 281,
+          "forced_discard": 2
+        },
+        {
+          "lower": 95,
+          "upper": 200,
+          "positive": 11,
+          "unknown": 282,
+          "forced_discard": 2
+        }
+      ],
+      [
+        {
+          "lower": 102,
+          "upper": 207,
+          "positive": 12,
+          "unknown": 300,
+          "forced_discard": 3
+        },
+        {
+          "lower": 105,
+          "upper": 214,
+          "positive": 6,
+          "unknown": 301,
+          "forced_discard": 3
+        }
+      ],
+      [
+        {
+          "lower": 111,
+          "upper": 220,
+          "positive": 6,
+          "unknown": 319,
+          "forced_discard": 3
+        },
+        {
+          "lower": 56,
+          "upper": 236,
+          "positive": 9,
+          "unknown": 319,
+          "forced_discard": 3
+        }
+      ],
+      [
+        {
+          "lower": 36,
+          "upper": 149,
+          "positive": 6,
+          "unknown": 206,
+          "forced_discard": 2
+        },
+        {
+          "lower": 45,
+          "upper": 160,
+          "positive": 8,
+          "unknown": 207,
+          "forced_discard": 2
+        }
+      ]
+    ]
+  ],
+  "profile_and_allocation_equal": true
+}

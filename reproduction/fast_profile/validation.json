@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "profile_instances": 9096,
+  "exhaustive_small_instances": 4096,
+  "random_profile_instances": 5000,
+  "independent_envelopes": 25000,
+  "exact_values_and_lexicographic_witnesses_match": true,
+  "forced_vectorized_profile_instances": 2000,
+  "profile_seconds": 14.13892900000792,
+  "total_seconds": 15.190420600003563,
+  "source_sha256": "56680781df1dd2bd298da65db9432801da6a4e4a5ec8b0c5afaf129a27650abf",
+  "vectorized_source_sha256": "989778069ffaa6997af8b80124d26d1732e6c5eeec177c5aa1aa2d70ebd57714",
+  "reference_sha256": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+  "seed": 20261106,
+  "recall_90_counterexamples": [
+    {
+      "k": 2,
+      "greedy": 1,
+      "optimum": 2
+    },
+    {
+      "k": 3,
+      "greedy": 1,
+      "optimum": 3
+    },
+    {
+      "k": 10,
+      "greedy": 1,
+      "optimum": 10
+    },
+    {
+      "k": 32,
+      "greedy": 1,
+      "optimum": 32
+    }
+  ],
+  "validation_driver_sha256": "7e6b216b3b912d7d2e83ad3c01f29ea5d7fcc1967b550c5b35d9d6ea9ccc0cee"
+}

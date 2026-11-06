@@ -5,20 +5,20 @@
       "sha256": "383570cd61c15140f6d3ec641d5f477de303756a19312ad157cbc6502068daab"
     },
     ".github/workflows/check.yml": {
-      "bytes": 610,
-      "sha256": "63840c4d2bec8e40614ad9e5e56e57b5c06f055a974b753627594a079bb81dbf"
+      "bytes": 718,
+      "sha256": "ab8436b70a808acbae12b1fac5ef4bc058f7ee19075282f76a0bca5d947211fb"
     },
     ".gitignore": {
       "bytes": 178,
       "sha256": "fc9133dc8ab50bc1e59d3313127e11db12060cae9900043c6d83841796bed9b9"
     },
     "PAPER_RESULTS.md": {
-      "bytes": 5966,
-      "sha256": "aa8b32492c443b023b0cecb7efab89fac72b0eb94a3c9a69f3ab6e1e311b826f"
+      "bytes": 6811,
+      "sha256": "0b8ac47f798e4b65ca2350f2278b093ec7e8b4ee1f8410222b5bfa6ddcf36ef9"
     },
     "README.md": {
-      "bytes": 6960,
-      "sha256": "1f9910df92e5bd9dbbcef01c985e65a926fced8dcaeb82fa6226fe384069f8a6"
+      "bytes": 8540,
+      "sha256": "6881ae86a6e4ab2b63c56e70302344b2cb2a58a29099c67494e9d90463a87101"
     },
     "THIRD_PARTY.md": {
       "bytes": 871,
@@ -48,6 +48,14 @@
       "bytes": 18902,
       "sha256": "3680b52cb3d4afdd5deb658665a81bdec1dbb3ce543f81c54ffe453d5ce3ded1"
     },
+    "code/piecewise_count_profile.py": {
+      "bytes": 5945,
+      "sha256": "56680781df1dd2bd298da65db9432801da6a4e4a5ec8b0c5afaf129a27650abf"
+    },
+    "code/piecewise_numpy_profile.py": {
+      "bytes": 5769,
+      "sha256": "989778069ffaa6997af8b80124d26d1732e6c5eeec177c5aa1aa2d70ebd57714"
+    },
     "code/plot_results.py": {
       "bytes": 11774,
       "sha256": "760f219444c6cb7705a4fa7cf4bb6cfdcf7ba082fce0cbf15db1dde9864410ae"
@@ -57,8 +65,8 @@
       "sha256": "2814ea3beae72dfbe6bbb94965936f5614c99c9f3df7115fc0a32a84b883a417"
     },
     "reproduce.py": {
-      "bytes": 10442,
-      "sha256": "9b81994bb5ca43095901006aec6850cadf8cde22d58f29d1c7f412412c078864"
+      "bytes": 11248,
+      "sha256": "74a3306a5865ddf40ebb49cc17408714c1a5d9bcbd9a5a8c0e4ca12d5b24efb1"
     },
     "reproduction/archive/allowance/crosskey_pooling_results.json": {
       "bytes": 4881,
@@ -13591,6 +13599,314 @@
     "reproduction/completion/verify_paper.py": {
       "bytes": 6416,
       "sha256": "711289df21255369a15ae4a3718c0160ee8f6ac45cd807c93915c31054d6e287"
+    },
+    "reproduction/fast_profile/PROTOCOL.md": {
+      "bytes": 2021,
+      "sha256": "8875b76be6dc10eec442ad2f02ddd2671b31f0acd62c9d9bc7ea1b60a146d488"
+    },
+    "reproduction/fast_profile/benchmark_profile.py": {
+      "bytes": 6477,
+      "sha256": "301f351a7b4df232622f82d99b059e72bc2b6226ad125c864f0189be1c141f49"
+    },
+    "reproduction/fast_profile/exact_profile_argument.tex": {
+      "bytes": 3490,
+      "sha256": "b0869addc8aa8b95145b66cec1440afdf06dcfd51faba4a5c812cda2e88f27fe"
+    },
+    "reproduction/fast_profile/legacy_tables.tex": {
+      "bytes": 1617,
+      "sha256": "ea2c23b33476017147fa0039b154c53f64f27f0b97c8a4b11c7f3e493a35a5ef"
+    },
+    "reproduction/fast_profile/replay_equivalence.py": {
+      "bytes": 5492,
+      "sha256": "41081782818f5bc3cca065cfc835bca6b16150f4de3c61dc9cd2d17270438268"
+    },
+    "reproduction/fast_profile/results/equivalence/binding.json": {
+      "bytes": 2606,
+      "sha256": "ab83e9c0e91e79b9f3d285f645de9609640cde255d80d2b090b81b00b00a833a"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__agent__person__l1__s101__b125.json.gz": {
+      "bytes": 3334,
+      "sha256": "72d49d5ba18e27b56a2d71a91b1593858a03815ff1fb4e0c8b4a8138effa6728"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__agent__person__l1__s101__b500.json.gz": {
+      "bytes": 2746,
+      "sha256": "075fccf4b418957b80a78795372d67dc54f87db3fff4afe52f9edc3cfed69833"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__agent__person__l2__s101__b125.json.gz": {
+      "bytes": 9690,
+      "sha256": "5a1e26a9de1edf1b2da01c336d22cbcc1b04f34454480d4b52af4e1ed31cb60f"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__agent__person__l2__s101__b500.json.gz": {
+      "bytes": 9388,
+      "sha256": "63408591713f13dd8689bdba50fdede0b04bbccdfe0ad16cdc0c2eb4f7f2587e"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__athlete__sports_team__l1__s101__b125.json.gz": {
+      "bytes": 4825,
+      "sha256": "9346efdd528ef92879c5cf473e21d26516b5ba84ab4203350eee294021c03acc"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__athlete__sports_team__l1__s101__b500.json.gz": {
+      "bytes": 3581,
+      "sha256": "7548867fdade61eb5ec5b45c8c78137e9c29bbd614d1ea8eb7f13adaeccc20e0"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__athlete__sports_team__l2__s101__b125.json.gz": {
+      "bytes": 8712,
+      "sha256": "859e2e24dad0f1575fc97052a8777086a7ff51b7002c1c38cd15064f081a6364"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__athlete__sports_team__l2__s101__b500.json.gz": {
+      "bytes": 9286,
+      "sha256": "c068d3ebe239013aab126fdf05cac8b59547b71f4a5661c349ba7a39b936188b"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__company__educational_institution__l1__s101__b125.json.gz": {
+      "bytes": 5428,
+      "sha256": "6b634fa26a98b1c09b0a50f8068c2cb8ed6029225735d6e402701e481f7fa507"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__company__educational_institution__l1__s101__b500.json.gz": {
+      "bytes": 4594,
+      "sha256": "4b1a05d39cd3734b34d1977d0094078e9d5c8c81023bf33b8d90581e4a181a6b"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__company__educational_institution__l2__s101__b125.json.gz": {
+      "bytes": 9605,
+      "sha256": "05f38d8ae5a48d1054b4b0d6fa31a880dc995585c50b23facaeadfc4859d2d1d"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__company__educational_institution__l2__s101__b500.json.gz": {
+      "bytes": 10003,
+      "sha256": "6a0ad8df269bc7a76c9382e97be4c2c59cae028e68be931ebcd693ace2f8031f"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__event__societal_event__l1__s101__b125.json.gz": {
+      "bytes": 5096,
+      "sha256": "792da2f3ba0b06f889e1f7e03e6e74e3e4e3561e29290c89a3101fc38b360cc4"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__event__societal_event__l1__s101__b500.json.gz": {
+      "bytes": 5144,
+      "sha256": "a5477584912019fbbe569bc063364c6269c469bd0dd11d6638d40fcfc15682e1"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__event__societal_event__l2__s101__b125.json.gz": {
+      "bytes": 9853,
+      "sha256": "12d9fc8f66f37060415ebb52f5fcac9b773d2ccc96cbfb2f41ad5dd8e7617567"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__event__societal_event__l2__s101__b500.json.gz": {
+      "bytes": 10313,
+      "sha256": "358fc2ec3809886360d5b48559838a48746cda607dcc7b33b5d28097c58abbe3"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__organization__company__l1__s101__b125.json.gz": {
+      "bytes": 5041,
+      "sha256": "f9aa8b0c900d5345b10c1c301bf18d42dfead3786f87115875c66766f36b74dc"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__organization__company__l1__s101__b500.json.gz": {
+      "bytes": 4684,
+      "sha256": "74101b359eca2601e3845c73d6eb98c93b31355f7405ace1463bd1875cb080ab"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__organization__company__l2__s101__b125.json.gz": {
+      "bytes": 9799,
+      "sha256": "e469bb566846097dbc91ee9f432cd1bbb4f3d5f8d1d263e7b2cd176f08e0a841"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__organization__company__l2__s101__b500.json.gz": {
+      "bytes": 10239,
+      "sha256": "577ac64627a0033752403939f808349b63552b51185e41e99fb41920606724a5"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__person__athlete__l1__s101__b125.json.gz": {
+      "bytes": 4283,
+      "sha256": "5293c2d0beff4ded94165d6205d28853a4a2d93f55d1d566ccd77421f572262b"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__person__athlete__l1__s101__b500.json.gz": {
+      "bytes": 2749,
+      "sha256": "ed9b9ce073447d14b3fbcc376da53eec1644e31441e26eca9c43f53aff9a7f91"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__person__athlete__l2__s101__b125.json.gz": {
+      "bytes": 8495,
+      "sha256": "55dd4cc3ff8709a383d6198ec9f01b2cf5693dd8abe7c67330550164ab8d7974"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__person__athlete__l2__s101__b500.json.gz": {
+      "bytes": 9257,
+      "sha256": "0d9b9f75dcf6efa2566c0c90e243d8c3ad3fc8e81bd1b11e94f88e83ae7e6278"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__place__natural_place__l1__s101__b125.json.gz": {
+      "bytes": 4661,
+      "sha256": "6227b04258b0a313ac7522d7b751b852bdd9b4e91eb9674c1fa1ce8af77ce9c9"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__place__natural_place__l1__s101__b500.json.gz": {
+      "bytes": 3997,
+      "sha256": "3989c2c31a3226c7ced59b68dcf6563934282ed90bcc016cb2f94a8483ab05b4"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__place__natural_place__l2__s101__b125.json.gz": {
+      "bytes": 10065,
+      "sha256": "68fe8971499fd8125dcfbf1687e88f1adcda3fcae9fdbacc5e1ec4b7024761d5"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__place__natural_place__l2__s101__b500.json.gz": {
+      "bytes": 10689,
+      "sha256": "f573e25b8e436fff088a09f6f8ade0c4e1525c7e7f918edffa0aa353606addd8"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__work__musical_work__l1__s101__b125.json.gz": {
+      "bytes": 4154,
+      "sha256": "20cf5255453094eca58339439f8e1fdf75aa0c0db6cc9c1d4fff1441b6f4be09"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__work__musical_work__l1__s101__b500.json.gz": {
+      "bytes": 3712,
+      "sha256": "c37e64a4248882b32416735f5032d6e073201ad3f352809535b11e4b52013ecc"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__work__musical_work__l2__s101__b125.json.gz": {
+      "bytes": 8595,
+      "sha256": "c43490f28d81e6931e4629a89e06eab74a7f5d8b6b96875e9137b2b074c04293"
+    },
+    "reproduction/fast_profile/results/equivalence/raw/dbpedia_native__work__musical_work__l2__s101__b500.json.gz": {
+      "bytes": 9282,
+      "sha256": "d85676fdcde01eb1c66059ebc2022d31b53fc630e36e132fab6796ed59908cb6"
+    },
+    "reproduction/fast_profile/results/equivalence/states.json": {
+      "bytes": 1482400,
+      "sha256": "cbfb20c0cce4e659ee57c168f200717799e980793794f2bcb9c3d2b7816b8852"
+    },
+    "reproduction/fast_profile/results/equivalence/summary.json": {
+      "bytes": 434883,
+      "sha256": "d4cd372e91581dc6f32332c773e4f5b46e78e8ccd0c725eac8f09e6509ebcc52"
+    },
+    "reproduction/fast_profile/results/python_reference/binding.json": {
+      "bytes": 212,
+      "sha256": "37e3e8fbf30dcb940ba8eabf8259c14c16f9fb9e591fd424af01a0f1d8ecc806"
+    },
+    "reproduction/fast_profile/results/python_reference/n131072_heterogeneous.json": {
+      "bytes": 5034,
+      "sha256": "f76f55c67c28f5fcaf6b15690c9a69a9b04dbeafd5d63b2138afd5633ca92d4f"
+    },
+    "reproduction/fast_profile/results/python_reference/n131072_imbalanced.json": {
+      "bytes": 5020,
+      "sha256": "2ba069a644e50433231d900c8342e088638541e51b3513c4e8c14eb8690a83fb"
+    },
+    "reproduction/fast_profile/results/python_reference/n131072_refinement.json": {
+      "bytes": 13374,
+      "sha256": "eab25e082942dfb170b2673f25f5572c5e3d03a3faf1c26775ec4f209e69f470"
+    },
+    "reproduction/fast_profile/results/python_reference/n131072_repeated.json": {
+      "bytes": 4985,
+      "sha256": "de9245ce4b304c30419686ae1a2c2312da924a62eaca878fd593cd52a221e81a"
+    },
+    "reproduction/fast_profile/results/python_reference/n131072_skewed.json": {
+      "bytes": 5024,
+      "sha256": "c1a856c440cd1f2233560b8f04df2aca3828da350eb8a5f6975416cfb3205b8a"
+    },
+    "reproduction/fast_profile/results/python_reference/n32768_heterogeneous.json": {
+      "bytes": 5009,
+      "sha256": "0787aa51eaa118c7607b0ddfc7d234f1669cd503916da9bc7b193f2aa74d00eb"
+    },
+    "reproduction/fast_profile/results/python_reference/n32768_imbalanced.json": {
+      "bytes": 4985,
+      "sha256": "ee17d79e8d6e7e017a123b7fc440171a36b95fae55d300dca39e27a42a175dbb"
+    },
+    "reproduction/fast_profile/results/python_reference/n32768_refinement.json": {
+      "bytes": 13263,
+      "sha256": "28b07e85bc7ae6a6cf1f43927f52f9a21018141705b11978588f067b685e69c9"
+    },
+    "reproduction/fast_profile/results/python_reference/n32768_repeated.json": {
+      "bytes": 4991,
+      "sha256": "b2f1e969dfc6ed771f4885ded12e8a7486a16c600eccd15047c229de1eeed0ec"
+    },
+    "reproduction/fast_profile/results/python_reference/n32768_skewed.json": {
+      "bytes": 4980,
+      "sha256": "e0cb3ea2db8f01d8a16d8dfe47708723955db134aff7f0e099c21dfe7f876303"
+    },
+    "reproduction/fast_profile/results/python_reference/n4096_heterogeneous.json": {
+      "bytes": 4957,
+      "sha256": "d52b8f17274d0a2646a5b30d90c3f63c1c248505cea4253d03e9c61dedba10a9"
+    },
+    "reproduction/fast_profile/results/python_reference/n4096_imbalanced.json": {
+      "bytes": 4938,
+      "sha256": "1493a39590015e4ae5a911e3732ae6aa0b3dbbb432254cca2fddd0b4b46da95a"
+    },
+    "reproduction/fast_profile/results/python_reference/n4096_repeated.json": {
+      "bytes": 4953,
+      "sha256": "5f2e62f2fd1c1b21ecac3ff80a1021f0b7a95342c7e640f916e99ae0ed789129"
+    },
+    "reproduction/fast_profile/results/python_reference/n4096_skewed.json": {
+      "bytes": 4926,
+      "sha256": "7c9a4e04de47ef09c4bf0444abe6201af37a9a8d03491aa49bcbe683d33f3e1e"
+    },
+    "reproduction/fast_profile/results/python_reference/summary.json": {
+      "bytes": 102729,
+      "sha256": "10292acac1d9f2ca9d7393ffa60c2c150d09e3c5ef44675602d565e16ed07cc1"
+    },
+    "reproduction/fast_profile/results/vectorized/binding.json": {
+      "bytes": 453,
+      "sha256": "ddd470004cb98f7e3ddbc2cf107d4669e11fdfed223035bb3a6dea1f8604e940"
+    },
+    "reproduction/fast_profile/results/vectorized/n131072_heterogeneous.json": {
+      "bytes": 5071,
+      "sha256": "fbb1481ba941255bc2be6ce40ad765fced03c65b882e51f906a82dc7f1944962"
+    },
+    "reproduction/fast_profile/results/vectorized/n131072_imbalanced.json": {
+      "bytes": 5049,
+      "sha256": "7852486ed19a9358ea002d479e28403d8791696ea725daa910fc4b64c30c4981"
+    },
+    "reproduction/fast_profile/results/vectorized/n131072_refinement.json": {
+      "bytes": 13400,
+      "sha256": "b88f5b12abf9890cf82459266c77c7143f6ad897139bbe20deaa0b185b2c6d5c"
+    },
+    "reproduction/fast_profile/results/vectorized/n131072_repeated.json": {
+      "bytes": 5021,
+      "sha256": "fe9f46def5f61fd8360ffdee75da17f0f38097f533cd92b011a45c0f0958145f"
+    },
+    "reproduction/fast_profile/results/vectorized/n131072_skewed.json": {
+      "bytes": 5057,
+      "sha256": "1bdbe9864c0c6b92a89e37b96851c3b359d1284819279af64c2959ada1e88ddf"
+    },
+    "reproduction/fast_profile/results/vectorized/n32768_heterogeneous.json": {
+      "bytes": 5040,
+      "sha256": "9f1ad3fd62630341cbcd15046989be92a8b13e3783b049b45417f96b5724895c"
+    },
+    "reproduction/fast_profile/results/vectorized/n32768_imbalanced.json": {
+      "bytes": 5020,
+      "sha256": "547190614fd9936b18a0417ab0862efdcae1d262e1fa32d471a0862efc4a23f5"
+    },
+    "reproduction/fast_profile/results/vectorized/n32768_refinement.json": {
+      "bytes": 13297,
+      "sha256": "31f112fe9a3f084ae2926656ee19f478c77bbc49af07b5863912d5be4c2b5a14"
+    },
+    "reproduction/fast_profile/results/vectorized/n32768_repeated.json": {
+      "bytes": 5021,
+      "sha256": "b0399e3d0b68486d3787c74fe017f18dc2786c6e699f0d33d1f4f00c935ea44a"
+    },
+    "reproduction/fast_profile/results/vectorized/n32768_skewed.json": {
+      "bytes": 5006,
+      "sha256": "564f2c320a354223d5677577dc465e1649219ed5c845f1fec9b65b8b95cb8572"
+    },
+    "reproduction/fast_profile/results/vectorized/n4096_heterogeneous.json": {
+      "bytes": 4987,
+      "sha256": "03f78419d0252fc104b7f9514a9720ee5502d1c38238369f10cd0ce7333c8c9d"
+    },
+    "reproduction/fast_profile/results/vectorized/n4096_imbalanced.json": {
+      "bytes": 4976,
+      "sha256": "a88ecf8887f127d8137071b7b3bf7b2dc2ca119ee06cbdbe1cc65bb2130f522d"
+    },
+    "reproduction/fast_profile/results/vectorized/n4096_repeated.json": {
+      "bytes": 4989,
+      "sha256": "f6f0c574c400f594875c1e321ced524567b1b9f8ef8374b7c22a9f8ae312f8c5"
+    },
+    "reproduction/fast_profile/results/vectorized/n4096_skewed.json": {
+      "bytes": 4962,
+      "sha256": "804498e6d22950cf33fdec345dd03b9690ff4f418d5bbd736e679c95e890873c"
+    },
+    "reproduction/fast_profile/results/vectorized/summary.json": {
+      "bytes": 103487,
+      "sha256": "a4f57a74e614bc1720fe95524614d9e68eb9138c69dca944b260c082c517b2b4"
+    },
+    "reproduction/fast_profile/source_versions/9683e2317a0d20c82988f55777cf9c785cb35b22fe77f7ce36781dc4a00a216f.py": {
+      "bytes": 6218,
+      "sha256": "9683e2317a0d20c82988f55777cf9c785cb35b22fe77f7ce36781dc4a00a216f"
+    },
+    "reproduction/fast_profile/source_versions/f760ef64bbeff8de3ed29ebf8633d01aa6c802f8fc933882b8f6adf7fa18b100.py": {
+      "bytes": 5302,
+      "sha256": "f760ef64bbeff8de3ed29ebf8633d01aa6c802f8fc933882b8f6adf7fa18b100"
+    },
+    "reproduction/fast_profile/validate_profile.py": {
+      "bytes": 4377,
+      "sha256": "7e6b216b3b912d7d2e83ad3c01f29ea5d7fcc1967b550c5b35d9d6ea9ccc0cee"
+    },
+    "reproduction/fast_profile/validation.json": {
+      "bytes": 1076,
+      "sha256": "131cae836a40418d9ab009b35f04e5fe2d5eaae7be5e2efd4a3e67378a6ba94b"
+    },
+    "reproduction/fast_profile/verify_results.py": {
+      "bytes": 3085,
+      "sha256": "aceca6237593381ee774778decca0917820c6cc923ec85841f874332380447f3"
     },
     "reproduction/figures/academic-style.yaml": {
       "bytes": 2278,

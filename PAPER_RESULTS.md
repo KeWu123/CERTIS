@@ -12,20 +12,23 @@ into an existing output directory.
 | Paper evidence | Distributed source records | Fresh execution |
 |---|---|---|
 | Certificate, Boolean lift, refinement, fixed-cache allocation | `code/` and mathematical checks | `python reproduce.py check` |
-| Tables I/II: 1,376 primary executions | `reproduction/archive/primary/raw/` | `python reproduce.py run-primary --output outputs/primary` |
+| Historical prefix/cut and no-audit matrices: 1,376 primary executions; complete earlier tables in `reproduction/fast_profile/legacy_tables.tex` | `reproduction/archive/primary/raw/` | `python reproduce.py run-primary --output outputs/primary` |
 | Additional exact controls | `reproduction/archive/primary/extra_exact_controls/raw/` | `python reproduce.py run-extra --output outputs/extra` |
 | Original all-mask DP, 112 executions including point controls | `reproduction/archive/primary/count_allocation/raw/` | `python reproduce.py run-count --output outputs/count` |
-| Table III: four per-side policies, separate extrema, joint greedy, joint DP; 16 targets x 3 seeds | `reproduction/study/constructed_v1/`, `fixed_continuous_v2/`, `reproduction/completion/results/separate/`, greedy `full/raw/`, archived DP | `python reproduce.py run-matched --output outputs/matched` |
-| Table IV: constructed and original native exact references | Primary count/extra records and `reproduction/archive/native/raw/` | `run-count`, `run-extra`, `run-native-original` |
-| Fig. 3: matched allocation and 288 mechanism controls | Table III sources and `reproduction/archive/primary/mechanism_controls/raw/` | `python reproduce.py run-mechanisms --output outputs/mechanisms` |
-| Fig. 4 and Table V: all 12 natural contrast queries and cost thresholds | `reproduction/study/native_v1/`, `native_cached_v1/`, token/batch ledgers | `python reproduce.py run --kind native --output outputs/native`; `run-cached` |
-| Table V: all 16 native DBpedia category-key queries, 224 executions | `reproduction/completion/results/native_dbpedia/` | `python reproduce.py run-native-dbpedia --output outputs/native_dbpedia`; `analyze-native-dbpedia` |
+| Table I: four per-side policies, separate extrema, joint greedy, joint DP; 16 targets x 3 seeds | `reproduction/study/constructed_v1/`, `fixed_continuous_v2/`, `reproduction/completion/results/separate/`, greedy `full/raw/`, archived DP | `python reproduce.py run-matched --output outputs/matched` |
+| Table II: constructed and original native exact references | Primary count/extra records and `reproduction/archive/native/raw/` | `run-count`, `run-extra`, `run-native-original` |
+| Fig. 3: matched allocation and 288 mechanism controls | Table I sources and `reproduction/archive/primary/mechanism_controls/raw/` | `python reproduce.py run-mechanisms --output outputs/mechanisms` |
+| Fig. 4 and Table III: all 12 natural contrast queries and cost thresholds | `reproduction/study/native_v1/`, `native_cached_v1/`, token/batch ledgers | `python reproduce.py run --kind native --output outputs/native`; `run-cached` |
+| Table III: all 16 native DBpedia category-key queries, 224 executions | `reproduction/completion/results/native_dbpedia/` | `python reproduce.py run-native-dbpedia --output outputs/native_dbpedia`; `analyze-native-dbpedia` |
 | Concurrent fixed-trace local timing | `reproduction/study/local_live_v1/` | `python reproduction/study/local_batch_benchmark.py --server PATH --model PATH --output ../../outputs/timing` |
 | Full 594-cell structural experiment and 3,168 geometry cases | `reproduction/archive/structural/` | `python reproduce.py run-structural --output outputs/structural`; `run-geometry` |
 | Fig. 5(a): 20 planner configurations through N=131,072 | `reproduction/completion/results/counts/` | `python reproduce.py run-scaling --output outputs/scaling` |
 | Fig. 5(b): 90 certificate configurations, two key permutations | Same count-results directory | `python reproduce.py run-certificate-grid --output outputs/certificate` |
 | Calibration: 12 queries x 2 budgets x 50 seeds | Same count-results directory, `calibration.json` | `python reproduce.py run-calibration --output outputs/calibration` |
-| Table VI: live closed-loop cost, four natural queries, two audits per policy | `reproduction/completion/results/closed_loop/` | `python reproduce.py run-closed-loop --server PATH --model PATH --output outputs/closed_loop`; `analyze-completion` |
+| Table IV: live closed-loop cost, four natural queries, two audits per policy | `reproduction/completion/results/closed_loop/` | `python reproduce.py run-closed-loop --server PATH --model PATH --output outputs/closed_loop`; `analyze-completion` |
+| Proposition 2 and exact root-neighbour validation | `code/piecewise_count_profile.py`, `code/piecewise_numpy_profile.py`, `reproduction/fast_profile/validation.json` | `python reproduce.py validate-fast-profile` |
+| Matched old/new profile timing: 14 configurations per implementation series | `reproduction/fast_profile/results/python_reference/`, `results/vectorized/` | `python reproduce.py benchmark-fast-profile --output outputs/profile_timing` |
+| Native decision equivalence: 32 cells, 64 executions and 4,147 distinct profile states | `reproduction/fast_profile/results/equivalence/`; archived source ledgers remain shared | `python reproduce.py replay-fast-profile --output outputs/profile_equivalence`; `verify-fast-profile` |
 
 `--pilot` selects one target/seed for fresh matrix runners. A primary pilot
 executes 13 policies, a matched pilot all seven comparison methods, and a

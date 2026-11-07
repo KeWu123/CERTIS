@@ -1,0 +1,14 @@
+{
+  "binding": "9aba33d31e2855cf4f6f519c55ac461b4e84fc015b04cd5bc86c255f79710868",
+  "status": "pass",
+  "fixed_sample_size": 128,
+  "measured_seconds_per_prompt": 0.055067685156245716,
+  "sample_input_tokens_mean": 157.5390625,
+  "all_input_tokens_mean": 159.97073333333333,
+  "reference_requests": 15000,
+  "executions": 32,
+  "max_paid_query_requests": 320000,
+  "reference_seconds_estimate": 826.0152773436857,
+  "query_seconds_upper_estimate": 17621.65924999863,
+  "note": "Throughput extrapolation only; query count bound does not use labels. Planning and SQL add cost."
+}

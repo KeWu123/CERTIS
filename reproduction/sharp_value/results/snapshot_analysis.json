@@ -1,0 +1,1136 @@
+{
+  "status": "pass",
+  "source_id": "f9bbe4dd834744115545c759b88e423306fce7bdbc5153fac8ac047ea069c441",
+  "raw_sha256": {
+    "raw/dbpedia_native__agent__person__l1__joint__s101__b125.json.gz": "8c0b657ce8d4073def0509fd90877b58e720e75eb07054e995b735f8f30f8013",
+    "raw/dbpedia_native__agent__person__l1__separate__s101__b125.json.gz": "8b95db73e40509d0bb800fc918191aee2fb8877da335971613bb6649baca70b5",
+    "raw/dbpedia_native__agent__person__l1__joint__s101__b500.json.gz": "21cf069f5868a0e5e9184ba2bd7ddefb00c68bea5c297495f1c99cf8a884597e",
+    "raw/dbpedia_native__agent__person__l1__separate__s101__b500.json.gz": "9c24c93cb7fa8da50a9e3681662ae6c735fcef748c5fa83ae8b9374c0ce5f810",
+    "raw/dbpedia_native__agent__person__l2__joint__s101__b125.json.gz": "50e0cfd5dcb379996b4f0fb0517bcdbcdf2db9b0bf0244d8804f08b7f7a116d9",
+    "raw/dbpedia_native__agent__person__l2__separate__s101__b125.json.gz": "8bbf4ee15b605cc456ba3a1e7ec70082f3e95e33f17e9b0c70a46a46d0be4f5d",
+    "raw/dbpedia_native__agent__person__l2__joint__s101__b500.json.gz": "e09e922cfe98c7081beaf67006da8564c57a0ec2e9c41490b5d931cd7e3ac846",
+    "raw/dbpedia_native__agent__person__l2__separate__s101__b500.json.gz": "001521966eed726a3be7497297e4aef466660612581ad368c8ed6332cee278d4",
+    "raw/dbpedia_native__person__athlete__l1__joint__s101__b125.json.gz": "c9e569cd810f87e423c6bab9e46c311431c9a80feaf984faed7f92fc26fdf1b7",
+    "raw/dbpedia_native__person__athlete__l1__separate__s101__b125.json.gz": "e045e55f095e3f9f477116c0df9c1786128b1b07364da65358428f3da114a5d7",
+    "raw/dbpedia_native__person__athlete__l1__joint__s101__b500.json.gz": "8b67fb3367017a7b66e7b678105a06d06340232104c7a25051dc3f51a753f091",
+    "raw/dbpedia_native__person__athlete__l1__separate__s101__b500.json.gz": "b5706e4e0ff1f26beb301749d9f97a5e6a1aef80d5a647551ae0ba6da5c92732",
+    "raw/dbpedia_native__person__athlete__l2__joint__s101__b125.json.gz": "c165c0e28fa595bed978a11a3a6fb412ed408b3604fb5f38745f530830e36039",
+    "raw/dbpedia_native__person__athlete__l2__separate__s101__b125.json.gz": "fe308e7dcc6d698f0ff52ef5b2d25f432d553e73310c1d0ee08e1d2a774b1063",
+    "raw/dbpedia_native__person__athlete__l2__joint__s101__b500.json.gz": "79f4ca1db678e218a0b41faa25fcff8eee3421e16de7fb03ed18b99c4f68b5c0",
+    "raw/dbpedia_native__person__athlete__l2__separate__s101__b500.json.gz": "89303539596c4b98da1f39b95e28c78b0f523ae56921b87ff0574481cf8b50bd",
+    "raw/dbpedia_native__organization__company__l1__joint__s101__b125.json.gz": "6c2561716cbf8dd32c22c1f799e858a47614493bb9c1de8ed2b92105ed3b6d36",
+    "raw/dbpedia_native__organization__company__l1__separate__s101__b125.json.gz": "8367833a292f4e38122d316c1f440d3c648b7aefe8d412459076d05e997254f8",
+    "raw/dbpedia_native__organization__company__l1__joint__s101__b500.json.gz": "4ae705c6cbc517a8807761b72798c362c6441fd3e34a89f878bf49ca975074d1",
+    "raw/dbpedia_native__organization__company__l1__separate__s101__b500.json.gz": "ff404b84b1bb96479e97024633d51cafac74b5f539eeba1d8e145936dc92dfe8",
+    "raw/dbpedia_native__organization__company__l2__joint__s101__b125.json.gz": "4250e0b726cbfc9f2aaad0f094ae159dd119115b87a64553757a3817d0958816",
+    "raw/dbpedia_native__organization__company__l2__separate__s101__b125.json.gz": "97675e44d9ed0a1930a5ca71ba2c9168864666488a2c00df77b282ad8aa4bd20",
+    "raw/dbpedia_native__organization__company__l2__joint__s101__b500.json.gz": "e0223578789e5b5be6681bb744b1549ffbc9a54f0b92ccef28c82edb14ab3a60",
+    "raw/dbpedia_native__organization__company__l2__separate__s101__b500.json.gz": "3a1b54b240b95872ba54f571a5fbf45b2869c02fabd4e08075ed6c64bf4c8020",
+    "raw/dbpedia_native__place__natural_place__l1__joint__s101__b125.json.gz": "4f815c236eaad2987aa02d92b466b3066fd93b781ab9ee0e031c82581fdb1cb6",
+    "raw/dbpedia_native__place__natural_place__l1__separate__s101__b125.json.gz": "936bbb04f6de294a996fb2ea46df5a60e3540e0dc3deb9e54b76be94a32f49ac",
+    "raw/dbpedia_native__place__natural_place__l1__joint__s101__b500.json.gz": "4d8eb1bfafaafd370bcff0ec85d0f9446e1285c6b1b5182613fe0ba3b42287cd",
+    "raw/dbpedia_native__place__natural_place__l1__separate__s101__b500.json.gz": "4acc9f7d041ae4c2b925df1ee565fe8c25bdd61552aac9a102236f3fb5c256cc",
+    "raw/dbpedia_native__place__natural_place__l2__joint__s101__b125.json.gz": "600e06910465cf898881f06f30cb7532a4df258498b2af20107288618ca9806c",
+    "raw/dbpedia_native__place__natural_place__l2__separate__s101__b125.json.gz": "1f92f430d219353888cdbc1167c236b380b9573981c991101393d02b5ea6ce46",
+    "raw/dbpedia_native__place__natural_place__l2__joint__s101__b500.json.gz": "39f26ca59dbd9b00656bc4ef99cc13a18892bbc56118a41601824fdf8507088b",
+    "raw/dbpedia_native__place__natural_place__l2__separate__s101__b500.json.gz": "2c34bc4274fdeb8ebff72fcd85d994fbf95ba65546f2d42f4135399804136a18",
+    "raw/dbpedia_native__work__musical_work__l1__joint__s101__b125.json.gz": "ed2b60c8b80edc0cfa666a994ef76a56d1b83f38277d3f6705aba91372d29a00",
+    "raw/dbpedia_native__work__musical_work__l1__separate__s101__b125.json.gz": "be55d5129b0b8c8ba09bd9a4d0a3fa9f87a820e2183b221298bef578db399a04",
+    "raw/dbpedia_native__work__musical_work__l1__joint__s101__b500.json.gz": "1463edb7c61fe5e535b1bce66d6b7fc2f4d6d54174dbd104aa2d015a467d3f8d",
+    "raw/dbpedia_native__work__musical_work__l1__separate__s101__b500.json.gz": "db3eadccced063ab51568c198125d855cb5f35c42d6d0cea50ad92efb2989cb3",
+    "raw/dbpedia_native__work__musical_work__l2__joint__s101__b125.json.gz": "8fe1d5b14e131e0fb63e0868f77506a6007240debac447f34c7f6d165f256fdd",
+    "raw/dbpedia_native__work__musical_work__l2__separate__s101__b125.json.gz": "d99b49949c2840459a060ded1127f844e9a167ca536a472e1af4faaae0a74899",
+    "raw/dbpedia_native__work__musical_work__l2__joint__s101__b500.json.gz": "c459d616de9b1bdbf8bdfe8b5e8b887ea3dbbbb8b0cc83cdc19f9f10796df226",
+    "raw/dbpedia_native__work__musical_work__l2__separate__s101__b500.json.gz": "889c37aba269ecdb1bb04d14ef221057c0bdc8214efbb6ce5432559bf83cbc30",
+    "raw/dbpedia_native__event__societal_event__l1__joint__s101__b125.json.gz": "f6650db8f1b502886690443753260cd64cfc45633da0ee99a1c530a549638f19",
+    "raw/dbpedia_native__event__societal_event__l1__separate__s101__b125.json.gz": "a46d757ad93b00e6fa1275a7bafcce0d2726bcf9135ea28bd4f3df1c7045666c",
+    "raw/dbpedia_native__event__societal_event__l1__joint__s101__b500.json.gz": "dfeb2c9b3a3956ad2c38cf2249afc592cb8137a323ea5ffaecff5f38e2c18b88",
+    "raw/dbpedia_native__event__societal_event__l1__separate__s101__b500.json.gz": "e4778c61f1467bf6dff34b84676cc5d1bad96c241c9c55a09c5c9d3108594b94",
+    "raw/dbpedia_native__event__societal_event__l2__joint__s101__b125.json.gz": "123c79ca0cc5cd646e9956de4e11bdd7c22763d53fd450f9d594222ba90db3ce",
+    "raw/dbpedia_native__event__societal_event__l2__separate__s101__b125.json.gz": "d32341d4e7ce1932773f1c71de69b2946501ab12efa1c01d899396bb6018e69c",
+    "raw/dbpedia_native__event__societal_event__l2__joint__s101__b500.json.gz": "95b43f46c08cf4616ff3b57a78923a86d29f59190b730561f27a04de091bcf48",
+    "raw/dbpedia_native__event__societal_event__l2__separate__s101__b500.json.gz": "0dc94d382d26ed806f4eade2d0b703e0aef362df79bd9667328645385901b08c",
+    "raw/dbpedia_native__athlete__sports_team__l1__joint__s101__b125.json.gz": "1922a74ae7c6102b6c4c4215ec7cebb1b162b8e64eaf5de32bdd3a003b195fbe",
+    "raw/dbpedia_native__athlete__sports_team__l1__separate__s101__b125.json.gz": "727aae0cd44cef7455334545871fe2f44486480ef4d2068b2b9b78df030df076",
+    "raw/dbpedia_native__athlete__sports_team__l1__joint__s101__b500.json.gz": "e4549bac045d1b9ae64573761ac1c41ecc53cf17f0e52e8dd3b3f8e4da9df038",
+    "raw/dbpedia_native__athlete__sports_team__l1__separate__s101__b500.json.gz": "8796d935fbd617c976ed6b7090028a58ba38931cd2f6ac8f31e728f5dfd6803f",
+    "raw/dbpedia_native__athlete__sports_team__l2__joint__s101__b125.json.gz": "37416c441ab78cd365ecaecba6b749c9c3b214c3b9f6b5425e36221ac728ffaf",
+    "raw/dbpedia_native__athlete__sports_team__l2__separate__s101__b125.json.gz": "d8eb15d89d6f79183ec0d942f6161c6108192467461fd4661b79cffe9b53506e",
+    "raw/dbpedia_native__athlete__sports_team__l2__joint__s101__b500.json.gz": "75d2bf8ec6595a03db270eb91251934ee4d245136543f686bc35846a9cd9a79b",
+    "raw/dbpedia_native__athlete__sports_team__l2__separate__s101__b500.json.gz": "cedeb17b75e345d9360ea1bd673cb0e64bbeeaa00d9a566cc93bc7b06a178d04",
+    "raw/dbpedia_native__company__educational_institution__l1__joint__s101__b125.json.gz": "14856f48058a28b0a8cc8a26270317d2a70a3d84b3f055b774041787504c542b",
+    "raw/dbpedia_native__company__educational_institution__l1__separate__s101__b125.json.gz": "57de94198eeefb5180abb25f04593fc76dac49c6d4b5f8af3883d8375713199f",
+    "raw/dbpedia_native__company__educational_institution__l1__joint__s101__b500.json.gz": "78bbd2c088c51fc328beee138a1da8b7a34e3607e280bba9c940e67ce6c76351",
+    "raw/dbpedia_native__company__educational_institution__l1__separate__s101__b500.json.gz": "b208f7d527901c7e192e2d10da3db6bf53a990d7077d980ee0216cae9bd1310d",
+    "raw/dbpedia_native__company__educational_institution__l2__joint__s101__b125.json.gz": "5cba3bbc30a993ba445bd075278cb17e8f4c31c457d8ad5b1c7d2376793743c0",
+    "raw/dbpedia_native__company__educational_institution__l2__separate__s101__b125.json.gz": "9177e8df2af82dc079b4f1d1364b1e3c3f906bcc208fac0da6aa89b504d6a7fc",
+    "raw/dbpedia_native__company__educational_institution__l2__joint__s101__b500.json.gz": "700e9802b5e5c28b3422cf438bde51cfa71eb72cfc0581bafb25665d404ff108",
+    "raw/dbpedia_native__company__educational_institution__l2__separate__s101__b500.json.gz": "b67e103cbba930d106c72658cae5f49c29a83b8a613f4b4a9e1eed67738310ce"
+  },
+  "all": {
+    "snapshots": 3980,
+    "same_evidence_greedy_more": 2008,
+    "same_evidence_greedy_tie": 47,
+    "same_evidence_greedy_fewer": 0,
+    "min_discard_gap": 0,
+    "max_discard_gap": 1604,
+    "separate_no_certified_superset": 1925,
+    "joint_mask_requires_coupling": 3933,
+    "fraction_requires_coupling": 0.9881909547738693
+  },
+  "joint_trajectory": {
+    "snapshots": 1987,
+    "same_evidence_greedy_more": 53,
+    "same_evidence_greedy_tie": 9,
+    "same_evidence_greedy_fewer": 0,
+    "min_discard_gap": 0,
+    "max_discard_gap": 867,
+    "separate_no_certified_superset": 1925,
+    "joint_mask_requires_coupling": 1978,
+    "fraction_requires_coupling": 0.9954705586311021
+  },
+  "separate_trajectory": {
+    "snapshots": 1993,
+    "same_evidence_greedy_more": 1955,
+    "same_evidence_greedy_tie": 38,
+    "same_evidence_greedy_fewer": 0,
+    "min_discard_gap": 0,
+    "max_discard_gap": 1604,
+    "separate_no_certified_superset": 0,
+    "joint_mask_requires_coupling": 1955,
+    "fraction_requires_coupling": 0.9809332664325138
+  },
+  "initial": {
+    "snapshots": 32,
+    "same_evidence_greedy_more": 31,
+    "same_evidence_greedy_tie": 1,
+    "same_evidence_greedy_fewer": 0,
+    "min_discard_gap": 0,
+    "max_discard_gap": 867,
+    "separate_no_certified_superset": 0,
+    "joint_mask_requires_coupling": 31,
+    "fraction_requires_coupling": 0.96875
+  },
+  "joint_trajectory_groups": {
+    "l1_b125": {
+      "snapshots": 536,
+      "same_evidence_greedy_more": 12,
+      "same_evidence_greedy_tie": 1,
+      "same_evidence_greedy_fewer": 0,
+      "min_discard_gap": 0,
+      "max_discard_gap": 172,
+      "separate_no_certified_superset": 523,
+      "joint_mask_requires_coupling": 535,
+      "fraction_requires_coupling": 0.9981343283582089
+    },
+    "l1_b500": {
+      "snapshots": 436,
+      "same_evidence_greedy_more": 11,
+      "same_evidence_greedy_tie": 2,
+      "same_evidence_greedy_fewer": 0,
+      "min_discard_gap": 0,
+      "max_discard_gap": 867,
+      "separate_no_certified_superset": 423,
+      "joint_mask_requires_coupling": 434,
+      "fraction_requires_coupling": 0.9954128440366973
+    },
+    "l2_b125": {
+      "snapshots": 533,
+      "same_evidence_greedy_more": 18,
+      "same_evidence_greedy_tie": 6,
+      "same_evidence_greedy_fewer": 0,
+      "min_discard_gap": 0,
+      "max_discard_gap": 205,
+      "separate_no_certified_superset": 509,
+      "joint_mask_requires_coupling": 527,
+      "fraction_requires_coupling": 0.9887429643527205
+    },
+    "l2_b500": {
+      "snapshots": 482,
+      "same_evidence_greedy_more": 12,
+      "same_evidence_greedy_tie": 0,
+      "same_evidence_greedy_fewer": 0,
+      "min_discard_gap": 9,
+      "max_discard_gap": 235,
+      "separate_no_certified_superset": 470,
+      "joint_mask_requires_coupling": 482,
+      "fraction_requires_coupling": 1.0
+    }
+  },
+  "examples": {
+    "largest_same_mask_support_gap": {
+      "case_id": "dbpedia_native__agent__person__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "trajectory": "joint",
+      "index": 18,
+      "paid": 3304,
+      "same_evidence_discard_gap": null,
+      "alternatives": {
+        "joint": {
+          "discarded": 4436,
+          "counts": [
+            [
+              87,
+              5
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              357,
+              352
+            ],
+            [
+              844,
+              825
+            ],
+            [
+              423,
+              430
+            ],
+            [
+              126,
+              126
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              384,
+              391
+            ]
+          ],
+          "joint_support": -1735,
+          "separate_support": 744799,
+          "requires_coupling": true
+        },
+        "separate": null
+      },
+      "keys": [
+        {
+          "index": 0,
+          "key": "Agent",
+          "left": {
+            "lower": 2244,
+            "upper": 2491,
+            "positive": 2286,
+            "unknown": 87,
+            "forced_discard": 87
+          },
+          "right": {
+            "lower": 1805,
+            "upper": 2194,
+            "positive": 255,
+            "unknown": 2265,
+            "forced_discard": 0
+          },
+          "original_left_size": 2583,
+          "original_right_size": 2583,
+          "interval_width_left": 247,
+          "interval_width_right": 389,
+          "unknown_imbalance": 26.03448275862069,
+          "known_positives": 2541,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                87,
+                5
+              ],
+              "joint_support": -2598615,
+              "separate_support": -2103150,
+              "decoupling_gap": 495465
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 87,
+          "effective_interval_width_right": 389
+        },
+        {
+          "index": 1,
+          "key": "Device",
+          "left": {
+            "lower": 0,
+            "upper": 2,
+            "positive": 0,
+            "unknown": 2,
+            "forced_discard": 2
+          },
+          "right": {
+            "lower": 0,
+            "upper": 2,
+            "positive": 0,
+            "unknown": 2,
+            "forced_discard": 2
+          },
+          "original_left_size": 4,
+          "original_right_size": 4,
+          "interval_width_left": 2,
+          "interval_width_right": 2,
+          "unknown_imbalance": 1.0,
+          "known_positives": 0,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                2,
+                2
+              ],
+              "joint_support": 36,
+              "separate_support": 40,
+              "decoupling_gap": 4
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 2,
+          "effective_interval_width_right": 2
+        },
+        {
+          "index": 2,
+          "key": "Event",
+          "left": {
+            "lower": 54,
+            "upper": 214,
+            "positive": 13,
+            "unknown": 357,
+            "forced_discard": 357
+          },
+          "right": {
+            "lower": 93,
+            "upper": 254,
+            "positive": 20,
+            "unknown": 352,
+            "forced_discard": 352
+          },
+          "original_left_size": 399,
+          "original_right_size": 399,
+          "interval_width_left": 160,
+          "interval_width_right": 161,
+          "unknown_imbalance": 1.0142045454545454,
+          "known_positives": 33,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                357,
+                352
+              ],
+              "joint_support": 486604,
+              "separate_support": 535938,
+              "decoupling_gap": 49334
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 160,
+          "effective_interval_width_right": 161
+        },
+        {
+          "index": 3,
+          "key": "Place",
+          "left": {
+            "lower": 79,
+            "upper": 304,
+            "positive": 16,
+            "unknown": 844,
+            "forced_discard": 844
+          },
+          "right": {
+            "lower": 145,
+            "upper": 372,
+            "positive": 28,
+            "unknown": 825,
+            "forced_discard": 825
+          },
+          "original_left_size": 931,
+          "original_right_size": 931,
+          "interval_width_left": 225,
+          "interval_width_right": 227,
+          "unknown_imbalance": 1.023030303030303,
+          "known_positives": 44,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                844,
+                825
+              ],
+              "joint_support": 1013312,
+              "separate_support": 1114945,
+              "decoupling_gap": 101633
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 225,
+          "effective_interval_width_right": 227
+        },
+        {
+          "index": 4,
+          "key": "Species",
+          "left": {
+            "lower": 0,
+            "upper": 70,
+            "positive": 0,
+            "unknown": 423,
+            "forced_discard": 423
+          },
+          "right": {
+            "lower": 0,
+            "upper": 85,
+            "positive": 0,
+            "unknown": 430,
+            "forced_discard": 430
+          },
+          "original_left_size": 461,
+          "original_right_size": 461,
+          "interval_width_left": 70,
+          "interval_width_right": 85,
+          "unknown_imbalance": 1.016548463356974,
+          "known_positives": 0,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                423,
+                430
+              ],
+              "joint_support": 53550,
+              "separate_support": 59500,
+              "decoupling_gap": 5950
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 70,
+          "effective_interval_width_right": 85
+        },
+        {
+          "index": 5,
+          "key": "SportsSeason",
+          "left": {
+            "lower": 83,
+            "upper": 138,
+            "positive": 12,
+            "unknown": 126,
+            "forced_discard": 126
+          },
+          "right": {
+            "lower": 26,
+            "upper": 125,
+            "positive": 7,
+            "unknown": 126,
+            "forced_discard": 126
+          },
+          "original_left_size": 138,
+          "original_right_size": 138,
+          "interval_width_left": 55,
+          "interval_width_right": 99,
+          "unknown_imbalance": 1.0,
+          "known_positives": 19,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                126,
+                126
+              ],
+              "joint_support": 154410,
+              "separate_support": 169502,
+              "decoupling_gap": 15092
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 55,
+          "effective_interval_width_right": 99
+        },
+        {
+          "index": 6,
+          "key": "TopicalConcept",
+          "left": {
+            "lower": 0,
+            "upper": 16,
+            "positive": 0,
+            "unknown": 16,
+            "forced_discard": 16
+          },
+          "right": {
+            "lower": 1,
+            "upper": 17,
+            "positive": 1,
+            "unknown": 16,
+            "forced_discard": 16
+          },
+          "original_left_size": 17,
+          "original_right_size": 17,
+          "interval_width_left": 16,
+          "interval_width_right": 16,
+          "unknown_imbalance": 1.0,
+          "known_positives": 1,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                16,
+                16
+              ],
+              "joint_support": 2448,
+              "separate_support": 2720,
+              "decoupling_gap": 272
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 16,
+          "effective_interval_width_right": 16
+        },
+        {
+          "index": 7,
+          "key": "UnitOfWork",
+          "left": {
+            "lower": 1,
+            "upper": 23,
+            "positive": 1,
+            "unknown": 24,
+            "forced_discard": 24
+          },
+          "right": {
+            "lower": 0,
+            "upper": 24,
+            "positive": 0,
+            "unknown": 26,
+            "forced_discard": 26
+          },
+          "original_left_size": 29,
+          "original_right_size": 29,
+          "interval_width_left": 22,
+          "interval_width_right": 24,
+          "unknown_imbalance": 1.0833333333333333,
+          "known_positives": 1,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                24,
+                26
+              ],
+              "joint_support": 4968,
+              "separate_support": 5520,
+              "decoupling_gap": 552
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 22,
+          "effective_interval_width_right": 24
+        },
+        {
+          "index": 8,
+          "key": "Work",
+          "left": {
+            "lower": 122,
+            "upper": 287,
+            "positive": 25,
+            "unknown": 384,
+            "forced_discard": 384
+          },
+          "right": {
+            "lower": 168,
+            "upper": 344,
+            "positive": 28,
+            "unknown": 391,
+            "forced_discard": 391
+          },
+          "original_left_size": 438,
+          "original_right_size": 438,
+          "interval_width_left": 165,
+          "interval_width_right": 176,
+          "unknown_imbalance": 1.0182291666666667,
+          "known_positives": 53,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                384,
+                391
+              ],
+              "joint_support": 881552,
+              "separate_support": 959784,
+              "decoupling_gap": 78232
+            },
+            "separate": null
+          },
+          "effective_interval_width_left": 165,
+          "effective_interval_width_right": 176
+        }
+      ],
+      "features": {
+        "keys": 9,
+        "unknown": 6696,
+        "forced_discard": 4431,
+        "known_positives": 2692,
+        "max_original_side": 2583,
+        "max_unknown_side": 2265,
+        "mean_effective_interval_width": 110.05555555555556,
+        "total_effective_interval_width": 1981,
+        "max_finite_unknown_imbalance": 26.03448275862069,
+        "one_side_exhausted_keys": 0
+      }
+    },
+    "smallest_same_evidence_greedy_gap": {
+      "case_id": "dbpedia_native__organization__company__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "trajectory": "joint",
+      "index": 67,
+      "paid": 9502,
+      "same_evidence_discard_gap": 0,
+      "alternatives": {
+        "joint": {
+          "discarded": 498,
+          "counts": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              126,
+              7
+            ],
+            [
+              19,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              126,
+              126
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "joint_support": -49608,
+          "separate_support": -37502,
+          "requires_coupling": false
+        },
+        "separate": {
+          "discarded": 498,
+          "counts": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              126,
+              7
+            ],
+            [
+              19,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              126,
+              126
+            ],
+            [
+              16,
+              16
+            ],
+            [
+              24,
+              26
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "joint_support": -49608,
+          "separate_support": -37502,
+          "requires_coupling": false
+        }
+      },
+      "keys": [
+        {
+          "index": 0,
+          "key": "Agent",
+          "left": {
+            "lower": 551,
+            "upper": 970,
+            "positive": 679,
+            "unknown": 0,
+            "forced_discard": 0
+          },
+          "right": {
+            "lower": 147,
+            "upper": 438,
+            "positive": 218,
+            "unknown": 0,
+            "forced_discard": 0
+          },
+          "original_left_size": 2583,
+          "original_right_size": 2583,
+          "interval_width_left": 419,
+          "interval_width_right": 291,
+          "unknown_imbalance": null,
+          "known_positives": 897,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                0,
+                0
+              ],
+              "joint_support": -148022,
+              "separate_support": -148022,
+              "decoupling_gap": 0
+            },
+            "separate": {
+              "counts": [
+                0,
+                0
+              ],
+              "joint_support": -148022,
+              "separate_support": -148022,
+              "decoupling_gap": 0
+            }
+          },
+          "effective_interval_width_left": 0,
+          "effective_interval_width_right": 0
+        },
+        {
+          "index": 1,
+          "key": "Device",
+          "left": {
+            "lower": 0,
+            "upper": 2,
+            "positive": 0,
+            "unknown": 2,
+            "forced_discard": 2
+          },
+          "right": {
+            "lower": 0,
+            "upper": 2,
+            "positive": 0,
+            "unknown": 2,
+            "forced_discard": 2
+          },
+          "original_left_size": 4,
+          "original_right_size": 4,
+          "interval_width_left": 2,
+          "interval_width_right": 2,
+          "unknown_imbalance": 1.0,
+          "known_positives": 0,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                2,
+                2
+              ],
+              "joint_support": 36,
+              "separate_support": 40,
+              "decoupling_gap": 4
+            },
+            "separate": {
+              "counts": [
+                2,
+                2
+              ],
+              "joint_support": 36,
+              "separate_support": 40,
+              "decoupling_gap": 4
+            }
+          },
+          "effective_interval_width_left": 2,
+          "effective_interval_width_right": 2
+        },
+        {
+          "index": 2,
+          "key": "Event",
+          "left": {
+            "lower": 35,
+            "upper": 184,
+            "positive": 35,
+            "unknown": 126,
+            "forced_discard": 126
+          },
+          "right": {
+            "lower": 1,
+            "upper": 65,
+            "positive": 13,
+            "unknown": 7,
+            "forced_discard": 7
+          },
+          "original_left_size": 399,
+          "original_right_size": 399,
+          "interval_width_left": 149,
+          "interval_width_right": 64,
+          "unknown_imbalance": 18.0,
+          "known_positives": 48,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                126,
+                7
+              ],
+              "joint_support": 24430,
+              "separate_support": 27195,
+              "decoupling_gap": 2765
+            },
+            "separate": {
+              "counts": [
+                126,
+                7
+              ],
+              "joint_support": 24430,
+              "separate_support": 27195,
+              "decoupling_gap": 2765
+            }
+          },
+          "effective_interval_width_left": 126,
+          "effective_interval_width_right": 7
+        },
+        {
+          "index": 3,
+          "key": "Place",
+          "left": {
+            "lower": 118,
+            "upper": 365,
+            "positive": 193,
+            "unknown": 19,
+            "forced_discard": 19
+          },
+          "right": {
+            "lower": 13,
+            "upper": 140,
+            "positive": 41,
+            "unknown": 0,
+            "forced_discard": 0
+          },
+          "original_left_size": 931,
+          "original_right_size": 931,
+          "interval_width_left": 247,
+          "interval_width_right": 127,
+          "unknown_imbalance": null,
+          "known_positives": 234,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                19,
+                0
+              ],
+              "joint_support": -902,
+              "separate_support": -123,
+              "decoupling_gap": 779
+            },
+            "separate": {
+              "counts": [
+                19,
+                0
+              ],
+              "joint_support": -902,
+              "separate_support": -123,
+              "decoupling_gap": 779
+            }
+          },
+          "effective_interval_width_left": 19,
+          "effective_interval_width_right": 0
+        },
+        {
+          "index": 4,
+          "key": "Species",
+          "left": {
+            "lower": 1,
+            "upper": 93,
+            "positive": 9,
+            "unknown": 1,
+            "forced_discard": 1
+          },
+          "right": {
+            "lower": 0,
+            "upper": 85,
+            "positive": 3,
+            "unknown": 2,
+            "forced_discard": 2
+          },
+          "original_left_size": 461,
+          "original_right_size": 461,
+          "interval_width_left": 92,
+          "interval_width_right": 85,
+          "unknown_imbalance": 2.0,
+          "known_positives": 12,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                1,
+                2
+              ],
+              "joint_support": 180,
+              "separate_support": 203,
+              "decoupling_gap": 23
+            },
+            "separate": {
+              "counts": [
+                1,
+                2
+              ],
+              "joint_support": 180,
+              "separate_support": 203,
+              "decoupling_gap": 23
+            }
+          },
+          "effective_interval_width_left": 1,
+          "effective_interval_width_right": 2
+        },
+        {
+          "index": 5,
+          "key": "SportsSeason",
+          "left": {
+            "lower": 83,
+            "upper": 138,
+            "positive": 12,
+            "unknown": 126,
+            "forced_discard": 126
+          },
+          "right": {
+            "lower": 0,
+            "upper": 55,
+            "positive": 0,
+            "unknown": 126,
+            "forced_discard": 126
+          },
+          "original_left_size": 138,
+          "original_right_size": 138,
+          "interval_width_left": 55,
+          "interval_width_right": 55,
+          "unknown_imbalance": 1.0,
+          "known_positives": 12,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                126,
+                126
+              ],
+              "joint_support": 68310,
+              "separate_support": 75900,
+              "decoupling_gap": 7590
+            },
+            "separate": {
+              "counts": [
+                126,
+                126
+              ],
+              "joint_support": 68310,
+              "separate_support": 75900,
+              "decoupling_gap": 7590
+            }
+          },
+          "effective_interval_width_left": 55,
+          "effective_interval_width_right": 55
+        },
+        {
+          "index": 6,
+          "key": "TopicalConcept",
+          "left": {
+            "lower": 0,
+            "upper": 16,
+            "positive": 0,
+            "unknown": 16,
+            "forced_discard": 16
+          },
+          "right": {
+            "lower": 0,
+            "upper": 16,
+            "positive": 0,
+            "unknown": 16,
+            "forced_discard": 16
+          },
+          "original_left_size": 17,
+          "original_right_size": 17,
+          "interval_width_left": 16,
+          "interval_width_right": 16,
+          "unknown_imbalance": 1.0,
+          "known_positives": 0,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                16,
+                16
+              ],
+              "joint_support": 2304,
+              "separate_support": 2560,
+              "decoupling_gap": 256
+            },
+            "separate": {
+              "counts": [
+                16,
+                16
+              ],
+              "joint_support": 2304,
+              "separate_support": 2560,
+              "decoupling_gap": 256
+            }
+          },
+          "effective_interval_width_left": 16,
+          "effective_interval_width_right": 16
+        },
+        {
+          "index": 7,
+          "key": "UnitOfWork",
+          "left": {
+            "lower": 0,
+            "upper": 19,
+            "positive": 0,
+            "unknown": 24,
+            "forced_discard": 24
+          },
+          "right": {
+            "lower": 0,
+            "upper": 24,
+            "positive": 0,
+            "unknown": 26,
+            "forced_discard": 26
+          },
+          "original_left_size": 29,
+          "original_right_size": 29,
+          "interval_width_left": 19,
+          "interval_width_right": 24,
+          "unknown_imbalance": 1.0833333333333333,
+          "known_positives": 0,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                24,
+                26
+              ],
+              "joint_support": 4104,
+              "separate_support": 4560,
+              "decoupling_gap": 456
+            },
+            "separate": {
+              "counts": [
+                24,
+                26
+              ],
+              "joint_support": 4104,
+              "separate_support": 4560,
+              "decoupling_gap": 456
+            }
+          },
+          "effective_interval_width_left": 19,
+          "effective_interval_width_right": 24
+        },
+        {
+          "index": 8,
+          "key": "Work",
+          "left": {
+            "lower": 6,
+            "upper": 101,
+            "positive": 55,
+            "unknown": 3,
+            "forced_discard": 3
+          },
+          "right": {
+            "lower": 6,
+            "upper": 115,
+            "positive": 39,
+            "unknown": 2,
+            "forced_discard": 2
+          },
+          "original_left_size": 438,
+          "original_right_size": 438,
+          "interval_width_left": 95,
+          "interval_width_right": 109,
+          "unknown_imbalance": 1.5,
+          "known_positives": 94,
+          "selected_masks": {
+            "joint": {
+              "counts": [
+                3,
+                2
+              ],
+              "joint_support": -48,
+              "separate_support": 185,
+              "decoupling_gap": 233
+            },
+            "separate": {
+              "counts": [
+                3,
+                2
+              ],
+              "joint_support": -48,
+              "separate_support": 185,
+              "decoupling_gap": 233
+            }
+          },
+          "effective_interval_width_left": 3,
+          "effective_interval_width_right": 2
+        }
+      ],
+      "features": {
+        "keys": 9,
+        "unknown": 498,
+        "forced_discard": 498,
+        "known_positives": 1297,
+        "max_original_side": 2583,
+        "max_unknown_side": 126,
+        "mean_effective_interval_width": 19.38888888888889,
+        "total_effective_interval_width": 349,
+        "max_finite_unknown_imbalance": 18.0,
+        "one_side_exhausted_keys": 1
+      }
+    },
+    "largest_complete_request_gain": {
+      "case_id": "dbpedia_native__person__athlete__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 7272,
+      "separate_requests": 7528,
+      "request_gap": 256,
+      "request_saving_percent": 3.4006376195536663,
+      "initial_joint_discard": 2154,
+      "initial_separate_discard": 1919,
+      "initial_discard_gap": 235,
+      "initial_joint_only": true,
+      "initial_joint_support": -32,
+      "initial_joint_mask_separate_support": 111177,
+      "joint_loss": 0.015028127116896887,
+      "separate_loss": 0.012343042833721124,
+      "snapshots": {
+        "joint": 50,
+        "separate": 52
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__person__athlete__l2__joint__s101__b500.json.gz",
+          "sha256": "79f4ca1db678e218a0b41faa25fcff8eee3421e16de7fb03ed18b99c4f68b5c0"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__person__athlete__l2__separate__s101__b500.json.gz",
+          "sha256": "89303539596c4b98da1f39b95e28c78b0f523ae56921b87ff0574481cf8b50bd"
+        }
+      }
+    }
+  },
+  "interpretation": "Snapshots and budgets are repeated observations within 16 queries, not independent workloads. Same-evidence greedy results are distinct from certificate dominance and full-policy paid requests."
+}

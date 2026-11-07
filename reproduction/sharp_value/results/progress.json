@@ -1,0 +1,1030 @@
+{
+  "completed_cells": 32,
+  "expected_cells": 32,
+  "rows": [
+    {
+      "case_id": "dbpedia_native__agent__person__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 5263,
+      "separate_requests": 5370,
+      "request_gap": 107,
+      "request_saving_percent": 1.9925512104283054,
+      "initial_joint_discard": 2440,
+      "initial_separate_discard": 2268,
+      "initial_discard_gap": 172,
+      "initial_joint_only": true,
+      "initial_joint_support": -1145,
+      "initial_joint_mask_separate_support": 362110,
+      "joint_loss": 0.026142466716757587,
+      "separate_loss": 0.019922116739503913,
+      "snapshots": {
+        "joint": 41,
+        "separate": 41
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__agent__person__l1__joint__s101__b125.json.gz",
+          "sha256": "8c0b657ce8d4073def0509fd90877b58e720e75eb07054e995b735f8f30f8013"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__agent__person__l1__separate__s101__b125.json.gz",
+          "sha256": "8b95db73e40509d0bb800fc918191aee2fb8877da335971613bb6649baca70b5"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__agent__person__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 5552,
+      "separate_requests": 5579,
+      "request_gap": 27,
+      "request_saving_percent": 0.4839576985122782,
+      "initial_joint_discard": 4424,
+      "initial_separate_discard": 4398,
+      "initial_discard_gap": 26,
+      "initial_joint_only": true,
+      "initial_joint_support": -9540,
+      "initial_joint_mask_separate_support": 552729,
+      "joint_loss": 0.0605571853117737,
+      "separate_loss": 0.05097432615392547,
+      "snapshots": {
+        "joint": 37,
+        "separate": 37
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__agent__person__l1__joint__s101__b500.json.gz",
+          "sha256": "21cf069f5868a0e5e9184ba2bd7ddefb00c68bea5c297495f1c99cf8a884597e"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__agent__person__l1__separate__s101__b500.json.gz",
+          "sha256": "9c24c93cb7fa8da50a9e3681662ae6c735fcef748c5fa83ae8b9374c0ce5f810"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__agent__person__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 6796,
+      "separate_requests": 6861,
+      "request_gap": 65,
+      "request_saving_percent": 0.9473837632998106,
+      "initial_joint_discard": 1437,
+      "initial_separate_discard": 1335,
+      "initial_discard_gap": 102,
+      "initial_joint_only": true,
+      "initial_joint_support": -166,
+      "initial_joint_mask_separate_support": 34893,
+      "joint_loss": 0.029209011927229425,
+      "separate_loss": 0.020622062233535535,
+      "snapshots": {
+        "joint": 53,
+        "separate": 53
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__agent__person__l2__joint__s101__b125.json.gz",
+          "sha256": "50e0cfd5dcb379996b4f0fb0517bcdbcdf2db9b0bf0244d8804f08b7f7a116d9"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__agent__person__l2__separate__s101__b125.json.gz",
+          "sha256": "8bbf4ee15b605cc456ba3a1e7ec70082f3e95e33f17e9b0c70a46a46d0be4f5d"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__agent__person__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 6504,
+      "separate_requests": 6632,
+      "request_gap": 128,
+      "request_saving_percent": 1.9300361881785284,
+      "initial_joint_discard": 2783,
+      "initial_separate_discard": 2567,
+      "initial_discard_gap": 216,
+      "initial_joint_only": true,
+      "initial_joint_support": -87,
+      "initial_joint_mask_separate_support": 114378,
+      "joint_loss": 0.03028374624798914,
+      "separate_loss": 0.026801443175641905,
+      "snapshots": {
+        "joint": 44,
+        "separate": 45
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__agent__person__l2__joint__s101__b500.json.gz",
+          "sha256": "e09e922cfe98c7081beaf67006da8564c57a0ec2e9c41490b5d931cd7e3ac846"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__agent__person__l2__separate__s101__b500.json.gz",
+          "sha256": "001521966eed726a3be7497297e4aef466660612581ad368c8ed6332cee278d4"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__person__athlete__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 7546,
+      "separate_requests": 7674,
+      "request_gap": 128,
+      "request_saving_percent": 1.6679697680479542,
+      "initial_joint_discard": 1455,
+      "initial_separate_discard": 1374,
+      "initial_discard_gap": 81,
+      "initial_joint_only": true,
+      "initial_joint_support": -402,
+      "initial_joint_mask_separate_support": 152826,
+      "joint_loss": 0.005259804998581266,
+      "separate_loss": 0.005098610302990824,
+      "snapshots": {
+        "joint": 58,
+        "separate": 59
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__person__athlete__l1__joint__s101__b125.json.gz",
+          "sha256": "c9e569cd810f87e423c6bab9e46c311431c9a80feaf984faed7f92fc26fdf1b7"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__person__athlete__l1__separate__s101__b125.json.gz",
+          "sha256": "e045e55f095e3f9f477116c0df9c1786128b1b07364da65358428f3da114a5d7"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__person__athlete__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 5608,
+      "separate_requests": 5625,
+      "request_gap": 17,
+      "request_saving_percent": 0.3022222222222222,
+      "initial_joint_discard": 4351,
+      "initial_separate_discard": 3875,
+      "initial_discard_gap": 476,
+      "initial_joint_only": true,
+      "initial_joint_support": -5502,
+      "initial_joint_mask_separate_support": 142118,
+      "joint_loss": 0.023157936575407653,
+      "separate_loss": 0.02096855930584706,
+      "snapshots": {
+        "joint": 37,
+        "separate": 38
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__person__athlete__l1__joint__s101__b500.json.gz",
+          "sha256": "8b67fb3367017a7b66e7b678105a06d06340232104c7a25051dc3f51a753f091"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__person__athlete__l1__separate__s101__b500.json.gz",
+          "sha256": "b5706e4e0ff1f26beb301749d9f97a5e6a1aef80d5a647551ae0ba6da5c92732"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__person__athlete__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 7546,
+      "separate_requests": 7772,
+      "request_gap": 226,
+      "request_saving_percent": 2.907874420998456,
+      "initial_joint_discard": 1180,
+      "initial_separate_discard": 1066,
+      "initial_discard_gap": 114,
+      "initial_joint_only": true,
+      "initial_joint_support": -32,
+      "initial_joint_mask_separate_support": 92750,
+      "joint_loss": 0.016397667363708655,
+      "separate_loss": 0.013022904210722665,
+      "snapshots": {
+        "joint": 58,
+        "separate": 60
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__person__athlete__l2__joint__s101__b125.json.gz",
+          "sha256": "c165c0e28fa595bed978a11a3a6fb412ed408b3604fb5f38745f530830e36039"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__person__athlete__l2__separate__s101__b125.json.gz",
+          "sha256": "fe308e7dcc6d698f0ff52ef5b2d25f432d553e73310c1d0ee08e1d2a774b1063"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__person__athlete__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 7272,
+      "separate_requests": 7528,
+      "request_gap": 256,
+      "request_saving_percent": 3.4006376195536663,
+      "initial_joint_discard": 2154,
+      "initial_separate_discard": 1919,
+      "initial_discard_gap": 235,
+      "initial_joint_only": true,
+      "initial_joint_support": -32,
+      "initial_joint_mask_separate_support": 111177,
+      "joint_loss": 0.015028127116896887,
+      "separate_loss": 0.012343042833721124,
+      "snapshots": {
+        "joint": 50,
+        "separate": 52
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__person__athlete__l2__joint__s101__b500.json.gz",
+          "sha256": "79f4ca1db678e218a0b41faa25fcff8eee3421e16de7fb03ed18b99c4f68b5c0"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__person__athlete__l2__separate__s101__b500.json.gz",
+          "sha256": "89303539596c4b98da1f39b95e28c78b0f523ae56921b87ff0574481cf8b50bd"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__organization__company__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9758,
+      "separate_requests": 9722,
+      "request_gap": -36,
+      "request_saving_percent": -0.3702941781526435,
+      "initial_joint_discard": 80,
+      "initial_separate_discard": 69,
+      "initial_discard_gap": 11,
+      "initial_joint_only": true,
+      "initial_joint_support": -63,
+      "initial_joint_mask_separate_support": 3955,
+      "joint_loss": 0.017815174632699486,
+      "separate_loss": 1.8852036648359245e-05,
+      "snapshots": {
+        "joint": 76,
+        "separate": 75
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__organization__company__l1__joint__s101__b125.json.gz",
+          "sha256": "6c2561716cbf8dd32c22c1f799e858a47614493bb9c1de8ed2b92105ed3b6d36"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__organization__company__l1__separate__s101__b125.json.gz",
+          "sha256": "8367833a292f4e38122d316c1f440d3c648b7aefe8d412459076d05e997254f8"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__organization__company__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 9502,
+      "separate_requests": 9541,
+      "request_gap": 39,
+      "request_saving_percent": 0.40876218425741534,
+      "initial_joint_discard": 365,
+      "initial_separate_discard": 263,
+      "initial_discard_gap": 102,
+      "initial_joint_only": true,
+      "initial_joint_support": -478,
+      "initial_joint_mask_separate_support": 31128,
+      "joint_loss": 0.0035944549876204958,
+      "separate_loss": 0.0016526952128394937,
+      "snapshots": {
+        "joint": 68,
+        "separate": 68
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__organization__company__l1__joint__s101__b500.json.gz",
+          "sha256": "4ae705c6cbc517a8807761b72798c362c6441fd3e34a89f878bf49ca975074d1"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__organization__company__l1__separate__s101__b500.json.gz",
+          "sha256": "ff404b84b1bb96479e97024633d51cafac74b5f539eeba1d8e145936dc92dfe8"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__organization__company__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9445,
+      "separate_requests": 9487,
+      "request_gap": 42,
+      "request_saving_percent": 0.4427110783176979,
+      "initial_joint_discard": 7,
+      "initial_separate_discard": 5,
+      "initial_discard_gap": 2,
+      "initial_joint_only": true,
+      "initial_joint_support": -9,
+      "initial_joint_mask_separate_support": 889,
+      "joint_loss": 0.004340335299184945,
+      "separate_loss": 0.00019879398316877608,
+      "snapshots": {
+        "joint": 73,
+        "separate": 74
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__organization__company__l2__joint__s101__b125.json.gz",
+          "sha256": "4250e0b726cbfc9f2aaad0f094ae159dd119115b87a64553757a3817d0958816"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__organization__company__l2__separate__s101__b125.json.gz",
+          "sha256": "97675e44d9ed0a1930a5ca71ba2c9168864666488a2c00df77b282ad8aa4bd20"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__organization__company__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 9394,
+      "separate_requests": 9513,
+      "request_gap": 119,
+      "request_saving_percent": 1.2509197939661516,
+      "initial_joint_discard": 263,
+      "initial_separate_discard": 225,
+      "initial_discard_gap": 38,
+      "initial_joint_only": true,
+      "initial_joint_support": -119,
+      "initial_joint_mask_separate_support": 14413,
+      "joint_loss": 0.003942747332847393,
+      "separate_loss": 0.0003313233052812935,
+      "snapshots": {
+        "joint": 67,
+        "separate": 68
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__organization__company__l2__joint__s101__b500.json.gz",
+          "sha256": "e0223578789e5b5be6681bb744b1549ffbc9a54f0b92ccef28c82edb14ab3a60"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__organization__company__l2__separate__s101__b500.json.gz",
+          "sha256": "3a1b54b240b95872ba54f571a5fbf45b2869c02fabd4e08075ed6c64bf4c8020"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__place__natural_place__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9594,
+      "separate_requests": 9494,
+      "request_gap": -100,
+      "request_saving_percent": -1.0532968190436065,
+      "initial_joint_discard": 194,
+      "initial_separate_discard": 115,
+      "initial_discard_gap": 79,
+      "initial_joint_only": true,
+      "initial_joint_support": -254,
+      "initial_joint_mask_separate_support": 395726,
+      "joint_loss": 0.07085498890671661,
+      "separate_loss": 0.0006448690685480465,
+      "snapshots": {
+        "joint": 74,
+        "separate": 74
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__place__natural_place__l1__joint__s101__b125.json.gz",
+          "sha256": "4f815c236eaad2987aa02d92b466b3066fd93b781ab9ee0e031c82581fdb1cb6"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__place__natural_place__l1__separate__s101__b125.json.gz",
+          "sha256": "936bbb04f6de294a996fb2ea46df5a60e3540e0dc3deb9e54b76be94a32f49ac"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__place__natural_place__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 8596,
+      "separate_requests": 8698,
+      "request_gap": 102,
+      "request_saving_percent": 1.1726833754886181,
+      "initial_joint_discard": 1244,
+      "initial_separate_discard": 1149,
+      "initial_discard_gap": 95,
+      "initial_joint_only": true,
+      "initial_joint_support": -172,
+      "initial_joint_mask_separate_support": 85322,
+      "joint_loss": 0.009914861928926216,
+      "separate_loss": 0.00874411748900268,
+      "snapshots": {
+        "joint": 61,
+        "separate": 62
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__place__natural_place__l1__joint__s101__b500.json.gz",
+          "sha256": "4d8eb1bfafaafd370bcff0ec85d0f9446e1285c6b1b5182613fe0ba3b42287cd"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__place__natural_place__l1__separate__s101__b500.json.gz",
+          "sha256": "4acc9f7d041ae4c2b925df1ee565fe8c25bdd61552aac9a102236f3fb5c256cc"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__place__natural_place__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9555,
+      "separate_requests": 9563,
+      "request_gap": 8,
+      "request_saving_percent": 0.08365575656174841,
+      "initial_joint_discard": 19,
+      "initial_separate_discard": 5,
+      "initial_discard_gap": 14,
+      "initial_joint_only": true,
+      "initial_joint_support": -7,
+      "initial_joint_mask_separate_support": 25871,
+      "joint_loss": 0.03220356165309364,
+      "separate_loss": 0.003683303483932011,
+      "snapshots": {
+        "joint": 74,
+        "separate": 74
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__place__natural_place__l2__joint__s101__b125.json.gz",
+          "sha256": "600e06910465cf898881f06f30cb7532a4df258498b2af20107288618ca9806c"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__place__natural_place__l2__separate__s101__b125.json.gz",
+          "sha256": "1f92f430d219353888cdbc1167c236b380b9573981c991101393d02b5ea6ce46"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__place__natural_place__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 9488,
+      "separate_requests": 9567,
+      "request_gap": 79,
+      "request_saving_percent": 0.8257552001672416,
+      "initial_joint_discard": 177,
+      "initial_separate_discard": 139,
+      "initial_discard_gap": 38,
+      "initial_joint_only": true,
+      "initial_joint_support": -25,
+      "initial_joint_mask_separate_support": 31469,
+      "joint_loss": 0.019295103571790626,
+      "separate_loss": 0.0026019666813097693,
+      "snapshots": {
+        "joint": 68,
+        "separate": 68
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__place__natural_place__l2__joint__s101__b500.json.gz",
+          "sha256": "39f26ca59dbd9b00656bc4ef99cc13a18892bbc56118a41601824fdf8507088b"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__place__natural_place__l2__separate__s101__b500.json.gz",
+          "sha256": "2c34bc4274fdeb8ebff72fcd85d994fbf95ba65546f2d42f4135399804136a18"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__work__musical_work__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 8650,
+      "separate_requests": 8570,
+      "request_gap": -80,
+      "request_saving_percent": -0.9334889148191365,
+      "initial_joint_discard": 17,
+      "initial_separate_discard": 0,
+      "initial_discard_gap": 17,
+      "initial_joint_only": true,
+      "initial_joint_support": 0,
+      "initial_joint_mask_separate_support": 45050,
+      "joint_loss": 0.07142169370757306,
+      "separate_loss": 0.0,
+      "snapshots": {
+        "joint": 67,
+        "separate": 66
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__work__musical_work__l1__joint__s101__b125.json.gz",
+          "sha256": "ed2b60c8b80edc0cfa666a994ef76a56d1b83f38277d3f6705aba91372d29a00"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__work__musical_work__l1__separate__s101__b125.json.gz",
+          "sha256": "be55d5129b0b8c8ba09bd9a4d0a3fa9f87a820e2183b221298bef578db399a04"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__work__musical_work__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 8296,
+      "separate_requests": 8296,
+      "request_gap": 0,
+      "request_saving_percent": 0.0,
+      "initial_joint_discard": 116,
+      "initial_separate_discard": 106,
+      "initial_discard_gap": 10,
+      "initial_joint_only": true,
+      "initial_joint_support": -375,
+      "initial_joint_mask_separate_support": 5535,
+      "joint_loss": 0.0,
+      "separate_loss": 0.0,
+      "snapshots": {
+        "joint": 58,
+        "separate": 58
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__work__musical_work__l1__joint__s101__b500.json.gz",
+          "sha256": "1463edb7c61fe5e535b1bce66d6b7fc2f4d6d54174dbd104aa2d015a467d3f8d"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__work__musical_work__l1__separate__s101__b500.json.gz",
+          "sha256": "db3eadccced063ab51568c198125d855cb5f35c42d6d0cea50ad92efb2989cb3"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__work__musical_work__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 8304,
+      "separate_requests": 8240,
+      "request_gap": -64,
+      "request_saving_percent": -0.7766990291262136,
+      "initial_joint_discard": 3,
+      "initial_separate_discard": 0,
+      "initial_discard_gap": 3,
+      "initial_joint_only": true,
+      "initial_joint_support": 0,
+      "initial_joint_mask_separate_support": 4620,
+      "joint_loss": 0.041363750313361744,
+      "separate_loss": 0.015229380797192278,
+      "snapshots": {
+        "joint": 64,
+        "separate": 64
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__work__musical_work__l2__joint__s101__b125.json.gz",
+          "sha256": "8fe1d5b14e131e0fb63e0868f77506a6007240debac447f34c7f6d165f256fdd"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__work__musical_work__l2__separate__s101__b125.json.gz",
+          "sha256": "d99b49949c2840459a060ded1127f844e9a167ca536a472e1af4faaae0a74899"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__work__musical_work__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 8552,
+      "separate_requests": 8581,
+      "request_gap": 29,
+      "request_saving_percent": 0.3379559491900711,
+      "initial_joint_discard": 111,
+      "initial_separate_discard": 102,
+      "initial_discard_gap": 9,
+      "initial_joint_only": true,
+      "initial_joint_support": -26,
+      "initial_joint_mask_separate_support": 1586,
+      "joint_loss": 0.02011782401604412,
+      "separate_loss": 0.019929806969165204,
+      "snapshots": {
+        "joint": 60,
+        "separate": 61
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__work__musical_work__l2__joint__s101__b500.json.gz",
+          "sha256": "c459d616de9b1bdbf8bdfe8b5e8b887ea3dbbbb8b0cc83cdc19f9f10796df226"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__work__musical_work__l2__separate__s101__b500.json.gz",
+          "sha256": "889c37aba269ecdb1bb04d14ef221057c0bdc8214efbb6ce5432559bf83cbc30"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__event__societal_event__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9809,
+      "separate_requests": 9805,
+      "request_gap": -4,
+      "request_saving_percent": -0.0407955124936257,
+      "initial_joint_discard": 38,
+      "initial_separate_discard": 21,
+      "initial_discard_gap": 17,
+      "initial_joint_only": true,
+      "initial_joint_support": -71,
+      "initial_joint_mask_separate_support": 98295,
+      "joint_loss": 0.03934785276652789,
+      "separate_loss": 0.0,
+      "snapshots": {
+        "joint": 76,
+        "separate": 76
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__event__societal_event__l1__joint__s101__b125.json.gz",
+          "sha256": "f6650db8f1b502886690443753260cd64cfc45633da0ee99a1c530a549638f19"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__event__societal_event__l1__separate__s101__b125.json.gz",
+          "sha256": "a46d757ad93b00e6fa1275a7bafcce0d2726bcf9135ea28bd4f3df1c7045666c"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__event__societal_event__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 9684,
+      "separate_requests": 9659,
+      "request_gap": -25,
+      "request_saving_percent": -0.258825965420851,
+      "initial_joint_discard": 152,
+      "initial_separate_discard": 119,
+      "initial_discard_gap": 33,
+      "initial_joint_only": true,
+      "initial_joint_support": -375,
+      "initial_joint_mask_separate_support": 55468,
+      "joint_loss": 0.028208105582146197,
+      "separate_loss": 0.0037195427039376176,
+      "snapshots": {
+        "joint": 69,
+        "separate": 69
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__event__societal_event__l1__joint__s101__b500.json.gz",
+          "sha256": "dfeb2c9b3a3956ad2c38cf2249afc592cb8137a323ea5ffaecff5f38e2c18b88"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__event__societal_event__l1__separate__s101__b500.json.gz",
+          "sha256": "e4778c61f1467bf6dff34b84676cc5d1bad96c241c9c55a09c5c9d3108594b94"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__event__societal_event__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9802,
+      "separate_requests": 9660,
+      "request_gap": -142,
+      "request_saving_percent": -1.4699792960662525,
+      "initial_joint_discard": 6,
+      "initial_separate_discard": 5,
+      "initial_discard_gap": 1,
+      "initial_joint_only": true,
+      "initial_joint_support": -6,
+      "initial_joint_mask_separate_support": 2376,
+      "joint_loss": 0.05592285131977929,
+      "separate_loss": 0.001342148431674703,
+      "snapshots": {
+        "joint": 76,
+        "separate": 75
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__event__societal_event__l2__joint__s101__b125.json.gz",
+          "sha256": "123c79ca0cc5cd646e9956de4e11bdd7c22763d53fd450f9d594222ba90db3ce"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__event__societal_event__l2__separate__s101__b125.json.gz",
+          "sha256": "d32341d4e7ce1932773f1c71de69b2946501ab12efa1c01d899396bb6018e69c"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__event__societal_event__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 9640,
+      "separate_requests": 9644,
+      "request_gap": 4,
+      "request_saving_percent": 0.0414765657403567,
+      "initial_joint_discard": 80,
+      "initial_separate_discard": 64,
+      "initial_discard_gap": 16,
+      "initial_joint_only": true,
+      "initial_joint_support": -11,
+      "initial_joint_mask_separate_support": 11814,
+      "joint_loss": 0.009743003429934881,
+      "separate_loss": 0.0014912760351941145,
+      "snapshots": {
+        "joint": 69,
+        "separate": 69
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__event__societal_event__l2__joint__s101__b500.json.gz",
+          "sha256": "95b43f46c08cf4616ff3b57a78923a86d29f59190b730561f27a04de091bcf48"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__event__societal_event__l2__separate__s101__b500.json.gz",
+          "sha256": "0dc94d382d26ed806f4eade2d0b703e0aef362df79bd9667328645385901b08c"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__athlete__sports_team__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 8944,
+      "separate_requests": 8758,
+      "request_gap": -186,
+      "request_saving_percent": -2.1237725508106875,
+      "initial_joint_discard": 170,
+      "initial_separate_discard": 151,
+      "initial_discard_gap": 19,
+      "initial_joint_only": true,
+      "initial_joint_support": -807,
+      "initial_joint_mask_separate_support": 19127,
+      "joint_loss": 0.008802554619236076,
+      "separate_loss": 0.010519020383840609,
+      "snapshots": {
+        "joint": 69,
+        "separate": 68
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l1__joint__s101__b125.json.gz",
+          "sha256": "1922a74ae7c6102b6c4c4215ec7cebb1b162b8e64eaf5de32bdd3a003b195fbe"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l1__separate__s101__b125.json.gz",
+          "sha256": "727aae0cd44cef7455334545871fe2f44486480ef4d2068b2b9b78df030df076"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__athlete__sports_team__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 6278,
+      "separate_requests": 6318,
+      "request_gap": 40,
+      "request_saving_percent": 0.6331117442228553,
+      "initial_joint_discard": 2653,
+      "initial_separate_discard": 1786,
+      "initial_discard_gap": 867,
+      "initial_joint_only": true,
+      "initial_joint_support": 0,
+      "initial_joint_mask_separate_support": 27650,
+      "joint_loss": 0.010706860033552049,
+      "separate_loss": 0.010065614332812996,
+      "snapshots": {
+        "joint": 43,
+        "separate": 43
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l1__joint__s101__b500.json.gz",
+          "sha256": "e4549bac045d1b9ae64573761ac1c41ecc53cf17f0e52e8dd3b3f8e4da9df038"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l1__separate__s101__b500.json.gz",
+          "sha256": "8796d935fbd617c976ed6b7090028a58ba38931cd2f6ac8f31e728f5dfd6803f"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__athlete__sports_team__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 7930,
+      "separate_requests": 7725,
+      "request_gap": -205,
+      "request_saving_percent": -2.6537216828478964,
+      "initial_joint_discard": 82,
+      "initial_separate_discard": 80,
+      "initial_discard_gap": 2,
+      "initial_joint_only": true,
+      "initial_joint_support": -30,
+      "initial_joint_mask_separate_support": 49470,
+      "joint_loss": 0.04244609277263907,
+      "separate_loss": 0.0010047578238127604,
+      "snapshots": {
+        "joint": 61,
+        "separate": 60
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l2__joint__s101__b125.json.gz",
+          "sha256": "37416c441ab78cd365ecaecba6b749c9c3b214c3b9f6b5425e36221ac728ffaf"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l2__separate__s101__b125.json.gz",
+          "sha256": "d8eb15d89d6f79183ec0d942f6161c6108192467461fd4661b79cffe9b53506e"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__athlete__sports_team__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 8100,
+      "separate_requests": 8123,
+      "request_gap": 23,
+      "request_saving_percent": 0.2831466207066355,
+      "initial_joint_discard": 642,
+      "initial_separate_discard": 578,
+      "initial_discard_gap": 64,
+      "initial_joint_only": true,
+      "initial_joint_support": -60,
+      "initial_joint_mask_separate_support": 14349,
+      "joint_loss": 0.0028862161017366547,
+      "separate_loss": 0.0018125043096230188,
+      "snapshots": {
+        "joint": 57,
+        "separate": 57
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l2__joint__s101__b500.json.gz",
+          "sha256": "75d2bf8ec6595a03db270eb91251934ee4d245136543f686bc35846a9cd9a79b"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__athlete__sports_team__l2__separate__s101__b500.json.gz",
+          "sha256": "cedeb17b75e345d9360ea1bd673cb0e64bbeeaa00d9a566cc93bc7b06a178d04"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__company__educational_institution__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9722,
+      "separate_requests": 9722,
+      "request_gap": 0,
+      "request_saving_percent": 0.0,
+      "initial_joint_discard": 8,
+      "initial_separate_discard": 2,
+      "initial_discard_gap": 6,
+      "initial_joint_only": true,
+      "initial_joint_support": -8,
+      "initial_joint_mask_separate_support": 25752,
+      "joint_loss": 0.0045652263121178545,
+      "separate_loss": 9.2330419795642e-05,
+      "snapshots": {
+        "joint": 75,
+        "separate": 75
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__company__educational_institution__l1__joint__s101__b125.json.gz",
+          "sha256": "14856f48058a28b0a8cc8a26270317d2a70a3d84b3f055b774041787504c542b"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__company__educational_institution__l1__separate__s101__b125.json.gz",
+          "sha256": "57de94198eeefb5180abb25f04593fc76dac49c6d4b5f8af3883d8375713199f"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__company__educational_institution__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 8936,
+      "separate_requests": 9033,
+      "request_gap": 97,
+      "request_saving_percent": 1.07384036311303,
+      "initial_joint_discard": 168,
+      "initial_separate_discard": 149,
+      "initial_discard_gap": 19,
+      "initial_joint_only": true,
+      "initial_joint_support": -184,
+      "initial_joint_mask_separate_support": 7090,
+      "joint_loss": 0.005293610734950141,
+      "separate_loss": 0.005293610734950141,
+      "snapshots": {
+        "joint": 63,
+        "separate": 64
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__company__educational_institution__l1__joint__s101__b500.json.gz",
+          "sha256": "78bbd2c088c51fc328beee138a1da8b7a34e3607e280bba9c940e67ce6c76351"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__company__educational_institution__l1__separate__s101__b500.json.gz",
+          "sha256": "b208f7d527901c7e192e2d10da3db6bf53a990d7077d980ee0216cae9bd1310d"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__company__educational_institution__l2",
+      "key": "l2",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 9476,
+      "separate_requests": 9455,
+      "request_gap": -21,
+      "request_saving_percent": -0.222104706504495,
+      "initial_joint_discard": 0,
+      "initial_separate_discard": 0,
+      "initial_discard_gap": 0,
+      "initial_joint_only": false,
+      "initial_joint_support": 0,
+      "initial_joint_mask_separate_support": 0,
+      "joint_loss": 0.010101010101010102,
+      "separate_loss": 0.000546000546000546,
+      "snapshots": {
+        "joint": 74,
+        "separate": 73
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__company__educational_institution__l2__joint__s101__b125.json.gz",
+          "sha256": "5cba3bbc30a993ba445bd075278cb17e8f4c31c457d8ad5b1c7d2376793743c0"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__company__educational_institution__l2__separate__s101__b125.json.gz",
+          "sha256": "9177e8df2af82dc079b4f1d1364b1e3c3f906bcc208fac0da6aa89b504d6a7fc"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__company__educational_institution__l2",
+      "key": "l2",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 9385,
+      "separate_requests": 9361,
+      "request_gap": -24,
+      "request_saving_percent": -0.25638286507851726,
+      "initial_joint_discard": 18,
+      "initial_separate_discard": 8,
+      "initial_discard_gap": 10,
+      "initial_joint_only": true,
+      "initial_joint_support": -9,
+      "initial_joint_mask_separate_support": 9823,
+      "joint_loss": 0.02566202566202566,
+      "separate_loss": 0.001092001092001092,
+      "snapshots": {
+        "joint": 67,
+        "separate": 67
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__company__educational_institution__l2__joint__s101__b500.json.gz",
+          "sha256": "700e9802b5e5c28b3422cf438bde51cfa71eb72cfc0581bafb25665d404ff108"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__company__educational_institution__l2__separate__s101__b500.json.gz",
+          "sha256": "b67e103cbba930d106c72658cae5f49c29a83b8a613f4b4a9e1eed67738310ce"
+        }
+      }
+    }
+  ]
+}

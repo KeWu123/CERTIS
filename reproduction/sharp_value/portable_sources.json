@@ -1,0 +1,54 @@
+[
+  {
+    "path": "reproduction/sharp_value/sharp_wrapper.py",
+    "original_path": "research/icde2027_sharp_value_20261107/sharp_wrapper.py",
+    "original_sha256": "fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b",
+    "frozen_path": "reproduction/sharp_value/source_versions/fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b.py",
+    "portable_sha256": "8ff00ca7bc6ddeff138b7ea9c42ccf2b97fcc1b4231aa2459e79d309a7fe6816",
+    "portability_changes": [
+      "Resolve RELEASE at the public repository root"
+    ]
+  },
+  {
+    "path": "reproduction/sharp_value/run_native_sharp.py",
+    "original_path": "research/icde2027_sharp_value_20261107/run_native_sharp.py",
+    "original_sha256": "acd2ce1c4313f2195d79b3b28d9dd04a7ad4dc60e0e0c9eaedfc48d5abaf8873",
+    "frozen_path": "reproduction/sharp_value/source_versions/acd2ce1c4313f2195d79b3b28d9dd04a7ad4dc60e0e0c9eaedfc48d5abaf8873.py",
+    "portable_sha256": "9caf1cd5f6a85e6eaaf02048d60f1ff5fcd5153ca48f1f20a4c51056a4457f2d",
+    "portability_changes": [
+      "Fresh sharp runs write under ignored outputs, not bundled records"
+    ]
+  },
+  {
+    "path": "reproduction/sharp_value/analyze_snapshots.py",
+    "original_path": "research/icde2027_sharp_value_20261107/analyze_snapshots.py",
+    "original_sha256": "2e7693d7dabf8f0695e6b82f1022c991c10174350fd6e3cf05396b80b7b227f8",
+    "frozen_path": "reproduction/sharp_value/source_versions/2e7693d7dabf8f0695e6b82f1022c991c10174350fd6e3cf05396b80b7b227f8.py",
+    "portable_sha256": "2e7693d7dabf8f0695e6b82f1022c991c10174350fd6e3cf05396b80b7b227f8",
+    "portability_changes": []
+  },
+  {
+    "path": "reproduction/sharp_value/analyze_paths.py",
+    "original_path": "research/icde2027_sharp_value_20261107/analyze_paths.py",
+    "original_sha256": "aa198fdfc5273e2b0c8798f22726a6124eec5953c57a9bbada659227dd833070",
+    "frozen_path": "reproduction/sharp_value/source_versions/aa198fdfc5273e2b0c8798f22726a6124eec5953c57a9bbada659227dd833070.py",
+    "portable_sha256": "aa198fdfc5273e2b0c8798f22726a6124eec5953c57a9bbada659227dd833070",
+    "portability_changes": []
+  },
+  {
+    "path": "reproduction/sharp_value/fractional_bound.py",
+    "original_path": "research/icde2027_sharp_value_20261107/fractional_bound.py",
+    "original_sha256": "5b8eb1c4cec0f6f4169b17ee3319f5937c01c81c3e18d83c9acb4cdbb1e6151b",
+    "frozen_path": "reproduction/sharp_value/source_versions/5b8eb1c4cec0f6f4169b17ee3319f5937c01c81c3e18d83c9acb4cdbb1e6151b.py",
+    "portable_sha256": "5b8eb1c4cec0f6f4169b17ee3319f5937c01c81c3e18d83c9acb4cdbb1e6151b",
+    "portability_changes": []
+  },
+  {
+    "path": "reproduction/sharp_value/test_fractional_relaxation.py",
+    "original_path": "research/icde2027_sharp_value_20261107/test_fractional_relaxation.py",
+    "original_sha256": "6ecd8041f92e13df8ee0f3c062c537bcc72b8f90b7a7a367b81ba53934164547",
+    "frozen_path": "reproduction/sharp_value/source_versions/6ecd8041f92e13df8ee0f3c062c537bcc72b8f90b7a7a367b81ba53934164547.py",
+    "portable_sha256": "6ecd8041f92e13df8ee0f3c062c537bcc72b8f90b7a7a367b81ba53934164547",
+    "portability_changes": []
+  }
+]

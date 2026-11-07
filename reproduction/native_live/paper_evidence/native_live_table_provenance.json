@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "source": "native_live_analysis.json",
+  "source_sha256": "e4217626087c0d7b32a4a8a745b90da889e500aa57131ebe7e1b22cb4a09f43e",
+  "binding": "9aba33d31e2855cf4f6f519c55ac461b4e84fc015b04cd5bc86c255f79710868",
+  "table_rows": [
+    {
+      "case_id": "dbpedia_native__agent__person__l1",
+      "cells": [
+        "Agent/Person",
+        "$l_1$",
+        "4,457,726",
+        "9,518",
+        "9,697",
+        "5,480.5",
+        "5,451",
+        "414.33",
+        "414.11",
+        "253.74",
+        "249.11"
+      ]
+    },
+    {
+      "case_id": "dbpedia_native__agent__person__l2",
+      "cells": [
+        "Agent/Person",
+        "$l_2$",
+        "660,789",
+        "7,761",
+        "9,371",
+        "6,081.5",
+        "5,869.5",
+        "375.28",
+        "465.97",
+        "292.21",
+        "284.99"
+      ]
+    },
+    {
+      "case_id": "dbpedia_native__person__athlete__l1",
+      "cells": [
+        "Person/Athlete",
+        "$l_1$",
+        "1,476,936",
+        "8,443",
+        "9,478",
+        "5,557",
+        "5,507",
+        "440.99",
+        "450.73",
+        "308.79",
+        "303.59"
+      ]
+    },
+    {
+      "case_id": "dbpedia_native__person__athlete__l2",
+      "cells": [
+        "Person/Athlete",
+        "$l_2$",
+        "377,980",
+        "6,558",
+        "8,935",
+        "6,710",
+        "6,393",
+        "307.85",
+        "430.42",
+        "327.18",
+        "310.96"
+      ]
+    }
+  ],
+  "transformation": "Per related query and method, arithmetic means of the two actual complete runs; format counts to integer or one decimal, times to two decimals. The full bag count is independently checked and invariant across all eight runs."
+}

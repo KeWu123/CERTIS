@@ -157,3 +157,63 @@ of its source record as `source_record_sha256`; summary bindings refer to the ex
 Numerical outcomes, oracle identities, acquired labels/tokens, masks, audit regions, and
 batch schedules are preserved. Original source identifiers describe the recorded experiment;
 new runs bind the current release sources and inputs in their own manifests.
+
+
+## Native certificate capacity and live execution (v4)
+
+The additional 70B fixed-label comparison covers all 16 native DBpedia queries,
+two audit budgets and seed 101: 32 matched cells, 64 complete executions.
+Joint saves 0.24075% requests over global separate extrema (19 wins, 2 ties,
+11 losses). A secondary exact fractional upper bound proves a heap-independent
+fixed-cache discard advantage in 15/32 initial states, by at least 133 in one.
+These are evidence states of 16 queries, not 32 independent workloads.
+
+A distinct Qwen2.5-7B Q4_K_M study runs the first two declared predicate pairs,
+all 5,000 released descriptions per side, both native key levels, four methods
+and two timing passes: 32 actual paid-label executions. Joint uses 46,441
+requests versus exact right-first's 64,560. Complete time is 2,297.29 versus
+3,076.89 seconds: 25.34% pooled saving, 23.52% query macro, and 35.38% on
+coarse l1 keys. Fine person/athlete is 1.01% slower in the ratio of mean times,
+with slowdowns in both passes. Relative to separate with the same greedy
+allocator, joint saves 2.55% requests and 2.82% measured time. Two passes are
+descriptive timing evidence for four related queries, not a significance test.
+
+All paid outputs drive their policy and match a fresh 15,000-label Qwen
+reference. Each run has private facts, fresh SQL and query-local profile
+caches. Time includes actual serial single-slot inference, audits, planning,
+bookkeeping and returned-first SQL. Inputs are loaded and the model resident;
+loading, startup, warmup and reference acquisition/validation are separate.
+Logical groups of at most 128 calls are not GPU parallel batches. Interval
+arithmetic memoization is process-resident; all actual overhead is charged.
+
+All eight Qwen initial joint masks need coupling, but their fractional bounds
+are inconclusive about a cardinality separation (0/8 proved). The old 70B
+15/32 result is not transferred to these new labels. Historical discussion
+live results, including the 1.29% pooled slowdown against exact, are retained.
+
+```bash
+python reproduce.py verify-sharp-value
+python reproduce.py check-native-live
+python reproduce.py analyze-native-live
+python reproduce.py diagnose-native-live
+python reproduce.py plot-submission-evidence
+python reproduce.py table-native-live
+```
+
+These commands need no model, GPU or API key. Full fresh 70B-tape execution:
+
+```bash
+python reproduction/sharp_value/run_native_sharp.py --output outputs/native_sharp_new
+```
+
+Actual new inference requires your own compatible model and llama.cpp files:
+
+```bash
+python reproduction/native_live/native_live.py run --server PATH_TO_LLAMA_SERVER --model PATH_TO_GGUF --output outputs/native_live_new
+```
+
+The peers document exact scopes and source hashes. Scientific records and
+executed snapshots are byte-exact; portable entry points have separate hashes
+and documented path/newline adaptations. Never resume historical outputs with
+the portable source binding. Model weights, keys, PID files and server logs
+are excluded. Earlier release tags remain unchanged.

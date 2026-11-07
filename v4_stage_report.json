@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "stage_directory_name": "CERTIS_v4_overlay_20261107",
+  "payload_files_verified_before_report": 375,
+  "byte_exact_private_source_copies": 351,
+  "content_addressed_source_snapshots_checked": 77,
+  "portable_mappings_checked": 15,
+  "portable_entrypoint_ast_and_bytes_checked": 15,
+  "identity_text_files_screened": 372,
+  "personal_path_name_privatekey_findings": 0,
+  "excluded_process_log_key_model_files_present": 0,
+  "sharp_raw_records": 64,
+  "live_raw_records": 32,
+  "live_reference_batches": 120,
+  "old_70b_initial_bound": {
+    "cells": 32,
+    "strict_cardinality_separations": 15
+  },
+  "fresh_qwen_initial_bound": {
+    "cells": 8,
+    "strict_cardinality_separations": 0,
+    "same_mask_joint_only": 8,
+    "interpretation": "No cardinality gap proved by this upper bound; not equality of optima."
+  },
+  "final_manuscript_source_sha256": "e46e846040b789a984ee0a3ca26371be315bf7a746849636df684b929ec333c9",
+  "final_pdf_sha256": "fab8a6adb6dc72958aa4c15c4fbb70f467f9c2fcffe273092ce67a0d38a802f2",
+  "body_pages": 12,
+  "total_pdf_pages": 13,
+  "private_execution_log_copied": false,
+  "redacted_execution_presentation": "reproduction/native_live/initial_checks_execution_public.json",
+  "public_repo_status": "clean and unchanged",
+  "portable_runtime_smoke": "Not run from overlay alone; it requires the existing v3 runtime/data base. Root owns merging and fresh portable execution.",
+  "source_preservation": "Scientific source copies compare byte-for-byte by SHA; portable originals/current copies separately mapped. Non-identifying frozen runtime paths explicitly allowed.",
+  "data_manifest_sha256_before_report": "1aa7627e2cf2407c0089fa4c33e369afb38577f18da50b7d3a83fc24133def01"
+}

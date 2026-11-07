@@ -1,0 +1,166 @@
+{
+  "executed_sources": [
+    {
+      "original_path": "research/icde2027_native_live_20261107/native_live.py",
+      "sha256": "babdab2c349fa0a311be0cd2300a6552623cad53b79c9fb50e43e4680445b7c3",
+      "distributed_path": "reproduction/native_live/results/source_versions/babdab2c349fa0a311be0cd2300a6552623cad53b79c9fb50e43e4680445b7c3.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "research/icde2027_native_live_20261107/PROTOCOL.md",
+      "sha256": "6064a400229eac92cd3d28301661b3bbd2d977a9b3f20cbce2d4d0be26e4f857",
+      "distributed_path": "reproduction/native_live/results/source_versions/6064a400229eac92cd3d28301661b3bbd2d977a9b3f20cbce2d4d0be26e4f857.md",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/candidate_systems/external/semviews/configs/predicates/dbpedia.yaml",
+      "sha256": "9f3312663b27c5e4e5815f5a1c82e2fa8afa0b42ffae76cec2b2aa9b9eeb8e2f",
+      "distributed_path": "reproduction/native_live/results/source_versions/9f3312663b27c5e4e5815f5a1c82e2fa8afa0b42ffae76cec2b2aa9b9eeb8e2f.yaml",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/completion/native_dbpedia.py",
+      "sha256": "46c2258458fc3dc1813298ee42bd6ae1f54761a46b4be47f8b0ad05528828a6f",
+      "distributed_path": "reproduction/native_live/results/source_versions/46c2258458fc3dc1813298ee42bd6ae1f54761a46b4be47f8b0ad05528828a6f.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/study/run_study.py",
+      "sha256": "5d1aed3b5b2f091dbf45122b14934be32a70a7efdfc986f25458074ba36a0b39",
+      "distributed_path": "reproduction/native_live/results/source_versions/5d1aed3b5b2f091dbf45122b14934be32a70a7efdfc986f25458074ba36a0b39.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/study/adaptive_marginal.py",
+      "sha256": "d7ad76358747e65a4c555d0ca75d5821c8e07a316962ba435714a8a9b0016a01",
+      "distributed_path": "reproduction/native_live/results/source_versions/d7ad76358747e65a4c555d0ca75d5821c8e07a316962ba435714a8a9b0016a01.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/study/PROTOCOL.md",
+      "sha256": "d6b36a73ebae1d42d5af72a9180b315edf48f6f63b40ca54c5aff1e579909b0c",
+      "distributed_path": "reproduction/native_live/results/source_versions/d6b36a73ebae1d42d5af72a9180b315edf48f6f63b40ca54c5aff1e579909b0c.md",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/study/check_marginal.py",
+      "sha256": "b1e19285b2744f8ff46ae90419757c768f413d7b12b880bce9927cbe53c7d9d9",
+      "distributed_path": "reproduction/native_live/results/source_versions/b1e19285b2744f8ff46ae90419757c768f413d7b12b880bce9927cbe53c7d9d9.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/common.py",
+      "sha256": "4bfaaef8a6781c6bf4515132a44eb01e77035525f6db0dc1e398084240b6b361",
+      "distributed_path": "reproduction/native_live/results/source_versions/4bfaaef8a6781c6bf4515132a44eb01e77035525f6db0dc1e398084240b6b361.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/direct_arms.py",
+      "sha256": "b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203",
+      "distributed_path": "reproduction/native_live/results/source_versions/b13702b60e17c1522c18f9fec663b577f9bca8bde57c28b9ea7bbab28ccc5203.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/count_allocation_arms.py",
+      "sha256": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+      "distributed_path": "reproduction/native_live/results/source_versions/1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/native_discussion_cases.py",
+      "sha256": "de9cdce5fe4e75b9bcfcc7a8970bc039409b3edfaf46c58858758122c8689c26",
+      "distributed_path": "reproduction/native_live/results/source_versions/de9cdce5fe4e75b9bcfcc7a8970bc039409b3edfaf46c58858758122c8689c26.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/exact_baselines.py",
+      "sha256": "e6a10b83bf6cbe99bd91e3503d10042e2476a9756f6f3318dacf91803e833626",
+      "distributed_path": "reproduction/native_live/results/source_versions/e6a10b83bf6cbe99bd91e3503d10042e2476a9756f6f3318dacf91803e833626.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/strict_result_validation.py",
+      "sha256": "26a4ab905af08cf85cf368efc80a49bd9a1b952cf59838af71612c42453659cd",
+      "distributed_path": "reproduction/native_live/results/source_versions/26a4ab905af08cf85cf368efc80a49bd9a1b952cf59838af71612c42453659cd.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/strict_result_validation_v2.py",
+      "sha256": "20ab6c627a423ad622aa4c1e59503f9dc5da9f41786c61cb2e7729725e3b41e8",
+      "distributed_path": "reproduction/native_live/results/source_versions/20ab6c627a423ad622aa4c1e59503f9dc5da9f41786c61cb2e7729725e3b41e8.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/validate_results.py",
+      "sha256": "5028a3e8bcb0e539ea1d97e3ff768d60806e43f24f3385939b6fc1fba74ea6a6",
+      "distributed_path": "reproduction/native_live/results/source_versions/5028a3e8bcb0e539ea1d97e3ff768d60806e43f24f3385939b6fc1fba74ea6a6.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/greedy_planner.py",
+      "sha256": "9347aa7f88a47115818d567d7c27558f0e713e4d286a56adca1f44fb54692eb3",
+      "distributed_path": "reproduction/native_live/results/source_versions/9347aa7f88a47115818d567d7c27558f0e713e4d286a56adca1f44fb54692eb3.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/policy_adapter.py",
+      "sha256": "88d8d5a1e24c97a492c7323fbe091f381e571c5c31f4799da554c1b21e2c6da0",
+      "distributed_path": "reproduction/native_live/results/source_versions/88d8d5a1e24c97a492c7323fbe091f381e571c5c31f4799da554c1b21e2c6da0.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/policy_adapter_v2.py",
+      "sha256": "e333b6a536554374f734d16e74c1ee8497422635ca25da33217df7bb414a9940",
+      "distributed_path": "reproduction/native_live/results/source_versions/e333b6a536554374f734d16e74c1ee8497422635ca25da33217df7bb414a9940.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/policy_adapter_v3.py",
+      "sha256": "e83c1a8e77240fe017c6430f02f8b5e5bbc6dcc3f3767224e8264242dace110d",
+      "distributed_path": "reproduction/native_live/results/source_versions/e83c1a8e77240fe017c6430f02f8b5e5bbc6dcc3f3767224e8264242dace110d.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/code/bilinear_certificate.py",
+      "sha256": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+      "distributed_path": "reproduction/native_live/results/source_versions/1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/code/count_mask_planner.py",
+      "sha256": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+      "distributed_path": "reproduction/native_live/results/source_versions/42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/code/exact_hypergeom.py",
+      "sha256": "9deb00c0fdeb265651c044c94ed937c14c76ed1a59ec50bd10fdad11a377f297",
+      "distributed_path": "reproduction/native_live/results/source_versions/9deb00c0fdeb265651c044c94ed937c14c76ed1a59ec50bd10fdad11a377f297.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/code/piecewise_numpy_profile.py",
+      "sha256": "989778069ffaa6997af8b80124d26d1732e6c5eeec177c5aa1aa2d70ebd57714",
+      "distributed_path": "reproduction/native_live/results/source_versions/989778069ffaa6997af8b80124d26d1732e6c5eeec177c5aa1aa2d70ebd57714.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "artifacts/CERTIS_release_20261104/code/piecewise_count_profile.py",
+      "sha256": "56680781df1dd2bd298da65db9432801da6a4e4a5ec8b0c5afaf129a27650abf",
+      "distributed_path": "reproduction/native_live/results/source_versions/56680781df1dd2bd298da65db9432801da6a4e4a5ec8b0c5afaf129a27650abf.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "research/icde2027_native_live_20261107/cost_sql.py",
+      "sha256": "1cc336ac60fb4c439550fb8e1d78858d115fddca1ba93c70201e2c638b762cab",
+      "distributed_path": "reproduction/native_live/results/source_versions/1cc336ac60fb4c439550fb8e1d78858d115fddca1ba93c70201e2c638b762cab.py",
+      "role": "executed source; not the portable entry point"
+    },
+    {
+      "original_path": "research/icde2027_sharp_value_20261107/sharp_wrapper.py",
+      "sha256": "fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b",
+      "distributed_path": "reproduction/native_live/results/source_versions/fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b.py",
+      "role": "executed source; not the portable entry point"
+    }
+  ]
+}

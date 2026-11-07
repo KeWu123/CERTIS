@@ -70,3 +70,30 @@ Historical source identifiers describe original executions. Exported traces
 retain `source_record_sha256`; distributed manifests bind portable metadata.
 Source versions used by new studies are retained, including the version before
 a Windows-only peak-memory measurement fix.
+
+
+## V4 native capacity and complete-cost evidence
+
+| Claim or observation | Frozen evidence | CPU recheck |
+| --- | --- | --- |
+| Native 70B same-allocator ablation: 269,576 separate vs 268,927 joint requests; W/T/L 19/2/11 | `reproduction/sharp_value/results/summary.json`, all 64 `raw/` records | `python reproduce.py verify-sharp-value` |
+| Separate fractional upper bound; 15/32 initial states have a proved joint cardinality advantage, max lower bound 133 | `reproduction/sharp_value/results/fractional_bound.json`, post hoc protocol and source provenance | `test_fractional_relaxation.py` checks 170 exact LP vertices; fresh full replay and diagnostic entry points are documented in the peer README |
+| Four related Qwen queries, four policies, two timing passes; all 32 actual runs | `reproduction/native_live/results/`, its manifest, 120 reference batches, 15,000-label Parquet and source snapshots | `python reproduce.py analyze-native-live` independently checks every paid label/token/identity, SRS, factorized bag and cost |
+| Actual full-cost table and pooled/macro/range summaries | `reproduction/native_live/native_live_analysis.json`, `paper_evidence/native_live_table.tex` | `python reproduce.py table-native-live` |
+| Same-Qwen initial masks: 8/8 joint-only at that mask; fractional cardinality comparison inconclusive in 8/8 | `reproduction/native_live/live_initial_diagnostic.json` and provenance | `python reproduce.py diagnose-native-live` |
+| Paired evidence figure, with distinct oracle scopes | `reproduction/native_live/figures/`, source/data hashes in `plot_data.json` | `python reproduce.py plot-submission-evidence` |
+
+The new Qwen comparison has eight distinct query/seed audits, reused across
+the three approximate controls; zero coverage failures/conflicts are observed.
+Maximum measured bag loss is 9.7756%. Complete request totals are 64,560 exact,
+74,962 per-side, 47,658 separate, and 46,441 joint. Complete seconds total
+3,076.893, 3,522.460, 2,363.833, and 2,297.290, respectively.
+The coarse/fine and per-query rows, both timing passes, negative fine case,
+and all tokens/phases are retained. Startup/reference costs are not added to
+deployment queries, and no reference label is supplied to a policy.
+
+The unchanged old 70B matrices and old discussion/fixed-trace timings remain
+separate evidence. The native Qwen study fixes the fast exact profile backend
+for both separate and joint; old timings are not replaced by microbenchmarks.
+The manuscript binding records source/PDF digests, a 12-page body and 13 total
+pages; the archived manuscript itself is supplied separately from this code.

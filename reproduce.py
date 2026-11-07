@@ -112,6 +112,8 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['check','verify','verify-paper','smoke','analyze','analyze-completion',
         'validate-fast-profile','verify-fast-profile','benchmark-fast-profile','replay-fast-profile',
+        'verify-sharp-value','check-native-live','analyze-native-live','diagnose-native-live',
+        'plot-submission-evidence','table-native-live',
         'plot','plot-completion','run',
         'run-fixed','run-cached','run-greedy125','run-primary','run-matched','run-structural',
         'run-count','run-mechanisms','run-extra','run-native-original','run-geometry',
@@ -126,7 +128,33 @@ def main():
     parser.add_argument('--port',type=int,default=18086)
     args=parser.parse_args()
     os.chdir(ROOT)
-    if args.command in ('validate-fast-profile','verify-fast-profile','benchmark-fast-profile','replay-fast-profile'):
+    # Keep child-process JSON and paths portable on Windows workspaces.
+    os.environ['PYTHONUTF8']='1'
+    if args.command=='verify-sharp-value':
+        for name in ('verify_results.py','test_fractional_relaxation.py'):
+            subprocess.run([sys.executable,str(ROOT/'reproduction/sharp_value'/name)],check=True)
+    elif args.command=='check-native-live':
+        for name in ('test_cost_sql.py','test_aggregation.py','test_wiring.py'):
+            subprocess.run([sys.executable,str(ROOT/'reproduction/native_live'/name)],check=True)
+    elif args.command=='analyze-native-live':
+        output=(args.output or ROOT/'outputs/native_live_analysis.json').resolve()
+        subprocess.run([sys.executable,str(ROOT/'reproduction/native_live/analyze_native_live.py'),
+            '--source',str(ROOT/'reproduction/native_live/results'),'--output',str(output)],check=True)
+    elif args.command=='diagnose-native-live':
+        output=(args.output or ROOT/'outputs/live_initial_diagnostic.json').resolve()
+        checked=ROOT/'outputs/native_live_analysis.json'
+        if not checked.is_file():checked=ROOT/'reproduction/native_live/native_live_analysis.json'
+        subprocess.run([sys.executable,str(ROOT/'reproduction/native_live/diagnose_live_initial.py'),
+            '--analysis',str(checked),'--output',str(output)],check=True)
+    elif args.command=='plot-submission-evidence':
+        output=(args.output or ROOT/'outputs/submission_figures').resolve()
+        subprocess.run([sys.executable,str(ROOT/'reproduction/native_live/plot_submission_evidence.py'),
+            '--require-live','--output',str(output)],check=True)
+    elif args.command=='table-native-live':
+        output=(args.output or ROOT/'outputs/paper_evidence').resolve()
+        subprocess.run([sys.executable,str(ROOT/'reproduction/native_live/build_evidence_table.py'),
+            '--destination',str(output)],check=True)
+    elif args.command in ('validate-fast-profile','verify-fast-profile','benchmark-fast-profile','replay-fast-profile'):
         folder=ROOT/'reproduction/fast_profile'
         name={'validate-fast-profile':'validate_profile.py','verify-fast-profile':'verify_results.py',
               'benchmark-fast-profile':'benchmark_profile.py','replay-fast-profile':'replay_equivalence.py'}[args.command]

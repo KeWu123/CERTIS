@@ -5,3 +5,4 @@ scipy==1.18.1
 pyarrow==25.0.1
 matplotlib==3.11.2
 Pillow==12.3.0
+pypdf==6.19.0

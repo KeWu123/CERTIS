@@ -1,0 +1,30 @@
+{
+  "source_id": "041375c4fd0399053c27265c9b1176e415a83317c8b83a5faa277e12ad0b63b1",
+  "sources": {
+    "research/icde2027_sharp_value_20261107/run_native_sharp.py": "d286d06b2d11571e6cc1242a8b1fafccd0dfb3f9b561e715358f7e0d6f2e80da",
+    "research/icde2027_sharp_value_20261107/sharp_wrapper.py": "fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b",
+    "research/icde2027_sharp_value_20261107/PROTOCOL.md": "c95be01233af0c67e32a2aaf14461c9243abb9d7e116b55b80408573879f32a5",
+    "artifacts/CERTIS_release_20261104/code/count_mask_planner.py": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+    "artifacts/CERTIS_release_20261104/code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "artifacts/CERTIS_release_20261104/code/piecewise_count_profile.py": "56680781df1dd2bd298da65db9432801da6a4e4a5ec8b0c5afaf129a27650abf",
+    "artifacts/CERTIS_release_20261104/code/piecewise_numpy_profile.py": "989778069ffaa6997af8b80124d26d1732e6c5eeec177c5aa1aa2d70ebd57714",
+    "artifacts/CERTIS_release_20261104/reproduction/completion/native_dbpedia.py": "46c2258458fc3dc1813298ee42bd6ae1f54761a46b4be47f8b0ad05528828a6f",
+    "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/count_allocation_arms.py": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+    "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/greedy_planner.py": "9347aa7f88a47115818d567d7c27558f0e713e4d286a56adca1f44fb54692eb3"
+  },
+  "dataset_sha256": "dff8470a8480d89da0b6069171745baaddec8a98e08b0dd5ff43e26b4ea1eb8d",
+  "arrays_sha256": "b866012afd0558a41812679e6509d3e963f2550903ddf2e577608a2051e2636d",
+  "targets": {
+    "dbpedia_native__agent__person__l1": "sha256:3999d1a1fe953fbe9ca162df52adad3be133ef25bcf17ed6891794e364ab9fc1"
+  },
+  "seed": 101,
+  "budgets": [
+    125,
+    500
+  ],
+  "methods": [
+    "joint",
+    "separate"
+  ],
+  "pilot": true
+}

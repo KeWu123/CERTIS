@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "analysis_sha256": "e4217626087c0d7b32a4a8a745b90da889e500aa57131ebe7e1b22cb4a09f43e",
+  "diagnostic_sha256": "0071e9d1a6fa859a0baad9d3bbc088e6d2723c819e6fa6ae7a91cb8fdf88e944",
+  "old_native_sharp_summary_sha256": "07bf1c148c0898ce45f2c546711f0378297b3fe5854a7c6369dae3dcdc243782",
+  "old_native_fractional_bound_sha256": "73fd3aceff15939e35ad67def8f985fc08c9f632596480df589d143342bf79fb",
+  "source_sha256": "e46e846040b789a984ee0a3ca26371be315bf7a746849636df684b929ec333c9",
+  "main_figure_sha256": "9476a66b8dc106da5ee667784f8ed521f7d9a60867bc76acb82bd16acb163cf5",
+  "original_source_sha256": "97d8676c69f070d5fc3b0b2d32a4e3263b845799c9433d57bc4a68ef2ef6723f",
+  "scope": "Old 70B capacity evidence and new Qwen actual cost are distinct; all new Qwen cardinality bounds inconclusive.",
+  "pdf_sha256": "fab8a6adb6dc72958aa4c15c4fbb70f467f9c2fcffe273092ce67a0d38a802f2",
+  "body_last_page": 12,
+  "pdf_pages": 13,
+  "rendered_review_pass": true,
+  "build_checker_sha256": "43da5717d5f9b2cb12babe5f0782891836726e25a68ac37c2ad4d1797b21c014"
+}

@@ -1,0 +1,119 @@
+\subsection{Complete cost on the constructed workloads}
+% AUTO_EVALUATION_RESULTS_BEGIN
+\paragraph*{Complete request economics}
+Degree prefix at budget 500 uses 421,246 requests across 96 cells,
+saving 9.3\% against exact right-first (83 wins, 13 losses) and 8.9\% against the retrospective minimum
+of five exact controls. Paid cut at budget 125 saves 6.0\% against that
+diagnostic. The added dynamic-degree and negative-first controls use
+155,445 and 156,496 pooled oracle requests versus right-first's 154,789;
+negative-first also buys 160,000 helper scores. Full rows of the
+earlier prefix/cut and no-audit matrices are retained in the artifact.
+
+\paragraph*{Validation and coverage}
+The primary matrix contains 1,376 executions: seven no-audit controls
+per target and six audited policies at each of six seed/budget settings.
+All run single-threaded on Windows 11 with DuckDB 1.5.6, NumPy 2.5,
+and Python 3.13. Every returned bag passes independent SQL checks;
+448 affine identities and 384 paired request-set inclusions are verified.
+Eight method records have count-coverage failures and seven freeze after
+inconsistency; none is removed, and no returned bag exceeds loss 0.1.
+On the separate 12-query natural roster, 50 new audit seeds per query
+at each of budgets 125/500 give 1,200 simultaneous-coverage events,
+with no observed failure. Events share fixed targets and can share draws;
+they are descriptive calibration checks, counted once per query/seed/budget.
+
+
+
+
+
+
+
+\paragraph*{Budgeting, feedback, and audit cost}
+At budget 500, the global helper certificate saves 2.36\% over its
+matched per-key control (80 wins, 16 ties). Cut feedback at 125 saves
+4.95\% over the same-start frozen residual. Helper-guided direct
+ordering uses more requests than metadata ordering in 191/192 cells.
+The no-audit degree control uses 145,645 requests; auditing at 500
+reduces its matched pooled cost by 3.59\% (72 wins, 24 losses).
+Raising the paid-cut budget from 125 to 500 instead increases requests.
+
+At helper/oracle token-price ratio 0.1, budget-125 helper direct costs
+8.0\% more than exact scan; paid cut saves 1.3\%. Median local algorithm
+times are 248\,ms for degree direct at 500 and 200\,ms for cut at 125,
+using one warmup and three repeats. SQL output and full-reference
+verification are timed separately.
+
+% AUTO_EVALUATION_RESULTS_END
+
+% AUTO_EXTENSION_COUNT_BEGIN
+
+\paragraph*{Value of exact allocation}
+DP reduces greedy's complete requests by $0.29\%$ (greedy versus DP
+W/T/L $9/18/21$). On the earlier 48 native cells the means are 8,066 and
+8,065 requests. Recorded median whole-policy CPU is 7.40\,s for greedy
+versus 11.85\,s for DP; the median paired reduction is $38.84\%$.
+Greedy is the practical policy, and DP provides the fixed-cache optimum
+and an allocation-quality reference.
+
+Against the original 65-position degree-prefix grid, all-mask feedback
+pays 208,178 versus 212,508 requests at audit 125 and 197,563 versus
+204,959 at audit 500: savings $2.04\%$/$3.61\%$, with W/T/L $36/4/8$
+and $42/2/4$. A 48-cell budget-500 diagnostic evaluates every integer
+degree-prefix cardinality with the same audits, ranking, batches, and
+pruning. Dense prefix pays 204,534 requests, $0.21\%$ below the grid;
+all-mask still saves $3.41\%$ (W/T/L $37/7/4$, worst regression 248
+requests). Greedy count saves $3.13\%$ against dense prefix. This
+diagnostic retains one shared uncovered audit and its conflict freezes,
+whose final support is undefined.
+
+Initial all-mask discard cardinality weakly dominates the matched prefix
+in every cell, as the snapshot theorem requires. Complete adaptive cost
+can reverse that ordering: without auditing, all-mask costs $4.1\%$ more
+than degree prefix (74,616 versus 71,670 requests; W/T/L $5/2/9$).
+Savings over exact right-first reach $39.3\%$/$32.9\%$ on the two
+highest-fan-out targets, but the fan-out gradient disappears against
+degree prefix, attributing that pattern to ordering rather than allocation.
+The artifact reports each of the seven exact controls separately on constructed and native targets.
+
+\paragraph*{When certification constrains execution}
+
+\paragraph*{When certification constrains execution}
+The initial median certified discard is 9.2\% of unknowns. Three of
+48 cells have zero support and hold the mask for two to four rounds;
+new facts then relax the bound. At termination every remaining unknown
+can be certified discarded. Maximum loss is 6.5\% with budget 500 and
+9.2\% without auditing.
+On \texttt{athlete}--\texttt{sports\_team}, a low-fan-out side is
+72/72 positive: count allocation protects 31 of those identities while
+discarding near-empty keys (0.71\% positive), instead of degree prefix's
+138 initial incident discards. On
+\texttt{company}--\texttt{educational\_institution}, an uncovered region
+causes a freeze; all-mask's seed-specific savings are
+9.4\%/7.2\%/$-5.4\%$, retained as off-coverage outcomes.
+
+
+
+
+
+All 112 all-mask executions independently materialize and validate the returned SQL bag. Their maximum observed loss is 8.02\%, with 1 observed uncovered record and 0 conflict freezes. The mechanism records contain 3 observed uncovered records, including repeated use of the same initial audit across controls. Every returned bag in these follow-ups meets the 10\% loss allowance. Coverage is specified per audit source, with a 0.95 per-query target. Loss is measured against the pinned model tape. At budgets 125/500, median all-mask local algorithm time is 2.661/1.560\,s, excluding inference.
+
+
+
+The original enumerating builder scales to $N=131{,}072$, $K=8/128$
+and uniform/Zipf(1.5) sizes (artifact planner-scale records).
+Empty query caches retain equal-state reuse within the query. At the
+largest $N$, median times are 0.535/9.59\,s for $K=8$ and
+0.0097/6.28\,s for $K=128$; traced allocations peak at 21.43\,MiB.
+
+
+
+A controlled grid crosses $N=128/512/2048$, $K=2/8/32$, both size laws,
+and nominal interval widths $0/.1/.3/.6/1$, with the midpoint fixed at
+half the block and integer endpoints rounded outward. All 90
+configurations and two key permutations are retained. Exact joint
+allocation permits more discards in 45 configurations, by up to
+3.125\% of $N$, and never fewer (artifact certificate-grid records).
+At full uncertainty, both certify zero discards. Allocation quality
+remains separate: the shared greedy heap discards fewer under joint
+profiles in four of the 180 permutation runs.
+

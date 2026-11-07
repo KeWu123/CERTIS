@@ -1,0 +1,70 @@
+{
+  "completed_cells": 2,
+  "expected_cells": 2,
+  "rows": [
+    {
+      "case_id": "dbpedia_native__agent__person__l1",
+      "key": "l1",
+      "budget": 125,
+      "seed": 101,
+      "joint_requests": 5263,
+      "separate_requests": 5370,
+      "request_gap": 107,
+      "request_saving_percent": 1.9925512104283054,
+      "initial_joint_discard": 2440,
+      "initial_separate_discard": 2268,
+      "initial_discard_gap": 172,
+      "initial_joint_only": true,
+      "initial_joint_support": -1145,
+      "initial_joint_mask_separate_support": 362110,
+      "joint_loss": 0.026142466716757587,
+      "separate_loss": 0.019922116739503913,
+      "snapshots": {
+        "joint": 41,
+        "separate": 41
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__agent__person__l1__joint__s101__b125.json.gz",
+          "sha256": "a5c1ba20f0a69ae3138b22bcd1fff08b144dac76594907b6d2d2c9879e0ee2aa"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__agent__person__l1__separate__s101__b125.json.gz",
+          "sha256": "3bb6a94b8192e4812a37352e9b487e9c90eb9e5429e5311a084e57fa01f6c9b4"
+        }
+      }
+    },
+    {
+      "case_id": "dbpedia_native__agent__person__l1",
+      "key": "l1",
+      "budget": 500,
+      "seed": 101,
+      "joint_requests": 5552,
+      "separate_requests": 5579,
+      "request_gap": 27,
+      "request_saving_percent": 0.4839576985122782,
+      "initial_joint_discard": 4424,
+      "initial_separate_discard": 4398,
+      "initial_discard_gap": 26,
+      "initial_joint_only": true,
+      "initial_joint_support": -9540,
+      "initial_joint_mask_separate_support": 552729,
+      "joint_loss": 0.0605571853117737,
+      "separate_loss": 0.05097432615392547,
+      "snapshots": {
+        "joint": 37,
+        "separate": 37
+      },
+      "raw": {
+        "joint": {
+          "path": "raw/dbpedia_native__agent__person__l1__joint__s101__b500.json.gz",
+          "sha256": "8d530dde57d1c0f23decf6fcd05965bcae78e153a8ffc4420885e79039382f6a"
+        },
+        "separate": {
+          "path": "raw/dbpedia_native__agent__person__l1__separate__s101__b500.json.gz",
+          "sha256": "1bda23e6c721959fa68373fcc4090c0c4e525a01c437934028205a9b7dbf5d27"
+        }
+      }
+    }
+  ]
+}

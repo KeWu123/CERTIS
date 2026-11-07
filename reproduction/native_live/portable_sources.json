@@ -1,0 +1,101 @@
+[
+  {
+    "path": "reproduction/native_live/native_live.py",
+    "original_path": "research/icde2027_native_live_20261107/native_live.py",
+    "original_sha256": "babdab2c349fa0a311be0cd2300a6552623cad53b79c9fb50e43e4680445b7c3",
+    "frozen_path": "reproduction/native_live/source_versions/babdab2c349fa0a311be0cd2300a6552623cad53b79c9fb50e43e4680445b7c3.py",
+    "portable_sha256": "e2d86eb441b1fcef6d46799e1c3e70c200e21bd45a530548f7a5d8eb2a9d4715",
+    "portability_changes": [
+      "Resolve RELEASE at the public repository root",
+      "Locate the public sharp_value peer",
+      "Remove machine-local server default",
+      "Remove machine-local model default",
+      "Fresh live runs write under ignored outputs"
+    ]
+  },
+  {
+    "path": "reproduction/native_live/cost_sql.py",
+    "original_path": "research/icde2027_native_live_20261107/cost_sql.py",
+    "original_sha256": "1cc336ac60fb4c439550fb8e1d78858d115fddca1ba93c70201e2c638b762cab",
+    "frozen_path": "reproduction/native_live/source_versions/1cc336ac60fb4c439550fb8e1d78858d115fddca1ba93c70201e2c638b762cab.py",
+    "portable_sha256": "1cc336ac60fb4c439550fb8e1d78858d115fddca1ba93c70201e2c638b762cab",
+    "portability_changes": []
+  },
+  {
+    "path": "reproduction/native_live/analyze_native_live.py",
+    "original_path": "research/icde2027_native_live_20261107/analyze_native_live.py",
+    "original_sha256": "ca148e0c75942905f818a20cf9021b2547c075d57494704a6e9fe2c1ce71aa81",
+    "frozen_path": "reproduction/native_live/source_versions/ca148e0c75942905f818a20cf9021b2547c075d57494704a6e9fe2c1ce71aa81.py",
+    "portable_sha256": "e3b13a15d98e0004bc3bfcf66b7b0e1c6f27fc3df25058b718393367d48f3fba",
+    "portability_changes": [
+      "Resolve RELEASE at the public repository root",
+      "Historical workspace-relative names resolve through exact frozen source_versions; fresh public sources still match",
+      "Read bundled live records and write independent recheck outside them"
+    ]
+  },
+  {
+    "path": "reproduction/native_live/plot_submission_evidence.py",
+    "original_path": "research/icde2027_native_live_20261107/plot_submission_evidence.py",
+    "original_sha256": "daa9be3f04d37f7e5c31c427aedc3056d9a57a4ba415e51e8408ab33e814f678",
+    "frozen_path": "reproduction/native_live/source_versions/daa9be3f04d37f7e5c31c427aedc3056d9a57a4ba415e51e8408ab33e814f678.py",
+    "portable_sha256": "11177a91a89109c7789700a8705b3ed5f5df67b0883b20c143526cad20e2bd25",
+    "portability_changes": [
+      "Locate the public sharp_value peer",
+      "Regenerated plots write under ignored outputs"
+    ]
+  },
+  {
+    "path": "reproduction/native_live/build_evidence_table.py",
+    "original_path": "research/icde2027_native_live_20261107/build_evidence_table.py",
+    "original_sha256": "3cbed325eebf954fa3f7a661224a8ee433b9af4f078d3bc029df88e73f5262ba",
+    "frozen_path": "reproduction/native_live/source_versions/3cbed325eebf954fa3f7a661224a8ee433b9af4f078d3bc029df88e73f5262ba.py",
+    "portable_sha256": "54f94b50f7dd142a573d0098255e79aa1e9cb01320a22835ad5be8888b1097f0",
+    "portability_changes": [
+      "Regenerated checked tables write under ignored outputs"
+    ]
+  },
+  {
+    "path": "reproduction/native_live/test_cost_sql.py",
+    "original_path": "research/icde2027_native_live_20261107/test_cost_sql.py",
+    "original_sha256": "d03938806ef510495af103304fa63848eede1c7de4b3e1dfe9f0e96939f75bbb",
+    "frozen_path": "reproduction/native_live/source_versions/d03938806ef510495af103304fa63848eede1c7de4b3e1dfe9f0e96939f75bbb.py",
+    "portable_sha256": "03c58b66c5056b073370bca9da96434acb65b42e33b3e728bf83e6ec23a9f3b9",
+    "portability_changes": [
+      "Resolve RELEASE at the public repository root"
+    ]
+  },
+  {
+    "path": "reproduction/native_live/test_aggregation.py",
+    "original_path": "research/icde2027_native_live_20261107/test_aggregation.py",
+    "original_sha256": "d25cdeb7f74405898c6658337b455c4a952d28e138204b33e35f4ff2f181ad46",
+    "frozen_path": "reproduction/native_live/source_versions/d25cdeb7f74405898c6658337b455c4a952d28e138204b33e35f4ff2f181ad46.py",
+    "portable_sha256": "d25cdeb7f74405898c6658337b455c4a952d28e138204b33e35f4ff2f181ad46",
+    "portability_changes": []
+  },
+  {
+    "path": "reproduction/native_live/test_wiring.py",
+    "original_path": "research/icde2027_native_live_20261107/test_wiring.py",
+    "original_sha256": "690f89452b31d2d42cf9079f4921b306ea91c2d130f74d9f2f3fb7927fa04f56",
+    "frozen_path": "reproduction/native_live/source_versions/690f89452b31d2d42cf9079f4921b306ea91c2d130f74d9f2f3fb7927fa04f56.py",
+    "portable_sha256": "4bd77ddac896cbcab1b1fc4acf7c7ab012d3f472a69407b373971cd84b340f05",
+    "portability_changes": [
+      "CPU-only wiring-test output follows the portable driver's repository root"
+    ]
+  },
+  {
+    "path": "reproduction/native_live/diagnose_live_initial.py",
+    "original_path": "research/icde2027_native_live_20261107/diagnose_live_initial.py",
+    "original_sha256": "ccd038e843ed56d131d8be54b3fae3ee3655cee855c2d682ab23d9a6ff9ff17a",
+    "frozen_path": "reproduction/native_live/source_versions/ccd038e843ed56d131d8be54b3fae3ee3655cee855c2d682ab23d9a6ff9ff17a.py",
+    "portable_sha256": "61c19fd67a5a8e397bf4106c772f9fefa3497a7cf0132b480fd45a1944a8a3c0",
+    "portability_changes": [
+      "Resolve RELEASE at the public repository root",
+      "Locate the public sharp_value peer",
+      "Keep exact frozen production-source checks when historical workspace-relative paths are absent",
+      "Validate original fractional-function SHA in source_versions and its distinct portable SHA through portable_sources.json",
+      "Record historical verified and current portable fractional-source hashes independently in newly generated diagnostic provenance",
+      "Read bundled live states for the optional secondary post hoc analysis",
+      "Write regenerated secondary diagnostic/provenance under ignored outputs"
+    ]
+  }
+]

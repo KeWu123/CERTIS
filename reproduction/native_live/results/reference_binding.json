@@ -1,0 +1,9 @@
+{
+  "parquet": "fixed_oracle.parquet",
+  "sha256": "d568fc7f622d5d2e07ef91a0448576fa6ea3766ba2fd25aab0e32d2870b4edda",
+  "requests": 15000,
+  "wall_seconds": 810.5911104002735,
+  "inference_seconds": 810.5911104002735,
+  "total_seconds": 812.8884340000805,
+  "note": "Dense reference is evaluation-only; total includes persistence and tape/parquet setup."
+}

@@ -1,0 +1,45 @@
+{
+  "source_id": "f9bbe4dd834744115545c759b88e423306fce7bdbc5153fac8ac047ea069c441",
+  "sources": {
+    "research/icde2027_sharp_value_20261107/run_native_sharp.py": "acd2ce1c4313f2195d79b3b28d9dd04a7ad4dc60e0e0c9eaedfc48d5abaf8873",
+    "research/icde2027_sharp_value_20261107/sharp_wrapper.py": "fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b",
+    "research/icde2027_sharp_value_20261107/PROTOCOL.md": "c95be01233af0c67e32a2aaf14461c9243abb9d7e116b55b80408573879f32a5",
+    "artifacts/CERTIS_release_20261104/code/count_mask_planner.py": "42b68da0756eba1ee6bb41a00139e25dcd27fbc0a66e42096ee93edafe25d01d",
+    "artifacts/CERTIS_release_20261104/code/bilinear_certificate.py": "1c3f2e5cc3da5d7d14499b1e9fb3f4340e98a59ec13db10277793ea7dac2d9e5",
+    "artifacts/CERTIS_release_20261104/code/piecewise_count_profile.py": "56680781df1dd2bd298da65db9432801da6a4e4a5ec8b0c5afaf129a27650abf",
+    "artifacts/CERTIS_release_20261104/code/piecewise_numpy_profile.py": "989778069ffaa6997af8b80124d26d1732e6c5eeec177c5aa1aa2d70ebd57714",
+    "artifacts/CERTIS_release_20261104/reproduction/completion/native_dbpedia.py": "46c2258458fc3dc1813298ee42bd6ae1f54761a46b4be47f8b0ad05528828a6f",
+    "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/count_allocation_arms.py": "1a8c366927e55db6a911d734c53d63d6aa184e0a5a7323024b4788a1e07e749a",
+    "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/greedy_planner.py": "9347aa7f88a47115818d567d7c27558f0e713e4d286a56adca1f44fb54692eb3"
+  },
+  "dataset_sha256": "dff8470a8480d89da0b6069171745baaddec8a98e08b0dd5ff43e26b4ea1eb8d",
+  "arrays_sha256": "b866012afd0558a41812679e6509d3e963f2550903ddf2e577608a2051e2636d",
+  "targets": {
+    "dbpedia_native__agent__person__l1": "sha256:3999d1a1fe953fbe9ca162df52adad3be133ef25bcf17ed6891794e364ab9fc1",
+    "dbpedia_native__agent__person__l2": "sha256:46d960f799e9387f15cfb0b8dc8a5a23fe121cc62b13900c65d7ef2de0d8921a",
+    "dbpedia_native__person__athlete__l1": "sha256:c1212a6754e194005ea9ecd45b0678c0df7e504583a659a96454910b90a5ca03",
+    "dbpedia_native__person__athlete__l2": "sha256:4163195b73d454f3457c5c2be2537a3c45ba6d5cd914194897008e145f524cd4",
+    "dbpedia_native__organization__company__l1": "sha256:56b2784722cb2d34b7f99dd49d1ea6d55c1e565bac3ebcd8297bd72f4f84206e",
+    "dbpedia_native__organization__company__l2": "sha256:f95175b3a6145b8018b1242cc5b8faf96340e2355a08573c40b313d605edfc5a",
+    "dbpedia_native__place__natural_place__l1": "sha256:e99ecef964cf45c3bd7200c76f3839bb03dfd9b44bbf944057ade316a39d8440",
+    "dbpedia_native__place__natural_place__l2": "sha256:c0793fb14b827fcaaa2f93bdd8d2f6d91b9d60206186fa2e6722852ac7c8f733",
+    "dbpedia_native__work__musical_work__l1": "sha256:20d2572292d98c005eacf9612b00b90b39b342caabce518483a6b8167477bfc5",
+    "dbpedia_native__work__musical_work__l2": "sha256:c85745995e425185103d014a7af6a4f9fac0271c72ac3506468decafe289472c",
+    "dbpedia_native__event__societal_event__l1": "sha256:b76085124bb4f34d2f0848f9d6ce1bacb4f95ad56d117c30c8f464ae7480ad71",
+    "dbpedia_native__event__societal_event__l2": "sha256:d7be30ba2ee1868bcf1ea7ec4393417a8fe760e9a4a52872c93e2f77dc06ded2",
+    "dbpedia_native__athlete__sports_team__l1": "sha256:5734f474f0f5529e89de2075455528b75acf9ca70456a11549c64d09abcc4ed8",
+    "dbpedia_native__athlete__sports_team__l2": "sha256:9bccd02b23f8c0d021966836e0d675172ff810feb0b7577964534edb30608060",
+    "dbpedia_native__company__educational_institution__l1": "sha256:ebeff9ab242d9919408c0cb019d1f15a54addf2adaad26c27e174b89040b39dc",
+    "dbpedia_native__company__educational_institution__l2": "sha256:e617df4c0fa51c17f7355619fd5558badd5229114f9d7d7b11eb37050c7cac63"
+  },
+  "seed": 101,
+  "budgets": [
+    125,
+    500
+  ],
+  "methods": [
+    "joint",
+    "separate"
+  ],
+  "pilot": false
+}

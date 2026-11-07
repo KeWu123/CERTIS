@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "raw_records": 64,
+  "cells": 32,
+  "coverage_passes": 64,
+  "immutable_sources_match": {
+    "research/icde2027_sharp_value_20261107/run_native_sharp.py": true,
+    "research/icde2027_sharp_value_20261107/sharp_wrapper.py": true,
+    "research/icde2027_sharp_value_20261107/PROTOCOL.md": true,
+    "artifacts/CERTIS_release_20261104/code/count_mask_planner.py": true,
+    "artifacts/CERTIS_release_20261104/code/bilinear_certificate.py": true,
+    "artifacts/CERTIS_release_20261104/code/piecewise_count_profile.py": true,
+    "artifacts/CERTIS_release_20261104/code/piecewise_numpy_profile.py": true,
+    "artifacts/CERTIS_release_20261104/reproduction/completion/native_dbpedia.py": true,
+    "artifacts/CERTIS_release_20261104/reproduction/runtime/external_study/count_allocation_arms.py": true,
+    "artifacts/CERTIS_release_20261104/reproduction/runtime/greedy_count_profile/greedy_planner.py": true
+  },
+  "summary_sha256": "07bf1c148c0898ce45f2c546711f0378297b3fe5854a7c6369dae3dcdc243782",
+  "wrapper_sha256": "fc2595727ca1a7ac16bfcb2eb0d826ca2b8a449a0184c28be116f524d6111e0b"
+}

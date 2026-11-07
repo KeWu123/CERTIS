@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "binding_added_after_calculation": true,
+  "fractional_result_sha256": "73fd3aceff15939e35ad67def8f985fc08c9f632596480df589d143342bf79fb",
+  "sources": {
+    "fractional_bound.py": "5b8eb1c4cec0f6f4169b17ee3319f5937c01c81c3e18d83c9acb4cdbb1e6151b",
+    "FRACTIONAL_DIAGNOSTIC.md": "27a1e7965d7a3acab6e2fc1e328c59d306edda3e38b4b40a91aac80513958621",
+    "FRACTIONAL_BOUND_SCOPE.md": "7fe4c8811c43235256b2603b55b755d10d22982ef7069c44be8014f1b9fc6710"
+  },
+  "scope": "Monotone profiles; incident discard upper bound including forced counts. Native initial cells have zero orphans and zero forced discards. Any general orphan count must be added separately."
+}

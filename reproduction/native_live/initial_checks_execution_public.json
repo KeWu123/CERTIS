@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "presentation_copy": true,
+  "original_execution_log_basename": "initial_checks_execution_01.json",
+  "original_execution_log_sha256": "cd37597683a8d0e12685b975aea85c90cc571bede9b14136f6898b4aad2037ea",
+  "original_private_log_is_distributed": false,
+  "started_local_date": "2026-11-07",
+  "scope": "Presentation copy of operational test/diagnostic execution provenance. Recorded elapsed seconds, exit codes, executed source hashes and stdout numerical fields are unchanged. Command schematics and two stdout path fields replace private absolute paths. No scientific raw record, production cost or historical binding was edited.",
+  "runs": [
+    {
+      "executed_source_sha256": "6ecd8041f92e13df8ee0f3c062c537bcc72b8f90b7a7a367b81ba53934164547",
+      "original_script_relative": "research/icde2027_sharp_value_20261107/test_fractional_relaxation.py",
+      "public_script": "reproduction/sharp_value/test_fractional_relaxation.py",
+      "command_schematic": [
+        "python",
+        "-X",
+        "utf8",
+        "reproduction/sharp_value/test_fractional_relaxation.py"
+      ],
+      "command_schematic_was_not_the_recorded_private_command": true,
+      "exit_code": 0,
+      "wall_seconds": 1.1697711000451818,
+      "stdout_json_presentation": {
+        "status": "pass",
+        "exact_lp_vertex_cases": 170,
+        "deterministic_random_cases": 160,
+        "explicit_edge_cases": 10,
+        "seed": 7391,
+        "maximum_random_keys": 3,
+        "maximum_random_options_per_key": 4,
+        "check": "Exact Fraction equality with independent pure/one-mixed-key LP vertex enumeration",
+        "scope": "Monotone incident-count profiles including forced discards; no model, GPU or query timing."
+      },
+      "original_stdout_sha256": "8e0879f374069bb95c223bd9b7e156c3cc9e793885d85db5924a65b76c72a2da",
+      "stderr": "",
+      "redactions": [
+        "Private interpreter and absolute script paths omitted"
+      ]
+    },
+    {
+      "executed_source_sha256": "ccd038e843ed56d131d8be54b3fae3ee3655cee855c2d682ab23d9a6ff9ff17a",
+      "original_script_relative": "research/icde2027_native_live_20261107/diagnose_live_initial.py",
+      "public_script": "reproduction/native_live/diagnose_live_initial.py",
+      "command_schematic": [
+        "python",
+        "-X",
+        "utf8",
+        "reproduction/native_live/diagnose_live_initial.py"
+      ],
+      "command_schematic_was_not_the_recorded_private_command": true,
+      "exit_code": 0,
+      "wall_seconds": 14.539316199952736,
+      "stdout_json_presentation": {
+        "status": "pass",
+        "cells": 8,
+        "output": "reproduction/native_live/live_initial_diagnostic.json",
+        "provenance": "reproduction/native_live/live_initial_diagnostic_provenance.json"
+      },
+      "original_stdout_sha256": "c733804492321a251e9e651196368cf281fd1b0c502d3d16ace65cbfaef2e662",
+      "stderr": "",
+      "redactions": [
+        "Private interpreter and absolute script paths omitted",
+        "stdout output absolute path rendered as a public relative location",
+        "stdout provenance absolute path rendered as a public relative location"
+      ]
+    }
+  ]
+}

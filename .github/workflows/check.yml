@@ -20,3 +20,7 @@ jobs:
       - run: python reproduce.py analyze-native-dbpedia
       - run: python reproduce.py validate-fast-profile
       - run: python reproduce.py verify-fast-profile
+      - run: python reproduce.py verify-sharp-value
+      - run: python reproduce.py check-native-live
+      - run: python reproduce.py analyze-native-live
+      - run: python reproduce.py diagnose-native-live
